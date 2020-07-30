@@ -27,9 +27,8 @@ theme: jekyll-theme-cayman
 title: Senanu's Bio 40 class
 email: senanu (at) gmail dot com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This site contains files and content for my Bio 40 class at
+  Chaffey College (Fall 2020)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
