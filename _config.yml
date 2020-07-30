@@ -3,7 +3,6 @@
 
 #remote_theme: codeasashu/hcz-jekyll-blog
 
-theme: jekyll-theme-cayman
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -35,7 +34,8 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-# theme: minima
+#theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
