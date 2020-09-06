@@ -1,0 +1,64 @@
+// Print-only styles.
+@media print {
+  .side-bar { display: none; }
+  //.page-header { display: none; }
+  .main-content { max-width: auto; margin: 1em;}
+  a:link:after { content: " (" attr(href) ") ";}
+  a:link { font-weight: bold; text-decoration: underline; color: #06c; }
+  a { page-break-inside:avoid }
+  a:not([href^=http]):after{
+    display: none;
+  }
+  p a {
+    word-wrap: break-word;
+  }
+  h1 {
+    background-color: rgb(220, 220, 220);
+    font-size: 12pt;
+    font-weight: bold;
+  }
+  p {
+    font-size: 12pt;
+  }
+  @page {
+    @bottom-center {content: "Hello!"}
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-top: 1.5cm;
+    margin-bottom: 2cm;
+    size: letter portrait;
+  }
+  //@page :first {.page-header: none;}
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  font-family: "Times New Roman", Times, serif;
+}
+h1, h2, h3, h4, h5, h6, blockquote{
+  page-break-after: avoid;
+}
+p, li{
+  line-height: normal;
+}
+table{
+  border-spacing: 0px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+th{
+  border: 1px solid black;
+}
+td {
+    padding: 0px;
+    border: 1px solid black;
+}
+}
+blockquote {
+  font-weight: bold;
+  border-style: solid;
+  border-left-width: 3px;
+  border-right-width: 0px;
+  border-top-width: 3px;
+  border-bottom-width: 0px;
+  padding-left: 1em;
+  margin-left: -2em;
+  margin-right: -2em;
+}
