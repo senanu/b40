@@ -28,8 +28,8 @@ email: senanu (at) gmail dot com
 description: >- # this means to ignore newlines until "baseurl:"
   This site contains files and content for my Bio 40 class at
   Chaffey College (Fall 2020)
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://senanu.github.io/b40" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /b40 # the subpath of your site, e.g. /blog
+url: https://senanu.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
