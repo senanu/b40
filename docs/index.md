@@ -4,7 +4,7 @@ layout: default
 
 # Welcome to Senanu's Biology site.
 
-This page is in the root directory.
+This file is in the docs directory.
 
 * Go [here for Bio 40 at Chaffey College](docs/bio40.html)
 
