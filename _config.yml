@@ -42,7 +42,7 @@ theme: jekyll-theme-cayman
 
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+  #- jekyll-remote-theme
 
 
 # Exclude from processing.
