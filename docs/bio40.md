@@ -7,20 +7,23 @@ has_children: true
 
 # Welcome to Bio 40 at Chaffey College
 
-Please read this syllabus very carefully.
-
-## Introduction to Cell and Molecular Biology -- Fall 2020
-
-* Instructor: Dr. Senanu Spring-Pearson
-* Class times: Online 'lecture' material
-* Lab times: Mon 8:00-11:50 in BL-101
-* E-mail: [senanu.springpearson@chaffey.edu](mailto:senanu.springpearson@chaffey.edu)
-* Phone: 909-652-7876 (please use email instead)
-* Final exam: 12/7/2020
+# Introduction to Cell and Molecular Biology -- Fall 2020
 
 ## Course Description
 
 An intensive course designed to prepare students for upper division courses in cell and molecular biology. Topics include biochemical, structural, metabolic, and genetic aspects of cells. Laboratory will include experimental design, a variety of techniques (e.g. microscopy, spectrophotometry,  electrophoresis), and data analysis.
+
+## Nitty Gritty
+
+* Instructor: Dr. Senanu Spring-Pearson
+* Class times: Online 'lecture' material
+* Lab times: Mon 8:00-11:50 in BL-101
+* [turnitin.com](https://www.turnitin.com): Class ID: 26381329; Enrollment key: "Biology"
+* E-mail: [senanu.springpearson@chaffey.edu](mailto:senanu.springpearson@chaffey.edu)
+* Phone: 909-652-7876 (please use email instead)
+* Final exam: 12/9/2020
+
+
 
 ## Student Learning Outcomes
 
@@ -49,6 +52,11 @@ For the lecture portion fo the class, I will record many short mini-lectures and
 I will post all materials to this course website and link to it from Canvas. Generally, I will provide hard copies of reading guides and lab material. If you miss class, please print the material from this website.
 
 Although you may want to fill in the reading guides online, I encourage you to write on hard-copies. In my experience, students who try to do the reading guides on their computers tend to copy-paste material and that defeats the purpose of learning actively. Additionally, many questions will require you to draw diagrams.
+
+## Other course sites
+We will turn in lab reports on [turnitin.com]{https://www.turnitin.com}. Please create an account for yourself and register with this class. The information you need is in the [Nitty Gritty](#nitty-gritty) section above.
+
+We will be using the statistical programming language R for data analysis. In life sciences, it has become a very standard tool for analyzing data, so my goal is that you will learn at least enough so that by the end of the course you are no longer scared of computer programming. R can be used a number of ways, including online. You will be given instructions for how to sign up or download it later.
 
 ## Accommodations
 Students who need special accommodation through DPS must talk to me about the accommodations necessary. I will strictly honor any arrangements you have made through DPS (such as 1.5 time for exams).
