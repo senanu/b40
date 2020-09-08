@@ -21,7 +21,7 @@
     font-size: 12pt;
   }
   @page {
-    @bottom-center {content: "Hello!"}
+    @bottom-center: {content: "Hello"}
     margin-left: 2cm;
     margin-right: 2cm;
     margin-top: 1.5cm;
@@ -49,6 +49,10 @@ th{
 td {
     padding: 0px;
     border: 1px solid black;
+}
+textarea, input{
+  font-family: "Arial", sans-serif;
+  font-size: 10pt;
 }
 }
 blockquote {

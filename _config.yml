@@ -23,15 +23,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Senanu's Bio 40 class
+title: Senanu's Bio class
 email: senanu (at) gmail dot com
 description: >- # this means to ignore newlines until "baseurl:"
-  This site contains files and content for my Bio 40 class at
-  Chaffey College (Fall 2020)
+  This site contains files and content for my Bio classes at
+  Chaffey College and UCR
 baseurl: /b40 # the subpath of your site, e.g. /blog
 url: https://senanu.github.io # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+incremental: true
+#twitter_username: jekyllrb
+#github_username:  jekyll
 
 # Build settings
 #theme: jekyll-theme-slate
@@ -43,7 +44,6 @@ remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -100,3 +100,25 @@ heading_anchors: true
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: light
+
+space0: '<input type="text" size="30" style="border-width: 0px;">'
+space1: '<textarea cols="100%" rows="1" style="border-width: 0px;"></textarea>'
+space2: '<textarea cols="100%" rows="2" style="border-width: 0px;"></textarea>'
+space3: '<textarea cols="100%" rows="3" style="border-width: 0px;"></textarea>'
+space4: '<textarea cols="100%" rows="4" style="border-width: 0px;"></textarea>'
+space5: '<textarea cols="100%" rows="5" style="border-width: 0px;"></textarea>'
+space6: '<textarea cols="100%" rows="6" style="border-width: 0px;"></textarea>'
+space7: '<textarea cols="100%" rows="7" style="border-width: 0px;"></textarea>'
+space8: '<textarea cols="100%" rows="8" style="border-width: 0px;"></textarea>'
+space9: '<textarea cols="100%" rows="9" style="border-width: 0px;"></textarea>'
+space10: '<textarea cols="100%" rows="10" style="border-width: 0px;"></textarea>'
+space11: '<textarea cols="100%" rows="11" style="border-width: 0px;"></textarea>'
+space12: '<textarea cols="100%" rows="12" style="border-width: 0px;"></textarea>'
+space13: '<textarea cols="100%" rows="13" style="border-width: 0px;"></textarea>'
+space14: '<textarea cols="100%" rows="14" style="border-width: 0px;"></textarea>'
+space15: '<textarea cols="100%" rows="15" style="border-width: 0px;"></textarea>'
+space16: '<textarea cols="100%" rows="16" style="border-width: 0px;"></textarea>'
+space17: '<textarea cols="100%" rows="17" style="border-width: 0px;"></textarea>'
+space18: '<textarea cols="100%" rows="18" style="border-width: 0px;"></textarea>'
+space19: '<textarea cols="100%" rows="19" style="border-width: 0px;"></textarea>'
+space20: '<textarea cols="100%" rows="20" style="border-width: 0px;"></textarea>'

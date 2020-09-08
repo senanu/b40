@@ -2,6 +2,7 @@
 layout: default
 title: Bio 40 Syllabus
 nav_order: 1
+has_children: true
 ---
 
 # Welcome to Bio 40 at Chaffey College
@@ -100,6 +101,13 @@ Late papers will be deducted 20% of the possible points per calendar day, includ
 Reading guides  |  ~ 60 points (approx)
 Miscellaneous assignments and quizzes  |  ~ 100 points (approx)
 **Total**   |  **Approximately 810 points**
+
+## Grade scale
+* 90-100% = A
+* 80-90% = B
+* 70–80% = C
+* 60-70% = D
+* <60% = F
 
 ## Keys to Success:
 
