@@ -98,7 +98,7 @@ If you disagree with the grade on any assignment or exam, you must inform me of 
 
 3 Exams | 300 points
 1 final exam | 200 points
-3 full lab reports | 150 points  
+2 full lab reports | 150 points  
 Reading guides  |  ~ 60 points (approx)
 Miscellaneous assignments and quizzes  |  ~ 100 points (approx)
 **Total**   |  **Approximately 810 points**
