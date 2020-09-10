@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Ch 01 -- Themes of biology and science
+title: Ch 01 Reading Guide -- Themes of biology and science
 parent: Chapter content
-nav_order: 2
+nav_order: 3
 ---
 
 # CH 1 Reading Guide: Biological themes and scientific inquiry
 
 ## Additional Reading:
-1. Chapter 9 of [Zen and The Art of Motorcycle Maintenance](ZenAndTheArt_embedded.pdf).
+1. Chapter 9 of [Zen and The Art of Motorcycle Maintenance](./ZenAndTheArt_embedded.pdf).
 2. Watch the 10 minute video at about [natural selection](https://www.biointeractive.org/classroom-resources/making-fittest-natural-selection-and-adaptation)
 
 > Objective: Utilize The Properties of Life to distinguish between
