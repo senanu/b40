@@ -2,17 +2,12 @@
 layout: default
 title: Ch 01 Reading Guide -- Themes of biology and science
 parent: Chapter content
-nav_order: 3
+nav_exclude: true
 ---
 
 # CH 1 Reading Guide: Biological themes and scientific inquiry
 
-## Additional Reading:
-1. Chapter 9 of [Zen and The Art of Motorcycle Maintenance](./ZenAndTheArt_embedded.pdf).
-2. Watch the 10 minute video at about [natural selection](https://www.biointeractive.org/classroom-resources/making-fittest-natural-selection-and-adaptation)
-
-> Objective: Utilize The Properties of Life to distinguish between
-      living organisms and non-living things.
+> Objective: Utilize The Properties of Life to distinguish between living organisms and non-living things.
 
 1. Give a brief explanation of each property of life listed below. Use your own words – don't copy from the textbook.
     * Order {{site.space3}}
@@ -56,7 +51,7 @@ nav_order: 3
 
 3. List the 3 domains of life. Which are prokaryotic (don't have a nucleus) and which are eukaryotic (have a nucleus)?  {{site.space3}}
 
-4. Watch the 10 minute video at about [natural selection](https://www.biointeractive.org/classroom-resources/making-fittest-natural-selection-and-adaptation).  What is the adaptation being disucssed? Why do the animals vary between the 2 habitats?  {{site.space5}}
+4. Watch the 10 minute video about [natural selection](https://www.biointeractive.org/classroom-resources/making-fittest-natural-selection-and-adaptation).  What is the adaptation being disucssed? Why do the animals vary between the 2 habitats?  {{site.space5}}
 5. What is an 'adaptation?' {{site.space3}}
 
     > Objective: Understand the scientific method
