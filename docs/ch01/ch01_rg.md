@@ -80,4 +80,4 @@ nav_exclude: true
 1. Mark on your graph which axis is the dependent variable? Which is independent?
 1. Explain your reasoning in how you knew the graph should be shaped this way. {{site.space3}}
 1. Does your answer to the question above show deductive or inductive reasoning? {{site.space0}}
-1. Use the other kind of reasoning to give an explanation of how you knew the graph would look like that. {{site.space3}}
+1. Use the other kind of reasoning to give an explanation of how you knew the graph would look like that.
