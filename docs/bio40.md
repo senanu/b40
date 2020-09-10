@@ -37,7 +37,7 @@ At the completion of the course, students will:
 * Demonstrate skills in writing using the style of biological sciences and format of scientific literature.
 
 ## Required Text:  
-<img align="right" width="25%" src="assets/img/campbell_11th.jpeg">
+<img align="right" width="25%" src="assets/img/campbell_11th.jpeg" alt="Textbook 11th ed">
 Urry et al., 2017. Campbell Biology, 11th ed. Pearson.
 This is a big, heavy, expensive book, but it will be invaluable to you as a budding biologist. This is also the book that you will continue to use through the introductory biology classes at Chaffey and so is worth investing in. Previous editions are only slightly different, so you are welcome to use those.
 
