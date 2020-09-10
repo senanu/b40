@@ -1,6 +1,8 @@
 // Print-only styles.
 @media print {
   .side-bar { display: none; }
+  .breadcrumb-nav { display: none;}
+  //.site-header { display: none;}
   //.page-header { display: none; }
   .main-content { max-width: auto; margin: 1em;}
   a:link:after { content: " (" attr(href) ") ";}
@@ -12,21 +14,24 @@
   p a {
     word-wrap: break-word;
   }
-  h1 {
-    background-color: rgb(220, 220, 220);
-    font-size: 12pt;
-    font-weight: bold;
-  }
   p {
     font-size: 12pt;
   }
   @page {
-    @bottom-center: {content: "Hello"}
     margin-left: 2cm;
     margin-right: 2cm;
-    margin-top: 1.5cm;
-    margin-bottom: 2cm;
+    margin-top: 1mm;
+    margin-bottom: 1mm;
     size: letter portrait;
+  }
+  body {
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+  }
+  h1 {
+    background-color: rgb(220, 220, 220);
+    font-size: 18pt !important;
+    font-weight: bold;
   }
   //@page :first {.page-header: none;}
 h1, h2, h3, h4, h5, h6, p, ul, li {
