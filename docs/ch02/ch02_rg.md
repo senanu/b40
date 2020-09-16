@@ -2,7 +2,7 @@
 layout: default
 title: Ch 02 & 04 Reading Guide -- Chemical context of life
 parent: Chapter content
-nav_exclude: false
+nav_exclude: true
 ---
 
 # Ch 02 & 04 Reading Guide -- Chemical context of life
