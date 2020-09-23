@@ -1,0 +1,177 @@
+---
+title: "Using R to graph and calculate protein concentration"
+output:
+  html_document: default
+
+---
+
+Before starting, go to the tools menu, choose 'Global options', then in the 'R markdown' menu, UNCHECK the box labeled "Show output inline for all R Markdown documents". This will tell RStudio to put the plot into the viewer sub-window.
+
+# Importing data
+
+Get your data for the standard curve into R using a Google Sheets spreadsheet or any other method that you prefer. You'll need to remember how to export your data from Google as a .csv file. You can use the `read.csv()` function to get it into R.
+
+## Formatting your data in a spreadsheet
+
+Your data sheet should have 1 row of headers with any data below those headers. To make your life easy, format your headers in a way that R can read them easily -- do not use spaces or other weird characters (computer languages usually interpret spaces as a break between words). Dots (.) and underscores (_) are fine, but parentheses are not.
+
+Make sure your data columns that should contain numeric values *only* contain numeric values throughout the entire column (except for the header row). In particular, don't include the units alongside the data. Any 'characters' will cause R to interpret the data as text, rather than numbers, and you can't add text together!
+
+Note that you ONLY need the data for the standard curve. Don't include any of the milk data in your Google spreadsheet.
+
+1. Save your data in a Google spreadsheet.
+1. Have R read in the data and save it in a variable called `dat`.
+1. Check that your data was read in correctly using the structure (`str()`) function. Note what R calls your variables -- you'll need this information for plotting the curve below.
+
+```{r data-import, include=TRUE, echo=TRUE}
+knitr::opts_knit$set(global.device = TRUE)
+# Do the steps above here.
+```
+
+# Plot a standard curve
+
+Assuming you have your data in a variable called `dat` which has 2 series named “x.data.series” and “y.data.series” (choose something better for your own data!), you can plot a graph with the `plot()` command. You’ll need to modify it for your data, and to adjust the labels to something useful. **MAKE SURE TO MODIFY “x.data.series” ETC. TO REFLECT THE NAMES AT THE HEAD OF YOUR DATA TABLE!!!**
+
+This is a good chance to learn about providing *arguments* to an R function. Type `?plot` in the console to view the help file. Notice it says that the usage is `plot(x, y, ...)` and then it gives information about what the `x`, `y`, and other arguments are. There are 2 ways to supply arguments in R. In the best way, you tell R explicitly that `x=variable1` and `y=variable2` (see the code chunk below). If you want to use a shortcut, you can just say `plot(variable1, variable2)` and R will interpret this as the first argument is the first argument in the help file, and the second is the second argument in the help file. However, the first method is generally better as it is very explicit.
+
+1. In the console (at the bottom of the screen), type `?plot` to see the help file for the `plot()` function.
+1. Modify the `plot()` command below to accept your data series. Note that data series are referred to by the `$` operator.
+1. Further modify the command below to have good titles for the graph.
+1. You may need to change the limits of the x and y axes to accommodate your unknown samples. In the `xlim` and `ylim` arguments, change the second number (initially set to 1) to accommodate the highest values from the spectrophotometer (`ylim`) or from the graph you drew by hand (`xlim`).
+1. Click the small green arrow to make sure your code runs successfully.
+1. Change the `eval=FALSE` to `eval=TRUE` once your code runs.
+
+```{r plot, include=TRUE, eval=FALSE, echo=TRUE}
+# The following command is written on multiple lines.
+# R will interpret it as one command because the command
+# doesn't end until the parentheses are closed.
+# It is useful to break up functions with many arguments
+# like this so that tthey are easy to read.
+plot(x=dat$x.data.series,
+     y=dat$y.data.series,
+     main="Main title",
+     xlab="X axis label",
+     ylab="Y axis label",
+     ylim=c(0,1),
+     xlim=c(0,2))
+recordedPlot <- recordPlot() # Don't touch this line
+```
+
+# Calculate a linear regression
+
+Calculate a linear regression of your data using a “linear model” (`lm()`). The tilde (~) indicates to R a formula that basically reads “is explained by”. Therefore, the following command means “conduct a linear regression in which 'y.data.series' is explained by 'x.data.series', and save the result in a variable called “lin.regression”. **Be careful to note which way around this formula is: `y ~ x`, not `x ~ y`**
+
+1. Modify the linear regression function to use *your* data. Make sure you are clear about which are the dependent and independent variables.
+1. When the code doesn't produce errors, change the `eval=FALSE` to `eval=TRUE`.
+
+```{r lin-regression, echo=TRUE, eval=FALSE, include=TRUE}
+lin.regression <- lm(dat$y.data.series ~ dat$x.data.series)
+```
+
+# The formula for a straight line
+
+Examine the results of your regression. Remember from math class that a straight line has a formula of
+$$Y = mX + b$$
+Where ‘m’ is the slope and ‘b’ is the intercept (this is how I learned the equation – you might have used different letters – it’s a regional thing!). You can see all the details with the `summary()` function.
+
+```{r summary-regression-prof, echo=FALSE, eval=TRUE, include=TRUE}
+## Don't do anything with this code chunk.
+set.seed(1)
+professors_data <- data.frame(x=1:10, y=rnorm(10) + (1:10)/2)
+mysummary <- summary(lm(professors_data$y ~ professors_data$x))
+mysummary
+```
+
+This seems like a lot of output, but there are only a few things we need to worry about.
+
+* __*m*__ The slope. This is given in the middle table as the 'Estimate' of 'professors_data$x'. In this case, it is `r round(coefficients(mysummary)[2], 5)`.
+* __*b*__ The y-intercept. This is given in the middle table as the 'Estimate' of the (Intercept). In this case it is `r round(coefficients(mysummary)[1], 5)`
+* __*p-value*__ The p-value. This is clearly labeled at the bottom of the output. If the p-value is $< 0.05$ then we reject the null hypothesis that the slope is flat (i.e. that there is no relationship between the two variables).
+* __*R-squared*__ The R-squared value tells us how well the data fit to the line. Values close to 1 indicate that a line summarizes the data well. Values close to 0 indicate that the line is a poor fit for the data.
+
+You can now use the data from the regression to write down the equation for a regression line through your own data. In the example above, it would be
+$$Y = mX + b$$
+$$Y = `r round(coefficients(mysummary)[2], 5)` X + `r round(coefficients(mysummary)[1], 5)`$$
+
+For your own data:
+
+1. Check to see that the following code runs.
+1. If the following runs, change the `eval=FALSE` to `eval=TRUE`.
+1. Use the output from this function to write down the equation of the regression line through *your* data. Type the equation as a comment in the following code chunk.
+
+```{r summary-regression, echo=TRUE, eval=FALSE, include=TRUE}
+summary(lin.regression)
+# Type your regression equation with values here
+#
+#
+#
+```
+
+# Calculate protein concentration
+
+Use the formula for a straight line that you wrote above to calculate the protein concentration of your milk samples. In this case, the Y will be the absorbance and the X will be the (unknown) protein concentration. You will therefore need to solve for X.
+
+When you have done that, enter the data below by hand. Each of the 4 variables below should look something like (each value should be separated by a comma):
+
+```
+skim.abs <- c(0.123, 0.133, 0.142, 0.121, 0.125)
+skim.conc <- c(1.234, 1.235, 1.324, 1.442, 1.421)
+```
+
+where the `0.123` (skim.abs) is the absorbance (Y value) you measured and the `1.234`  (skim.conc) is the corresponding (X) value that you calculated using the equation for the straight line (the concentration of protein in skim milk). Make sure that you keep them in order so that the first value for `skim.abs` corresponds to the first value of `skim.conc`.
+
+1. Fill in your values as shown above
+1. If the code runs without errors, change the `eval=FALSE` to `eval=TRUE`.
+
+```{r milk-data, echo=TRUE, include=TRUE, eval=FALSE}
+skim.abs <- c()
+skim.conc <- c()
+whole.abs <- c()
+whole.conc <- c()
+```
+
+## Calculate average milk concentration
+
+You will need to figure out how to do the following simple steps yourself. Feel free to get help from your partners, or if necessary, from your instructor.
+
+1. Use the `mean()` function to calculate the average protein concentrations in both the skim and whole milk. Remember that you can use an entire variable as the argument to the `mean()` function.
+2. As with the plot you made by hand, **__you will need to multiply the final result by 50 because of the initial dilution that you made__**. The function to multiply is the asterisk (*).
+1. If the code runs without errors, change the `eval=FALSE` to `eval=TRUE`.
+
+```{r milk-averages, echo=TRUE, include=TRUE, eval=FALSE}
+average.whole <-
+average.skim <-
+undiluted.whole <-
+undiluted.skim <-
+```
+
+
+# Plot the line
+
+1. Check to see that the following code runs.
+1. If it runs, change the `eval=FALSE` to `eval=TRUE`
+
+```{r plot-line, echo=TRUE, eval=FALSE, include=TRUE}
+replayPlot(recordedPlot) # leave this line alone
+abline(lin.regression)
+recordedPlot <- recordPlot() # leave this line alone
+```
+
+# Add milk samples to standard curve
+
+Here, we will add points (of different colors) to the plot. Make sure you know which one is which color so you can describe it in the caption for this figure in your lab report.
+
+1. Check to see that the following code runs.
+1. Read the code to figure out which color is used for which type of milk.
+1. If it runs, change the `eval=FALSE` to `eval=TRUE`
+
+```{r add-points, echo=TRUE, eval=FALSE, include=TRUE}
+replayPlot(recordedPlot) # leave this line alone
+points(x=skim.conc, y=skim.abs, col='blue', pch=16)
+points(x=whole.conc, y=whole.abs, col='red', pch=16)
+```
+
+# For your lab report
+
+1. Copy and paste the graph into your lab report which you will turn in. Go to the lower right pane and click `Export` and then `Copy to Clipboard`. Then paste it into your lab report. If you don't have a graph, you may need to follow the instructions at the very beginning of this document.
+1. Recompile this document by clicking `Knit` then `Knit to pdf_document2`. This will save a pdf copy into your `files`.

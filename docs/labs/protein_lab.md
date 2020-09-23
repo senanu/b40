@@ -12,8 +12,11 @@ nav_order: 5
 * [Guide on writing lab reports](writing_lab_reports.html)
 * [Writing Checklist](writing_checklist.html)
 * [Rubric for your peer review](peer_review_rubric.html)
-* [Using R in Bio40]
-*
+* [Introduction to RStudio and RStudio.cloud](R/intro_to_rstudio.html)
+* [Introduction to R](R/intro_to_r.html)
+* [R FAQ](R/r_faq.html)
+* [R Markdown file for Protein lab](R/protein.Rmd).
+
 
 ## Introduction
 

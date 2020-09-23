@@ -1,0 +1,236 @@
+---
+title: "Introduction to `R`"
+output:
+  html_document: default
+editor_options: 
+  chunk_output_type: console
+---
+
+# Objectives
+
+Learn to use the statistical computing language `R` in RStudio. 
+
+## Reading this document
+
+As you have already learned in a previous exercise, this is an R Markdown document, which mixes text with code. To start out, you should 'knit' the document before making any changes. It will be easier to read, with nice formatting. 
+
+You can read this document in the viewer window on the right. As you do so, you can also follow along with the 'coded' document so that you can do the steps on your own. This will give you familiarity with using R.
+
+## Getting started and running commands
+
+Below, you will see a gray code 'chunk' that begins and ends with 3 backticks. All of the code you want to execute will need to go in that gray area. To execute it, you can click the little right-facing green arrow at the top right of the gray box. Go ahead and experiment and make changes directly into the Rmd document. **Do not copy commands into a separate script file.**
+
+The following code chunk is ready to run. Press the green arrow now and check the R console (usually in the bottom right portion of your screen) to make sure it ran without errors.
+
+```{r how_to_type, echo=TRUE, eval=TRUE}
+a <- 2
+```
+
+This is a simple command that we'll learn about in a moment. You can run commands either one at a time by placing your cursor on the line you want to run and using `cntrl-enter` or you can run various combinations of commands using the `run` button at the top of the code editor pane. Try doing both methods now.
+
+# An R Primer
+
+You can do a lot with `R` but for now, we need to understand a few basics. 
+
+Try to think of `R` like a language. In any language, there are __nouns__ and __verbs__. Nouns can take the form of a single value such as the number `r 10`. We can use verbs to operate on those nouns, such as the plus sign in $10 + 5 = `r 10 + 5`$. Try typing '$10 + 5$' into the code chunk below. Run it. You should see that R returns the answer.
+
+```{r ten_plus_five, echo=TRUE, eval=TRUE}
+# Put your code (10 + 5) below this line. Don't include parentheses.
+
+```
+
+In order to make R more than a glorified calculator, we will save values into named __variables__. To do so, we will use __assignment operator (<-)__. This operator (verb) assigns the value on the right into the variable on the left. So, when you ran the command
+
+```{r assigment, echo = TRUE, eval=TRUE}
+a <- 2
+```
+
+above, you assigned the value of `2` into the variable `a`. Now, if you want to operate on the variable `a`, you can do so. The following code multiplies whatever value(s) are in the variable `a` by 10, and __assigns__ the resulting value to a variable called `b`.
+
+```{r operators_on_vars, echo=TRUE, eval=TRUE}
+b <- a * 10
+```
+
+Variables can also contain a group of values called a __vector__. To make a vector, we use the 'combine' `c()` operator. Most operators (verbs) are followed by parentheses, and are called 'functions'. Inside the parentheses, we put variables or other information (collectively called __arguments__) that the function needs in order to do its job properly. The `c()` operator combines all of its arguments. You can see the contents of a variable by typing it alone on a line (and running it).
+
+```{r functions, echo=TRUE, eval=TRUE}
+my_variable <- c(a, b, 1, 2, 3)
+my_variable
+```
+
+Now that we have a variable with more than one value, we can do some more interesting things with it. For example, we can take the average using the `mean()` function and find the minimum and maximum values. There's even a function to get several useful statistics called `summary()`. Try the following commands. (Remember, you can run them either by clicking the green arrow, or by 'cntrl-enter' on each line)
+
+```{r summary_stats, echo=TRUE, eval=TRUE}
+mean(my_variable)
+max(my_variable)
+min(my_variable)
+summary(my_variable)
+```
+
+## Data tables
+
+In addition to holding a vector of values, a variable can hold a whole table of values. For this, we'll use a small built-in dataset called 'mtcars'. Run the following line of code to get access to this dataset. Then you can look at the table by typing the name of the dataset (only the first few rows are shown here). 
+
+```{r mtcars, echo=TRUE, eval=FALSE}
+data(mtcars)
+mtcars
+```
+
+```{r show_mtcars, echo=FALSE, eval=TRUE}
+# Don't touch this code chunk. It helps with the knitted document.
+head(mtcars)
+```
+
+You can also see the dataset in the "Workspace and History" panel (top right panel) under 'Environment'. Try double-clicking the name of the dataset to see it in tabular form. You should see rows labeled for the type of car, and then characteristics of the car as a number of columns. You specify which column you want using the dollar sign (`$`). ![First rows of mtcars dataset](https://senanu.github.io/b40/assets/labs/02_cars.png) We can use this dollar sign notation to isolate one column of data. For example, to calculate the mean (average) fuel economy for these cars, you can do:
+
+```{r mpg, echo=TRUE, eval=TRUE}
+mtcars$mpg # show only the 'mpg' column
+mean(mtcars$mpg) # get the mean mpg for this dataset
+```
+
+ This simply means that you are choosing the `mpg` column of the variable '`mtcars`', and want to find out the mean value of that column. How would you get the average horsepower ('hp') for this dataset?
+
+```{r hp, echo=TRUE, eval=TRUE,strip.white=FALSE}
+# What code would you use to get the mean horsepower?
+
+```
+
+## Getting help
+
+R contains a help file for every function. In order to see it, type a question mark in front of the function name. For example, you can run:
+
+```{r help, echo=TRUE, eval=FALSE}
+?mean # get help on the mean() function
+```
+
+The help files will tell you what the function does, and what arguments you can give to the function. Try getting help on the '`median()`' function.
+
+```{r mean_help, echo=TRUE, eval=FALSE}
+# How do you get help using the median() function?
+
+```
+
+## Comments
+
+Computer code is difficult to read and understand! To make it easier, you should add comments to your code to explain what you are doing. This is very important as you will often not remember what or why you did something later (even the next day). It will also help other people understand what your code does.
+
+In order to add comments, you can use the 'pound' symbol (`#`). R ignores everything on a line after the pound sign, so you can either use it on a line of its own or at the end of a line with code:
+
+```{r comments, echo=TRUE, eval=TRUE}
+# This is a comment that might be used to explain some
+# long, complicated bit of code. The computer won't read
+# it, but its useful for humans! In particular, the code 
+# that follows generates 100 random numbers with a mean of 10 and
+# standard deviation of 2 and assigns them to a variable
+random_nums <- rnorm(100, mean=10, sd=2) # Random number generation
+# Draw a plot of those random numbers. Note that each time you 
+# run this code chunk, the numbers will be different and so
+# the plot will also be different. 
+plot(random_nums, xlab='Number', ylab='Value of random number')
+```
+
+## A note on spelling and cases
+
+Since R is a computer program, it is vary finicky about spelling. If you spell something wrong, it won't know what you are talking about! For example, typing `mtcars$mbg` instead of `mtcars$mpg` will generate an error because there is no data column called `mbg` in the `mtcars` dataset. 
+
+Similarly, letters of different case are very different in R. For example, if you type `Mtcars` hoping to get the `mtcars` dataset, R will tell you that there is no such dataset. 
+
+__*Misspelling and mixing up cases is the single thing that trips up and causes frustration among Introductory Biology students! Be Warned!*__
+
+# Getting your data into R
+
+R doesn't have a spreadsheet program built in, so we will use Google Sheets. Before doing this, however, we need to 'export' our data as a CSV (Comma-separated values) file. __You will need to do this with each Google dataset that you use__. Start by logging in to your Google account and creating a file with a few values in 2 columns (this example is from my Google Drive):
+
+![Google sheets file with 3 columns of data](https://senanu.github.io/b40/assets/labs/02_google_data.png){height=4in}
+
+Give your document a title, and make sure you know where it is in your Google Drive. Next, select the 'File' menu and 'Publish to the web'. Then choose to publish it as a CSV file. 
+
+![Publishing to the Web](https://senanu.github.io/b40/assets/labs/02_publish_to_web.png){height=4in}
+
+![URL is in blue ready to copy/paste](https://senanu.github.io/b40/assets/labs/02_publish_to_web_URL.png){height=4in} -->
+
+You should then copy the URL supplied, and paste it into your code. Probably the easiest function to use is '`read.csv()`'
+
+```{r read_table, echo=TRUE, eval=TRUE}
+# The read.csv() function is an easy way to get data into R. Simply paste 
+# the URL provided by Google into the command, and place it between quotes.
+# Note that files that are exported by Google have "...output=csv" at the 
+# end of the URL. If yours doesn't look like that, it wasn't exported properly.
+dat <- read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vR1WD5pL0ueIrDigzuFBuMJhhs0_y5mLSNsfL1y9hxRJrA6qFJNcnQSEuREzvM3wLHaQjHSX8SY2c_D/pub?output=csv")
+dat
+```
+
+Try doing this yourself with some of your own made-up data. This is a very useful command and you'll need to use it for every R exercise we do in lab. Finally, you can see whether there seems to be a relationship between the length and width of the leaves in my dataset by drawing a simple graph that includes the data, axis labels, and a main title. We can also do a linear regression of the data and plot that line on the graph (you'll learn more about these later):
+
+```{r length_width, include=TRUE}
+plot(dat$length, 
+     dat$width, 
+     xlab="Leaf length (cm)", 
+     ylab="Leaf width (cm)", 
+     main="Leaf Dimensions")
+linear.regression <- lm(dat$width ~ dat$length)
+abline(linear.regression)
+```
+
+# Debugging your code
+
+Things won't always work perfectly the first time you try them. Think of your code like a recipe that has to be followed from start to finish. If something doesn't work, R will produce an Error message. Try to figure out what went wrong from that message, remembering that your code is like a recipe. 
+
+Consider the following recipe:
+
+1. Add dry ingredients to bowl
+1. Add wet ingredients to bowl
+1. Stir to make thick batter
+1. Place batter in 9x13in pan
+1. Place pan in oven for 35minutes at 350F
+
+Imagine you forget to add the wet ingredients. If you haven't done the 2nd step successfully, you can't do the third step and successfully make a batter. The computer will give you an error that says that you can't make a batter with what is in the bowl. You therefore also can't do any of the later steps (such as putting a non-existent batter in the oven!).
+
+How should you solve this problem? Go back to the beginning and re-run the first step. If it runs successfully, run the second and so on. For each line, make sure the data look like what you expect (by typing the name of an object and seeing the output). It's important to check to see that the data looks right because a problem might happen much earlier than the error. For example, if you get an error on step 3, then you might not know whether it was the dry ingredients (step 1) or the wet ingredients (step 2) that was the problem. Looking at the bowl after each step will help you to determine which.
+
+Also, please remember what I mentioned above about spelling and upper/lowercase letters being different. Computer languages are picky and you have to be precise.
+
+# Exercises
+
+Before you continue, knit this document to make sure everything above this point works.
+
+Demonstrate that you can read a file into R. I recommend using Google Sheets, as above, but you may also use another program such as Excel and save it as a .csv file. There are other ways, but for now, lets just keep it simple!
+
+1. Write code in the empty code chunk below to read a data file (such as Google sheets). Make sure you have at least 2 columns and 10 rows of numeric data. Make up values.
+    * Name your columns **without using spaces** or other 'funny' characters.
+    * Make sure there aren't letters in the columns (other than the first row). If there are, R will assume that the data are textual, rather than numeric, and it can't do mathematical operations on text.
+    * Save the data into a variable called "mydata" using the assignment operator ("<-")
+1. Make R print out the data by simply typing "mydata" alone on a line.
+
+```{r read_table2, echo=TRUE, eval=TRUE}
+# Put your code here
+```
+
+The line of code in the next chunk will calculate summary statistics for your dataset. However, it can't do that until you have a dataset called "mydat", which you should have created above. In order to not have an error, I have put "eval=FALSE" in the top line of the code chunk. This prevents knitr from evaluating something that will cause an error. 
+
+1. Change the "eval=FALSE" to "eval=TRUE" to allow knitr to have access to this code. You will need to look at the Rmd version of this document -- it won't show up in the knitted version.
+
+```{r summaryStats, echo=TRUE, eval=FALSE}
+summary(mydata)
+```
+
+1. Use the `plot()` command to generate a simple graph of your data. I have put in the most important parts of the command, but you will need to fill it in depending on the names in your dataset. You can see in the comments what I used when I was using the leaf data from my own dataset. You should use the same method, but your names will be different.
+1. Put some text between the quotes to label the x-axis and the y-axis
+1. Put some text between the quotes to label the entire graph (main)
+1. Change the 'eval=FALSE' to 'eval=TRUE' so that this graph will be included in the knitted output.
+
+```{r myplot, include=TRUE, eval=FALSE}
+plot(x = mydata     ,     # dat$length
+     y = mydata     ,     # dat$width
+     xlab="",             # text within the quotes to label the x-axis
+     ylab="",             # text within the quotes to label the y-axis
+     main="")             # text within the quotes to label the whole graph
+```
+
+# What to turn in
+
+1. Save your file. Please remember to do this periodically.
+1. Remember to clean your environment and clear the knitr cache. If you forgot how to do this, [look here](https://senanu.github.io/b40/docs/labs/R/intro_to_rstudio.html#what-to-turn-in). You don't need to do this every time you knit, just the last time as you prepare your html file to turn in.
+1. Knit the document to produce an html file.
+1. Save the html file.
+1. Turn in your html file on canvas. I will be looking to make sure that you completed the exercises section.
