@@ -11,7 +11,7 @@
   p a {
     word-wrap: break-word;
   }
-  p {
+  p, li{
     font-size: 12pt;
   }
   @page {
@@ -26,26 +26,57 @@
     font-size: 18pt !important;
     font-weight: bold;
   }
+  h2 {
+    font-size: 14pt !important;
+  }
+  h3 {
+    font-size: 12pt !important;
+  }
   //@page :first {.page-header: none;}
 h1, h2, h3, h4, h5, h6, p, ul, li {
   font-family: "Times New Roman", Times, serif;
 }
 h1, h2, h3, h4, h5, h6, blockquote{
   page-break-after: avoid;
+  font-weight: bold;
 }
 p {
   line-height: normal;
   color: black;
 }
-ul, li::before{
+// Lists
+ol, ul, ol li::before, ol li::after{
   line-height: normal;
   color: black;
+}
+
+ol li::before{
+  color: black;
+}
+
+li:not(:last-child) {
+    margin-bottom: 5px;
+}
+ul,ol {
+margin:0;
+padding:0 0 0 2em;
 }
 
 textarea, input{
   font-family: "Arial", sans-serif;
   font-size: 10pt;
 }
+
+table {
+  page-break-inside: avoid;
+}
+
+
+// Not printed pages
+}
+
+ol li::before{
+  color: blue;
 }
 blockquote {
   font-weight: bold;
