@@ -60,7 +60,7 @@ I will post all materials to this course website and link to it from Canvas. Gen
 Although you may want to fill in the reading guides online, I encourage you to write on hard-copies. In my experience, students who try to do the reading guides on their computers tend to copy-paste material and that defeats the purpose of learning actively. Additionally, many questions will require you to draw diagrams.
 
 ### Other course sites
-We will turn in lab reports on [turnitin.com]{https://www.turnitin.com}. Please create an account for yourself and register with this class. The information you need is in the [Nitty Gritty](#nitty-gritty) section above.
+We will turn in lab reports on [turnitin.com](https://www.turnitin.com). Please create an account for yourself and register with this class. The information you need is in the [Nitty Gritty](#nitty-gritty) section above.
 
 We will be using the statistical programming language R for data analysis. In life sciences, it has become a very standard tool for analyzing data, so my goal is that you will learn at least enough so that by the end of the course you are no longer scared of computer programming. R can be used a number of ways, including online. You will be given instructions for how to sign up or download it later.
 
