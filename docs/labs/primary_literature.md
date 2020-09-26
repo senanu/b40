@@ -119,12 +119,14 @@ Allen, J. M. (2001). Herbal supplements can be harmful. In H. Cothran (Series Ed
 }
 </style>
 <div class="box" markdown="1">
-### Periodical—Journal Paginated by Issue (Each issue begins on page 1.)
+### Periodical—Journal Paginated by Issue
+(Each issue begins on page 1.)
 Author's last name, First initial. Middle initial. (Year of publication). Title of the article. *Title of Periodical*, Volume(Issue), pages of the article.
 
 Szasz, T. (2004). Protecting patients against psychiatric intervention. *Social Science and Modern Society*, 41(3), 7-9.
 
-### Periodical—Journal Paginated by Volume (Issues are paginated continuously. For example, the first page of volume 3 might be 369.)
+### Periodical—Journal Paginated by Volume
+(Issues are paginated continuously. For example, the first page of volume 3 might be 369.)
 Author's last name, First initial. Middle initial. (Year of publication). Title of the article. *Title of Periodical*, Volume, pages of the article.
 
 Weber, E. U., Shafir, S., & Blais, A. (2004). Predicting risk sensitivity in humans and lower animals: Risk as variance or coefficient of variation. *Psychological Review*, 111, 430- 445.

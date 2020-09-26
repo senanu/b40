@@ -10,6 +10,7 @@ nav_order: 60
 
 ## Resource list for this lab
 * [Guide on writing lab reports](writing_lab_reports.html)
+* [Guide to using primary literature for lab reports](primary_literature.html)
 * [Writing Checklist](writing_checklist.html)
 * [Rubric for your peer review](peer_review_rubric.html)
 * [Introduction to RStudio and RStudio.cloud](R/intro_to_rstudio.html)
