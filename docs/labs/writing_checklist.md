@@ -3,7 +3,7 @@ layout: default
 title: Writing Checklist
 parent: Labs
 is_parent: false
-nav_order: 2
+nav_order: 30
 ---
 
 # Checklist for lab reports for Bio 40

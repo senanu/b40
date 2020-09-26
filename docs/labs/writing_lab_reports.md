@@ -3,7 +3,7 @@ layout: default
 title: Writing lab reports
 parent: Labs
 is_parent: false
-nav_order: 1
+nav_order: 10
 ---
 
 # Writing lab reports in Bio 40

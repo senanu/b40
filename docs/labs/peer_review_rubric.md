@@ -3,7 +3,7 @@ layout: default
 title: Rubric
 parent: Labs
 is_parent: false
-nav_order: 3
+nav_order: 40
 ---
 
 # Rubric for Peer-reviewed lab reports

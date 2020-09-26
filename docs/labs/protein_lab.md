@@ -3,7 +3,7 @@ layout: default
 title: Quantitative Analysis of Protein
 parent: Labs
 is_parent: false
-nav_order: 5
+nav_order: 60
 ---
 
 # Quantitative Analysis of Protein
