@@ -113,7 +113,7 @@ Please follow the guidelines given in the “Writing lab reports for Bio40” ha
 | 1st draft of entire paper. | Oct 5 (11:59pm)  |
 | Final Paper                | Oct 12 (11:59pm) |
 
-You will lose 10% of your grade  every day that it is late. Please note that although I won't grade your drafts, they need to be complete and the best possible work you can produce. If they aren't complete, I may deduct some points from your final grade, and most importantly, you won't gain the benefits of having a peer review to help you improve your paper. If your paper is far from being complete, you may not be allowed to do a peer review, which will also cost you points and make it so that you don't see another model paper. This issue will be handled solely at my discretion!
+You will lose 10% of your grade every day that it is late. Please note that although I won't grade your drafts, they need to be complete and the best possible work you can produce. If they aren't complete, I may deduct some points from your final grade, and most importantly, you won't gain the benefits of having a peer review to help you improve your paper. If your paper is far from being complete, you may not be allowed to do a peer review, which will also cost you points and make it so that you don't see another model paper. This issue will be handled solely at my discretion!
 
 ### Peer Review
 Each student will be required to peer review one other student’s work. You will be assigned a grade based on how much you can improve your partner’s paper. You will be given a rubric for how to do this, but remember your goal is to improve your partner's paper as much as possible.

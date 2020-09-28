@@ -52,8 +52,8 @@ nav_exclude: true
     | 7          | 52       | 38         |
     | 8          | 57       | 41         |
 
-3. Use a different color to plot these data on a graph.<img align="right" width="80%" src="{{site.url}}/b40/assets/ch03/GraphPaperSmall.svg" alt="Graph paper">
-   - [ ] Decide which variable should be on each axis.
+3. Use a different color to plot these data on a graph. <img align="right" width="80%" src="{{site.url}}/b40/assets/ch03/GraphPaperSmall.svg" alt="Graph paper">
+   - [ ] Decide which variable should be on each axis. Review section 1.3 from your text.
    - [ ] Label the axes
    - [ ] Include units on your axis labels
    - [ ] Use a different color for each data series
