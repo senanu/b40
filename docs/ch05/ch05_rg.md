@@ -47,6 +47,7 @@ For this reading guide, please read 5.1 and 5.4 (proteins) *before* your lab dat
 5. Draw 2 glycine amino acids next to each other. Show with arrows how the peptide bond forms and what molecule comes out of this reaction.{{site.space7}}
 
     > OBJECTIVE: Understand the difference between a polypeptide and a protein
+
     > OBJECTIVE: Understand how side chains affect the physical properties of polypeptides
 
 1. What is a polypeptide chain?{{site.space3}}
@@ -86,7 +87,7 @@ For this reading guide, please read 5.1 and 5.4 (proteins) *before* your lab dat
 5. What is the difference between ketoses and aldoses? How does this affect the molecular formula?{{site.space3}}
 6. What happens to most 5 and 6 carbon sugars in aqueous solutions? Why is this reaction shown as an equilibrium reaction?{{site.space3}}
 7. Draw 2 glucose monomers side by side. Connect them with a 1-4 glycosidic linkage.{{site.space5}}
-8. What is the difference between &alha; and &beta; glucose?{{site.space3}}
+8. What is the difference between &alpha; and &beta; glucose?{{site.space3}}
 9. What is the shape of a long, unbranched, polymer made of &alpha;-glucose?{{site.space3}}
 10. What is the shape of a long, unbranched, polymer made of &beta;-glucose?{{site.space3}}
 11. Why does &beta;-glucose form structural polymers, whereas &alpha;-glucose would never be suitable for that?{{site.space3}}

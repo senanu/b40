@@ -13,6 +13,7 @@ nav_order: 60
 * [Guide to using primary literature for lab reports](primary_literature.html)
 * [Writing Checklist](writing_checklist.html)
 * [Rubric for your peer review](peer_review_rubric.html)
+* [Graph Paper](GraphPaper.pdf)
 * [Introduction to RStudio and RStudio.cloud](R/intro_to_rstudio.html)
 * [Introduction to R](R/intro_to_r.html)
 * [R FAQ](R/r_faq.html)
