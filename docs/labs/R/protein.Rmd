@@ -174,4 +174,4 @@ points(x=whole.conc, y=whole.abs, col='red', pch=16)
 # For your lab report
 
 1. Copy and paste the graph into your lab report which you will turn in. Go to the lower right pane and click `Export` and then `Copy to Clipboard`. Then paste it into your lab report. If you don't have a graph, you may need to follow the instructions at the very beginning of this document.
-1. Recompile this document by clicking `Knit` then `Knit to pdf_document2`. This will save a pdf copy into your `files`.
+1. Recompile this document by clicking `Knit` then `Knit to html`. Save a copy of the resulting HTML file on your computer.
