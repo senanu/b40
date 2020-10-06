@@ -1,0 +1,111 @@
+# Determining the salt concentration inside cells
+
+```{r setup, include=TRUE, echo=FALSE}
+knitr::opts_knit$set(global.device = TRUE) # leave this alone
+```
+
+If you are having trouble finding the output of your R commands (ie. when you click the green arrow to run a code chunk), this may help: go to the tools menu, choose 'Global options', then in the 'R markdown' menu, UNCHECK the box labeled "Show output inline for all R Markdown documents". This will tell RStudio to put the plot into the viewer sub-window.
+
+# Import your data into R
+1. Get your data into R according to methods you learned in previous weeks. Save it in a variable called `dat`.
+1. Check that your data looks like you expect. Remember the `str()` command?
+1. Once your code runs by pressing the green arrow on the top right, change the `eval=FALSE` to `eval=TRUE`.
+
+```{r data-import, eval=FALSE, include=TRUE, echo=TRUE}
+dat <-
+```
+
+# Calculate the % change in weight
+Convert your data to represent the percent change in weight. Doing this allows us to have some variation in the weight of the potato core. We will use this formula, but we will ask R to do the work for us!
+$${{(final\ weight - original\ weight)}\over original\ weight} \times 100 = percent\ weight\ change$$
+
+1. Get R to do this for you. Save the result in a variable called `percent.change`. If your data table looks exactly like the one in the lab manual (which is highly recommended), then the variables will be called `dat$original.weight` and `dat$final.weight`. Make sure you are careful with precedence -- that is make sure that you use parentheses to tell R which part of the equation you want done first, second, etc. You should also know that the asterix (*) is the multiplication operator, so you can say `dat$columnA * dat$columnB`
+1. Once your code runs by pressing the green arrow on the top right, change the `eval=FALSE` to `eval=TRUE`.
+
+
+```{r percent-change, eval=FALSE, include=TRUE, echo=TRUE}
+percent.change <-
+```
+
+What do you think will be the sign (positive or negative) for potatoes that gained weight? Lost weight? It is important to do this type of mental calculation to make sure that your calculations are doing what you expect them to do. In fact, I recommend doing a single calculation by hand to make sure you got it right.
+
+Your percent change data is now stored as a ‘vector’ in R. However, it is often easier to ‘bind’ the column to the original table so that it is part of that table. This command combines 'dat' with 'percent.change' into the variable 'dat'. After doing this, you can refer to it as `dat$percent.change`.
+
+1. Once your code runs by pressing the green arrow on the top right, change the `eval=FALSE` to `eval=TRUE`.
+
+```{r cbind,  eval=FALSE, include=TRUE, echo=TRUE}
+# If your variable names are the same as recommended, you shouldn't need to do anything with this code chunk.
+dat <- cbind(dat, percent.change)
+```
+
+# Linear regression of data
+
+We can expect that the percent change will be approximately linear with the solution concentration. Therefore, we can do a linear regression. For this, we will use a special R formula using a tilde (~). The tilde means "is explained by" so `lm(y ~ x)` means that the variable `y` is explained by `x`. In this case, we can read the tilde as part of a formula meaning “percent change is explained by the concentration of the solution”. `lm` is the command ('verb') to conduct a 'linear model' regression.
+
+1. Once your code runs by pressing the green arrow on the top right, change the `eval=FALSE` to `eval=TRUE`.
+    
+```{r regression,  eval=FALSE, include=TRUE, echo=TRUE}
+lin.regression <- lm(dat$percent.change ~ dat$solution)
+```
+
+1. Plot your data. Think about which variable should be on the x-axis and which on the y-axis.
+1. Once your code runs by pressing the green arrow on the top right, change the `eval=FALSE` to `eval=TRUE`.
+
+```{r graph,  eval=FALSE, include=TRUE, echo=TRUE}
+plot(x=     ,
+     y=     ,
+     main="Title goes here",
+     xlab="x-axis label",
+     ylab="y-axis label")
+abline(lin.regression)
+```
+
+We want to calculate the point on the x-axis where the linear regression crosses that axis (ie. where $y=0$). As you did with the protein lab, you can use the `summary()` command to view the details of the linear regression. This is a reminder of what we did in the protein lab:
+
+```{r summary-regression-prof, echo=FALSE, eval=TRUE, include=TRUE}
+## Don't do anything with this code chunk.
+set.seed(1)
+professors_data <- data.frame(x=1:10, y=rnorm(10) + (1:10)/2)
+mysummary <- summary(lm(professors_data$y ~ professors_data$x))
+mysummary
+## Don't do anything with this code chunk
+```
+
+This seems like a lot of output, but there are only a few things we need to worry about.
+
+* __*m*__ The slope. This is given in the middle table as the 'Estimate' of 'professors_data$x'. In this case, it is `r round(coefficients(mysummary)[2], 5)`.
+* __*b*__ The y-intercept. This is given in the middle table as the 'Estimate' of the (Intercept). In this case it is `r round(coefficients(mysummary)[1], 5)`
+* __*p-value*__ The p-value. This is clearly labeled at the bottom of the output. If the p-value is $< 0.05$ then we reject the null hypothesis that the slope is flat (i.e. that there is no relationship between the two variables).
+* __*R-squared*__ The R-squared value tells us how well the data fit to the line. Values close to 1 indicate that a line summarizes the data well. Values close to 0 indicate that the line is a poor fit for the data.
+
+You can now use the data from the regression to write down the equation for a regression line through your own data. In the example above, it would be
+$$Y = mX + b$$
+$$Y = `r round(coefficients(mysummary)[2], 5)` X + `r round(coefficients(mysummary)[1], 5)`$$
+
+1. Use the `summary()` command to see the regression analysis. In code about line 53, you saved the regression analysis as a variable named `lin.regression`.
+1. Extract the pieces of information you need for the formula of a line.
+1. Once your code runs by pressing the green arrow on the top right, change the `eval=FALSE` to `eval=TRUE`.
+
+```{r summary, eval=FALSE, include=TRUE, echo=TRUE}
+# Use the summary command here or in the console
+```
+
+1. Use the formula for a line to figure out where it crosses the X axis (ie. solve for $X$ when $Y = 0$).
+1. __What is significant about this point?__
+1. Be prepared to show your instructor a graph of your data, including the regression line to receive full credit for this lab.
+
+# What to turn in
+
+1. You will turn in a knitted version of this document. Make sure all of the places where I've asked you to change "eval=FALSE" to "eval=TRUE" have been changed, otherwise you won't get the right output, and there won't be a graph. I will be looking for your graph, which should have a line on it and have labeled axes.
+
+1. What is the equation for your straight line?
+
+    Replace this text with your answer. For nice formatting, leave the 4 spaces at the beginning of this paragraph, and separate it from the other paragraphs by a blank line above and below.
+
+1. What value on the X-axis does the regression line cross the X-axis?
+
+    Replace this text with your answer. For nice formatting, leave the 4 spaces at the beginning of this paragraph, and separate it from the other paragraphs by a blank line above and below.
+
+1. What is significant about this point?
+
+    Replace this text with your answer. For nice formatting, leave the 4 spaces at the beginning of this paragraph, and separate it from the other paragraphs by a blank line above and below.
