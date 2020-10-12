@@ -9,15 +9,20 @@ nav_order: 60
 # Quantitative Analysis of Protein
 
 ## Resource list for this lab
-* [Guide on writing lab reports](writing_lab_reports.html)
-* [Guide to using primary literature for lab reports](primary_literature.html)
-* [Writing Checklist](writing_checklist.html)
-* [Rubric for your peer review](peer_review_rubric.html)
-* [Graph Paper](GraphPaper.pdf)
-* [Introduction to RStudio and RStudio.cloud](R/intro_to_rstudio.html)
-* [Introduction to R](R/intro_to_r.html)
-* [R FAQ](R/r_faq.html)
-* [R Markdown file for Protein lab](R/protein.Rmd).
+* Writing guides
+    * [Guide on writing lab reports](writing_lab_reports.html)
+    * [Guide to using primary literature for lab reports](primary_literature.html)
+    * [Writing Checklist](writing_checklist.html)
+    * [Rubric for your peer review](peer_review_rubric.html)
+* Main data Analysis
+    * [R Markdown file for Protein lab](R/protein.Rmd).
+    * [HTML version of the data analysis file]({{site.url}}/b40/assets/labs/protein.html). Only use this as a reference.
+* Data analysis. You have already completed these, but they are included here for reference if you need help.
+    * [Graph Paper](GraphPaper.pdf)
+    * [Introduction to RStudio and RStudio.cloud](R/intro_to_rstudio.html).
+    * [Introduction to R](R/intro_to_r.html).
+    * [R FAQ](R/r_faq.html).
+
 
 
 ## Introduction
