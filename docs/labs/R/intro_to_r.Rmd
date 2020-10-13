@@ -1,4 +1,6 @@
-# Objectives
+# Introduction to R
+
+## Objectives
 
 Learn to use the statistical computing language `R` in RStudio.
 
@@ -28,7 +30,7 @@ Try to think of `R` like a language. In any language, there are __nouns__ and __
 
 ```{r ten_plus_five, echo=TRUE, eval=TRUE}
 # Put your code (10 + 5) below this line. Don't include parentheses.
-10+5
+
 ```
 
 In order to make R more than a glorified calculator, we will save values into named __variables__. To do so, we will use __assignment operator (<-)__. This operator (verb) assigns the value on the right into the variable on the left. So, when you ran the command
@@ -68,6 +70,7 @@ data(mtcars)
 mtcars
 ```
 
+
 ```{r show_mtcars, echo=FALSE, eval=TRUE}
 # Don't touch this code chunk. It helps with the knitted document.
 head(mtcars)
@@ -99,7 +102,7 @@ The help files will tell you what the function does, and what arguments you can 
 
 ```{r mean_help, echo=TRUE, eval=FALSE}
 # How do you get help using the median() function?
-?median
+
 ```
 
 ## Comments
@@ -144,12 +147,12 @@ Give your document a title, and make sure you know where it is in your Google Dr
 You should then copy the URL supplied, and paste it into your code. Probably the easiest function to use is '`read.csv()`'
 
 ```{r read_table, echo=TRUE, eval=TRUE}
-
 # The read.csv() function is an easy way to get data into R. Simply paste
 # the URL provided by Google into the command, and place it between quotes.
 # Note that files that are exported by Google have "...output=csv" at the
 # end of the URL. If yours doesn't look like that, it wasn't exported properly.
 dat <- read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vR1WD5pL0ueIrDigzuFBuMJhhs0_y5mLSNsfL1y9hxRJrA6qFJNcnQSEuREzvM3wLHaQjHSX8SY2c_D/pub?output=csv")
+dat
 ```
 
 Try doing this yourself with some of your own made-up data. This is a very useful command and you'll need to use it for every R exercise we do in lab. Finally, you can see whether there seems to be a relationship between the length and width of the leaves in my dataset by drawing a simple graph that includes the data, axis labels, and a main title. We can also do a linear regression of the data and plot that line on the graph (you'll learn more about these later):
@@ -194,19 +197,15 @@ Demonstrate that you can read a file into R. I recommend using Google Sheets, as
     * Save the data into a variable called "mydata" using the assignment operator ("<-")
 1. Make R print out the data by simply typing "mydata" alone on a line.
 
-```{r read_table2, echo=TRUE, eval=FALSE}
+```{r read_table2, echo=TRUE, eval=TRUE}
 # Put your code here
-x<-mydata
-y<-mydata
-mydata <- read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS7qlH_4s2a1BfKmpxCWgGg3KbPG95NSt6snRM_JtH7-BbKyKL1DcEePgRf3p4K4iyHUJhpdRhoyuf9/pub?output=csv")
-mydata
 ```
 
 The line of code in the next chunk will calculate summary statistics for your dataset. However, it can't do that until you have a dataset called "mydat", which you should have created above. In order to not have an error, I have put "eval=FALSE" in the top line of the code chunk. This prevents knitr from evaluating something that will cause an error.
 
 1. Change the "eval=FALSE" to "eval=TRUE" to allow knitr to have access to this code. You will need to look at the Rmd version of this document -- it won't show up in the knitted version.
 
-```{r summaryStats, echo=TRUE, eval=TRUE}
+```{r summaryStats, echo=TRUE, eval=FALSE}
 summary(mydata)
 ```
 
@@ -215,12 +214,12 @@ summary(mydata)
 1. Put some text between the quotes to label the entire graph (main)
 1. Change the 'eval=FALSE' to 'eval=TRUE' so that this graph will be included in the knitted output.
 
-```{r myplot, include=TRUE, eval=TRUE}
+```{r myplot, include=TRUE, eval=FALSE}
 plot(x = mydata     ,     # dat$length
-     y =mydata      ,     # dat$width
-     xlab="booklength",             # text within the quotes to label the x-axis
-     ylab="bookwidth",             # text within the quotes to label the y-axis
-     main="bookdimmentions")             # text within the quotes to label the whole graph
+     y = mydata     ,     # dat$width
+     xlab="",             # text within the quotes to label the x-axis
+     ylab="",             # text within the quotes to label the y-axis
+     main="")             # text within the quotes to label the whole graph
 ```
 
 # What to turn in
