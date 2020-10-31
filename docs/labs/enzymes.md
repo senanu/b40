@@ -150,14 +150,13 @@ This part of the lab will be done on the second day.
     | S    | v |
     |------|---|
     | 1.00 |   |
-    | 1.25 |   |
     | 1.50 |   |
-    | 1.75 |   |
     | 2.00 |   |
-    | 2.25 |   |
     | 2.50 |   |
-    | 2.75 |   |
     | 3.00 |   |
+    | 5.00 |   |
+    | 9.70 |   |
+
 
 The ‘S’ represents the substrate concentration in mg/ml and the ‘v’ represents the speed of the reaction, in &mu;g/min
 
@@ -205,3 +204,68 @@ Marini, I. (2005), Discovering an accessible enzyme: Salivary &alpha;-amylase : 
 | Nov 9  | Full rough draft for peer review (note that there is an exam on Nov 11.)                          |
 | Nov 12 | Complete peer review of another student's lab report                                              |
 | Nov 16 | Final draft                                                                                       |
+
+# Lab write-up (Fall 2020 only)
+
+Your lab write-up for this lab will consist of only Parts 1 and 2. I will expect a good discussion in the intro and discussion sections about why changing the pH affects the rate at which an enzyme acts.
+
+I would prefer that you use your own data, even if it doesn't look great. If you weren't able to collect enough data, or for some reason your data really can't be used, you may use the data below.
+
+Instead of including Part 3 in the lab report, at the bottom of your lab report, do the following:
+
+* **Paste a copy of the graph. Make sure axes are labeled and it has a title.**
+* **Answer the question: Why does the graph have this shape? (why is it steep on the left and then plateaus on the right)**
+* **What is the value of V<sub>max</sub> for this graph?**
+* **What is the biological meaning of V<sub>max</sub>?**
+
+## If you missed the first day of this lab
+
+* Please make sure you watch the video I posted on Canvas.
+* Use the following data for Part 1:
+
+| Tube | Dilution    | Final color |
+|------|-------------|-------------|
+| 1    | 1/2         | colorless   |
+| 2    | 1/4         | colorless   |
+| 3    | 1/8         | colorless   |
+| 4    | 1/16        | colorless   |
+| 5    | 1/32        | blue        |
+| 6    | 1/64        | blue        |
+| 7    | 1/128       | blue        |
+| 8    | 1/256       | blue        |
+| 9    | 1/512       | blue        |
+| 10   | 1/1024      | blue        |
+| 11   | Buffer only | blue        |
+
+At the end of Part 1, we decided to use Tube #2 because Tube #4 had the most dilute amylase that could still fully digest the starch in 15 minutes.
+
+## If you missed the second day of this lab
+
+* Use the following data for part 2. You will need to complete the calculations for the amount of starch and then the velocity of the reaction.
+
+| pH  | Colorless point (min) | velocity (&mu;g starch hydrolyzed per minute) |
+|-----|-----------------------|-----------------------------------------------|
+| 4   | >10                   |                                               |
+| 5   | 5:00                  |                                               |
+| 6   | 2:30                  |                                               |
+| 6.5 | 2:00                  |                                               |
+| 7   | 2:30                  |                                               |
+| 7.5 | 3:00                  |                                               |
+| 8   | 4:00                  |                                               |
+| 9   | 7:00                  |                                               |
+
+At pH4, the reaction took too long to complete. You can calculate the velocity as 0.
+
+## For plotting the Michaelis-Menten graph
+
+* Use the following data. You don't need to calculate anything. Make sure you enter this as S (uppercase) and v (lowercase).
+
+| S   | v    |
+|-----|------|
+| 1   | 500  |
+| 1.5 | 700  |
+| 2   | 850  |
+| 2.5 | 950  |
+| 3   | 1025 |
+| 5   | 1125 |
+| 9.7 | 1200 |

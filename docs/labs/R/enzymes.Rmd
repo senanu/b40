@@ -1,0 +1,92 @@
+---
+title: "Enzyme kinetics"
+output:
+  html_document: default
+---
+
+```{r setup, include=TRUE, echo=FALSE}
+#knitr::opts_knit$set(global.device = TRUE) # leave this alone
+```
+
+# Data analysis for Part 2: Effects of pH on amylase activity
+
+In part 2 of this project, you assayed how long it takes for amylase to hydrolyse a certain amount of starch at different pH.
+
+1. Make a Google spreadsheet of your data. Label your columns with something that will be easy for R to deal with (ie. don't use spaces or 'odd' characters).
+1. Import the data into a data frame called `pH.dat`.
+1. Plot a graph showing how the pH affects the reaction velocity. Think about which are your independent (x) and dependent (y) variables. When you use the `plot()` command, you can either say `plot(dat$x, dat$y)` where `x` and `y` are your variables, or you can say `plot(x=dat$x, y=dat$y)` to explicitly say which variable should go on which axis. In the first form, the computer knows which is which because it expects the first to be the x variable and the second to be the y variable, so you have to make sure you keep it straight. It is usually better to use the second form because it is very explicit and you are less likely to mess up!
+1. Add axis labels (`xlab="myXLabel", ylab=myYLabel"`) and a title (`main="myTitle"`). These are all arguments to the `plot()` command.
+1. Connect the points using `type='b'`. Again, this is an argument to the `plot()` command and tells R to use **b**oth lines and points. You could use `type='l'` for **l**ines and `type='p'` for **p**oints.
+1. Change `eval=FALSE` to `eval=TRUE`
+
+```{r ph-data-import, eval=FALSE, include=TRUE, echo=TRUE}
+pH.dat <-
+plot()
+```
+
+# Data analysis for Part 3: Effect of substrate concentration
+
+In this section, we will measure how fast the reaction goes according to the concentration of the substrate (starch).
+
+1. Put your data into a Google table as shown in step 8 of the lab manual. Note that the 'S' is uppercase and the 'v' is lowercase. We use this to maintain the conventions of a well-established mathematical formula.
+1. Get your data into R and call it `dat`.
+1. Change the `eval=FALSE` to `eval=TRUE`.
+
+```{r mm-data-import, eval=FALSE, include=TRUE, echo=TRUE}
+dat <-
+```
+
+We are now going to use the data we have to estimate a theoretical maximum reaction rate. This is done by what is known as a Michaelis-Menten curve that was specifically designed to describe enzyme kinetics. It is given by the equation $$ v = {V_{max}[S] \over {K_m + [S]}}$$
+
+In this equation $v$ is the reaction rate, $[S]$ is the concentration of the substrate, $V_{max}$ is the maximum reaction rate, and $K_m$ is the substrate concentration at half of the maximum reaction speed. You don’t need to memorize these details (or the equation), except to be aware that scientists have used their understanding of how enzymes work in order to describe it mathematically.
+
+```{r mm-graph, eval=TRUE, include=TRUE, echo=FALSE}
+## DON'T DO ANYTHING WITH THIS CODE CHUNK.
+## IT IS FOR DRAWING THE GRAPH SHOWN IN THE LAB MANUAL.
+vmax = 10 # Don't touch this
+S = seq(from=0, to=15, by=0.01)# Nope, don't touch this either
+Km = 2# In fact, don't touch anything in this code chunk
+v = (vmax * S) / (Km + S)# That's right, not this either!
+plot(x=S, y=v, type='l', ylim=c(0,12), xaxs='i', yaxs='i')# Don't touch this
+abline(h=vmax, lty='dotted', col='red')# "You can't touch this" (Yup, that's MC Hammer!)
+text(x=1, y=10, pos=3, expression(V[max]), col='red', cex=0.85)# Leave it alone!
+segments(x0=Km, x1=Km, y0=0, y1=v[S==Km], col='blue')# I hope you haven't changed anything here either.
+segments(x0=0, x1=Km, y0=v[S==Km], y1=v[S==Km], col='blue')# Just keep your hands off!
+text(x=1, y=vmax/2, pos=3, expression(frac(V[max],2)), col='blue', cex=0.85)# Don't touch this.
+text(x=Km, y=0.5, pos=4, expression(K[m]), col='blue', cex=0.85)# If you change something, it might not work
+rm(vmax, S, Km, v) # remove variables so they don't interfere below; Don't touch this either
+```
+
+We now want to fit this type of Michaelis-Menten graph to your own data.  
+
+1. Run the code below. You __shouldn't__ need to change anything. However, this depends on you having the data table in **exactly** the form given in the lab manual.
+1. Change the `eval=FALSE` to `eval=TRUE`.
+
+```{r fit-data, eval=FALSE, include=TRUE, echo=TRUE}
+MMcurve <- formula(v~(Vmax*S)/(Km+S))
+maxS <- max(dat$S)*5
+bestfit <- nls(MMcurve, dat, start=list(Vmax=1500,Km=5),     	algorithm='port', lower=c(0,0.1))
+SconcRange <- seq(0, maxS, 0.1)
+theorLine <- predict(bestfit, list(S=SconcRange))
+bestFitVals <- coef(bestfit)
+```
+
+1. Plot your data using only small modifications to the `plot()` command below. **You will need to add axis labels and a main title.** To do so, you can add the arguments `xlab="my x-axis label"` and `main="Plot title"`.
+1. In some cases, you may need to adjust the `xlim=c(min, max)` and `ylim=c(min, max)` commands. These give the minimum and maximum extent of the plot, and may not work for your data. If you can't figure out how to do this, ask.
+1. Make sure the code works, then change `eval=FALSE` to `eval=TRUE`.
+
+```{r dat-graph, eval=FALSE, include=TRUE, echo=TRUE}
+plot(dat$S,
+     dat$v,
+     xlim=c(0,maxS),
+     ylim=c(0,bestFitVals[[1]]))
+## the next line adds the curve to the graph
+lines(SconcRange,theorLine)
+## ... and plot the theoretical Vmax
+abline(h=bestFitVals[[1]], col='red')
+## ... and finally you can get the value for Vmax
+bestFitVals
+```
+ 
+ (some of this R code has been modified from http://rforbiochemists.blogspot.com/2015/05/plotting-and-fitting-enzymology-data.html)
+ 
