@@ -13,3 +13,4 @@ nav_order: 4
 2. [Introduction to R (html)](intro_to_r.html)
 3. [Quantitative analysis of Protein](protein.Rmd)
 4. [Diffusion and Osmosis](diffusion.Rmd)
+5. [Enzyme kinetics](enzymes.Rmd)

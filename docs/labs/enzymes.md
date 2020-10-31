@@ -211,8 +211,9 @@ Your lab write-up for this lab will consist of only Parts 1 and 2. I will expect
 
 I would prefer that you use your own data, even if it doesn't look great. If you weren't able to collect enough data, or for some reason your data really can't be used, you may use the data below.
 
-Instead of including Part 3 in the lab report, at the bottom of your lab report, do the following:
+Instead of including Part 3 in the lab report, do this abbreviated assignment. Use the data below and the R code in the [analysis Rmd file](R/enzymes.Rmd) to draw a graph showing Michaelis-Menten kinetics. Include the following at the bottom of your lab report:
 
+* **Draw the graph in R. The code will fit a Michaelis-Menten curve to it.**
 * **Paste a copy of the graph. Make sure axes are labeled and it has a title.**
 * **Answer the question: Why does the graph have this shape? (why is it steep on the left and then plateaus on the right)**
 * **What is the value of V<sub>max</sub> for this graph?**
