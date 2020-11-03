@@ -1,6 +1,5 @@
 ---
 layout: default
-nav_order: 3
 title: Schedule
 parent: Bio 40 Syllabus
 start: 2020-09-07
