@@ -79,7 +79,7 @@ nav_exclude: true
 2. If you flip 3 coins
     * what is the probability of getting 3 heads?
     * What is the probability of getting 3 tails?
-    * What is the probability of getting at least one heads and at least on tails? (hint, there's an easy and a hard way to do this, but the easy way isn't immediately obvious. See if you can figure it out!)
+    * What is the probability of getting at least one heads and at least one tails? (hint, there's an easy and a hard way to do this, but the easy way isn't immediately obvious. See if you can figure it out!)
 3. If both parents are heterozygotes (Aa), what is the probability that a randomly chosen sperm cell carries the allele A?{{site.space0}}
 4. What is the probability that a randomly chosen egg cell carries the allele 'a'?{{site.space0}}
 5. what is the probability that the offspring is AA (do this using probabilities, rather than from a Punnett square)?{{site.space0}}
