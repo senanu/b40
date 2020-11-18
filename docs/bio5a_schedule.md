@@ -23,6 +23,6 @@ start: 2020-09-07
 | M   | 30-Nov | Ch 17   | Translation                                     |
 | W   | 2-Dec  | Ch 17   | Mutations and their consequences                |
 | F   | 4-Dec  | Ch 18   | Regulation of gene expression: prokaryotes      |
-| M   | 7-Dec  | Ch 19   | Regulation of gene expression: eukaryotes       |
+| M   | 7-Dec  | Ch 18   | Regulation of gene expression: eukaryotes       |
 | W   | 9-Dec  | Ch 20   | Topics in biotechnology and genome evolution    |
 | W   | 16-Dec | **EXAM**| **Final Exam: 8:00am**                          |
