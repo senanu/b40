@@ -115,6 +115,8 @@ td {
 .ans {
   font-weight: bold !important;
   color: red !important;
+}
+.ansdiv {
   td {
     border: solid red !important;
   }
@@ -126,5 +128,8 @@ td {
   }
   thead{
     border: 4px solid red !important;
+  }
+  li{
+    color: red !important;
   }
 }

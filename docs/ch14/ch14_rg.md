@@ -93,7 +93,7 @@ nav_exclude: true
     * What is the probability the offspring is a homozygote at both loci?{{site.space3}}
     * CHALLENGE: What is the probability the offspring is a heterozygote for at least one locus? (hint, think how this probability relates to problem C above).{% if site.data.answers.rg14 %}<span class="ans">  This is the same as 1-p(homozygous at all loci) so 1 - [p(AABB) OR p(aabb)] = 1 - [1/16 + 1/16] = 1 - 1/8 = 7/8    </span>{% else %}{{site.space3}}{% endif %}
 9. In a cross AaBbCc x AaBbCc (assume all genes independently assort), what is the probability of producing the genotype AABBCC? Show your work.{% if site.data.answers.rg14 %}<span class="ans"> To get AABBCC, the offspring needs to be AA AND BB AND CC. So p(AA) x p(BB) x p(CC) = 1/64 </span>{% else %}{{site.space3}}{% endif %}
-10. For the cross in the question above, what is the probability of producing an offspring that is homozygous at each locus? Show your work.{{site.space6}}{% if site.data.answers.rg14 %}<span class="ans"> 1/8 </span>{% else %}{{site.space3}}{% endif %}
+10. For the cross in the question above, what is the probability of producing an offspring that is homozygous at each locus? Show your work.{% if site.data.answers.rg14 %}<span class="ans"> 1/8 </span>{% else %}{{site.space6}}{% endif %}
 
 # Extensions to Mendelian genetics (14.3)
 
