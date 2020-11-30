@@ -3,7 +3,7 @@ layout: default
 title: Maize Genetics
 parent: Labs
 is_parent: false
-nav_order: 50
+nav_order: 100
 ---
 
 # Maize Genetics
