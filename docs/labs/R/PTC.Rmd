@@ -1,0 +1,245 @@
+---
+title: "Tasting PTC"
+date: "`r Sys.Date()`"
+output:
+  rmdformats::material:
+    use_bookdown: true
+    cards: false
+  rmdformats::readthedown:
+    use_bookdown: true
+  bookdown::gitbook: null
+  bookdown::html_document2: null
+  bookdown::pdf_document2: null
+---
+
+```{r setup, include=TRUE, echo=FALSE}
+```
+
+# Before you get started...
+
+Before starting work on this lab, please look at the section titled "What to turn in" at the end. You will be required to turn in a few screenshots so that I can ensure that you have actually done this lab. Knowing ahead of time what to turn in will save you from having to do it again because you lost the web page with your results!
+
+# Overview #
+
+This lab will follow a series of steps that you might be expected to do if you were researching variants in a gene, except you will do it all *in silico* (the biological term for "by computer". Specifically, we will obtain DNA sequence data from a database and use it to predict the exact location of a gene. We will then locate sites within the gene in which there are known variants in our population. We'll then go through the process of designing PCR primers appropriate for amplifying a region of this gene, conducting the PCR, doing a restriction digest to distinguish between 2 alleles, and visualizing the DNA on a gel. The steps we'll take are outlined in Fig \@ref(fig:PTClabFlowChart).
+
+```{r PTClabFlowChart, include=TRUE, echo=FALSE, out.width='100%', fig.align="center", fig.cap="Flow chart for PTC lab"}
+knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/PTClabFlowChart.png")
+```
+
+# Background #
+
+Transmitting a signal from outside to inside our cells is often accomplished by a class of proteins called G-protein-coupled receptors (GPCRs). These molecules are transmembrane proteins that bind to particular ligands. When a ligand is bound by a GPCR on the outside of the cell, they set off a cascade of events within the cell. These events may involve inducing the cell to manufacture particular proteins or starting a nerve impulse (action potential) to the brain.
+
+In the case of taste, humans have dozens of genes that code for GPCRs that specifically bind to bitter- tasting ligands in our food. One of these is called *TAS2R38*. Within this gene, there are 3 single nucleotide polymorphisms (SNPs) that are commonly found in the population and affect the ability to taste phenylthiocarbamide (PTC). Most people have one of two alleles, often referred to as PAV or AVI due to the amino acids coded for at these sites.
+
+| Position (bp) | Position (AA) | Taster DNA | Taster AA | Non-Taster DNA | Non-Taster AA |
+|-|-|:-:|:-:|:-:|:-:|
+| 145 | 49 | C | Pro | G | Ala |
+| 785 | 262 | C | Ala | T | Val |
+| 886 | 296 | G | Val | A | Ile |
+
+in this lab, we will download the sequences to the *TAS2R38* gene and develop a molecular test to determine whether individuals are able to taste PTC.
+
+
+
+# Download DNA sequences from NCBI website #
+
+The National Institute of Health (NIH) contains a division called the National Center for Biotechnology Information (NCBI). NCBI runs a massive database that, as of 2020, contains $8.2 \times 10^{12}$ (8 trillion) DNA bases from all sorts of different organisms that have been submitted from researchers around the world. NCBI shares data with similar organizations in other countries and makes data freely available.
+
+1. Go to <https://www.ncbi.nlm.nih.gov>. It's probably easiest if you right-click and 'open link in new tab" so that you can save the page you work with but still come back here.
+1. In the top search box, type in "TAS2R38" and select the "Gene" database. Click Search.
+1. The first search result (it looks like a 'card' above the rest of the search results) is from humans and is the one we want. Click on its title to go to the data for that gene.
+1. Go back in your browser so you can see the 'card' again. This time, click "RefSeq Transcripts" (within the 'card') to see information about the sequence itself.
+1. At the top of the result, you can see that the file you are being shown is a 'GenBank' file, there is a reference number (it is called an "accession number" and in this case begins with "NM_"). Also note that the gene is 1143 base pairs long (it's very short compared to most eukaryotic genes).'
+1. Scroll down to the bottom of the page. There you will see the actual sequence of the gene.
+
+```{r genbank-pic, include=TRUE, echo=FALSE, out.width='100%', fig.align="center", fig.cap="GenBank file layout"}
+knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/genbank.png")
+```
+
+
+
+# Finding Open Reading Frames
+
+Once some DNA has been sequenced, researchers are interested in learning what it does. One of the first steps to doing this is to figure out exactly where different features of the gene are. For example, where does the coding part of the gene start and stop? What regulatory regions are there to control the expression of the gene?
+
+A gene is DNA that gets transcribed into mRNA which then gets translated into protein (See chapter 17 in Campbell). The process of translation takes 3 nucleotides at a time and uses them as a code to add a single amino acid onto the end of a polypeptide. At the front end of this sequence of triplets, there is a triplet that we call a 'start' codon (see Fig \@ref(fig:codons-pic)) because it tells the ribosome to start translating from that point on. At the other end, there are 3 possible stop codons which tell the ribosome to stop translating. In the table below, AUG, which codes for methionine (Met), is the start codon. Find the stop codons in the codon table (Fig \@ref(fig:codons-pic))
+
+```{r codons-pic, include=TRUE, echo=FALSE, out.width='75%', fig.align="center", fig.cap="Codon table. Note that this relates mRNA to amino acids."}
+knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/codonTable.png")
+```
+
+In this section, we will try to find the start and stop codons and make sure they are in the same reading frame (a multiple of 3 bases apart). If there is a start codon, a good amount of nucleotides, then finally a stop codon, we call this an 'open reading frame' and it may signal that there is a gene in that region. Note that when translation starts, the start codon sets the reading frame for the mRNA. Therefore, in order for a stop codon to be read as a 'stop', it must be in the same reading frame as the start codon (Fig \@ref(fig:orfs-pic))
+
+```{r orfs-pic, include=TRUE, echo=FALSE, out.width='100%', fig.align='center', fig.cap="6 reading frames. Start codons are green, stop codons are red. Note that frames 4,5, and 6 are on the reverse strand relative to reading frames 1, 2, and 3."}
+knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/ORFs.png")
+```
+
+Random DNA sequence is expected to produce a stop codon about every 20 codons (though this depends heavily on the GC content of the genome as well as other factors). Therefore, researchers look for long runs after a 'start' and without a stop codon to signal that the sequence might be coding sequence. Since the code exists as triplets, the start and stop codons must be in the same reading frame. Many programs exist to help find such "Open Reading Frames" (ORFs), but we'll use one at NCBI.
+
+1. Go to <https://www.ncbi.nlm.nih.gov/orffinder/>. Again, I suggest you open this in a new tab or window.
+1. Enter the accession number (NM_...) that you wrote down when you first found the TAS2R38 gene into the search box. If you had DNA sequence, you could also enter that.
+1. Leave the other parameters as their default values, and click 'Submit'
+
+```{r orfs-tas-pic, include=TRUE, echo=FALSE, out.width='100%', fig.align='center', fig.cap="NCBI orffinder output."}
+knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/ORFs-TAS.png")
+```
+
+4. Take a screenshot of the results. You will turn this in.
+4. In the output (Fig \@ref(fig:orfs-tas-pic)), you should see a pictoral representation of the sequence that you submitted. Note that:
+    a. it begins at base 1 and ends at 1143.
+    a. in all, there are 10 ORFs.
+    a. you can zoom in until you can see each nucleotide and each codon.
+    a. you can get the nucleotide sequence or the protein sequence (in single-letter codes). Select the longest ORF (it is probably labeled ORF1) and choose to view the nucleotide sequence.
+        1. What is the start codon?
+        1. What stop codon is used?
+    a. some ORFs (eg. ORF1) are on the 'plus' strand and some go in the other direction on the 'minus' strand. You can see this both in the table and as arrows on the map.
+    a. select to see the six-frame translation track. You will see a picture similar to Fig \@ref(fig:orfs-pic).
+4. In many cases, the longest ORF will be the one that codes for a protein. Right click the long ORF and select to "Set Sequence Origin At Feature", then accept the new origin of 85. This will just renumber the scale so that both are given.
+
+# Locate genetic variants
+
+Now that we have found the longest open reading frame for this gene, we can look at some of the variants that are known to exist in the human population.
+
+1. At the top right of the viewer pane, find a gear button labeled "Tracks" and click on it. Then select "Configure Tracks"
+1. In the dialog box that pops up, select "Variation on the left and then select "Common Variations(MAF >= 0.01)" on the main box then click "Configure". See Fig \@ref(fig:tracks-dialog).
+
+```{r tracks-dialog, include=TRUE, echo=FALSE, out.width='100%', fig.align='center', fig.cap="Dialog for selecting variants"}
+knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/tracks-dialog.png")
+```
+
+You have just enabled a data 'track' to show up on the viewer. This track contains known variants that are common in our human population. In particular, notice the common variant called "rs1726866", if you hover your mouse over it and follow links, you'll find more information about this variant.
+
+1. Right-click the variant rs1726866 and select "Zoom to sequence".
+1. You will see that the ORF has a codon "GCT" at that site and the variant converts the Cytosine to a Thymine.
+1. You will also see that the codon GCT codes for Alanine (confirm this in the codon table (Fig \@ref(fig:codons-pic)), though you should realize that the DNA strand shown is the "coding" strand of DNA. The complementary strand to the "coding" strand is the "template" strand, and it is the template strand that produces the mRNA that is used in the codon table. Since the mRNA and the "coding" strand are both complementary to the same "template" strand, their sequences are the same except for the fact that RNA uses uracil instead of thymine.)
+1. Use the codon table to determine what amino acid would be produced in place of the alanine, for people who have the variant rs1726866.
+1. Note that this variant is at position 785 on ORF1. However, the gene that we accessed (NM_...) is larger because it has both upstream and downstream sequence that is part of the mRNA but is not translated. The translated portion is called the CDS (coding domain sequence). The variant we are interested in is at location 869 on the full gene. Note these numbers -- they'll be useful later.
+
+# Polymerase Chain Reaction
+
+The polymerase chain reaction (PCR) makes many, many copies of a short region of DNA.
+
+In order to study a region of DNA, it is often useful to make many copies of that region. Kary Mullis discovered that he could use use short DNA sequences to anneal to a section of DNA and then use a polymerase from bacteria to synthesize new DNA.
+```{r PCR, include=TRUE, echo=FALSE, out.width='100%', fig.align='center', fig.cap="Polymerase Chain Reaction (PCR)"}
+knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/PCR.png")
+```
+
+1. **Denaturation** As can be seen in Fig \@ref(fig:PCR), PCR starts by heating genomic DNA to 95$^\circ$C. This melts apart the 2 complementary strands of DNA by breaking the hydrogen bonds between A:T and G:C.
+1. **Annealing** Next, the temperature is cooled and primers complementary to particular sequences are allowed to anneal. These primer sequences are pointed toward each other on the complementary strands (see Fig \@ref(fig:PCR)).
+1. **Extension** The temperature is warmed up again to allow a polymerase enzyme to extend the DNA by adding nucleotides onto the 3' end of the primer.
+1. **Repeat** This cycle of heating and cooling is repeated about 30 times. Each time, the amount of DNA is doubled. Although this seems really complicated, it is fully automated and can be completed in a bit over an hour in a small machine.
+
+In order to carry out PCR, you would need to add into a small tube some genomic DNA, nucleotides, primers specifically designed for the section of DNA, and a thermostable polymerase. Most polymerases would denature at such high temperatures, but some have been isolated from bacteria living in hot springs. The most famous of these is the bacteria *Thermus aquaticus*, from which the enzyme *Taq* polymerase gets its name. There have been many refinements to the process of PCR in the past years, but the same basic principles apply.
+
+Please view a [complete animation of PCR here](https://www.bio-rad.com/webroot/web/movies/lse/global/english/what-is-polymerase-chain-reaction/tutorial.html).
+
+Next. We will design primers to amplify a section of the TAS2R38 gene.
+
+## Designing PCR primers
+
+Again, we can use a tool provided by NCBI called [Primer-BLAST](https://www.ncbi.nlm.nih.gov/tools/primer-blast/).
+
+```{r primerBLASTParameters, include=TRUE, echo=FALSE, out.width='100%', fig.align='center', fig.cap="Parameters for Primer-BLAST"}
+knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/PrimerBLASTParameters.png")
+```
+
+1. Enter the accession number ("NM_...") that you looked up at the beginning of this exercise into the main search box of [Primer-BLAST](https://www.ncbi.nlm.nih.gov/tools/primer-blast/). (See Fig \@ref(fig:primerBLASTParameters))
+1. Accept all the default values and then press "Get Primers" at the bottom.
+1. Primer-BLAST will look for sequences that have particular characteristics such as
+    a. an appropriate melting temperature
+    b. the primers aren't complementary to one another so they won't 'stick' to each other during PCR
+    c. the priming sequence doesn't exis elsewhere in the genome, or, if it does, there isn't a nearby site for the second primer to bind to.
+1. Primer-BLAST will ask you about your PCR template being highly similar to some DNA in its database. Select the accession for TAS2R38 and click "Submit"
+1. The results may take several minutes. Be patient.
+
+When your results are returned to you, you should see something like \@ref(fig:primerBLASTOutput). There are several different primer pairs, but we will focus on the pair labeled "Primer 3". Note that your numbering may be different. This primer pair will amplify a region from 776 to 983. Note also the variant we have been interested in falls within this range (located at position 869).
+
+```{r primerBLASTOutput, include=TRUE, echo=FALSE, out.width='100%', fig.align='center', fig.cap="Output from Primer-BLAST"}
+knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/PrimerBLASTOutput.png")
+```
+
+Scroll down the results page to where this primer pair is located. If we were really going to do this PCR, we could order these two primers from a biological supply company and they would synthesize them with the exact sequence.
+
+**Primer pair 5**
+
+| Direction | Sequence (5'->3') |	Strand |	Length |	Start	| Stop |	... |
+|-|-|-|-|-|-|-|
+| Forward |	CCAGAAACTCTCGTGACCCC |	Plus |	20 |	776 |	795 |	... |
+| Reverse |	CCTGAGATCAGGATGGCTGC |	Minus |	20 |	983	| 964 |	... |
+
+
+# Restriction digest
+
+After we have conducted our PCR, we should have "PCR products" -- a very concentrated solution (albeit small -- perhaps only 15 microliters) of that one section of DNA. We will now use restriction enzymes to cut the DNA.
+
+The site of the variant we are interested in (site 785 on the mRNA; site 869 on the full gene) contains a sequence that can be cut with a restriction endonuclease (aka "restriction enzyme"). Restriction enzymes are present in bacteria and help the bacteria defend against virus attacks by cutting viral DNA at particular recognition sites that the bacterial genome does not have. One such enzyme is called *Fnu*4H1 and it makes a staggered cut across the DNA with this recognition sequence (\@ref(fig:Fnu4H1)):
+
+```{r Fnu4H1, include=TRUE, echo=FALSE, out.width='60%', fig.align='center', fig.cap="Fnu4H1 restriction site. N means that it will recognize any base at that position."}
+knitr::include_graphics("pics/Fnu4H1.png")
+```
+
+At the variant site we've been interested in, the taster allele is:
+```
+5’...TGTGCTGCCTT...3’
+3’...ACACGACGGAA...5’
+```
+Can you find the *Fnu*4H1 restriction site? The non-taster allele is:
+```
+5’...TGTGTTGCCTT...3’
+3’...ACACAACGGAA...5’
+```
+Does the same restriction site appear in this sequence? You can hopefully find it in the taster allele. Lets see if we can find it using NCBI.
+
+1. Go back to your Primer-BLAST results.
+1. Enter the sequence "GCNGC" in the search box at the top of the graphical view region (Fig  \@ref(fig:primerBLASTOutput))
+1. In the results, click the "Sequence" tab. You should see a list of sites that match.
+1. Is the site that is in our PCR product there?
+1. Save a scrieenshot. You'll turn this one in as well.
+
+```{r RestrictionSite, include=TRUE, echo=FALSE, out.width='80%', fig.align='center', fig.cap="Locations of Fnu4H1 restriction sites within PCR product"}
+knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/RestrictionSite.png")
+```
+
+As you can see, within the range of the PCR product that we selected, the taster allele has two restriction sites and can therefore be cut by the restriction enzyme at those two locations and the other (nontaster) allele has only a single site and therefore will be cut just once. In other words, the mutation we are interested in happens to affect the restriction site, nullifying it for one of the alleles.
+
+Restriction digests are easy to accomplish. We simply have to combine a very small amount of the appropriate restriction enzyme with our PCR product in a buffer and keep it at a specific temperature for 15-60 minutes.
+
+# Gel electrophoresis of PCR products
+
+Gel electrophoresis separates DNA by length (size) and allows us to view different sizes of fragments.
+
+Once we have our PCR products and we've digested them with a restriction enzyme, we need to view our results. We do this using gel electrophoresis. A gel is a matrix of a sugar (usually agarose) through which we pull DNA using an electric current. Because of the phosphate groups that are in the DNA backbone, DNA is negatively charged and will migrate toward a positive terminal.
+
+To make the gel, we heat up agarose and a buffer and then let it cool in a form. The form shapes the gel into a slab similiar to a slab of Jello. We form the gel with partial holes (wells) at one end, into which the DNA can be loaded. After pipetting a small amount of DNA into the well of the gel, we apply the current.
+
+Gel electrophoresis separates DNA by size: the larger pieces have a difficult time moving through the gel whereas the smaller pieces move more easily.
+
+Figure \@ref(fig:loadingGel) shows DNA being loaded into a gel. It is a tedious process that requires practice with the pipette!
+
+```{r loadingGel, include=TRUE, echo=FALSE, out.width='70%', fig.align='center', fig.cap="Loading DNA with a blue dye into an agarose gel"}
+knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/loadingGel.png")
+```
+
+After the gel is run, the DNA is pulled toward one side. The smaller fragments will have moved further, and the larger ones will remain near the wells where they started. We can use a variety of techniques to visualize the DNA. In Fig \@ref(fig:gelResults), a chemical that glows under UV light was used. Notice that the smaller fragments have moved further (to the lower right in this picture).
+
+```{r gelResults, include=TRUE, echo=FALSE, out.width='70%', fig.align='center', fig.cap="Visualizing bands on an agarose gel. The bands light up under UV light due to the addition of a dye (ethidium bromide). You can see the wells in the upper left. The DNA has migrated toward the bottom right of the photo."}
+knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/gelResults.png")
+```
+
+The results of our gel might look something like Fig (\@ref(fig:PTCGelPic)). We can thus distinguish between the alleles of a taster and a non-taster. Both of these gel lanes are what homozygotes would look like. A heterozygote would have both alleles. Re-sketch the gel showing a lane for a heterozygote.
+
+```{r PTCGelPic, include=TRUE, echo=FALSE, out.width='100%', fig.align='center', fig.cap="Results comparing  a homozygous taster with a homozygous non-taster. A heterozygote would have all the bands."}
+knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/PTCGelPic.png")
+```
+
+# What to turn in
+
+To get credit for completing this lab, please go through all the material and make sure you understand it. Ask questions about it if you are unsure.
+
+In order to make sure you have completed the lab, please take and turn in the following screenshots:
+
+1. The results from NCBI's orffinder. This will be similar to Fig \@ref(fig:orfs-tas-pic).
+1. The results from searching for your restriction site in the PCR results. This will be similar to Fig \@ref(fig:RestrictionSite).
+1. A sketch of a gel similar to \@ref(fig:PTCGelPic) that includes the bands you'd expect for a heterozygote.
