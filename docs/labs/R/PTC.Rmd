@@ -162,7 +162,7 @@ knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/PrimerBLAS
 
 Scroll down the results page to where this primer pair is located. If we were really going to do this PCR, we could order these two primers from a biological supply company and they would synthesize them with the exact sequence.
 
-**Primer pair 5**
+**Primer pair 3**
 
 | Direction | Sequence (5'->3') |	Strand |	Length |	Start	| Stop |	... |
 |-|-|-|-|-|-|-|
@@ -193,23 +193,45 @@ Can you find the *Fnu*4H1 restriction site? The non-taster allele is:
 Does the same restriction site appear in this sequence? You can hopefully find it in the taster allele. Lets see if we can find it using NCBI.
 
 1. Go back to your Primer-BLAST results.
-1. On a piece of paper, sketch out the DNA that would result from your PCR. Label the left end 776 and the right end 964, as these are the coordinates of the end of the PCR product.
-1. Write that the TAS2R38 variant is at base 869. This variant converts "GCTGC" (or "GCAGC" on the other strand) into "GTTGC". Write this sequence (GCTGC) in the correct spot and label it as the 'Taster' allele. Also indicate that the variant (non-taster allele) has the sequence GTTGC.
 1. Enter the sequence "GCNGC" in the search box at the top of the graphical view region (Fig  \@ref(fig:primerBLASTOutput))
 1. In the results, click the "Sequence" tab. You should see a list of sites that match.
-1. Notice that there are 2 sites that are within the range of our PCR product (776-964). In fact, one of them is at 868-872, exactly the spot where we have our TAS2R38 variant. Mark both of these sites on your paper map.
-1. Save a screenshot. You'll turn this one in as well. It will be similar to \@ref(fig:Fnu4H1).
+1. Notice that there are 2 sites that are within the range of our PCR product (776-964). In fact, one of them is at 868-872, exactly the spot where we have our TAS2R38 variant.
+1. Save a screenshot. You'll turn this one in as well. It will be similar to \@ref(fig:RestrictionSite).
 
 ```{r RestrictionSite, include=TRUE, echo=FALSE, out.width='80%', fig.align='center', fig.cap="Locations of Fnu4H1 restriction sites within PCR product"}
 knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/RestrictionSite.png")
 ```
 
+1. On a piece of paper, sketch out the DNA that would result from your PCR. You can use Fig. \@ref(fig:PTCRestrictionMap) as a guide (download as [pdf](https://senanu.github.io/b40/assets/labs/PTC/PTCRestrictionMap.pdf) or as [powerpoint](https://senanu.github.io/b40/assets/labs/PTC/PTCRestrictionMap.pptx)). Label the following items (letters below correspond to letters on Fig. \@ref(fig:PTCRestrictionMap)), making sure to go through this list **very carefully**:
+    a. Label the left end 776 and the right end 964, as these are the coordinates of the end of the PCR product.
+    b. Write the first 5 bases of the forward primer.
+    c. Write the reverse complement to the forward primer. It is actually to this strand that the primer will bind.
+    d. Write the first 5 bases of the reverse primer. **NOTE** You will have to write this in reverse. (it will be identical, though in reverse, to the lower strand when read in 5'->3' direction)
+    e. Write the reverse complement to the reverse primer. 
+    f. Write that the TAS2R38 variant is at base 869. This variant converts "GCTGC" (or "GCAGC" on the other strand) into "GTTGC". Write this sequence (GCTGC) in the correct spot and label it as the 'Taster' allele. 
+    g. Write the reverse complement to this variant site on the other strand.
+    h. Write the non-taster variant of TAS2R38 (GTTGC) on the non-taster diagram.
+    i. Write the reverse complement to this variant.
+    j. Locate the approximate position of each restriction site that you found in Fig. \@ref(fig:RestrictionSite) and write its sequence. **The diagram in Fig. \@ref(fig:PTCRestrictionMap) doesn't include a space for these, so you'll have to identify where they go.** Write the sequence on the diagram.
+    k. Indicate (yes or no) whether *Fnu4H1* will cut the taster allele at the variant site 869.
+    l. Indicate (yes or no) whether *Fnu4H1* will cut the non-taster allele at variant site 869.
+    m. Write down the number of times *Fnu4H1* cuts the DNA of the **taster allele**.
+    n. Write down how many fragments you would have after a digestion of the taster allele with *Fnu4H1*. A single cut would result in 2 fragments, 2 cuts would result in 3 fragments, etc.
+    o. Indicate the sizes of the fragments. For example, the entire PCR product is 964 - 776 + 1 = 189bp. (we add 1 because both end points are present. Think how long a strand would be if it started at base 1 and ended at base 2. It would be 2 bases (2 - 1 + 1 = 2)).
+    p. Write down how many times *Fnu4H1* cuts the DNA of the **non-taster allele**.
+    q. Write down how many fragments you would have after a digestion of the non-taster allele with *Fnu4H1*.
+    r. Indicate the sizes of all the fragments of the non-taster allele.
+1. Finally, check all the sequences you wrote against the sequence you downloaded in [step 4](#download-dna-sequences-from-ncbi-website). Notice that the sequence that you download is for the top, 5'->3' strand in Fig. \@ref(fig:PTCRestrictionMap).
+1. Take a picture of this restriction map to turn in (or annotate the digital files).
+
+```{r PTCRestrictionMap, include=TRUE, echo=FALSE, out.width='80%', fig.align='center', fig.cap="Locations of Fnu4H1 restriction sites within PCR product. You can download this as a [pdf](https://senanu.github.io/b40/assets/labs/PTC/PTCRestrictionMap.pdf) or [powerpoint](https://senanu.github.io/b40/assets/labs/PTC/PTCRestrictionMap.pptx) so it's easy to fill out."}
+knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/PTCRestrictionMap.png")
+```
+
+
 As you can see, within the range of the PCR product that we selected, the taster allele has two restriction sites and can therefore be cut by the restriction enzyme at those two locations and the other (nontaster) allele has only a single site and therefore will be cut just once. In other words, the mutation we are interested in happens to affect the restriction site, nullifying it for one of the alleles.
 
 Restriction digests are easy to accomplish. We simply have to combine a very small amount of the appropriate restriction enzyme with our PCR product in a buffer and keep it at a specific temperature for 15-60 minutes.
-
-1. Annotate your hand-drawn map of the PCR product to show where the taster allele and the non-taster alleles would be cut by the restriction enzyme.
-1. Take a picture of this map to turn in. You should have written on it where the DNA will be cur. Also write on it the expected size of fragments for both the taster and non-taster alleles.
 
 # Gel electrophoresis of PCR products
 
@@ -233,7 +255,9 @@ After the gel is run, the DNA is pulled toward one side. The smaller fragments w
 knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/gelResults.png")
 ```
 
-The results of our gel might look something like Fig (\@ref(fig:PTCGelPic)). We can thus distinguish between the alleles of a taster and a non-taster. Both of these gel lanes are what homozygotes would look like. A heterozygote would have both alleles. Re-sketch the gel showing a lane for a heterozygote.
+The results of our gel might look something like Fig \@ref(fig:PTCGelPic). We can thus distinguish between the alleles of a taster and a non-taster. Both of these gel lanes are what homozygotes would look like. A heterozygote would have both alleles. 
+
+1. Re-sketch the gel showing a lane for a heterozygote.
 
 ```{r PTCGelPic, include=TRUE, echo=FALSE, out.width='100%', fig.align='center', fig.cap="Results comparing  a homozygous taster with a homozygous non-taster. A heterozygote would have all the bands."}
 knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/PTCGelPic.png")
@@ -245,7 +269,7 @@ To get credit for completing this lab, please go through all the material and ma
 
 In order to make sure you have completed the lab, please take and turn in the following screenshots:
 
-1. The results from NCBI's orffinder. This will be similar to Fig \@ref(fig:orfs-tas-pic).
-1. The results from searching for your restriction site in the PCR results. This will be similar to Fig \@ref(fig:RestrictionSite).
-1. A hand-drawn map of your PCR product, showing the sizes of both alleles.
-1. A sketch of a gel similar to \@ref(fig:PTCGelPic) that includes the bands you'd expect for a heterozygote.
+1. The results from NCBI's orffinder. This will be similar to Fig. \@ref(fig:orfs-tas-pic).
+1. The results from searching for your restriction site in the PCR results. This will be similar to Fig. \@ref(fig:RestrictionSite).
+1. A map of restriction sites of your PCR product, showing the sizes of both alleles. This will also include the primers used. This will be similar to (or derived from) Fig. \@ref(fig:PTCRestrictionMap).
+1. A sketch of a gel similar to Fig. \@ref(fig:PTCGelPic) that includes the bands you'd expect for a heterozygote.
