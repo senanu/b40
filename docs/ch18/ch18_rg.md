@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Ch 18 Reading Guide -- Gene Regulation in Prokaryotes
+title: Ch 18 Reading Guide -- Gene Regulation
 parent: Chapter content
 nav_exclude: true
 ---
 
 
-# Chapter 18 -- Gene Regulation in eukaryotes
+# Chapter 18 -- Gene Regulation
 
 > OBJECTIVE: Describe how cells benefit from regulating gene expression
 
