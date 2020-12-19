@@ -18,9 +18,12 @@ When you write a statement that isn't general knowledge, you should give credit 
 
 There are two main ways to cite an idea.
 1. The citation is the subject or the sentence. Use the authors name(s) as part of the sentence and put the date in parentheses. If there are more than 3 authors, use “et al.” (note the period) which means “and others”.
-    * “Smith et al. (2013) showed that proteins are composed of amino acids connected with peptide bonds.”
+
+    <p class="borderblue">Smith et al. (2013) showed that proteins are composed of amino acids connected with peptide bonds.</p>
+    
 2. The citation is parenthetical at the end of the clause or sentence. Separate the name(s) from the year with a comma.
-    * “Proteins are composed of amino acids (Smith et al., 2013) connected with peptide bonds (Jones, 1993).”
+
+    <p class="borderblue">Proteins are composed of amino acids (Smith et al., 2013) connected with peptide bonds (Jones, 1993).</p>
 
 At the end of your paper, you should include a Literature Cited section. It is here that you will put the details of the citation so that a reader could look up that same article. [See below for details](#apa-reference-list)
 
