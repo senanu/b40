@@ -7,7 +7,7 @@ nav_order: 1
 
 # Reading guides
 
-In this course, you will have a "Reading Guide" to fill out for each chapter that we cover. You will be expected to turn each in, and I will give you a grade that is determined by your apparent effort. Each will be worth 3 points:
+In this course, you will have a "Reading Guide" to fill out for each chapter that we cover. You will be expected to turn each in, and I will give you a grade that is determined by your apparent effort. Each will be worth between 3 and 6 points, depending on the length of the reading guide. The points you get will be a reflection of the proportion of the reading guide that you completed. For example, for a reading guide worth 3 points:
  * **3 points**: Everything, or practically everything, is complete. You have used your own words and drawn your own diagrams (as opposed to cutting and pasting).
  * **2 points**: You've done somewhat more than half of the assignment and done it reasonably carefully.
  * **1 point**: You completed less than half the reading guide or most answers appear to have been cut and pasted into the document.
@@ -25,4 +25,4 @@ I will provide hard copies of reading guides, in lab on Monday, but if you ever 
 
 ## Printing the Guides
 
-Even though the reading guides are web pages, I have tried to ensure that they print well. If you print the web page, you will not get the navigation bars and other stuff associated with the web page. If you find that this isn't true in your case, please let me know so I can improve it.
+Even though the reading guides are web pages, I have tried to ensure that they print reasonably well. If you print the web page, you will not get the navigation bars and other stuff associated with the web page. If you find that this isn't true in your case, please let me know so I can improve it.

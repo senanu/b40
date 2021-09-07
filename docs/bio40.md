@@ -7,7 +7,7 @@ has_children: true
 
 # Welcome to Bio 40 at Chaffey College
 
-# Introduction to Cell and Molecular Biology -- Fall 2020
+# Introduction to Cell and Molecular Biology -- Fall 2021 (Biol-40-18722)
 
 ## Course Description
 
@@ -17,11 +17,12 @@ An intensive course designed to prepare students for upper division courses in c
 
 * Instructor: Dr. Senanu Spring-Pearson
 * Class times: Online 'lecture' material
+* Optional office hours ([via Zoom](https://chaffey-edu.zoom.us/j/98445584149)): Tuesdays at 11:00-12:00 and another day to be determined.
 * Lab times: Mon 8:00-11:50 in BL-101
-* [turnitin.com](https://www.turnitin.com): Class ID: 26381329; Enrollment key: "Biology"
+* [turnitin.com](https://www.turnitin.com): Class ID: 31425889; Enrollment key: "Biology"
 * E-mail: [senanu.springpearson@chaffey.edu](mailto:senanu.springpearson@chaffey.edu)
 * Phone: 909-652-7876 (please use email instead)
-* Final exam: 12/9/2020
+* Final exam: 12/9/2021 - 12/10/2021 (you must take exam within this 48 hour period)
 
 
 
@@ -39,20 +40,22 @@ At the completion of the course, students will:
 ## Required Text:  
 <img align="right" width="25%" src="{{site.url}}/b40/assets/img/campbell_11th.jpeg" alt="Textbook 11th ed">
 Urry et al., 2017. Campbell Biology, 11th ed. Pearson.
-This is a big, heavy, expensive book, but it will be invaluable to you as a budding biologist. This is also the book that you will continue to use through the introductory biology classes at Chaffey and so is worth investing in. Previous editions are only slightly different, so you are welcome to use those.
+This is a big, heavy, expensive book, but it will be invaluable to you as a budding biologist. This is also the book that you will continue to use through the introductory biology classes at Chaffey and so is worth investing in. Previous editions are only slightly different, so you are welcome to use those. For 2021, the [Chaffey bookstore has grants](https://eposweb-327.sequoiars.com) that should apply to this textbook.
 
 New textbooks may be bought with a code to Pearson's online learning content. You are welcome to use those, but none of it will be required for this class.
 
 ## Course Design:
 This course is designed as a hybrid lecture/lab course in which you will learn the majority of the material online *and* attend a lab section. Due to the requirements of social distancing during the coronavirus pandemic, we will do short, 2-hour labs. Because of this time restriction (normally we should have 4-hour labs), you must come to lab fully prepared to do the lab and collect any data within those 2 hours.
 
-For the lecture portion fo the class, I will record many short mini-lectures and reading guides for you to complete. I suggest you watch the lectures, then read the textbook, fill out the reading guide, and then re-watch the videos for each chapter. There will also be other online activities to encourage you to learn actively and for me to evaluate your understanding.
+For the lecture portion of the class, I will record many short mini-lectures and reading guides for you to complete. You will find the mini-lectures to be quite dense, with a lot of information packed into a short video. For this reason, I will also hold online office hours through Zoom which I hope you will be able to attend. I suggest you watch the video lectures, then read the textbook, fill out the reading guide, attend office hours, and then re-watch the videos for each chapter. There will also be other online activities to encourage you to learn actively and for me to evaluate your understanding.
 
 ### More about reading guides
 
+Reading guides will be due on Sunday night, at midnight, at the end of the week for which they are assigned.
+
 Reading guides in this course are designed to encourage (OK, 'force') you to read actively, so that you fully understand the material. The **best** way to do this will be to print out a copy and fill it in with a pen or pencil. The second best way to do this would be to type answers in the boxes, however, note that although you can print your work, you won't be able to save it. *This is intentional*. In the past, I have found that students simply copy and paste answers from textbooks or the web, rather than trying to do the assignments thoughtfully and completely. As a result, they give up on the active learning component. Therefore, I will not provide a save-able pdf or anything like that. If you want to spend the time to make one and fill it out, that is your choice (you won't lose points for doing so but you'd probably be better off spending that time learning and understanding the material).
 
-The reading guides are mostly for you to use in your learning process. I will ask you to turn them in for each chapter we cover and will give you credit for having done them. I *may* glance at a question or two to help me assess your learning and make sure that your answers are of a high standard. You will get full credit for a completed or almost-completed reading guide and your grade will be pro-rated below that depending on how much you get done. The reading guides are important and are an easy way for you to get points. Don't pass up that opportunity.
+The reading guides are mostly for you to use in your learning process. I will ask you to turn them in for each chapter we cover and will give you credit for having done them. I *may* glance at a question or two to help me assess your learning and make sure that your answers are of a high standard. You will get full credit for a completed or almost-completed reading guide and your grade will be pro-rated below that depending on how much you get done. The reading guides **are important** and are an easy way for you to get points. Don't pass up that opportunity.
 
 ## Course Websites:
 I will post all materials to this course website and link to it from Canvas. Generally, I will provide hard copies of reading guides and lab material. If you miss class, please print the material from this website.
@@ -70,9 +73,9 @@ Students who need special accommodation through DPS must talk to me about the ac
 ## Grading
 
 ### Exams and Quizzes
-Each exam will consist of a combination of true/false, multiple-choice, short answer, and mostly short essay questions. The final exam will be cumulative!
+Each exam will consist of a combination of true/false, multiple-choice, short answer, and short essay questions. The final exam will be cumulative!
 
-Because you may (depending on the status of community health) be taking the exams at home, you may be allowed to use your textbook and other materials at your disposal. Although this sounds easy, there are costs!
+Because you will be taking the exams at home, you may be allowed to use your textbook and other materials at your disposal. Although this sounds easy, there are costs!
 1. The exam questions will be tough.
 2. You must complete the exams in a short period of time. This will make it difficult for you to search online (or your textbook) for answers.
 3. You must not copy from other students.
@@ -100,8 +103,8 @@ If you disagree with the grade on any assignment or exam, you must inform me of 
 1 final exam | 200 points
 2 full lab reports | 150 points  
 Reading guides  |  ~ 60 points (approx)
-Miscellaneous assignments and quizzes  |  ~ 100 points (approx)
-**Total**   |  **Approximately 810 points**
+Miscellaneous assignments and quizzes  |  ~ 150 points (approx)
+**Total**   |  **Approximately 870 points**
 
 ### Grade scale
 * 90-100% = A
@@ -111,7 +114,7 @@ Miscellaneous assignments and quizzes  |  ~ 100 points (approx)
 * <60% = F
 
 ## Academic integrity
-Unethical behavior including copying other students work will not be tolerated. Students will receive zero points for the assignment and perhaps the course and will be referred to the Dean of Student Services, according to college policy.
+Unethical behavior including copying other students work will not be tolerated. Students will receive zero points for the assignment and perhaps the course and will be referred to the Dean of Student Services, according to college policy. Because I dislike arguing with students about whether to be lenient or not regarding academic integrity, my policy is simply to refer such students to the Dean with all documentation. If you want to avoid this fate (you should!), simply make sure all the work you turn in is your own.
 
 Many of the assignments we do in class will be collaborative and I encourage you to work together with your teammates. When you work together, you will undoubtedly have very similar answers. However, the work that you turn in should be your own work and be presented in your own words, even if you have collaborated on it. You need to be particularly careful about this for work you do on a computer, as it is easily copied. Each student should take care to not copy others’ work as well as to safeguard their own work from being copied. Both students may be penalized for copied work. **Cheating and plagiarism is a big, huge deal in college. Scientists who copy have lost their jobs and reputations. Students who copy have been suspended or expelled from colleges.**
 
@@ -140,10 +143,10 @@ Study in groups: Group study is much more fun and effective than studying on you
 * **Keep up**: Don’t get behind — it’ll be really difficult to catch up on old material while you’re trying to stay up-to-date on the newer material. Let me say it again: Don’t get behind, don’t get behind, don’t get behind!
 
 ## More Important Dates
-* **9/14** Last day to add the class
-* **9/24** Last day to drop without a ‘W’
-* **11/3** Last day to drop the course with a ‘W’
-* **12/7** Final exam.
+* **9/13** Last day to add the class
+* **9/23** Last day to drop without a ‘W’
+* **11/2** Last day to drop the course with a ‘W’
+* **12/9 and 12/10** Final exam. You must take it within this 48 hour period.
 
 ## Useful Chaffey College Resources
 
