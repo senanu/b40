@@ -25,7 +25,7 @@ nav_exclude: true
   * {{site.space0}}
   * {{site.space0}}
   * {{site.space0}}
-5. Which of 2 those three parts are in the atom’s nucleus? {{site.space0}}
+5. Which 2 of those three parts are in the atom’s nucleus? {{site.space0}}
 6. Describe the general structure of an atom and draw a sketch that shows the relative locations of each subatomic particle (label each part).{{site.space3}}
 7. Which subatomic particles have atomic mass of ~ 1 Da?{{site.space0}}
 8. Which subatomic particle has atomic mass of ~ 0 Da?{{site.space0}}
@@ -60,7 +60,7 @@ nav_exclude: true
   * How many electrons does the first electron shell hold?{{site.space0}}
   * How many electrons does the second electron shell hold?{{site.space0}}
   * What can you say about the reactivity of neon?{{site.space2}}
-1. How many valence electrons does nitrogen have?{{site.space0}} <img align="right" width="18%" src="{{site.url}}/b40/assets/ch02/nitrogen.png" alt="">
+25. How many valence electrons does nitrogen have?{{site.space0}} <img align="right" width="18%" src="{{site.url}}/b40/assets/ch02/nitrogen.png" alt="">
   * How many valence electrons would make it stable? {{site.space0}}
 
     > OBJECTIVE: Understand how covalent bonding holds molecules together.
@@ -73,7 +73,7 @@ nav_exclude: true
 
 1. What is an ionic bond? How is it different from a covalent bond?{{site.space3}}
 2. If the two atoms aren't sharing electrons in an ionic bond, what holds the two atoms together?{{site.space3}}
-3. Draw a sodium atom and a chlorine atom. Then transfer one electron from the sodium atom to the chlorine. Which atom has more electrons than protons? Which has more protons than electrons? {{site.space3}}
+3. Draw a sodium atom and a chlorine atom side-by-side on your page. Then transfer one electron from the sodium atom to the chlorine. Which atom has more electrons than protons? Which has more protons than electrons? {{site.space3}}
 
     > OBJECTIVE: Define electronegativity of an atom and the role of electronegativity in bond formation.
 
@@ -84,7 +84,7 @@ nav_exclude: true
 
     > OBJECTIVE: Understand the difference between polar and non-polar covalent bonds. Understand that hydrogen bonds result from polar covalent bonds
 
-1. Draw a water molecule, showing all the valence electrons. Note that water is *non-linear*. {{site.space5}}
+1. Draw a water molecule, showing all the valence electrons. Note that the 3-dimensional structure of water is *non-linear*. {{site.space5}}
 2. Which atom(s) is/are more electronegative? These atoms have extra attraction for the electrons. Mark this atom(s) with a (&delta;<sup>-</sup>) to indicate that the electrons are closer to this atom(s) and it/they are therefore carrying a partial negative charge. {{site.space3}}
 3. Which atom(s) are less electronegative? Mark them with a &delta;<sup>+</sup> to indicate a partial positive charge.
 4. Now draw a second water molecule close to the one above. Use a dotted line to indicate a hydrogen bond between the partial positive charge on one molecule and the partial negative charge on the other. What forces draw the two molecules together?{{site.space0}}
