@@ -28,14 +28,14 @@ nav_exclude: true
   * {{site.space3}}
   * {{site.space3}}
 
-    > Water Has Strong Cohesion/Adhesion
+    > Properties of water: Water Has Strong Cohesion/Adhesion
 
 1. What is the difference between cohesion and adhesion?{{site.space3}}
 2. If you fill a test tube (or glass) completely full of water, or put water on a penny, what shape is the top surface of the water (convex or concave)? How do you explain this?{{site.space3}}
 3. If you partially fill a test tube (or glass) with water, what shape is the top surface? How do you explain this, and how is it different from the question above?{{site.space5}}
 4. How does the cohesive/adhesive property of water allow it to move against gravity in the xylem of a tree?{{site.space3}}
 
-    > Moderation of temperature by Water
+    > Properties of water: Moderation of temperature by Water
 
 1. What is the difference between thermal energy and temperature?{{site.space3}}
 2. You are conducting an experiment in which you heat up a beaker of 200ml vegetable oil and a separate beaker of 200ml water on the same hotplate. You measure the temperature each minute and get the following results:
@@ -68,32 +68,32 @@ nav_exclude: true
 4. What is the term we use for "average kinetic energy"? Does it go up or down as water evaporates?{{site.space3}}
 5. Explain how evaporative cooling helps you maintain your body temperature on a hot day.{{site.space3}}
 
-    > Ice floats (rather than sinks) on liquid water.
+    > Properties of water: Ice floats (rather than sinks) on liquid water.
 
 1. What happens to the density of most substances as they cool?{{site.space0}}
 2. What happens to the density of water as it cools below 4&deg;C to freezing point (0&deg;C)
 3. Explain how ice protects the habitat of freshwater fish.{{site.space3}}
 
-    > Water is a versatile solvent
+    > Properties of water: Water is a versatile solvent
 
 1. In a solution of salt and water, \_\_\_\_\_\_\_\_\_\_\_\_\_ is the solvent and \_\_\_\_\_\_\_\_\_\_\_\_\_ is the solute.
 2. Fig 3.8 to explain how a large salt crystal can be dissolved by water molecules. Make sure you recognize how the polar covalent bonds in water dictate the orientation of the water molecules with respect to the ions.{{site.space5}}
 3. What happens if you mix a cup of water with a cup of oil? {{site.space2}}
-4. What is it about the bonds in oil that makes this so?{{site.space3}}
+4. What is it about the bonds in oil that makes this so?{{site.space2}}
 
     > OBJECTIVE: Define acid, base, the pH scale, what pH measures & demonstrate the consequences of changing the pH to molecules.
 
 1. Write the reversible reaction of two water molecules dissociating into the Hydronium ion (H<sub>3</sub>O<sup>+</sup>) and the Hydroxide ion (OH<sup>-</sup>).{{site.space3}}
 2. When pure water reaches a state of dynamic equilibrium, which molecule is in the highest concentration? (H<sub>2</sub>O, H<sub>3</sub>O<sup>+</sup>, or OH<sup>-</sup) \_\_\_\_\_\_\_\_\_\_\_\_\_
 3. What is the concentration of each ion in pure water? {{site.space0}}
-4. What exactly does the pH scale measure?{{site.space1}}
+4. What exactly does the pH scale measure?{{site.space0}}
 5. Write the reversible reaction of sodium hydroxide (NaOH) dissociating into its ions.{{site.space3}}
 7. How does this dissociation allow sodium hydroxide to act as a base?{{site.space3}}
 6. What happens at the molecular level when an acid such as HCl is added to pure water?{{site.space3}}
 
     > OBJECTIVE: Explain why a change in pH is harmful to cells and the function of buffers.
 
-1.  What is the function of a buffer?{{site.space2}}
+1. What is the function of a buffer?{{site.space2}}
 2. Write the reversible reaction of carbonic acid (H<sub>2</sub>CO<sub>3</sub>) dissociating into bicarbonate ion (HCO<sub>3</sub><sup>-</sup>) and a hydrogen ion (H<sup>+</sup>).{{site.space4}}
 3. Indicate which molecule donates H<sup>+</sup> by labeling it an acid.
 4. Indicate which molecule removes H<sup>+</sup> from the solution by labeling it a base.

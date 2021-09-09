@@ -61,7 +61,7 @@ nav_exclude: true
   * How many electrons does the second electron shell hold?{{site.space0}}
   * What can you say about the reactivity of neon?{{site.space2}}
 25. How many valence electrons does nitrogen have?{{site.space0}} <img align="right" width="18%" src="{{site.url}}/b40/assets/ch02/nitrogen.png" alt="">
-  * How many valence electrons would make it stable? {{site.space0}}
+  * How many valence electrons would make it stable? {{site.space3}}
 
     > OBJECTIVE: Understand how covalent bonding holds molecules together.
 
