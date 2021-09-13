@@ -66,7 +66,7 @@ nav_exclude: true
     > OBJECTIVE: Understand how covalent bonding holds molecules together.
 
 1. What is a covalent bond?{{site.space3}}
-2. How does a covalent bond hold atoms togetherP?{{site.space3}}
+2. How does a covalent bond hold atoms together?{{site.space3}}
 3. Draw 2 atoms of Hydrogen (which has 1 proton and 1 electron each). Show how they can bond together covalently. Draw any shared electrons in the space between the nuclei. Do the same for water. Use Fig 2.10 in your textbook if you need help. {{site.space4}}
 
     > OBJECTIVE: Understand how ionic bonds hold compounds together
