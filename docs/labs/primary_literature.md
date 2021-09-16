@@ -6,12 +6,10 @@ is_parent: false
 nav_order: 20
 ---
 
+# Primary Literature
 
 1. TOC
 {:toc}
-
-# Primary Literature
-
 
 ## The anatomy of citations
 When you write a statement that isn't general knowledge, you should give credit to the person/people who originally thought of that idea. In some fields, the actual language used is important such as statements by world leaders, or a passage from "Othello". In science, however, it is the ideas, rather than the specific words that are important, and we therefore only **rarely quote something directly**. Instead, we **paraphrase** the ideas, and give credit to previous authors through a citation. **In Bio40, you should never use a direct quotation.**
@@ -31,7 +29,7 @@ At the end of your paper, you should include a Literature Cited section. It is h
 
 In Bio 40, you will be required to write formal lab reports and incorporate citations from primary literature. What makes literature "Primary"?
 
-The main way that scientists communicate their findings to one another is via publication in peer-reviewed journals. The journal may be a publication of a professional society, such as the American Society of Microbiologists. Regardless of its affiliation, journal articles are sent from the author(s) to the editor. The editor finds several people with expertise in the field, and asks them to peer-review the article. If the reviewers judge that the article makes an important contribution to the field, thee journal will publish it.
+The main way that scientists communicate their findings to one another is via publication in peer-reviewed journals. The journal may be a publication of a professional society, such as the American Society of Microbiologists. Regardless of its affiliation, journal articles are sent from the author(s) to the editor. The editor finds several people with expertise in the field, and asks them to peer-review the article. If the reviewers judge that the article makes an important contribution to the field, the journal will publish it.
 
 Most journal articles that go through this process are considered primary literature because the article is a **first-hand description of research done by the authors.** A primary literature article actually looks a lot like a fancy lab report. It has:
 * Title
@@ -46,13 +44,11 @@ In any case, the article describes all the aspects of the research that is neces
 
 ## Secondary Literature
 
-Secondary literature is a published interpretation of primary literature, **usually written by someone other than the original authors.** This can include newspapers, periodicals, and textbooks. Such articles have usually been through an editorial process where some of the claims may be checked, and they may even describe other (primary) research. However, they aren't written in a way that allows somebody else to repeat the experiment, and they rarely show actual data.
+Some authors distinguish several levels (primary, secondary, tertiary) of literature. However, for Biol-40, we really only need to know whether it is primary, or not primary literature.
 
-## Tertiary Sources
+Secondary and tertiary literature is a published interpretation of primary literature, **usually written by someone other than the original authors.** This can include newspapers, periodicals, and textbooks. Such articles have usually been through an editorial process where some of the claims may be checked, and they may even describe other (primary) research. However, they aren't written in a way that allows somebody else to repeat the experiment, and they rarely show actual data.
 
-Tertiary sources include indexes, encyclopedias (including Wikipedia), dictionaries, etc. These are sources that summarize many different articles.
-
-Tertiary literature *may* have been peer-reviewed. A number of scientific journals publish "review articles" which summarize many (often several hundred) studies to provide a coherent state of the field. Although not primary, this type of peer-reviewd review article is acceptable for inclusion in a research project. However, **Wikipedia is not suitable**.
+Secondary literature *may* have been peer-reviewed. A number of scientific journals publish "review articles" which summarize many (often several hundred) studies to provide a coherent state of the field. Although not primary, this type of **peer-reviewd review article** is acceptable for inclusion in a research project. However, **Wikipedia is not suitable**.
 
 ## Web sites
 
@@ -65,10 +61,9 @@ Web sites, even those maintained by a credible organization such as the CDC or A
 For our lab reports, you are required to find at least 2 primary sources and cite them appropriately (see below). The school library has subscriptions to paid indexing services to help you find such articles.
 
 1. Go the the [library website](https://libguides.chaffey.edu/library)
-1. Choose "Find Articles" under "Research Help"
-1. Then go to "Academic Search Complete"
-1. Enter some search terms. You can do as detailed or as general a search as you find appropriate.
-1. After you open an article, you can copy the citation in an appropriate format, such as APA. To do so, click the little yellow box (it looks like a postage stamp) to the right of the article. Please **do NOT use EasyBib** for your citations. They do not do it properly. In fact, they even have citations incorrect in their examples on their website.
+1. Enter some search words in the OneSearch box.
+1. Alternatively, click "Articles & Database List" in the OneSearch box, then enter detailed search criteria.
+1. After you open an article, you can copy the citation in an appropriate format, such as APA. To do so, click the little yellow box (it looks like a postage stamp) to the right of the article. Please **do NOT use EasyBib** for your citations. They do not do it properly. In fact, until recently, they even had citations incorrect in their examples on their website.
 
 ## Using internet search
 In addition to using the library, you may also find articles using general internet searches or through [Google Scholar](https://scholar.google.com). However, if you use this route, you will find many, many articles that you can't access because they are behind paywalls. The Library website should only show you search results to which you have access using your school ID.
@@ -84,7 +79,7 @@ There are a number of programs that are available to do this work for you. Each 
 2. **Mendeley**. Mendeley is a great program that is free to use and will help you search for, catalog, and cite references. It integrates well with word processors. However, it is proprietary and the data you store within it is held by Elsevier, a large scientific publishing company. Although unlikely, it is possible that they could start charging for its use and/or prevent you from exporting your data. For this reason, I cannot recommend it.
 3. **Endnote**, **Papers 2.0** and **RefWorks**. For many years, Endnote has been the industry standard and all of these are very good and powerful. However, they also very pricey and, since there are free alternatives, perhaps not the best choice. You may find, however, that as your scientific career progresses, that you may need to become familiar with Endnote in order to collaborate with other scientists who have been using Endnote for years and refuse to convert their data to a free alternative.
 4. **BibTeX**. BibTeX is free and open source but designed to work with the TeX typesetting system. Both are common in other fields (Physics and Mathematics) but uncommon in Biology. Although very powerful, I can't recommend it for this course due to its complexity.
-5. **EasyBib**. EasyBib is an online service that you should NOT use. It doesn't do it right and leads to garbled bibliographies.
+5. **EasyBib**. EasyBib is an online service that you should **NOT use**. It doesn't do it right and leads to garbled bibliographies.
 
 ## Optional Exercises
 The following exercise is designed to give you practice making citations as you would in a scientific paper such as your lab report.
