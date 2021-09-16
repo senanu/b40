@@ -23,7 +23,7 @@ There are two main ways to cite an idea.
 
     <p class="borderblue">Proteins are composed of amino acids (Smith et al., 2013) connected with peptide bonds (Jones, 1993).</p>
 
-At the end of your paper, you should include a Literature Cited section. It is here that you will put the details of the citation so that a reader could look up that same article. [See below for details](#apa-reference-list)
+At the end of your paper, you should include a Literature Cited section. It is here that you will put the details of the citation so that a reader could look up that same article. [See below for details](#apa-reference-list). I strongly suggest that you read some parts of this [Ye et al. (2017) paper]({{site.url}}/b40/assets/labs/Ye_etal_Heating_Proteins.pdf) to get a feel for what your own writing should emulate, both in tone and structure.
 
 ## What is Primary Literature?
 

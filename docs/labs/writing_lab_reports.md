@@ -95,7 +95,7 @@ Discuss how your experiment relates to other aspects of biology. You should have
 # Literature cited
 As you write, you will need to provide evidence of what you say. This comes in the form of scientific (primary literature) papers. Primary literature is the type of article that actually describes a study. Its purpose is not to summarize lots of previous work. You will know if an article is primary if it actually describes an experiment in detail and contains the results from that particular experiment.
 
-You should back up statements with in-text citations, wherever possible. There are 2 similar ways to do this.
+You should back up statements with in-text citations, wherever possible. There are 2 similar ways to do this. If you haven't yet, please look at this [paper by Ye et al. (2017)]({{site.url}}/b40/assets/labs/Ye_etal_Heating_Proteins.pdf) to get a feel for what your writing should be like.
 
 ## Method 1
 In the first method, the name of the authors are included in the text (eg. “Jones et al. (1999) showed that ….”). In this method, the year of the article is within parentheses.

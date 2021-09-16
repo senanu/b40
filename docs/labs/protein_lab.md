@@ -14,6 +14,7 @@ nav_order: 60
     * [Guide to using primary literature for lab reports](primary_literature.html)
     * [Writing Checklist](writing_checklist.html)
     * [Rubric for your peer review](peer_review_rubric.html)
+    * [Sample of scientific writing (about milk proteins)]({{site.url}}/b40/assets/labs/Ye_etal_Heating_Proteins.pdf)
 * Main data Analysis
     * [R Markdown file for Protein lab](R/protein.Rmd).
     * [HTML version of the data analysis file]({{site.url}}/b40/assets/labs/protein.html). Only use this as a reference.
