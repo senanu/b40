@@ -4,7 +4,7 @@ title: R FAQ
 parent: R
 grand_parent: Labs
 is_parent: false
-nav_order: 1
+nav_order: 4
 ---
 
 # R FAQ - common mistakes students make in Senanu's Intro Bio classes

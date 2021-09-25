@@ -4,7 +4,7 @@ title: "List of Labs with R"
 parent: R
 grand_parent: Labs
 is_parent: false
-nav_order: 4
+nav_order: 3
 ---
 
 # This page gives you access to the R Markdown files for the labs that need them.

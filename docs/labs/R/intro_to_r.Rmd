@@ -14,13 +14,15 @@ You can read this document in the viewer window on the right. As you do so, you 
 
 Below, you will see a gray code 'chunk' that begins and ends with 3 backticks. All of the code you want to execute will need to go in that gray area. To execute it, you can click the little right-facing green arrow at the top right of the gray box. Go ahead and experiment and make changes directly into the Rmd document. **Do not copy commands into a separate script file.**
 
-The following code chunk is ready to run. Press the green arrow now and check the R console (usually in the bottom right portion of your screen) to make sure it ran without errors.
+The following code chunk is ready to run. Press the green arrow now and check the R console (usually in the bottom left portion of your screen) to make sure it ran without errors.
 
 ```{r how_to_type, echo=TRUE, eval=TRUE}
 a <- 2
 ```
 
 This is a simple command that we'll learn about in a moment. You can run commands either one at a time by placing your cursor on the line you want to run and using `cntrl-enter` or you can run various combinations of commands using the `run` button at the top of the code editor pane. Try doing both methods now.
+
+If you want to run a single command without recording it into your script, you can enter it into the R console (bottom left of your screen). This is useful for getting help or seeing your data (see below), but if you want to record this step, you should put it into a code chunk of an Rmd document in the top left pane of your screen.
 
 # An R Primer
 
@@ -29,21 +31,26 @@ You can do a lot with `R` but for now, we need to understand a few basics.
 Try to think of `R` like a language. In any language, there are __nouns__ and __verbs__. Nouns can take the form of a single value such as the number `r 10`. We can use verbs to operate on those nouns, such as the plus sign in $10 + 5 = `r 10 + 5`$. Try typing '$10 + 5$' into the code chunk below. Run it. You should see that R returns the answer.
 
 ```{r ten_plus_five, echo=TRUE, eval=TRUE}
-# Put your code (10 + 5) below this line. Don't include parentheses.
+# Put your code (10 + 5) below this line. Don't include parentheses. Then, run the line with 'cntrl-enter' or by clicking the green arrow at the top right of this code chunk.
 
 ```
 
-In order to make R more than a glorified calculator, we will save values into named __variables__. To do so, we will use __assignment operator (<-)__. This operator (verb) assigns the value on the right into the variable on the left. So, when you ran the command
+## Variables with a single value
+
+In order to make R more than a glorified calculator, we will save values into named __variables__. To do so, we will use the __assignment operator (<-)__. This operator (verb) assigns the value on the right into the variable on the left. So, when you ran the command
 
 ```{r assigment, echo = TRUE, eval=TRUE}
 a <- 2
 ```
 
-above, you assigned the value of `2` into the variable `a`. Now, if you want to operate on the variable `a`, you can do so. The following code multiplies whatever value(s) are in the variable `a` by 10, and __assigns__ the resulting value to a variable called `b`.
+above, you assigned the value of `2` into the variable `a`. Now, if you want to operate on the variable `a`, you can do so. The following code multiplies whatever value(s) are in the variable `a` by 10, and __assigns__ the resulting value to a variable called `b`. We can see the contents of a variable by typing its name alone on a line (and running it).
 
 ```{r operators_on_vars, echo=TRUE, eval=TRUE}
 b <- a * 10
+b
 ```
+
+## Variables with multiple values (vectors)
 
 Variables can also contain a group of values called a __vector__. To make a vector, we use the 'combine' `c()` operator. Most operators (verbs) are followed by parentheses, and are called 'functions'. Inside the parentheses, we put variables or other information (collectively called __arguments__) that the function needs in order to do its job properly. The `c()` operator combines all of its arguments. You can see the contents of a variable by typing it alone on a line (and running it).
 
@@ -76,7 +83,9 @@ mtcars
 head(mtcars)
 ```
 
-You can also see the dataset in the "Workspace and History" panel (top right panel) under 'Environment'. Try double-clicking the name of the dataset to see it in tabular form. You should see rows labeled for the type of car, and then characteristics of the car as a number of columns. You specify which column you want using the dollar sign (`$`). ![First rows of mtcars dataset](https://senanu.github.io/b40/assets/labs/02_cars.png) We can use this dollar sign notation to isolate one column of data. For example, to calculate the mean (average) fuel economy for these cars, you can do:
+You can also see the dataset in the "Workspace and History" panel (top right panel) under 'Environment'. Try double-clicking the name of the dataset to see it in tabular form. You should see rows labeled for the type of car, and then characteristics of the car as a number of columns.
+
+You specify which column you want using the dollar sign (`$`). ![First rows of mtcars dataset](https://senanu.github.io/b40/assets/labs/02_cars.png) We can use this dollar sign notation to isolate one column of data. For example, to calculate the mean (average) fuel economy for these cars, you can do:
 
 ```{r mpg, echo=TRUE, eval=TRUE}
 mtcars$mpg # show only the 'mpg' column
@@ -109,7 +118,7 @@ The help files will tell you what the function does, and what arguments you can 
 
 Computer code is difficult to read and understand! To make it easier, you should add comments to your code to explain what you are doing. This is very important as you will often not remember what or why you did something later (even the next day). It will also help other people understand what your code does.
 
-In order to add comments, you can use the 'pound' symbol (`#`). R ignores everything on a line after the pound sign, so you can either use it on a line of its own or at the end of a line with code:
+In order to add comments, you can use the 'pound' symbol (`#`; yeah, I guess you probably call it a 'hashtag'). R ignores everything on a line after the pound sign, so you can either use it on a line of its own or at the end of a line with code:
 
 ```{r comments, echo=TRUE, eval=TRUE}
 # This is a comment that might be used to explain some
@@ -130,7 +139,7 @@ Since R is a computer program, it is vary finicky about spelling. If you spell s
 
 Similarly, letters of different case are very different in R. For example, if you type `Mtcars` hoping to get the `mtcars` dataset, R will tell you that there is no such dataset.
 
-__*Misspelling and mixing up cases is the single thing that trips up and causes frustration among Introductory Biology students! Be Warned!*__
+### __*Misspelling and mixing up cases is the single thing that trips up and causes frustration among Introductory Biology students! Be Warned!*__
 
 # Getting your data into R
 
@@ -138,7 +147,7 @@ R doesn't have a spreadsheet program built in, so we will use Google Sheets. Bef
 
 ![Google sheets file with 3 columns of data](https://senanu.github.io/b40/assets/labs/02_google_data.png){height=4in}
 
-Give your document a title, and make sure you know where it is in your Google Drive. Next, select the 'File' menu and 'Publish to the web'. Then choose to publish it as a CSV file.
+Give your document a title, and make sure you know where it is in your Google Drive. Next, select the 'File' menu and 'Publish to the web'. Then choose to **publish it as a CSV file**.
 
 ![Publishing to the Web](https://senanu.github.io/b40/assets/labs/02_publish_to_web.png){height=4in}
 
@@ -155,7 +164,7 @@ dat <- read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vR1WD5pL0ueIrDi
 dat
 ```
 
-Try doing this yourself with some of your own made-up data. This is a very useful command and you'll need to use it for every R exercise we do in lab. Finally, you can see whether there seems to be a relationship between the length and width of the leaves in my dataset by drawing a simple graph that includes the data, axis labels, and a main title. We can also do a linear regression of the data and plot that line on the graph (you'll learn more about these later):
+Try doing this yourself with some of your own made-up data. This is a very useful command and you'll need to use it for every R exercise we do in lab. Finally, you can see whether there seems to be a relationship between the length and width of the leaves in my dataset by drawing a simple graph that includes the data, axis labels, and a main title. We can also do a linear regression of the data and plot that line on the graph (you'll learn more about these later; for now, simply run the code):
 
 ```{r length_width, include=TRUE}
 plot(dat$length,
@@ -191,10 +200,13 @@ Before you continue, knit this document to make sure everything above this point
 
 Demonstrate that you can read a file into R. I recommend using Google Sheets, as above, but you may also use another program such as Excel and save it as a .csv file. There are other ways, but for now, lets just keep it simple!
 
-1. Write code in the empty code chunk below to read a data file (such as Google sheets). Make sure you have at least 2 columns and 10 rows of numeric data. Make up values.
-    * Name your columns **without using spaces** or other 'funny' characters.
+1. Make a data file (I recommend Google Sheets).  
+    * Make sure you have at least 2 columns and 10 rows of numeric data. Make up values.
+    * Name your columns **without using spaces** or other 'funny' characters. Capitals, underscores (_), and dots (.) can be used to make the column headers easier to read. But **don't use spaces!!!**
     * Make sure there aren't letters in the columns (other than the first row). If there are, R will assume that the data are textual, rather than numeric, and it can't do mathematical operations on text.
+1. Write code in the empty code chunk below to read a data file (such as Google sheets).
     * Save the data into a variable called "mydata" using the assignment operator ("<-")
+    * Remember that we learned the `read.csv()` command above.
 1. Make R print out the data by simply typing "mydata" alone on a line.
 
 ```{r read_table2, echo=TRUE, eval=TRUE}
