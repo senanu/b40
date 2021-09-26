@@ -117,3 +117,7 @@ $$Y = `r round(coefficients(mysummary)[2], 5)` X + `r round(coefficients(mysumma
 1. What is significant about this point?
 
     Replace this text with your answer. For nice formatting, leave the 4 spaces at the beginning of this paragraph, and separate it from the other paragraphs by a blank line above and below.
+    
+1. What is your name?
+
+    Replace this text with your name. Again, leave 4 spaces at the beginning of the line.
