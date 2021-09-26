@@ -9,11 +9,11 @@ nav_order: 70
 # Diffusion and Osmosis
 
 ## Resource list for this lab
+* [Video introduction to this lab](https://youtu.be/vEbQJkKjXAM)
 * [R Markdown file for Diffusion/Osmosis lab](R/diffusion.Rmd).
 * [Introduction to RStudio and RStudio.cloud](R/intro_to_rstudio.html)
 * [Introduction to R](R/intro_to_r.html)
 * [R FAQ](R/r_faq.html)
-
 
 
 ## Note

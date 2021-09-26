@@ -1,15 +1,21 @@
+## As you begin...
+
+You should load this .Rmd file into RStudio or RStudio.cloud. You may find it easier to read if you Knit it first rather than reading the .Rmd file itself. You should have learned how to do these in the [Intro_to_rstudio](https://senanu.github.io/b40/docs/labs/R/intro_to_rstudio.html) and [Intro_to_r](https://senanu.github.io/b40/docs/labs/R/intro_to_r.html) assignments.
+
+If you are having trouble finding the output of your R commands (ie. when you click the green arrow to run a code chunk), this may help: go to the tools menu, choose 'Global options', then in the 'R markdown' menu, UNCHECK the box labeled "Show output inline for all R Markdown documents". This will tell RStudio to put the plot into the viewer sub-window.
+
 # Determining the salt concentration inside cells
 
 ```{r setup, include=TRUE, echo=FALSE}
 knitr::opts_knit$set(global.device = TRUE) # leave this alone
 ```
 
-If you are having trouble finding the output of your R commands (ie. when you click the green arrow to run a code chunk), this may help: go to the tools menu, choose 'Global options', then in the 'R markdown' menu, UNCHECK the box labeled "Show output inline for all R Markdown documents". This will tell RStudio to put the plot into the viewer sub-window.
-
-# Import your data into R
-1. Get your data into R according to methods you learned in previous weeks. Save it in a variable called `dat`.
-1. Check that your data looks like you expect. Remember the `str()` command?
-1. Once your code runs by pressing the green arrow on the top right, change the `eval=FALSE` to `eval=TRUE`.
+## Import your data into R
+1. Save the data that you collected in your lab manual into a Google spreadsheet **in exactly the same form as in the manual**. In particular, pay attention to the column headings -- I suggest you type them exactly as shown.
+1. Publish your Google spreadsheet as a `.csv` file.
+1. Get your data into R according to methods you learned in previous weeks (use the `read.csv()` command). Save it in a variable called `dat`.
+1. Check that your data looks like you expect. Remember that you can view it by typing the data frame's name (`dat`) on a line of its own.
+1. Once your code runs by pressing the green arrow on the top right, change the `eval=FALSE` to `eval=TRUE`. This will allow the knitting engine to access it so it can be knitted into a final document at the end.
 
 ```{r data-import, eval=FALSE, include=TRUE, echo=TRUE}
 dat <-
@@ -45,10 +51,12 @@ We can expect that the percent change will be approximately linear with the solu
 1. Once your code runs by pressing the green arrow on the top right, change the `eval=FALSE` to `eval=TRUE`.
     
 ```{r regression,  eval=FALSE, include=TRUE, echo=TRUE}
+# If you used the suggested variable names, you shouldn't need to do anything here.
 lin.regression <- lm(dat$percent.change ~ dat$solution)
 ```
 
-1. Plot your data. Think about which variable should be on the x-axis and which on the y-axis.
+1. Plot your data. Think about which variable should be on the x-axis and which on the y-axis. Remember, you can refer to them as `dat$solution` and `dat$percent.change`.
+1. Add the necessary pieces to the `plot()` code below. Also adjust the axis and main titles.
 1. Once your code runs by pressing the green arrow on the top right, change the `eval=FALSE` to `eval=TRUE`.
 
 ```{r graph,  eval=FALSE, include=TRUE, echo=TRUE}
@@ -82,7 +90,7 @@ You can now use the data from the regression to write down the equation for a re
 $$Y = mX + b$$
 $$Y = `r round(coefficients(mysummary)[2], 5)` X + `r round(coefficients(mysummary)[1], 5)`$$
 
-1. Use the `summary()` command to see the regression analysis. In code about line 53, you saved the regression analysis as a variable named `lin.regression`.
+1. Use the `summary()` command to see the regression analysis **for your own data**. In code about line 55, you saved the regression analysis as a variable named `lin.regression`. You can therefore call the `summary()` command with `lin.regression` between the parentheses.
 1. Extract the pieces of information you need for the formula of a line.
 1. Once your code runs by pressing the green arrow on the top right, change the `eval=FALSE` to `eval=TRUE`.
 
