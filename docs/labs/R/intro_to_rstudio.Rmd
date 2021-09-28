@@ -1,6 +1,7 @@
 # Introduction to rstudio
 
-"Senanu Spring-Pearson"
+Senanu Spring-Pearson
+
 `r Sys.Date()`
 
 
