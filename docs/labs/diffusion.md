@@ -55,7 +55,7 @@ Osmosis is the diffusion of water through a selectively permeable membrane.  Doe
 | 3.0      |                 |              |
 
 ## Data Analysis
-Complete the [Rmd project](R/diffusion.Rmd) called “Diffusion and Osmosis” and turn in the knitted HTML file. In that project, you will create a graph of your data including a regression line, and must answer questions 2 and 3 below. Include your answers in thh HTML file that you submit. You will see space for them.
+Complete the [Rmd project](R/diffusion.Rmd) called “Diffusion and Osmosis” and turn in the knitted HTML file. In that project, you will create a graph of your data including a regression line, and must answer questions 2 and 3 below. Include your answers in the HTML file that you submit. You will see space for them.
 1. Submit your HTML file that includes a graph
 2. What value on the X-axis does the regression line cross the X-axis?
 3. What is the biological significance of the point at which the regression line crosses the X-axis?
