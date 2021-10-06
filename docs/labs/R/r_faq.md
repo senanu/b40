@@ -195,3 +195,25 @@ dat.3
 
 
 Notice that `R` follows the rules for precedence, but I like to always use parentheses to make it very clear so that I can read it easily without having to check that `R` is doing the $speed + dist$ before multiplying by 100.
+
+## Objects and quotes in R
+
+When you create something in `R`, it is known as an 'object' and you can refer to it without quotes. Thus, when you read in your dataset and save it in an object called `dat`, you can manipulate `dat` without quotes.
+
+```
+dat <- read.csv("https://my_google_spreadsheet_URL")
+```
+
+You need to include the quotes here because the URL is just a sequence of letters and numbers, and that is exactly what `R` needs to find that web address. But you save it into an object called R and so `R` knows that by its real name, not just a sequence of letters.
+
+Now, if you want to use dat for some other command, you don't need quotes:
+
+```
+plot(x = dat$concentration,
+     y = dat$weight,
+     xlab = "Some text for the x axis",
+     ylab = "Some text for the y axis",
+     main = "Some text for a title")
+```
+
+Note here that the object you created (dat) doesn't need quotes, but when you want to enter text so that `R` can simply put the text onto the graph, it'll need quotes because you need to tell `R` that it is, indeed, just a sequence of letters, and not really a name of anything.
