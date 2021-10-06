@@ -141,7 +141,7 @@ multiply.by.two
 [1]  8  8 14 14 16 18
 ```
 
-The same can be done for most operators. We can also use functions, such as taking the natural or base 10 logarithms of each value in the vector:
+The same can be done for most operators (Multiplication (*), Addition (+), Subtraction (-), Division (/)). We can also use functions, such as taking the natural or base 10 logarithms of each value in the vector:
 
 ```
 nat.log <- log(dat$speed)
