@@ -18,7 +18,7 @@ Please proofread your work very carefully. Although your paper will be peer-revi
 
 You should write lab reports using a passive voice. This means that you should not use “I” or “we” bur rather state that something was done. For example “The switch on each of 3 flashlights was tested by repeatedly moving them between the ‘on’ and ‘off’ positions”. When you read scientific papers, you may notice that the 1st person singular (“I”) or plural (“we”) is often used in biological journals. However, for this course, you should write using a passive voice.
 
-You should write some parts of the lab reports in the present tense, and some in the past tense. Present tense should be used in the introduction and discussion when you are writing about things that are always, or generally, true (eg. “Flashlights are particularly useful because they operate on batteries and are therefore portable.”). However, for things you did (such as you describe in the methods section), you should write in the past tense (eg. “The battery was tested to determine if it held a charge by…”). This is also true for results (eg. “The bulb became bright after the switch was moved to the ‘on’ position).
+You should write some parts of the lab reports in the present tense, and some in the past tense. Present tense should be used in the introduction and discussion when you are writing about things that are always, or generally, true (eg. “Flashlights **are** particularly useful because they operate on batteries and **are** therefore portable.”). However, for things you did (such as you describe in the methods section), you should write in the past tense (eg. “The battery **was** tested to determine if it held a charge by…”). This is also true for results (eg. “The bulb **became** bright after the switch **was** moved to the ‘on’ position").
 
 # General Formatting
 
@@ -35,7 +35,7 @@ Use wide margins of at least an inch. This gives space for comments.
 Use correct symbols. There will be many times when the symbol that you want to use is not on the keyboard. Use the word processor to insert the correct symbol. For example, you will be measuring things in microliters, for which the abbreviation is “&mu;l”. Use the Greek letter “mu” rather than a “u” that you find on the keyboard. The same applies to the degrees symbol (&degrees;).
 
 ## Figures and Tables
-Every figure and table in your paper should be labeled with a descriptive caption. They should be labeled sequentially from the first to the last and should be referred to in your text (eg. “See Figure 1”). Figures and tables are different and each should have their own numbering. For tables, place any caption above the table and for figures, place a caption below. Do not wrap text around the figure or table – allow it to take up the full width of the paper.
+Every figure and table in your paper should be labeled with a descriptive caption. They should be labeled sequentially from the first to the last and should be referred to in your text (eg. “See Figure 1”). Figures and tables are different and each should have their own numbering. For tables, place any caption **above** the table and for figures, place a caption **below**. Do not wrap text around the figure or table – allow it to take up the full width of the paper.
 
 # Title
 Give your paper a good title. It should be long enough to be descriptive and often include a hint about what your results are. For example, “Replacing an old battery with a new battery restores functionality in flashlights” would be a good title that includes the findings of your study. It should not include a phrase like “The effects of X on Y”.
@@ -64,7 +64,7 @@ Write your methods in prose, don’t use bullet points or numbers.
 Include WHY you did things. This helps the reader follow what you are describing. (“In order to determine whether the replacement battery was fresh, the voltage of each was measured with a voltmeter”).
 
 # Results
-Describe any trends in your results with prose and refer to tables and figures. This section should begin with prose and refer to tables and figures for details and visual representation of those data. Describe any data manipulations that you did, and describe any calculations. For example: “None of the flashlights worked when used with batteries manufactured prior to 2010, however most flashlights did work with newer batteries so long as the batteries could hold a charge of at least … (Table X)”.
+Describe any trends in your results with prose and refer to tables and figures. **This section should begin with prose** and refer to tables and figures for details and visual representation of those data. Describe any data manipulations that you did, and describe any calculations. For example: “None of the flashlights worked when used with batteries manufactured prior to 2010, however most flashlights did work with newer batteries so long as the batteries could hold a charge of at least … (Table X)”.
 
 <table>
   <caption>Table 1. Absorbance of protein by Coomassie Brilliant Blue. Note that this caption is numbered and is above the table.</caption>

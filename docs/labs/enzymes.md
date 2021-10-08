@@ -180,7 +180,7 @@ Use the Rmd file 'Enzymes' to analyze your data. You will fit the Michaelis-Ment
 
 You will turn in a formal lab report for this lab. As before, we will conduct a peer review of your classmates' work before the final version is due. Remember that the the more polished it is before the peer review, the more your classmate can improve your paper.
 
-Refer to the previous class materials for how to write your lab report. The exact content of your introduction and discussion sections will be up to you, however here are some suggestions for things that would probably be good and appropriate to address in those sections.
+Refer to the [previous class materials](writing_lab_reports.html) for how to write your lab report. The exact content of your introduction and discussion sections will be up to you, however here are some suggestions for things that would probably be good and appropriate to address in those sections.
 
 ### Introduction
 
@@ -192,19 +192,26 @@ Because this is a long, complicated, multi-part lab report, think carefully abou
 
 ### Literature cited
 
-As before, you should find 2 primary literature papers that are somewhat appropriate for the topic of this lab. Cite them as before. The following is a paper from which I developed some ideas for this lab.
+You should find 2 primary literature papers that are somewhat appropriate for the topic of this lab. Please read [this guide](primary_literature.html) for help understanding what is and isn't primary literature, and how to cite it. For the literature review portion of this assignment, you should write 3-5 (or so) sentences for each of these two papers describing how the papers are relevant to the topic of this lab. For each, make sure you include an in-text citation and make sure that you include a "Literature cited" section that has complete, proper citation of the 2 papers.
+
+When you write the actual paper, you will incorporate these ideas and citations into your paper, but you needn't have separate sentences describing the papers.
+
+Some ideas from this lab were developed by Marini (2005).
 
 Marini, I. (2005), Discovering an accessible enzyme: Salivary &alpha;-amylase : Prima digestio fit in ore: A didactic approach for high school students. Biochem. Mol. Biol. Educ., 33: 112–116.
 
 ### Timeline
 
-| Date   | What is Due?                                                                                      |
-|--------|---------------------------------------------------------------------------------------------------|
-| Nov 2  | Introduction for peer review. You should also strive to complete your data analysis by this time. |
-| Nov 9  | Full rough draft for peer review (note that there is an exam on Nov 11.)                          |
-| Nov 12 | Complete peer review of another student's lab report                                              |
-| Nov 16 | Final draft                                                                                       |
+| Date    | What is Due?                                               |
+|---------|------------------------------------------------------------|
+| Oct 17  | Introduction for peer review.                              |
+| Oct 22  | Literature review. See "Literature cited" section above.   |
+| Oct 24  | Peer review of your peer's introduction                    |
+| Oct 31  | Full rough draft for peer review                           |
+| Nov 3   | Complete peer review of another student's lab report       |
+| Nov 7   | Final draft                                                |
 
+<!--
 # Lab write-up (Fall 2020 only)
 
 Your lab write-up for this lab will consist of only Parts 1 and 2. I will expect a good discussion in the intro and discussion sections about why changing the pH affects the rate at which an enzyme acts.
@@ -270,3 +277,5 @@ At pH4, the reaction took too long to complete. You can calculate the velocity a
 | 3   | 1025 |
 | 5   | 1125 |
 | 9.7 | 1200 |
+
+-->

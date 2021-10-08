@@ -34,6 +34,7 @@ nav_exclude: true
     |------------------|------------------|--------------------|------------------|
     | {{site.spacet2}} | {{site.spacet2}} | {{site.spacet2}}   | {{site.spacet2}} |
     | {{site.spacet2}} | {{site.spacet2}} | {{site.spacet2}}   | {{site.spacet2}} |
+    | {{site.spacet2}} | {{site.spacet2}} | {{site.spacet2}}   | {{site.spacet2}} |
 
 1. Look at the table you just filled in. Why isn’t green light as useful for photosynthesis as other colors?{{site.space3}}
 2. Look at Fig 10.11. Are pigments proteins?{{site.space0}}
