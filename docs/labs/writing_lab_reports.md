@@ -8,7 +8,7 @@ nav_order: 10
 
 # Writing lab reports in Bio 40
 
-The primary way that scientists communicate their research is through written papers, published in peer-reviewed journals. Although we won’t be publishing our research in Bio 40, you should be learning to write in the appropriate style so that this form of communication becomes more natural to you. This brief guide should help you to understand the style and what is expected of you. I have also included a [checklist](writing_checklist.html) as a quick, additional guide. I also encourage you to use the [peer review rubric](peer_review_rubric.html) as a guide to your writing.
+The primary way that scientists communicate their research is through written papers, published in peer-reviewed journals. Although we won’t be publishing our research in Bio 40, you should be learning to write in the appropriate style so that this form of communication becomes more natural to you. This brief guide should help you to understand the style and what is expected of you. I have also included a [checklist](writing_checklist.html) as a quick, additional guide. I also encourage you to use the [peer review rubric for Introductions](peer_review_intro_rubric.html) and the [peer review rubric for papers](peer_review_rubric.html) to help guide your writing.
 
 Throughout this guide, examples will be given for a hypothetical experiment in which we are trying to determine why a flashlight does not work.
 
@@ -35,7 +35,7 @@ Use wide margins of at least an inch. This gives space for comments.
 Use correct symbols. There will be many times when the symbol that you want to use is not on the keyboard. Use the word processor to insert the correct symbol. For example, you will be measuring things in microliters, for which the abbreviation is “&mu;l”. Use the Greek letter “mu” rather than a “u” that you find on the keyboard. The same applies to the degrees symbol (&degrees;).
 
 ## Figures and Tables
-Every figure and table in your paper should be labeled with a descriptive caption. They should be labeled sequentially from the first to the last and should be referred to in your text (eg. “See Figure 1”). Figures and tables are different and each should have their own numbering. For tables, place any caption **above** the table and for figures, place a caption **below**. Do not wrap text around the figure or table – allow it to take up the full width of the paper.
+Every figure and table in your paper should be labeled with a descriptive caption. They should be labeled sequentially from the first to the last and each one of them should be referred to in your text (eg. “See Figure 1”). Figures and tables are different and each should have their own numbering. For tables, place the caption **above** the table and for figures, place the caption **below**. Do not wrap text around the figure or table – allow it to take up the full width of the paper.
 
 # Title
 Give your paper a good title. It should be long enough to be descriptive and often include a hint about what your results are. For example, “Replacing an old battery with a new battery restores functionality in flashlights” would be a good title that includes the findings of your study. It should not include a phrase like “The effects of X on Y”.

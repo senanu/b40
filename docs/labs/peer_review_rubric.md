@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Rubric
+title: Rubric for Papers
 parent: Labs
 is_parent: false
 nav_order: 40
