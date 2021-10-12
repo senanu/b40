@@ -10,6 +10,8 @@ nav_order: 40
 
 In order to help you learn to write as a scientist, you will peer-review your classmates' work. Use this rubric both for the peer review and as guidance with your writing. Please also look at the <a href = "{{site.url}}/b40/assets/labs/Ye_etal_Heating_Proteins.pdf"> Ye et al. (2017) paper </a> to get a hint as to the style of scientific writing.
 
+As you do your peer review, remember that even well-written papers can always use improvement. Don't take it personally if your reviewer is critical of your paper. (believe me -- I've experienced this too, even though I consider myself a reasonably good writer. You can look at a [page from a draft of my dissertation]({{site.url}}/b40/assets/Labs/WritingPeerReviewDissertation.pdf) edited by my adviser)
+
 | Component | Exceptional | Acceptable | Marginal |
 |-|-|-|-|
 | **Title** | Title conveys the essence of the paper. The reader is able to easily guess at the general hypothesis tested and perhaps the results. | The title is on topic but is nebulous. Would be difficult to identify the hypothesis and/or results. | Title is largely non-descriptive and conveys little information about the study itself. |
