@@ -1,0 +1,32 @@
+language: r
+cache: packages
+
+branches:
+  only: source
+  
+before_script:
+
+
+
+script:
+  - Rscript -e 'servr:::knit_maybe(c(".", "_source", "_posts", "docs"), c(".", "_posts", "_posts", "docs"), "build.R", "jekyll")'
+  - sed -i '1i---\' docs/labs/R/*.Rmd
+  - sed -i '1i---\' docs/labs/R/*.Rmd
+  - sed -i '/rdformats/d' docs/labs/R/*.Rmd
+  - sed -i '/use_bookdown/d' docs/labs/R/*.Rmd
+  - sed -i '/cards/d' docs/labs/R/*.Rmd
+  - sed -i 's/output: /output: html_document/' docs/labs/R/*.Rmd
+  
+
+latex: false
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_PAT
+  on:
+    branch: source
+  target_branch: main
+  
+cache:
+  - packages: true
