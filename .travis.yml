@@ -26,7 +26,7 @@ deploy:
   github_token: $GITHUB_PAT
   on:
     branch: source
-  target_branch: main
+  target_branch: master
   
 cache:
   - packages: true
