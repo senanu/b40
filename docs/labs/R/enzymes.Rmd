@@ -2,7 +2,7 @@
 title: "Enzyme kinetics lab"
 author: "Senanu Spring-Pearson"
 date: "`r Sys.Date()`"
-output: md_document
+output: html_document
 ---
 
 ```{r setup, include=TRUE, echo=FALSE}
