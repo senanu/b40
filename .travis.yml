@@ -14,7 +14,7 @@ script:
   - sed -i '/rdformats/d' docs/labs/R/*.Rmd
   - sed -i '/use_bookdown/d' docs/labs/R/*.Rmd
   - sed -i '/cards/d' docs/labs/R/*.Rmd
-#  - sed -i 's/output: md_document/output: html_document/' docs/labs/R/*.Rmd
+  - sed -i 's/output\: md_document/output\: html_document/' docs/labs/R/*.Rmd
   
 
 latex: false
