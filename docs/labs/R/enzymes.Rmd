@@ -12,7 +12,7 @@ output: html_document
 #  cards: false
 ```
 
-This file is available [here](enzymes.Rmd).
+The Rmd version of this file is available [here](enzymes.Rmd).
 
 ## Before you get started with your data analysis
 
