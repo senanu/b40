@@ -2,17 +2,24 @@
 title: "Enzyme kinetics lab"
 author: "Senanu Spring-Pearson"
 date: "`r Sys.Date()`"
-output: md_document
+output:
 #rmdformats::material:
 #  use_bookdown: true
 #  cards: false
 ---
 
-# Enzyme kinetics
-
 ```{r setup, include=TRUE, echo=FALSE}
 #knitr::opts_knit$set(global.device = TRUE) # leave this alone
 ```
+
+## Before you get started with your data analysis
+
+1. Before you change anything, please `knit` this document to make sure it works properly. It has been tested and should work.
+2. Change the author at the top of the file to your name.
+
+This file is available [here](enzymes.Rmd).
+
+
 
 ## Data analysis for Part 2: Effects of pH on amylase activity
 
