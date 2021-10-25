@@ -19,8 +19,6 @@ output: md_document
 
 This file is available [here](enzymes.Rmd).
 
-
-
 ## Data analysis for Part 2: Effects of pH on amylase activity
 
 In part 2 of this project, you assayed how long it takes for amylase to hydrolyse a certain amount of starch at different pH.
