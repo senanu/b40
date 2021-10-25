@@ -2,14 +2,14 @@
 title: "Enzyme kinetics lab"
 author: "Senanu Spring-Pearson"
 date: "`r Sys.Date()`"
-output:
-#rmdformats::material:
-#  use_bookdown: true
-#  cards: false
+output: md_document
 ---
 
 ```{r setup, include=TRUE, echo=FALSE}
 #knitr::opts_knit$set(global.device = TRUE) # leave this alone
+#rmdformats::material:
+#  use_bookdown: true
+#  cards: false
 ```
 
 ## Before you get started with your data analysis
