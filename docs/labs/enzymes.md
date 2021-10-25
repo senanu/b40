@@ -262,7 +262,7 @@ At the end of Part 1, we decided to use Tube #4 because Tube #6 had the most dil
 
 At pH4, the reaction took too long to complete. You can calculate the velocity as 0.
 
-## For plotting the Michaelis-Menten graph
+## For plotting the Michaelis-Menten graph (part III)
 
 * Use the following data. You don't need to calculate anything. Make sure you enter this as S (uppercase) and v (lowercase).
 
