@@ -67,8 +67,9 @@ theorLine <- predict(bestfit, list(S=SconcRange))
 bestFitVals <- coef(bestfit)
 ```
 
-1. Plot your data using only small modifications to the `plot()` command below. **You will need to add axis labels and a main title.** To do so, you can add the arguments `xlab="my x-axis label"` and `main="Plot title"`.
+1. Plot your data using only small modifications to the `plot()` command below. **You will need to add axis labels and a main title.** To do so, you can add the arguments `xlab="my x-axis label"` and `main="Plot title"`. As before, these get added to the `plot()` command, and are separated by commas.
 1. In some cases, you may need to adjust the `xlim=c(min, max)` and `ylim=c(min, max)` commands. These give the minimum and maximum extent of the plot, and may not work for your data. If you can't figure out how to do this, ask.
+1. Use the last line of this code chunk to get the fitted values for the Michaelis-Menten equation.
 1. Make sure the code works, then change `eval=FALSE` to `eval=TRUE`.
 
 ```{r dat-graph, eval=FALSE, include=TRUE, echo=TRUE}
@@ -76,11 +77,12 @@ plot(dat$S,
      dat$v,
      xlim=c(0,maxS),
      ylim=c(0,bestFitVals[[1]]))
-## the next line adds the curve to the graph
+## the next line adds the curve to the graph. You shouldn't need to touch it.
 lines(SconcRange,theorLine)
-## ... and plot the theoretical Vmax
+## ... and plot the theoretical Vmax (again, don't touch it)
 abline(h=bestFitVals[[1]], col='red')
-## ... and finally you can get the value for Vmax
+## ... and finally you can get the value for Vmax (don't touch this,
+##      but run it ot get the fitted values.)
 bestFitVals
 ```
  
