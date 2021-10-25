@@ -1,9 +1,8 @@
-# Introduction to rstudio
-
-Senanu Spring-Pearson
-
-`r Sys.Date()`
-
+---
+title: Introduction to rstudio
+author: Senanu Spring-Pearson
+date: `r Sys.Date()`
+---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
