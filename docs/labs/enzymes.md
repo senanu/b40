@@ -15,7 +15,8 @@ nav_order: 90
     * [Writing Checklist](writing_checklist.html)
     * [Rubric for your peer review](peer_review_rubric.html)
 * Main data Analysis
-    * [R Markdown file for Enzyme lab](R/enzymes.html).
+    * [R Markdown file for Enzyme lab](R/enzymes.Rmd).
+    * [HTML website version of enzyme lab analysis](R/enzymes.html)
 <!--    * [HTML version of the data analysis file]({{site.url}}/b40/assets/labs/enzymes.html). Only use this as a reference if you are stuck. You should be using the Rmd document above.-->
 * Data analysis. You have already completed these, but they are included here for reference if you need help.
     * [Introduction to RStudio and RStudio.cloud](R/intro_to_rstudio.html).
