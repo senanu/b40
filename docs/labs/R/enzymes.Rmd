@@ -2,9 +2,10 @@
 title: "Enzyme kinetics lab"
 author: "Senanu Spring-Pearson"
 date: "`r Sys.Date()`"
-rmdformats::material:
-  use_bookdown: true
-  cards: false
+output: md_document
+#rmdformats::material:
+#  use_bookdown: true
+#  cards: false
 ---
 
 # Enzyme kinetics
