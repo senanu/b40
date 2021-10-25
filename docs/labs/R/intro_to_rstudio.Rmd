@@ -2,6 +2,8 @@
 title: Introduction to rstudio
 author: Senanu Spring-Pearson
 date: `r Sys.Date()`
+output:
+  md_document
 ---
 
 ```{r setup, include=FALSE}
