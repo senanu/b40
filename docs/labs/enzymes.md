@@ -218,11 +218,6 @@ Many groups did not collect enough data to successfully draw the required graphs
 
 Please write a sentence or two at the beginning of the **Results** section describing **your own data**, and include table(s) of your own data, as appropriate. Following that, please write in your **Results** section that the data you are using was provided to you in class. Hereafter, you should use this data as if you had collected it yourself.
 
-* **Draw the graph in R. The code will fit a Michaelis-Menten curve to it.**
-* **Paste a copy of the graph. Make sure axes are labeled and it has a title.**
-* **Answer the question: Why does the graph have this shape? (why is it steep on the left and then plateaus on the right)**
-* **What is the value of V<sub>max</sub> for this graph?**
-* **What is the biological meaning of V<sub>max</sub>?**
 
 ## If you missed the first day of this lab
 
