@@ -10,8 +10,8 @@ before_script:
 script:
   - Rscript -e 'servr:::knit_maybe(c(".", "_source", "_posts", "docs/labs/R"), c(".", "_posts", "_posts", "docs/labs/R"), "build.R", "jekyll")'
   - sed -i '1i---\' docs/labs/R/*.Rmd
-  - sed -i '1iparentCOLON Labs\' docs/labs/R/*.Rmd
-  - sed -i '1igrand_parentCOLON R\' docs/labs/R/*.Rmd
+  - sed -i '1iparentCOLON R\' docs/labs/R/*.Rmd
+  - sed -i '1igrand_parentCOLON Labs\' docs/labs/R/*.Rmd
   - sed -i 's/parentCOLON/parent:/' docs/labs/R/*.Rmd
   - sed -i '1i---\' docs/labs/R/*.Rmd
   - sed -i '/rdformats/d' docs/labs/R/*.Rmd
