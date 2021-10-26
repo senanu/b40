@@ -5,7 +5,7 @@ branches:
   only: source
   
 before_script:
-  - sed -i 's/html_document/md_document/' docs/labs/R/enzymes.Rmd
+  - sed -i 's/html_document/md_document/' docs/labs/R/*.Rmd
 
 script:
   - Rscript -e 'servr:::knit_maybe(c(".", "_source", "_posts", "docs/labs/R"), c(".", "_posts", "_posts", "docs/labs/R"), "build.R", "jekyll")'

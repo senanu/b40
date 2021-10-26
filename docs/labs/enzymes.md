@@ -4,6 +4,9 @@ title: Enzyme Lab
 parent: Labs
 is_parent: false
 nav_order: 90
+rmdformats::material:
+  use_bookdown: true
+  cards: false
 ---
 
 # Enzyme Lab
@@ -260,7 +263,7 @@ At pH4, the reaction took too long to complete. You can calculate the velocity a
 
 ## For plotting the Michaelis-Menten graph (part III)
 
-* Use the following data. You don't need to calculate anything. Make sure you enter this as S (uppercase) and v (lowercase). 
+* Use the following data. You don't need to calculate anything. Make sure you enter this as S (uppercase) and v (lowercase).
 
 | S   | v    |
 |-----|------|
