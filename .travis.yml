@@ -9,17 +9,9 @@ before_script:
 
 script:
   - Rscript -e 'servr:::knit_maybe(c(".", "_source", "_posts", "docs/labs/R"), c(".", "_posts", "_posts", "docs/labs/R"), "build.R", "jekyll")'
-  - sed -i '1i---\' docs/labs/R/*.Rmd
-  - sed -i '1iparentCOLON R\' docs/labs/R/*.Rmd
-  - sed -i '1igrand_parentCOLON Labs\' docs/labs/R/*.Rmd
-  - sed -i 's/parentCOLON/parent:/' docs/labs/R/*.Rmd
-  - sed -i '1i---\' docs/labs/R/*.Rmd
-  - sed -i '/rdformats/d' docs/labs/R/*.Rmd
-  - sed -i '/use_bookdown/d' docs/labs/R/*.Rmd
-  - sed -i '/cards/d' docs/labs/R/*.Rmd
-  - sed -i 's/md_document/html_document/' docs/labs/R/enzymes.Rmd
+  - for f in docs/labs/R/*.Rmd; do printf -- '---\n' < ${f} > ${f/Rmd/Rmd2}; grep title: < "${f}" >> "${f/Rmd/Rmd2}";printf -- 'layout: default\nparent: R\ngrand_parent: Labs\n---\n' < "${f/Rmd/Rmd2}" >> "${f/Rmd/Rmd2}"; cat "${f}" >> "${f/Rmd/Rmd2}";done
+  - for f in docs/labs/R/*.Rmd2; do mv "${f}" "${f/Rmd2/Rmd}" # Only run this on TRAVIS-CI
   
-
 latex: false
 
 deploy:
