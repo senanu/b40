@@ -7,6 +7,9 @@ branches:
 before_script:
   - mkdir assets/labs/R
   - cp docs/labs/R/*.Rmd assets/labs/R/
+  - sed -i '1i---' assets/labs/R/*.Rmd
+  - sed -i '1i---' assets/labs/R/*.Rmd
+
 #  - sed -i 's/html_document/md_document/' docs/labs/R/*.Rmd
 
 script:
