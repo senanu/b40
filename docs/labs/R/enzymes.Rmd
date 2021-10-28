@@ -1,5 +1,5 @@
 ---
-title: "Enzyme kinetics lab"
+title: "Enzyme kinetics"
 author: "Senanu Spring-Pearson"
 date: "`r Sys.Date()`"
 output: html_document
@@ -11,6 +11,8 @@ grand_parent: Labs
 knitr::opts_knit$set(global.device = TRUE, echo=TRUE) # leave this alone
 
 ```
+
+# Enzyme kinetics
 
 The Rmd version of this file is available [here]({{site.url}}/b40/assets/labs/R/enzymes.Rmd). To show this file properly (ie. show the math and figures), you will need to knit it on your own computer (or RStudio.cloud).
 
