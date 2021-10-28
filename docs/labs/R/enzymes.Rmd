@@ -12,7 +12,7 @@ knitr::opts_knit$set(global.device = TRUE, echo=TRUE) # leave this alone
 
 ```
 
-The Rmd version of this file is available [here]({{site.url}}/b40/assets/labs/R/enzymes.Rmd).
+The Rmd version of this file is available [here]({{site.url}}/b40/assets/labs/R/enzymes.Rmd). To show this file properly (ie. show the math and figures), you will need to knit it on your own computer (or RStudio.cloud).
 
 ## Before you get started with your data analysis
 
