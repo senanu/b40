@@ -3,20 +3,20 @@ title: "Enzyme kinetics lab"
 author: "Senanu Spring-Pearson"
 date: "`r Sys.Date()`"
 output: html_document
+parent: R
+grand_parent: Labs
 ---
 
 ```{r setup, include=TRUE, echo=FALSE}
-#knitr::opts_knit$set(global.device = TRUE) # leave this alone
-#rmdformats::material:
-#  use_bookdown: true
-#  cards: false
+knitr::opts_knit$set(global.device = TRUE, echo=TRUE) # leave this alone
+
 ```
 
-The Rmd version of this file is available [here](enzymes.Rmd).
+The Rmd version of this file is available [here]({{site.url}}/b40/assets/labs/R/enzymes.Rmd).
 
 ## Before you get started with your data analysis
 
-1. Before you change anything, please `knit` this document to make sure it works properly. It has been tested and should work.
+1. Before you change anything, please `knit` this document to make sure it works properly. It has been tested and should work, but please make sure.
 2. Change the author at the top of the file to your name.
 
 ## Data analysis for Part 2: Effects of pH on amylase activity

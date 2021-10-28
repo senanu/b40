@@ -36,7 +36,7 @@ dat <-
 
 # Calculate the % change in weight
 Convert your data to represent the percent change in weight. Doing this allows us to have some variation in the weight of the potato core. We will use this formula, but we will ask R to do the work for us!
-$${ {(final\ weight - original\ weight)}\over original\ weight} \times 100 = percent\ weight\ change$$
+$$ { {(final\ weight - original\ weight)}\over original\ weight} \times 100 = percent\ weight\ change $$
 
 1. Get R to do this for you. Save the result in a variable called `percent.change`. If your data table looks exactly like the one in the lab manual (which is highly recommended), then the variables will be called `dat$original.weight` and `dat$final.weight` ([don't include quotes around these objects](https://senanu.github.io/b40/docs/labs/R/r_faq.html#objects-and-quotes-in-r)). Make sure you are careful with precedence -- that is make sure that you use parentheses to tell R which part of the equation you want done first, second, etc. You should also know that the asterix (*) is the multiplication operator, so you can say `dat$columnA * dat$columnB`. Similarly, the forward slash (/) is for division.
 1. Once your code runs by pressing the green arrow on the top right, change the `eval=FALSE` to `eval=TRUE`.
