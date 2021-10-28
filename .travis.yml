@@ -12,6 +12,7 @@ before_script:
 script:
   - Rscript -e 'servr:::knit_maybe(c(".", "_source", "_posts", "docs/labs/R"), c(".", "_posts", "_posts", "docs/labs/R"), "build.R", "jekyll")'
   - ./change_headers.sh
+  - ./change_figure_url.sh
   
 latex: false
 
