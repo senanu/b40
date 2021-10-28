@@ -9,7 +9,7 @@ grand_parent: Labs
 
 # Diffusion and Osmosis
 
-The Rmd version of this file is available [here](diffusion.Rmd).
+The Rmd version of this file is available [here]({{site.url}}/b40/assets/labs/R/diffusion.Rmd).
 
 ## As you begin...
 

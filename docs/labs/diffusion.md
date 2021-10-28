@@ -17,7 +17,7 @@ nav_order: 70
 
 
 ## Note
-To get full credit for this lab, submit an HTML file that is output from the [.Rmd data analysis file](R/diffusion.Rmd). At the bottom of that file, you will need to answer 3 questions that are also given [in the data analysis section](#data-analysis) at the bottom of the first part of this lab.
+To get full credit for this lab, submit an HTML file that is output from the [.Rmd data analysis file]({{site.url}}/b40/assets/labs/R/diffusion.Rmd). At the bottom of that file, you will need to answer 3 questions that are also given [in the data analysis section](#data-analysis) at the bottom of the first part of this lab.
 
 ## Objectives
 To study the diffusion of different materials in various media and to relate the diffusion of these materials to living systems.
