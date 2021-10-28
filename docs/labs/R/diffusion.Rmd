@@ -1,3 +1,10 @@
+---
+title: Diffusion and Osmosis
+author: Senanu Spring-Pearson
+date: "`r Sys.Date()`"
+output: html_document
+---
+
 ## As you begin...
 
 You should load this .Rmd file into RStudio or RStudio.cloud. You may find it easier to read if you Knit it first rather than reading the .Rmd file itself. You should have learned how to do these in the [Intro_to_rstudio](https://senanu.github.io/b40/docs/labs/R/intro_to_rstudio.html) and [Intro_to_r](https://senanu.github.io/b40/docs/labs/R/intro_to_r.html) assignments.
