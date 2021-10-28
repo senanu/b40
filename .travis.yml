@@ -5,6 +5,7 @@ branches:
   only: source
   
 before_script:
+  - cp docs/labs/R/*.Rmd assets/labs/R/
   - sed -i 's/html_document/md_document/' docs/labs/R/*.Rmd
 
 script:
