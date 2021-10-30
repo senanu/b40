@@ -16,7 +16,8 @@ nav_order: 90
     * [Rubric for your peer review](peer_review_rubric.html)
 * Main data Analysis
     * [R Markdown file for Enzyme lab](R/enzymes.Rmd).
-    * [HTML version of the data analysis file]({{site.url}}/b40/assets/labs/enzymes.html). Only use this as a reference if you are stuck. You should be using the Rmd document above.
+    * [HTML website version of enzyme lab analysis](R/enzymes.html)
+<!--    * [HTML version of the data analysis file]({{site.url}}/b40/assets/labs/enzymes.html). Only use this as a reference if you are stuck. You should be using the Rmd document above.-->
 * Data analysis. You have already completed these, but they are included here for reference if you need help.
     * [Introduction to RStudio and RStudio.cloud](R/intro_to_rstudio.html).
     * [Introduction to R](R/intro_to_r.html).
@@ -211,20 +212,13 @@ Marini, I. (2005), Discovering an accessible enzyme: Salivary &alpha;-amylase : 
 | Nov 3   | Complete peer review of another student's lab report       |
 | Nov 7   | Final draft                                                |
 
-<!--
-# Lab write-up (Fall 2020 only)
+# Lab write-up (Fall 2021 only)
 
-Your lab write-up for this lab will consist of only Parts 1 and 2. I will expect a good discussion in the intro and discussion sections about why changing the pH affects the rate at which an enzyme acts.
+Many groups did not collect enough data to successfully draw the required graphs. If this describes you, you may use the data below, as if it were your own. However, I would still like to see your own data.
 
-I would prefer that you use your own data, even if it doesn't look great. If you weren't able to collect enough data, or for some reason your data really can't be used, you may use the data below.
 
-Instead of including Part 3 in the lab report, do this abbreviated assignment. Use the data below and the R code in the [analysis Rmd file](R/enzymes.Rmd) to draw a graph showing Michaelis-Menten kinetics. Include the following at the bottom of your lab report:
+Please write a sentence or two at the beginning of the **Results** section describing **your own data**, and include table(s) of your own data, as appropriate. Following that, please write in your **Results** section that the data you are using was provided to you in class. Hereafter, you should use this data as if you had collected it yourself.
 
-* **Draw the graph in R. The code will fit a Michaelis-Menten curve to it.**
-* **Paste a copy of the graph. Make sure axes are labeled and it has a title.**
-* **Answer the question: Why does the graph have this shape? (why is it steep on the left and then plateaus on the right)**
-* **What is the value of V<sub>max</sub> for this graph?**
-* **What is the biological meaning of V<sub>max</sub>?**
 
 ## If you missed the first day of this lab
 
@@ -237,17 +231,17 @@ Instead of including Part 3 in the lab report, do this abbreviated assignment. U
 | 2    | 1/4         | colorless   |
 | 3    | 1/8         | colorless   |
 | 4    | 1/16        | colorless   |
-| 5    | 1/32        | blue        |
-| 6    | 1/64        | blue        |
+| 5    | 1/32        | colorless   |
+| 6    | 1/64        | colorless   |
 | 7    | 1/128       | blue        |
 | 8    | 1/256       | blue        |
 | 9    | 1/512       | blue        |
 | 10   | 1/1024      | blue        |
 | 11   | Buffer only | blue        |
 
-At the end of Part 1, we decided to use Tube #2 because Tube #4 had the most dilute amylase that could still fully digest the starch in 15 minutes.
+At the end of Part 1, we decided to use Tube #4 because Tube #6 had the most dilute amylase that could still fully digest the starch in 15 minutes.
 
-## If you missed the second day of this lab
+## If you missed the second day of this lab or need additional data:
 
 * Use the following data for part 2. You will need to complete the calculations for the amount of starch and then the velocity of the reaction.
 
@@ -278,4 +272,3 @@ At pH4, the reaction took too long to complete. You can calculate the velocity a
 | 5   | 1125 |
 | 9.7 | 1200 |
 
--->
