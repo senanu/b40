@@ -15,7 +15,7 @@ nav_order: 20
 When you write a statement that isn't general knowledge, you should give credit to the person/people who originally thought of that idea. In some fields, the actual language used is important such as statements by world leaders, or a passage from "Othello". In science, however, it is the ideas, rather than the specific words that are important, and we therefore only **rarely quote something directly**. Instead, we **paraphrase** the ideas, and give credit to previous authors through a citation. **In Bio40, you should never use a direct quotation.**
 
 There are two main ways to cite an idea.
-1. The citation is the subject or the sentence. Use the authors name(s) as part of the sentence and put the date in parentheses. If there are more than 3 authors, use “et al.” (note the period) which means “and others”.
+1. The citation is the subject or the sentence. Use the authors name(s) as part of the sentence and put the date in parentheses. If there are more than 3 authors, use “et al.” (note the period) which means “and others”. If there are 1, 2, or 3 authors, name them. Only use last names, and don't include initials in the in-text citations.
 
     <p class="borderblue">Smith et al. (2013) showed that proteins are composed of amino acids connected with peptide bonds.</p>
     
