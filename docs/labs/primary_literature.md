@@ -37,7 +37,7 @@ Most journal articles that go through this process are considered primary litera
 * Introduction
 * Methods
 * Results
-* Conclusion
+* Conclusion or Discussion
 * Literature Cited
 
 In any case, the article describes all the aspects of the research that is necessary for some other scientist to understand the strengths and weaknesses of the study, and repeat it.
@@ -71,33 +71,11 @@ In addition to using the library, you may also find articles using general inter
 # APA style for scientific papers
 This is meant to guide you in how to cite materials when you write scientific papers, as you will be doing for all of your lab reports in Bio 40 this semester. In scientific writing, you will ordinarily only be citing primary literature in the form of peer-reviewed papers and secondary literature in the form of peer-reviewed review articles. For other types that you come across and need to cite, please consult a style guide such as Publication Manual of the American Psychological Association (APA).
 
-## Using bibliographic software like the pros
-Although most students learn the APA style, the truth is that, strictly speaking, it is rarely used by scientists. Rather, each journal uses their own particular format (often based on, or very similar to, APA). Because of this, I encourage you to be lazy, and let a computer do the work for you. If you plan things well, the computer will do everything correctly, and you will be able to change format depending on the journal you plan to submit your paper to. Additionally, the software will keep track of every in-text citation that you make and will write a fully-formatted entry in your reference list.
-
-There are a number of programs that are available to do this work for you. Each of the following will integrate well with word processors such as Microsoft Word and the free LibreOffice/OpenOffice.org. None of these will integrate well with Google Docs though for very simple documents, you can export bibliographies.
-1. **Zotero**. Zotero is a free, open-source bibliographic manager that will help you organize articles that you read and insert those into a word processor document (Microsoft Word or LibreOffice/OpenOffice). This is the program that I would recommend that you use.
-2. **Mendeley**. Mendeley is a great program that is free to use and will help you search for, catalog, and cite references. It integrates well with word processors. However, it is proprietary and the data you store within it is held by Elsevier, a large scientific publishing company. Although unlikely, it is possible that they could start charging for its use and/or prevent you from exporting your data. For this reason, I cannot recommend it.
-3. **Endnote**, **Papers 2.0** and **RefWorks**. For many years, Endnote has been the industry standard and all of these are very good and powerful. However, they also very pricey and, since there are free alternatives, perhaps not the best choice. You may find, however, that as your scientific career progresses, that you may need to become familiar with Endnote in order to collaborate with other scientists who have been using Endnote for years and refuse to convert their data to a free alternative.
-4. **BibTeX**. BibTeX is free and open source but designed to work with the TeX typesetting system. Both are common in other fields (Physics and Mathematics) but uncommon in Biology. Although very powerful, I can't recommend it for this course due to its complexity.
-5. **EasyBib**. EasyBib is an online service that you should **NOT use**. It doesn't do it right and leads to garbled bibliographies.
-
-## Optional Exercises
-The following exercise is designed to give you practice making citations as you would in a scientific paper such as your lab report.
-1. Download the bibliographic citation manager software of your choice and install it on your computer.
-2. Download and install any plug-ins needed for whatever word processor you use. If you use Google Docs, you won't need any plug-in, however the software will not be able to integrate well and it will be difficult and error-prone to use Google Docs. I recommend LibreOffice (free) or Microsoft Word.
-3. Using a search engine on the library's website, find a primary literature article that you'd like to cite. For this exercise, the content of the article doesn't matter and you don't need to download the article itself. Save the citation into your citation manager.
-4. Make a new document in a word processor. Write a few sentences that show that you can cite the article in the two following ways. Use the citation manager to insert the part of the citation within parentheses. If you are using Zotero with LibreOffice, click the button within the word processor to “Add/Edit citation” and then choose the article from your personal library.
-    * The citation is the subject or the sentence. Use the authors name(s) as part of the sentence and put the date in parentheses.
-        * “Smith et al. (2013) showed that proteins are composed of amino acids connected with peptide bonds.” {{site.space3}}
-    * The citation is parenthetical at the end of the clause or sentence. Separate the name(s) from the year with a comma. If there are more than 3 authors, use “et al.” (note the period) which means “and others”.
-        * “Proteins are composed of amino acids (Smith et al., 2013) connected with peptide bonds.”{{site.space3}}
-5. Add a bibliography or Literature Cited section. With Zotero, click the “Add/Edit Bibliography” button. Your Literature Cited section should be alphabetically ordered by the last name of the first author. Your citation manager should take care of this and all the nit-picky format for you.
-6. Try deleting the reference from your document. If there are no other references to the same paper, it will be deleted from the reference list.
-7. Note that text from the cited article is NOT quoted directly – it is paraphrased. In the sciences, we very rarely quote directly. Usually, it is the ideas, not the words, that matter, and so it is appropriate to give the original authors credit for the ideas, expressed in your own words.
-8. Use the following as a reference to make sure your papers are cited properly. In particular, look at the examples in the box. It is UNLIKELY that you will need anything else for this class. If you do, there is a good chance that the article you are citing isn't primary literature.
-
 ## APA Reference List
-Almost all citations for scientific papers will be from journals (see box below). The only difference between these two is that the first one has the issue included. Note that no web addresses are given!
+Almost all citations for scientific papers will be from journals (see box below). The only difference between these two is that the first one has the issue included. For the reference list, note the following:
+  * Web addresses may be given, but if they are, make sure they are stable addresses (usually doi addresses). If you must as www URL, make sure it is stable from the publisher. Never use a link provided by an indexing service like EBSCOhost or a library, as others won't be able to use the same link.
+  * **List all the authors**. If there are more than 20, list the first 19, then use an ellipsis (...) and then give the last.
+  * Your reference list should be in the alphabetical order of the last name of the first author for each paper.
 
 ### Book
 Author's last name, First initial. Middle initial. (Year of publication). *Title of the book*. City, State: Publisher.
@@ -139,3 +117,29 @@ Schwartz, P. (2002, June). Love is not all you need. *Psychology Today*, 35, 57-
 Author's last name, First initial. Middle initial. (Year, date of publication). Title of the article. *Title of Periodical*, pages of the article.
 
 Martinez, A. (2004, May 5). Questions arise about liability. *The Sun*, pp. A1, A6.
+
+# Using bibliographic software like the pros
+Although most students learn the APA style, the truth is that, strictly speaking, it is rarely used by scientists. Rather, each journal uses their own particular format (often based on, or very similar to, APA). Because of this, I encourage you to be lazy, and let a computer do the work for you. If you plan things well, the computer will do everything correctly, and you will be able to change format depending on the journal you plan to submit your paper to. Additionally, the software will keep track of every in-text citation that you make and will write a fully-formatted entry in your reference list.
+
+There are a number of programs that are available to do this work for you. Each of the following will integrate well with word processors such as Microsoft Word and the free LibreOffice/OpenOffice.org. None of these will integrate well with Google Docs though for very simple documents, you can export bibliographies.
+1. **Zotero**. Zotero is a free, open-source bibliographic manager that will help you organize articles that you read and insert those into a word processor document (Microsoft Word or LibreOffice/OpenOffice). This is the program that I would recommend that you use.
+2. **Mendeley**. Mendeley is a great program that is free to use and will help you search for, catalog, and cite references. It integrates well with word processors. However, it is proprietary and the data you store within it is held by Elsevier, a large scientific publishing company. Although unlikely, it is possible that they could start charging for its use and/or prevent you from exporting your data. For this reason, I cannot recommend it.
+3. **Endnote**, **Papers 2.0** and **RefWorks**. For many years, Endnote has been the industry standard and all of these are very good and powerful. However, they also very pricey and, since there are free alternatives, perhaps not the best choice. You may find, however, that as your scientific career progresses, that you may need to become familiar with Endnote in order to collaborate with other scientists who have been using Endnote for years and refuse to convert their data to a free alternative.
+4. **BibTeX**. BibTeX is free and open source but designed to work with the TeX typesetting system. Both are common in other fields (Physics and Mathematics) but uncommon in Biology. Although very powerful, I can't recommend it for this course due to its complexity.
+5. **EasyBib**. EasyBib is an online service that you should **NOT use**. It doesn't do it right and leads to garbled bibliographies.
+
+# Optional Exercises
+The following exercise is designed to give you practice making citations as you would in a scientific paper such as your lab report.
+1. Download the bibliographic citation manager software of your choice and install it on your computer.
+2. Download and install any plug-ins needed for whatever word processor you use. If you use Google Docs, you won't need any plug-in, however the software will not be able to integrate well and it will be difficult and error-prone to use Google Docs. I recommend LibreOffice (free) or Microsoft Word.
+3. Using a search engine on the library's website, find a primary literature article that you'd like to cite. For this exercise, the content of the article doesn't matter and you don't need to download the article itself. Save the citation into your citation manager.
+4. Make a new document in a word processor. Write a few sentences that show that you can cite the article in the two following ways. Use the citation manager to insert the part of the citation within parentheses. If you are using Zotero with LibreOffice, click the button within the word processor to “Add/Edit citation” and then choose the article from your personal library.
+    * The citation is the subject or the sentence. Use the authors name(s) as part of the sentence and put the date in parentheses.
+        * “Smith et al. (2013) showed that proteins are composed of amino acids connected with peptide bonds.” {{site.space3}}
+    * The citation is parenthetical at the end of the clause or sentence. Separate the name(s) from the year with a comma. If there are more than 3 authors, use “et al.” (note the period) which means “and others”.
+        * “Proteins are composed of amino acids (Smith et al., 2013) connected with peptide bonds.”{{site.space3}}
+5. Add a bibliography or Literature Cited section. With Zotero, click the “Add/Edit Bibliography” button. Your Literature Cited section should be alphabetically ordered by the last name of the first author. Your citation manager should take care of this and all the nit-picky format for you.
+6. Try deleting the reference from your document. If there are no other references to the same paper, it will be deleted from the reference list.
+7. Note that text from the cited article is NOT quoted directly – it is paraphrased. In the sciences, we very rarely quote directly. Usually, it is the ideas, not the words, that matter, and so it is appropriate to give the original authors credit for the ideas, expressed in your own words.
+8. Use the following as a reference to make sure your papers are cited properly. In particular, look at the examples in the box. It is UNLIKELY that you will need anything else for this class. If you do, there is a good chance that the article you are citing isn't primary literature.
+
