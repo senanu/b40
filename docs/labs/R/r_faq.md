@@ -23,7 +23,9 @@ No! Please start by [learning about using RStudio and RStudio.cloud](intro_to_rs
 
 RStudio has a lot of flexibility with this and it can be confusing. There is a tiny black arrow to the right of the "knit" arrow. From that menu, you can select "Preview in Window" or "Preview in Viewer Pane". When you knit, the output will be sent to a new window or to the lower-right quadrant of the RStudio window.
 
-If your individual graphs are not showing up where you expect in the lower-right pane, it may be another cryptic setting. Go to the Tools menu, then "Global Options...", then select the "R Markdown" tab. Finally, uncheck the "Show output inline for all R Markdown documents".
+If your individual graphs are not showing up where you expect in the lower-right pane, it may be another cryptic setting. Go to the Tools menu, then "Global Options...", then select the "R Markdown" tab. Finally, uncheck the "Show output inline for all R Markdown documents". You can also access this same command from within the RStudio window, as shown here: 
+
+ {% include figure.html url="/b40/assets/labs/rstudio_output.gif" width="100%" caption="Getting RStudio to output figures to the viewer pane." %}
 
 # Trouble with your data
 
