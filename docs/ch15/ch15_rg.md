@@ -48,25 +48,39 @@ nav_exclude: true
 9. What process allows recombination between genes on the same chromosome?{% if site.data.answers.rg15 %}<span class="ans">  Crossing over </span>{% else %}{{site.space3}}{% endif %}
 10. Explain why genes that are located far apart on a chromosome are more likely to be recombined than genes located close together.{% if site.data.answers.rg15 %}<span class="ans"> Crossing over is more likely between two genes that are far apart on a chromosome. If two genes are next to each other (or close), then crossing over between them is unlikely, and alleles of the two genes will usually be inherited together. When the genes are distant (but still on the same chromosome), the recombination frequency will reach 50% and they will assort independently, as if they were on separate chromosomes. </span>{% else %}{{site.space3}}{% endif %}
     <!-- This next example is from Griffiths Intro to Genetic Analysis p 131 -->
-10. For this question, use the attached figure. In this question, we will draw 2 genes as if they are on the same chromosome. However, *we do not know if this is true until we see results*. {% if site.data.answers.rg15 %}<span class="ans"> See the final part of this question for the final answer (distance between genes). </span>{% endif %}
-    1. In *Drosophila*, one gene results in purple eyes (*pr*) rather than the wild-type red eyes (*pr<sup>+</sup>*). Another gene affects wing length (*vg*, vestigial; *vg<sup>+</sup>*, normal). Both wild-type alleles are dominant.
-    2. What gametes are produced by each of 2 homozygotes listed below? Hint: Each individual produces only one type of gamete. Write your answer below and in the attached figure. (The following will help you understand the notation, which is one of the conventions used in genetics). Remember that each gamete should have one allele from each of the 2 genes.
-        * A slash indicates that the alleles are a homologous pair.
-        * The dot indicates that we don't know if the genes are on the same chromosome or not.
-        * If we know they are on different chromosomes, we'd use a semicolon (;) instead (eg. A/a;B/B).
-        * If we know they are on the same chromosome we'd write them adjacent to each other (eg. AB/aB)
-
-        *pr*/*pr* . *vg*/*vg* &times; *pr<sup>+</sup>*/*pr<sup>+</sup>* . *vg<sup>+</sup>*/*vg<sup>+</sup>*{{site.space3}}
-        {: .text-center}
-
-    3. Write the genotype of the F<sub>1</sub> dihybrid in the attached diagram.
-    4. Do a testcross of the F<sub>1</sub> with a doubly homozygous recessive male to produce an F<sub>2</sub>.
-        - In the diagram, arrow 'a' indicates transmission of genes from the tester. All offspring of the tester receive the same alleles from the tester.
-        - Arrow 'b' indicates transmission of genes from the F<sub>1</sub> dihybrid.
-        - Remember that even though they are drawn on the same chromosome, we don't know if that is true or not. Draw all possible genotypes of the offspring, assuming independent assortment.
-    5. For each of the genotypes produced in F<sub>2</sub>, indicate (with a **'P'**) if it is a parental type or recombinant (indicate with an **'R'**).{{site.space3}}
-    6. *If* these genes were assorting independently, what ratio of the F<sub>2</sub> genotypes would you expect? In other words, what would Mendel have predicted?{{site.space1}}
-    7. After doing the experiment, you found the following numbers of offspring. Write these numbers onto your diagram.
+10. For this question, use the attached figure (it appears at the end of this very long question). In this question, we will draw 2 genes as if they are on the same chromosome. However, *we do not know if this is true until we see results*. {% if site.data.answers.rg15 %}<span class="ans"> See the final part of this question for the final answer (distance between genes). </span>{% endif %}
+    1. In *Drosophila*, one gene results in purple eyes (*pr*) rather than the wild-type red eyes (*pr*<sup>+</sup>). Another gene affects wing length (*vg*, vestigial; *vg*<sup>+</sup>, normal). Both wild-type alleles are dominant.
+    1. What gametes are produced by each of 2 homozygotes listed below? Hint: Each individual produces only one type of gamete. Write your answer below and in the attached figure. (The following boxed items will help you understand the notation, which is one of the conventions used in genetics). Remember that each gamete should have one allele from each of the 2 genes.
+                  <center><strong>  <em>pr/pr</em> . <em>vg/vg</em> &times; <em>pr<sup>+</sup>/pr<sup>+</sup></em> . <em>vg<sup>+</sup>/vg<sup>+</sup></em></strong></center>{{site.space3}}
+       <style>
+       .box {
+         padding: 10px;
+         border: 2px solid black;
+         margin: 0;
+       }
+       </style>
+       <div class="box" markdown="1">
+         <ul><li> A slash indicates that the alleles are a homologous pair.</li>
+         <li> The dot indicates that we don't know if the genes are on the same chromosome or not.</li>
+         <li> If we know they are on different chromosomes, we'd use a semicolon (;) instead (eg. A/a;B/B).</li>
+         <li> If we know they are on the same chromosome we'd write them adjacent to each other (eg. AB/aB).</li></ul>
+       </div>
+    1. Write the genotype of the F<sub>1</sub> dihybrid in the attached diagram.
+    1. Do a testcross of the F<sub>1</sub> with a doubly homozygous recessive male to produce an F<sub>2</sub>.
+       <style>
+       .box {
+         padding: 10px;
+         border: 2px solid black;
+         margin: 0;
+       }
+       </style>
+       <div class="box" markdown="1">
+         <ul><li>In the diagram, arrow 'a' indicates transmission of genes from the tester. All offspring of the tester receive the same alleles from the tester.</li>
+         <li>Arrow 'b' indicates transmission of genes from the F<sub>1</sub> dihybrid.</li>
+         <li>Remember that even though they are drawn on the same chromosome, we don't know if that is true or not. Draw all possible genotypes of the offspring, assuming independent assortment.</li></ul>
+    1. For each of the genotypes produced in F<sub>2</sub>, indicate (with a **'P'**) if it is a parental type or recombinant (indicate with an **'R'**).{{site.space3}}
+    1. *If* these genes were assorting independently, what ratio of the F<sub>2</sub> genotypes would you expect? In other words, what would Mendel have predicted?{{site.space1}}
+    1. After doing the experiment, you found the following numbers of offspring. Write these numbers onto your diagram.
     
        | Genotype | Number of F<sub>2</sub> |
        |:-:|-|
@@ -77,9 +91,9 @@ nav_exclude: true
        | Total:   |   |
 
     1. What is the total number in F<sub>2</sub>?{{site.space0}}
-    2. How many parental types are there? What proportion are parental?{{site.space0}}
-    3. How many recombinants are there? What proportion are recombinant?{{site.space0}}
-    4. What is the map distance separating these two genes?{% if site.data.answers.rg15 %}<span class="ans"> 10.7 map units     </span>{% else %}{{site.space3}}{% endif %}
+    1. How many parental types are there? What proportion are parental?{{site.space0}}
+    1. How many recombinants are there? What proportion are recombinant?{{site.space0}}
+    1. What is the map distance separating these two genes?{% if site.data.answers.rg15 %}<span class="ans"> 10.7 map units     </span>{% else %}{{site.space3}}{% endif %}
   
         <img align="center" width="100%" src="{{site.url}}/b40/assets/ch15/recombination.png" alt="Exercise for recombination">
     
