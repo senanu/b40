@@ -5,11 +5,11 @@ output:
   rmdformats::material:
     use_bookdown: true
     cards: false
+  bookdown::pdf_document2: null
   rmdformats::readthedown:
     use_bookdown: true
   bookdown::gitbook: null
   bookdown::html_document2: null
-  bookdown::pdf_document2: null
 ---
 
 ```{r setup, include=TRUE, echo=FALSE}
@@ -95,8 +95,9 @@ knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/ORFs-TAS.p
         1. What is the start codon?
         1. What stop codon is used?
     a. some ORFs (eg. ORF1) are on the 'plus' strand and some go in the other direction on the 'minus' strand. You can see this both in the table and as arrows on the map.
-    a. select to see the six-frame translation track. You will see a picture similar to Fig \@ref(fig:orfs-pic). Zoom in to the picture using the 'magnifying glass' icon on the map.
-4. In many cases, the longest ORF will be the one that codes for a protein. Right click the long ORF and select to "Set Sequence Origin At Feature", then accept the new origin of 85. This will just renumber the scale so that both are given.
+    a. select to see the six-frame translation track by clicking the link at the bottom-right of the main map. You will see a picture similar to Fig \@ref(fig:orfs-pic). Zoom in to the picture using the 'magnifying glass' icon on the map.
+4. Close the six-frame translation track window.
+5. In many cases, the longest ORF will be the one that codes for a protein. On the map of the ORFs, right click the long ORF and select to "Set Sequence Origin At Feature", then accept the new origin of 85. This will just renumber the scale so that both are given.
 
 # Locate genetic variants
 
@@ -146,15 +147,15 @@ knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/PrimerBLAS
 ```
 
 1. Enter the accession number ("NM_...") that you looked up at the beginning of this exercise into the main search box of [Primer-BLAST](https://www.ncbi.nlm.nih.gov/tools/primer-blast/). (See Fig \@ref(fig:primerBLASTParameters))
-1. Accept all the default values and then press "Get Primers" at the bottom.
+1. Accept all the default values and then press "Get Primers" at the bottom. Your job may take from a few seconds to a few minutes to complete. Be patient, and the page will periodically update.
 1. Primer-BLAST will look for sequences that have particular characteristics such as
     a. an appropriate melting temperature
     b. the primers aren't complementary to one another so they won't 'stick' to each other during PCR
     c. the priming sequence doesn't exist elsewhere in the genome, or, if it does, there isn't a nearby site for the second primer to bind to.
-1. Primer-BLAST will ask you about your PCR template being highly similar to some DNA in its database. Select the accession for TAS2R38 and click "Submit"
+1. Primer-BLAST may ask you about your PCR template being highly similar to some DNA in its database. Select the accession for TAS2R38 and click "Submit"
 1. The results may take several minutes. Be patient.
 
-When your results are returned to you, you should see something like \@ref(fig:primerBLASTOutput). There are several different primer pairs, but we will focus on the pair labeled "Primer 3". Note that your numbering may be different. This primer pair will amplify a region from 776 to 983. Note also the variant we have been interested in falls within this range (located at position 869).
+When your results are returned to you, you should see something like \@ref(fig:primerBLASTOutput). There are several different primer pairs, but we will focus on the pair labeled "Primer 3". Note that your numbering may be different. Hover your mouse over the arrows labeled on the track as "Primer 3". This primer pair will amplify a region from 776 to 983. Note also the variant we have been interested in falls within this range (located at position 869).
 
 ```{r primerBLASTOutput, include=TRUE, echo=FALSE, out.width='100%', fig.align='center', fig.cap="Output from Primer-BLAST"}
 knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/PrimerBLASTOutput.png")
@@ -215,11 +216,11 @@ knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/Restrictio
     j. Locate the approximate position of each restriction site that you found in Fig. \@ref(fig:RestrictionSite) and write its sequence. **The diagram in Fig. \@ref(fig:PTCRestrictionMap) doesn't include a space for these, so you'll have to identify where they go.** Write the sequence on the diagram.
     k. Indicate (yes or no) whether *Fnu4H1* will cut the taster allele at the variant site 869.
     l. Indicate (yes or no) whether *Fnu4H1* will cut the non-taster allele at variant site 869.
-    m. Write down the number of times *Fnu4H1* cuts the DNA of the **taster allele**.
+    m. Write down the number of times *Fnu4H1* cuts the DNA of the **taster allele**. You will need to refer back to the results where you searched for "GCNGC" in the primer page. 
     n. Write down how many fragments you would have after a digestion of the taster allele with *Fnu4H1*. A single cut would result in 2 fragments, 2 cuts would result in 3 fragments, etc.
     o. Indicate the sizes of the fragments. For example, the entire PCR product is 964 - 776 + 1 = 189bp. (we add 1 because both end points are present. Think how long a strand would be if it started at base 1 and ended at base 2. It would be 2 bases (2 - 1 + 1 = 2)).
     p. Write down how many times *Fnu4H1* cuts the DNA of the **non-taster allele**.
-    q. Write down how many fragments you would have after a digestion of the non-taster allele with *Fnu4H1*.
+    q. Write down how many fragments you would have after a digestion of the non-taster allele with *Fnu4H1*. Again, you will have to use the results from searching for 'GCNGC' in the primer search results.
     r. Indicate the sizes of all the fragments of the non-taster allele.
 1. Finally, check all the sequences you wrote against the sequence you downloaded in [step 4](#download-dna-sequences-from-ncbi-website). Notice that the sequence that you download is for the top, 5'->3' strand in Fig. \@ref(fig:PTCRestrictionMap).
 1. Take a picture of this restriction map to turn in (or annotate the digital files).
