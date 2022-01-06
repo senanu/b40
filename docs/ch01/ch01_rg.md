@@ -37,7 +37,7 @@ nav_exclude: true
 
 5. Give an example of interactions between organisms in a garden.  {{site.space3}}
 
-6. Which theme(s) is(are) exemplified by your growth from a single, fertilized egg? {{site.space3}}
+6. Which theme(s) is (are) exemplified by your growth from a single, fertilized egg? {{site.space3}}
 
     > Objective: Understand that evolution accounts for both the unity and diversity of life and the ideas can be helpful in understanding much of biology.
 
