@@ -2,12 +2,12 @@
 layout: default
 title: Bio 40 Syllabus
 nav_order: 1
-has_children: true
+has_children: false
 ---
 
 # Welcome to Bio 40 at Chaffey College
 
-# Introduction to Cell and Molecular Biology -- Fall 2021 (Biol-40-18722)
+# Introduction to Cell and Molecular Biology -- Spring 2022 (Biol-40-21731)
 
 ## Course Description
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Schedule
-parent: Bio 40 Syllabus
+nav_order: 2
 start: 2022-01-10
 ---
 
