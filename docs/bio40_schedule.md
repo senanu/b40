@@ -2,6 +2,7 @@
 layout: default
 title: Schedule
 nav_order: 2
+has_children: false
 start: 2022-01-10
 ---
 
