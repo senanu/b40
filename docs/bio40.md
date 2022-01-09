@@ -55,7 +55,7 @@ With this approach, your understanding of the material should be at its peak at 
 
 ### More about reading guides
 
-Reading guides will be due **in class the class period after they are assigned and distributed**. If you are unable to attend class, you may print them from the [website]({{site.url}}/b40/) and turn them in on Canvas. If you turn it in online, you **must** turn them in as a **single PDF file**.
+Reading guides will be due **in class the class period after they are assigned and distributed**. If you are unable to attend class, you may print them from the [website]({{site.url}}/b40/) and turn them in on Canvas. If you turn it in online, you **must** turn them in as a **single PDF file**. You should anticipate, and plan for, having a reading guide due at the beginning of every class period. There will practically be no exceptions to this.
 
 Reading guides in this course are designed to encourage (OK, 'force') you to read actively, so that you fully understand the material. The **best** way to do this will be to print out a copy and fill it in with a pen or pencil. The second best way to do this would be to type answers in the boxes, however, note that although you can print your work, you won't be able to save it. *This is intentional*. In the past, I have found that students simply copy and paste answers from textbooks or the web, rather than trying to do the assignments thoughtfully and completely. As a result, they give up on the active learning component. Therefore, I will not provide a save-able pdf or anything like that. If you want to spend the time to make one and fill it out, that is your choice (you won't lose points for doing so but you'd probably be better off spending that time learning and understanding the material).
 
