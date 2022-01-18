@@ -84,7 +84,7 @@ nav_exclude: true
     > OBJECTIVE: Define acid, base, the pH scale, what pH measures & demonstrate the consequences of changing the pH to molecules.
 
 1. Write the reversible reaction of two water molecules dissociating into the Hydronium ion (H<sub>3</sub>O<sup>+</sup>) and the Hydroxide ion (OH<sup>-</sup>).{{site.space3}}
-2. When pure water reaches a state of dynamic equilibrium, which molecule is in the highest concentration? (H<sub>2</sub>O, H<sub>3</sub>O<sup>+</sup>, or OH<sup>-</sup) \_\_\_\_\_\_\_\_\_\_\_\_\_
+2. When pure water reaches a state of dynamic equilibrium, which molecule is in the highest concentration? (H<sub>2</sub>O, H<sub>3</sub>O<sup>+</sup>, or OH<sup>-</sup> \_\_\_\_\_\_\_\_\_\_\_\_\_
 3. What is the concentration of each ion in pure water? {{site.space0}}
 4. What exactly does the pH scale measure?{{site.space0}}
 5. Write the reversible reaction of sodium hydroxide (NaOH) dissociating into its ions.{{site.space3}}

@@ -213,7 +213,7 @@ Demonstrate that you can read a file into R. I recommend using Google Sheets, as
 # Put your code here
 ```
 
-The line of code in the next chunk will calculate summary statistics for your dataset. However, it can't do that until you have a dataset called "mydat", which you should have created above. In order to not have an error, I have put "eval=FALSE" in the top line of the code chunk. This prevents knitr from evaluating something that will cause an error.
+The line of code in the next chunk will calculate summary statistics for your dataset. However, it can't do that until you have a dataset called "mydata", which you should have created above. In order to not have an error, I have put "eval=FALSE" in the top line of the code chunk. This prevents knitr from evaluating something that will cause an error.
 
 1. Change the "eval=FALSE" to "eval=TRUE" to allow knitr to have access to this code. You will need to look at the Rmd version of this document -- it won't show up in the knitted version.
 
