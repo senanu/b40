@@ -24,3 +24,7 @@ You can also embed plots, for example:
 ```{r carsPlot, echo=FALSE}
 plot(cars)
 ```
+
+## Assignment
+
+This assignment is very simple. You just need to change the name on line 3 and ‘knit’ this file according to the instructions in the lab manual.

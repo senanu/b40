@@ -186,17 +186,17 @@ A <- (dat$speed + dat$dist) * 100
 dat.3 <- cbind(dat, A)      # bind the new column to existing data frame
 dat.3
 
-  speed dist    A
-1     4    2  204
-2     4   10 1004
-3     7    4  407
-4     7   22 2207
-5     8   16 1608
-6     9   10 1009
+  speed dist     A
+1     4    2   800
+2     4   10  4000
+3     7    4  2800
+4     7   22 15400
+5     8   16 10800
+6     9   10  9000
 ```
 
 
-Notice that `R` follows the rules for precedence, but I like to always use parentheses to make it very clear so that I can read it easily without having to check that `R` is doing the $speed + dist$ before multiplying by 100.
+Notice that `R` follows the rules for precedence, but I like to always use parentheses to make it very clear so that I can read it easily without having to check that `R` is doing the <em>speed + dist</em> before multiplying by 100.
 
 ## Objects and quotes in R
 
