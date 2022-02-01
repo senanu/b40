@@ -119,11 +119,13 @@ Please follow the guidelines given in the “Writing lab reports for Bio40” ha
 
 ### Timeline
 
-| What is due?               | When is it due?  |
-|----------------------------|------------------|
-| Draft of introduction      | Sep 29 (11:59pm) |
-| 1st draft of entire paper. | Oct 6 (11:59pm)  |
-| Final Paper                | Oct 13 (11:59pm) |
+| What is due?                | When is it due?  |
+|-----------------------------|------------------|
+| Draft of introduction       | Feb 9 (8:00am)   |
+| Peer review of intro        | Feb 9 in class   |
+| 1st draft of entire paper.  | Feb 16 (8:00am)  |
+| Peer review of entire paper | Feb 16 in class  |
+| Final Paper                 | Feb 23 (8:00am)  |
 
 You will lose 10% of your grade every day that it is late. Please note that although I won't grade your drafts, they need to be complete and the best possible work you can produce. If they aren't complete, I may deduct some points from your final grade, and most importantly, you won't gain the benefits of having a peer review to help you improve your paper. If your paper is far from being complete, you may not be allowed to do a peer review, which will also cost you points and make it so that you don't see another model paper. This issue will be handled solely at my discretion!
 

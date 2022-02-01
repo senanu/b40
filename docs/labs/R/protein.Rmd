@@ -111,7 +111,7 @@ summary(lin.regression)
 
 Use the formula for a straight line that you wrote above to calculate the protein concentration of your milk samples. In this case, the Y will be the absorbance and the X will be the (unknown) protein concentration. You will therefore need to solve for X.
 
-When you have done that, enter the data below by hand. Each of the 4 variables below should look something like (each value should be separated by a comma):
+When you have done that, enter the data below by hand. Each of the 4 variables below should look something like the following in which each value should be separated by a comma:
 
 ```
 skim.abs <- c(0.123, 0.133, 0.142, 0.121, 0.125)
@@ -135,7 +135,7 @@ whole.conc <- c()
 You will need to figure out how to do the following simple steps yourself. Feel free to get help from your partners, or if necessary, from your instructor.
 
 1. Use the `mean()` function to calculate the average protein concentrations in both the skim and whole milk. Remember that you can use an entire variable as the argument to the `mean()` function.
-2. As with the plot you made by hand, **__you will need to multiply the final result by 50 because of the initial dilution that you made__**. The function to multiply is the asterisk (*).
+2. As with the plot you made by hand, **__you will need to multiply the final result by 50 because of the initial dilution that you made__**. The function to multiply is the asterisk (*) as in "5 * 3".
 1. If the code runs without errors, change the `eval=FALSE` to `eval=TRUE`.
 
 ```{r milk-averages, echo=TRUE, include=TRUE, eval=FALSE}
