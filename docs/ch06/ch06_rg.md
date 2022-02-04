@@ -12,7 +12,7 @@ nav_exclude: true
 1. Where is DNA located in prokaryotes? in eukaryotes?{{site.space3}}
 2. Describe the difference in size between a typical prokaryote and eukaryote?{{site.space3}}
 3. What is the difference between cytosol and cytoplasm?{{site.space3}}
-6. Why is the surface aea : volume ratio important for cells? What does a large surface-to-volume ratio allow a cell to do?{{site.space5}}
+6. Why is the surface area : volume ratio important for cells? What does a large surface-to-volume ratio allow a cell to do?{{site.space5}}
 3. Calculate the surface area and volume of both the budding and mature yeast cells on p99. {{site.space5}}
 4. Which has a larger surface-to-volume ratio: the budding or the mature cell?{{site.space0}}
 4. Complete the following table by filling in how each cellular component is used within cells. Put an 'X' in any box in which the structure does not exist.
@@ -38,8 +38,8 @@ nav_exclude: true
 11. The smooth ER is smooth because it lacks \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. It is primarily involved in the synthesis of \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. The rough ER appears rough due to the presence of \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, which are responsible for the production of \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
 12. What is the primary role of the golgi apparatus?{{site.space3}}
 13. Describe the cisternal maturation model of the golgi apparatus. What are the cis and trans faces?{{site.space3}}
-5. <img align="right" width="70%" src="{{site.url}}/b40/assets/ch06/pulse_chase.png" alt="Setup of pulse-chase experiment">Review Figure 6.15 in your book, which shows the pathway of proteins manufactured on the ER through their journey through the ER, the Golgi apparatus, and finally being exported from the cell by a secretory vesicle. **Pulse-Chase experiments** are one way we understand this jouney. In a pulse-chase experiment, a cell is initially grown with non-radioactive amino acids. At the start of the experiment (the 'pulse'), a cell is placed in a solution with radioactive amino acids for a brief period, and then back into a normal solution of normal amino acids. During the 'chase' phase, the radioactivity is tracked through the cell as a way of seeing where the radioactive amino acids are incorporated into proteins and how those proteins travel through the cell.
-6. Using the data from such an experiment at the right, how do you know that the proteins move from the rough ER to the Golgi apparatus, and finally to the secretory vesicles in that order?{{site.space3}}
+5. Review Figure 6.15 in your book, which shows the pathway of proteins manufactured on the ER through their journey through the ER, the Golgi apparatus, and finally being exported from the cell by a secretory vesicle. **Pulse-Chase experiments** (see figure) are one way we understand this journey. In a pulse-chase experiment, a cell is initially grown with non-radioactive amino acids. At the start of the experiment (the 'pulse'), a cell is placed in a solution with radioactive amino acids for a brief period, and then back into a normal solution of normal amino acids. During the 'chase' phase, the radioactivity is tracked through the cell as a way of seeing where the radioactive amino acids are incorporated into proteins and how those proteins travel through the cell.<img align="center" width="90%" src="{{site.url}}/b40/assets/ch06/pulse_chase.png" alt="Setup of pulse-chase experiment">
+6. Using the data from such an experiment as shown in the figure, how do you know that the proteins move from the rough ER to the Golgi apparatus, and finally to the secretory vesicles in that order?{{site.space3}}
 7. Estimate the amount of time the proteins spend in the Golgi apparatus. Consider when they first appear in significant quantities and when they appear in significant quantities in the step after the Golgi.{{site.space3}}
 1. Peroxisomes contain digestive enzymes. Think of 2 reasons why it may be useful to keep these bound within a membrane.
 
@@ -48,7 +48,7 @@ nav_exclude: true
 1. List 2 types of eukaryotes that contain chloroplasts.{{site.space0}}
 2. What is the primary function of mitochondria?{{site.space3}}
 3. Describe the membrane structure of mitochondria. What advantages does the cell have of having so many cristae?{{site.space3}}
-4. What is the primary function of chroloplasts?{{site.space3}}
+4. What is the primary function of chloroplasts?{{site.space3}}
 5. Look at Fig 6.18. Given what you know about pigments in plants, would you guess that the capturing of light is done in the thylakoids or the stroma?{{site.space3}}
 6. In terms of surface area, how is the thylakoid membrane of the chloroplast similar to the inner membrane of mitochondria?{{site.space3}}
 7. Explain the endosymbiont theory of the origin of mitochondria and chloroplasts. Give 2 pieces of evidence that support this theory.{{site.space3}}
