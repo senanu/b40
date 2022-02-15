@@ -30,29 +30,31 @@ Osmosis is the diffusion of water through a selectively permeable membrane.  Doe
 
     *desired_conc* &times; *desired_volume* = *current_conc* &times; *current_volume*
 
-    So, for example, to make 200ml 0.5% solution from 10% solution:
-    
-         1. 0.5% X 200ml = 10% X current vol      (then solve for current vol)
-         2. current vol = (0.5% X 200ml) / 10% = 10ml
-         3. Then measure out 190ml water to reach a total volume of 200ml
+    So, for example, to make 200ml 0.5% solution from 10% stock solution:
+
+
+    | 1. 0.5% X 200ml = 10% X current vol      (then solve for current vol) |
+    | 2. current vol = (0.5% X 200ml) / 10% = 10ml |
+    | 3. So use 10ml of your 10% stock solution, then measure out 190ml water to reach a total volume of 200ml |
          
-2. Cut 10 potato cores (only do 5 if this is a 2-hour lab). Each should be about 3cm long. You will only have 1 potato, so plan where to cut your cores carefully. You also want to make sure that cores don’t overlap. Cut the skin off any core ends and trim them to be approximately the same size.
-3. Briefly dip each core in water, then blot it dry with a paper towel, and weigh it. Record its mass then gently tie a piece of string with a tape label on it to the potato core. You must label each core, because you’ll have 2 in each beaker of solution. While you do this, place completed, labeled, cores under a damp paper towel.
+2. After making each solution, divide it approximately into 2 and label each beaker with the concentration of salt **and** with the letter "A" or "B". These letters will help you to not mix up your weight measurements of your potatoes.
+2. Cut 10 potato cores. Each should be about 3cm long. You will only have 1 potato, so plan where to cut your cores carefully. You also want to make sure that cores don’t overlap. Cut the skin off any core ends and trim them to be approximately the same size.
+3. Briefly dip each core in water, then blot it dry with a paper towel, and weigh it. Record its mass. Place completed, weighed, cores under a damp paper towel labeled "A" or "B". Note that the labels "A" and "B" are simply so that you don't mix up your potatoes once you weigh them -- you need to make sure you compare the correct potatoes at the end of the experiment, so don't mix them up.
 4. Place 2 potatoes in each of your prepared solutions, and leave them for 60 minutes.
 5. Weigh your potatoes again and record your data in a table that R can access. If you label your table exactly like that shown below, it will make following instructions in R easier! This includes the precise capitalization and punctuation of the headings.
 
-| solution | original.weight | final.weight |
-|:---------|-----------------|--------------|
-| 0        |                 |              |
-| 0        |                 |              |
-| 1.0      |                 |              |
-| 1.0      |                 |              |
-| 1.5      |                 |              |
-| 1.5      |                 |              |
-| 2.0      |                 |              |
-| 2.0      |                 |              |
-| 3.0      |                 |              |
-| 3.0      |                 |              |
+| label | solution | original.weight | final.weight |
+|:------|:---------|-----------------|--------------|
+| A     | 0        |                 |              |
+| B     | 0        |                 |              |
+| A     | 1.0      |                 |              |
+| B     | 1.0      |                 |              |
+| A     | 1.5      |                 |              |
+| B     | 1.5      |                 |              |
+| A     | 2.0      |                 |              |
+| B     | 2.0      |                 |              |
+| A     | 3.0      |                 |              |
+| B     | 3.0      |                 |              |
 
 ## Data Analysis
 Complete the [Rmd project](R/diffusion.Rmd) called “Diffusion and Osmosis” and turn in the knitted HTML file. In that project, you will create a graph of your data including a regression line, and must answer questions 2 and 3 below. Include your answers in the HTML file that you submit. You will see space for them.
