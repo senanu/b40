@@ -5,32 +5,183 @@ title: "Photosynthesis lab"
 author: "Senanu Spring-Pearson"
 date: "`r Sys.Date()`"
 output: html_document
+parent: R
+grand_parent: Labs
 ---
 
 ```{r setup, include=TRUE, echo=FALSE}
 knitr::opts_knit$set(global.device = TRUE, echo=TRUE) # leave this alone
 ```
 
-# Getting Started
-
 As you have done before, please make sure you can successfully knit this document before you make any changes to it.
 
 Take out my name in the headers (line 3) and put your name in it's place.
 
-# Photosynthesis lab
+# Part 1: Determining the activity spectrum of an aquatic plant
+
+## Get your data into R
+
+1. As you have done before, export your Google Sheets as a 'csv' file, and get R to read
+it. Your class may want to use a common spreadsheet: you may use <a href="https://docs.google.com/spreadsheets/d/1QxJBBo0fDiYYTQaGXS1sqBz80HF8exG7t8U_wnJGAk0/edit?usp=sharing" target="_blank">this Google Sheets document.</a>
+
+```{r input, eval=FALSE}
+dat <- read.csv()
+```
+
+## Calculate the volume of gas produced per gram of plant
+
+You measured the change in volume that occurred in the vials. There are two obvious 
+reasons the vials may have a change in volume:
+
+1. Due to the change in gas volume (think about whether the plant is producing 
+gas or using gas).
+2. Because of a change in temperature.
+
+We are interested in the change in gas volume so we need to be able to account for 
+any change caused by a change in temperature. Fortunately, we can do this using our
+control vial. The control will warm up just like the test vials, so we can measure 
+any expansion of the liquid and, assuming it would be the same in each vial, subtract 
+that expansion from the total change in the test vial. 
+
+1. Subtract the volume of the control from the volume of each of the test vials
+and save your results as `net.vol1` for vial1 and `net.vol2` for vial 2. This will
+be the net change in volume and will represent the volume change only due to 
+a change in the gas, and **not** a change in temperature.
+2. Change the `eval=FALSE` to `eval=TRUE`.
+
+```{r net, eval=FALSE}
+net.vol1 <-
+net.vol2 <- 
+```
+
+Now calculate the volume of oxygen produced **per gram** of the plant
+
+1. Divide the `net.vol1` by the mass of the plant. Notice that `net.vol1` is
+not a table of data. Therefore, refer to it only as `net.vol1` and not as `dat$net.vol1`.
+However, the mass is a part of your data table `dat`, so you should 
+refer to this as `dat$mass1`. These should have the same number of elements, so
+when you divide one by the other, `R` will do it element-wise (for each element).
+1. Do the same for `net.vol2`.
+2. Change the `eval=FALSE` to `eval=TRUE`.
+
+```{r volgram, eval=FALSE}
+vol.per.gram.1 <- 
+vol.per.gram.2 <- 
+```
+
+## Calculate the mean for each trial
+
+You ran 2 trials, so we will calculate the mean volume change for your color.
+
+1. Run the following code. You should not need to change it.
+2. Change `eval=FALSE` to `eval=TRUE`
+
+```{r means, eval=FALSE}
+# Calculate the mean
+mean <- apply(cbind(vol.per.gram.1, vol.per.gram.2), MARGIN=1, FUN=mean)
+
+# Bind the two new columns to the rest of the data
+dat <- cbind(dat, mean)
+
+# Look at your resulting table: 
+dat
+```
+
+## Plot a graph
+
+Up until now, we have used very basic graphics in R. There are a lot better graphics!
+
+This uses an additional library called 'ggplot2'. If you are using `R` on your
+own computer, you will need to run the following code chunk. However, once you
+have run it once, you will never need to run it again, as it will be installed
+on your computer. Once you have done this successfully, you can either delete the following
+code chunk or simply avoid running it again (it won't hurt to run it again, but
+might take a minute or two). You may need to answer "yes" or "OK" when your computer
+asks you if it is OK to install this.
+
+```{r installggplot, eval=FALSE}
+# If you are using RStudio.cloud, you probably don't need to do this
+install.packages("ggplot2")
+```
+
+After installing a library, you need to load it so it is available to use. You will
+also need to do the following:
+
+```{r loadggplot, eval=FALSE}
+library(ggplot2)
+```
+
+## Draw your graph
+
+Finally, we are set to draw the graph. The syntax for this graphing library (ggplot2)
+is a bit different from what you've seen before, but you can probably figure out 
+where you need to make changes for the X and Y axis labels, as well as the title
+of the graph. 
+
+1. Look at the `line.colors` variable in the code chunk below. Make sure all of 
+the colors that your class used are represented (and capitalized and spelled just like
+they are below). We will use this to draw an
+orange line for the orange light filter, red for the red filter, etc. rather than 
+allowing the computer to randomly choose colors for us. If you need to add a color, use 
+the format: "filtercolor" = "linecolor". Notice that we will be using a black line to represent 
+the white (uncolored) filter (a white line would be difficult to see!).
+2. Adjust the X and Y axis labels, as well as the title for the graph.
+3. Change `eval=FALSE` to `eval=TRUE`.
+
+```{r plot, eval=FALSE}
+line.colors <- c("white"="black", 
+                 "red"="red", 
+                 "blue"="blue", 
+                 "orange"="orange", 
+                 "green"="green")
+ggplot(dat, aes(time, mean, color=color)) +
+    geom_line() +
+    geom_point() +
+    ylab("Y-axis label") +
+    xlab("X-axis label") +
+    ggtitle("Title of my graph") +
+    scale_colour_manual(values=line.colors)
+
+
+```
+
+
+## Part 3: Absorption spectrum of elodea
 
 Make a graph showing the absorption spectrum of the pigments in elodea. You should:
 
 1. Save a google sheets data table with the headers "wavelength" and "absorbance". Remember not to include extraneous characters like parentheses or spaces.
-2. Read the data into this document and save it in a variable called `dat`.
+2. Read the data into this document and save it in a variable called `dat.spec` (for 'spectrum'). It is important to use a different name than what you used in part 1 above.
 3. Use the `plot()` command to generate a figure showing how the absorbance varies with the wavelength.
-  1. remember to tell R which data column you want on which axis. You can do this with the `x=dat$variable1` and `y=dat$variable2` arguments to the `plot()` command.
-  2. Add axis labels with `xlab="my X-axis label"` and similarly for `ylab=`.
-  3. Connect the points with `type='l'` (that's the lower-case letter 'l' which stands for 'lines'). As with the `xlab` and `ylab` arguments, this should be an argument to the `plot()` command.
+    1. remember to tell R which data column you want on which axis. You can do this with the `x=dat.spec$variable1` and `y=dat.spec$variable2` arguments to the `plot()` command.
+    2. Add axis labels with `xlab="my X-axis label"` and similarly for `ylab=`.
+    3. Connect the points with `type='l'` (that's the lower-case letter 'l' which stands for 'lines'). As with the `xlab` and `ylab` arguments, this should be an argument to the `plot()` command.
 4. When the code chunk below works, change "eval=FALSE" to "eval=TRUE"
 5. Knit this document and turn it in.
 
 ```{r absorbancePlot, eval=FALSE, echo=TRUE, include=TRUE}
-dat <-
+dat.spec <-
 plot(  )
 ```
+
+## Questions
+
+Type brief answers to the following questions. You will turn in the knitted version
+(html) of this document. Make sure it includes your 2 graphs that you created above.
+
+1. **Under which acetate sheet was photosynthesis fastest? How do you know?**
+
+    Replace this text with your answer. If you use 4 spaces before your answer, it will be nicely formatted.
+    
+2. **Under which acetate sheet was photosynthesis slowest?**
+
+    Replace this text with your answer. If you use 4 spaces before your answer, it will be nicely formatted.
+
+3. **What is the difference between the activity and absorption spectra?**
+
+    Replace this text with your answer. If you use 4 spaces before your answer, it will be nicely formatted.
+
+4. **Do your data suggest/indicate that the absorption and activity spectra are similar?**
+
+    Replace this text with your answer. If you use 4 spaces before your answer, it will be nicely formatted.
+

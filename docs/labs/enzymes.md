@@ -34,7 +34,7 @@ Enzymes are biological catalysts. Although some biological reactions happen spon
   <img src="/b40/assets/labs/enzyme.png" width="100%">
   <figcaption>Figure 1: Induced-fit model of enzymes</figcaption>
   </figure>
-  
+
 In today’s lab, we will investigate the activity of the enzyme &alpha;-amylase, which is present in your saliva and pancreas and catalyzes the hydrolysis of starch into maltose, glucose, and other oligosaccharides by breaking the &alpha;-1,4-glycosidic linkages of starch.
 
 ## Part 1: How much amylase is required to digest a fixed amount of starch?
@@ -107,9 +107,9 @@ Write down the number and concentration here: concentration for full hydrolysis 
     | 7.5 |                       |                                            |
     | 8   |                       |                                            |
     | 9   |                       |                                            |
-    
+
 13. Use the Rmd file “enzymes.Rmd” to analyze your data.
-       
+
 ## Part 3: Effect of substrate concentration
 
 This part of the lab will be done on the second day.
@@ -164,9 +164,9 @@ The ‘S’ represents the substrate concentration in mg/ml and the ‘v’ repr
 We are now going to use the data we have to estimate a theoretical maximum reaction rate. This is done by what is known as a Michaelis-Menten curve that was specifically designed to describe enzyme kinetics. It is given by the equation
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=v&space;=&space;\frac{V{max}[S]}{K{m}&plus;[S]}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?v&space;=&space;\frac{V{max}[S]}{K{m}&plus;[S]}" title="v = \frac{V{max}[S]}{K{m}+[S]}" /></a>
-      
+
 Where *v* is the reaction rate, *[S]* is the concentration of the substrate, *V<sub>max</sub>* is the maximum reaction rate, and *K<sub>m</sub>* is the substrate concentration at half of the maximum reaction speed. You don’t need to memorize these details (or the equation), except to be aware that scientists have used their understanding of how enzymes work in order to describe it mathematically. We will now estimate *V<sub>max</sub>*.
-  
+
 A graph of this equation is shown below (Fig 2) with the parameters labeled. Remember from class that at low substrate concentrations (at the left of the graph) the reaction rate increases as the concentration of substrate increases because the enzyme molecules spend less and less time with their active sites unoccupied (they 'search' for substrate less as the substrate concentration increases). However at high concentrations, the enzyme is 'saturated' and is simply working to convert substrate into products as fast as it possibly can. The active site is essentially always full, so increasing the concentration does NOT increase the reaction rate.  is the maximum possible reaction velocity at very high substrate concentrations.
 
 <figure class="image">
@@ -205,14 +205,11 @@ Marini, I. (2005), Discovering an accessible enzyme: Salivary &alpha;-amylase : 
 
 | Date    | What is Due?                                               |
 |---------|------------------------------------------------------------|
-| Oct 17  | Introduction for peer review.                              |
-| Oct 22  | Literature review. See "Literature cited" section above.   |
-| Oct 24  | Peer review of your peer's introduction                    |
-| Oct 31  | Full rough draft for peer review                           |
-| Nov 3   | Complete peer review of another student's lab report       |
-| Nov 7   | Final draft                                                |
+| Mar 9   | Introduction **and** Literature review for peer review.    |
+| Mar 30  | Full rough draft for peer review                           |
+| Apr 6   | Final Draft                                                |
 
-# Lab write-up (Fall 2021 only)
+<!-- # Lab write-up (Fall 2021 only)
 
 Many groups did not collect enough data to successfully draw the required graphs. If this describes you, you may use the data below, as if it were your own. However, I would still like to see your own data.
 
@@ -271,4 +268,4 @@ At pH4, the reaction took too long to complete. You can calculate the velocity a
 | 3   | 1025 |
 | 5   | 1125 |
 | 9.7 | 1200 |
-
+-->
