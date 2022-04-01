@@ -30,43 +30,43 @@ dat <- read.csv()
 
 ## Calculate the volume of gas produced per gram of plant
 
-You measured the change in volume that occurred in the vials. There are two obvious 
+You measured the change in volume that occurred in the vials. There are two obvious
 reasons the vials may have a change in volume:
 
-1. Due to the change in gas volume (think about whether the plant is producing 
+1. Due to the change in gas volume (think about whether the plant is producing
 gas or using gas).
 2. Because of a change in temperature.
 
-We are interested in the change in gas volume so we need to be able to account for 
+We are interested in the change in gas volume so we need to be able to account for
 any change caused by a change in temperature. Fortunately, we can do this using our
-control vial. The control will warm up just like the test vials, so we can measure 
-any expansion of the liquid and, assuming it would be the same in each vial, subtract 
-that expansion from the total change in the test vial. 
+control vial. The control will warm up just like the test vials, so we can measure
+any expansion of the liquid and, assuming it would be the same in each vial, subtract
+that expansion from the total change in the test vial.
 
 1. Subtract the volume of the control from the volume of each of the test vials
 and save your results as `net.vol1` for vial1 and `net.vol2` for vial 2. This will
-be the net change in volume and will represent the volume change only due to 
+be the net change in volume and will represent the volume change only due to
 a change in the gas, and **not** a change in temperature.
 2. Change the `eval=FALSE` to `eval=TRUE`.
 
 ```{r net, eval=FALSE}
 net.vol1 <-
-net.vol2 <- 
+net.vol2 <-
 ```
 
 Now calculate the volume of oxygen produced **per gram** of the plant
 
 1. Divide the `net.vol1` by the mass of the plant. Notice that `net.vol1` is
 not a table of data. Therefore, refer to it only as `net.vol1` and not as `dat$net.vol1`.
-However, the mass is a part of your data table `dat`, so you should 
+However, the mass is a part of your data table `dat`, so you should
 refer to this as `dat$mass1`. These should have the same number of elements, so
 when you divide one by the other, `R` will do it element-wise (for each element).
 1. Do the same for `net.vol2`.
 2. Change the `eval=FALSE` to `eval=TRUE`.
 
 ```{r volgram, eval=FALSE}
-vol.per.gram.1 <- 
-vol.per.gram.2 <- 
+vol.per.gram.1 <-
+vol.per.gram.2 <-
 ```
 
 ## Calculate the mean for each trial
@@ -83,7 +83,7 @@ mean <- apply(cbind(vol.per.gram.1, vol.per.gram.2), MARGIN=1, FUN=mean)
 # Bind the two new columns to the rest of the data
 dat <- cbind(dat, mean)
 
-# Look at your resulting table: 
+# Look at your resulting table:
 dat
 ```
 
@@ -114,25 +114,26 @@ library(ggplot2)
 ## Draw your graph
 
 Finally, we are set to draw the graph. The syntax for this graphing library (ggplot2)
-is a bit different from what you've seen before, but you can probably figure out 
+is a bit different from what you've seen before, but you can probably figure out
 where you need to make changes for the X and Y axis labels, as well as the title
-of the graph. 
+of the graph.
 
-1. Look at the `line.colors` variable in the code chunk below. Make sure all of 
+1. Look at the `line.colors` variable in the code chunk below. Make sure all of
 the colors that your class used are represented (and capitalized and spelled just like
 they are below). We will use this to draw an
-orange line for the orange light filter, red for the red filter, etc. rather than 
-allowing the computer to randomly choose colors for us. If you need to add a color, use 
-the format: "filtercolor" = "linecolor". Notice that we will be using a black line to represent 
+orange line for the orange light filter, red for the red filter, etc. rather than
+allowing the computer to randomly choose colors for us. If you need to add a color, use
+the format: "filtercolor" = "linecolor". Notice that we will be using a black line to represent
 the white (uncolored) filter (a white line would be difficult to see!).
 2. Adjust the X and Y axis labels, as well as the title for the graph.
 3. Change `eval=FALSE` to `eval=TRUE`.
 
 ```{r plot, eval=FALSE}
-line.colors <- c("white"="black", 
-                 "red"="red", 
-                 "blue"="blue", 
-                 "orange"="orange", 
+line.colors <- c("white"="black",
+                 "red"="red",
+                 "red2"="red",
+                 "blue"="blue",
+                 "orange"="orange",
                  "green"="green")
 ggplot(dat, aes(time, mean, color=color)) +
     geom_line() +
@@ -172,7 +173,7 @@ Type brief answers to the following questions. You will turn in the knitted vers
 1. **Under which acetate sheet was photosynthesis fastest? How do you know?**
 
     Replace this text with your answer. If you use 4 spaces before your answer, it will be nicely formatted.
-    
+
 2. **Under which acetate sheet was photosynthesis slowest?**
 
     Replace this text with your answer. If you use 4 spaces before your answer, it will be nicely formatted.
@@ -184,4 +185,3 @@ Type brief answers to the following questions. You will turn in the knitted vers
 4. **Do your data suggest/indicate that the absorption and activity spectra are similar?**
 
     Replace this text with your answer. If you use 4 spaces before your answer, it will be nicely formatted.
-
