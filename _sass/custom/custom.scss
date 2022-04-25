@@ -39,6 +39,21 @@
     font-size: 12pt !important;
     font-weight: bold;
   }
+  .dna {
+    page-break-inside: avoid;
+    font-weight: bold;
+    border-style: solid;
+    font-family: monospace;
+    border-color: #287EC7;
+    background-color: #d4e7f7;
+    border-left-width: 3px;
+    border-right-width: 0px;
+    border-top-width: 3px;
+    border-bottom-width: 0px;
+    padding-left: 1em;
+    margin-left: -2em;
+    margin-right: -2em;
+  }
   //@page :first {.page-header: none;}
 h1, h2, h3, h4, h5, h6, p, ul, li {
   font-family: "Times New Roman", Times, serif;
@@ -146,4 +161,18 @@ td {
   li{
     color: red !important;
   }
+}
+.dna {
+  font-weight: bold;
+  border-style: solid;
+  font-family: monospace;
+  border-color: #287EC7;
+  background-color: #d4e7f7;
+  border-left-width: 3px;
+  border-right-width: 0px;
+  border-top-width: 3px;
+  border-bottom-width: 0px;
+  padding-left: 1em;
+  margin-left: -2em;
+  margin-right: -2em;
 }
