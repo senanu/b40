@@ -1,11 +1,22 @@
 // Print-only styles.
+
 @media print {
+  @page {
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    size: letter portrait;
+  }
   body {
-    margin-left: 2cm;
-    margin-right: 2cm;
+    margin-left: 0cm;
+    margin-right: 0cm;
     margin-top: 2cm;
     margin-bottom: 2cm;
   }
+  .print:last-child {
+     page-break-after: auto;
+}
   .side-bar { display: none; }
   .breadcrumb-nav { display: none;}
   .main-content { max-width: auto; margin: 1em;}
@@ -19,13 +30,6 @@
   }
   p, li{
     font-size: 12pt;
-  }
-  @page {
-    margin-left: 2cm;
-    margin-right: 2cm;
-    margin-top: 2cm;
-    margin-bottom: 2cm;
-    size: letter portrait;
   }
   h1 {
     background-color: rgb(220, 220, 220);
@@ -92,15 +96,32 @@ textarea, input{
 
 table {
   page-break-inside: avoid;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  border: 3px solid black;
+}
+thead{
+  border: 3px solid black;
+  font-weight: bolder;
+}
+th{
+  padding: 5px;
+  border: 2px solid black;
+}
+td {
+    font-size: 10pt;
+    padding: 2px;
+    border: 2px solid black;
 }
 pre {
   font-size: 16pt;
   font-family: "Courier Bold", Courier, monospace;
   font-weight: bold;
+  background-color: rgb(220,220,220);
 }
-
+}
 // Not printed pages
-}
+
 
 ol li::before{
   color: blue;

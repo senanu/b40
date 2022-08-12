@@ -7,27 +7,19 @@ nav_exclude: true
 
 # CH 1 Reading Guide: Biological themes and scientific inquiry
 
+Because this reading guide will be given to you on the first day of class, please complete the first part before the second day. At the bottom, you will see part that should be done in or after class.
+
 > Objective: Utilize The Properties of Life to distinguish between living organisms and non-living things.
 
 1. Give a brief explanation of each property of life listed below. Use your own words – don't copy from the textbook.
-    * Order {{site.space3}}
-    * Reproduction {{site.space3}}
-    * Growth and development {{site.space3}}
-    * Evolution {{site.space3}}
+    * Cells {{site.space3}}
+    * Replication {{site.space3}}
+    * Information {{site.space3}}
     * Processing energy {{site.space3}}
-    * Regulation {{site.space3}}
-    * Response to environment {{site.space3}}
+    * Evolution {{site.space3}}
 
     > Objective: List and understand 5 unifying themes in biology:
     > Emergent Properties, Information processing, transfer of energy and matter, interactions, and Evolution.
-
-1. Give 2 examples (not from your book) where new properties emerge at a higher level of organization.
-
- * Example 1: {{site.space1}}
-
- * Example 2: {{site.space1}}
-
-1. Explain how the structure of a leaf gives clues to what the leaf does. {{site.space3}}
 
 2. Information in cells is contained in a molecule called \_\_\_\_\_\_\_\_\_\_\_
 
@@ -41,30 +33,44 @@ nav_exclude: true
 
     > Objective: Understand that evolution accounts for both the unity and diversity of life and the ideas can be helpful in understanding much of biology.
 
-1. Give a definition of Evolution (see page 11). {{site.space3}}
+1. Give a definition of Evolution (see chap 1.3). {{site.space3}}
 
 2. Why do you think people say that evolution explains the 'unity' (similarity) of life?  {{site.space3}}
 
 3. What evidence do you think a biologist might use to claim that humans and mice are related? Explain. {{site.space3}}
-4. Explain what is shown in Fig 1.20? {{site.space4}}
-5. Use Fig 1.20 to explain why biologists say that evolution accounts for the diversity of life. {{site.space4}}
+4. Explain what is shown in Fig 1.7 (1.6 in 6th ed.)? {{site.space4}}
+5. Use Fig 1.7 (1.6 in 6th ed.) to explain why biologists say that evolution accounts for the diversity of life. {{site.space4}}
 
 3. List the 3 domains of life. Which are prokaryotic (don't have a nucleus) and which are eukaryotic (have a nucleus)?  {{site.space3}}
 
-4. Watch the 10 minute video about [natural selection](https://www.biointeractive.org/classroom-resources/making-fittest-natural-selection-and-adaptation).  What is the adaptation being disucssed? Why do the animals vary between the 2 habitats?  {{site.space5}}
 5. What is an 'adaptation?' {{site.space3}}
+
+4. Watch the 10 minute video about [natural selection](https://www.biointeractive.org/classroom-resources/making-fittest-natural-selection-and-adaptation).  What is the adaptation being discussed? Why do the animals vary between the 2 habitats?  {{site.space5}}
 
     > Objective: Understand the scientific method
 
 1. In your own words, what is the difference between inductive and deductive reasoning? (Make sure to read Chap 9 of Zen and the Art of Motorcycle Maintenance for this) {{site.space4}}
 
-2. Look at Fig 1.22. What do you think a scientist would do if she tested hypothesis 1 and found that it was unsupported? {{site.space3}}
+2. Briefly summarize the two hypotheses regarding why giraffes have long necks. {{site.space6}}
 
-3. Think of 2 additional hypotheses that might explain why the desk lamp doesn't work (Fig 1.22) {{site.space3}}
+2. What evidence was used to support each of the above hypotheses? {{site.space6}}
+
+3. Imagine you reach for a flashlight, flip the switch and nothing happens (ie. it doesn't work). Think of 3 hypotheses that might explain why the flashlight doesn't work {{site.space4}}
 
 4. List 3 differences between a theory and a hypothesis. {{site.space3}}
 
 5. What do you think of the idea that "Evolutionary theory can't be trusted because it's _just_ a theory"? {{site.space3}}
+
+
+# To be completed in or after class...
+
+1. Give 2 examples (not from your book) where new properties emerge at a higher level of organization.
+
+ * Example 1: {{site.space1}}
+
+ * Example 2: {{site.space1}}
+
+1. Explain how the structure of a leaf gives clues to what the leaf does. {{site.space3}}
 
     > Objective: Be able to form a testable hypothesis in the form of a Research hypothesis
 
@@ -76,7 +82,7 @@ nav_exclude: true
 
     > Objective: Understand the difference between dependent and independent variables
 
-1. Sketch out a graph (include axes and labels) that shows the relationship between air temparature and time of day at your house. {{site.space10}}
+1. Sketch out a graph (include axes and labels) that shows the relationship between air temperature and time of day at your house. {{site.space10}}
 1. Mark on your graph which axis is the dependent variable? Which is independent?
 1. Explain your reasoning in how you knew the graph should be shaped this way. {{site.space3}}
 1. Does your answer to the question above show deductive or inductive reasoning? {{site.space0}}

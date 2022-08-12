@@ -7,7 +7,7 @@ has_children: false
 
 # Welcome to Bio 40 at Chaffey College
 
-# Introduction to Cell and Molecular Biology -- Spring 2022 (Biol-40-21731)
+# Introduction to Cell and Molecular Biology -- Fall 2022 (Biol-40-26706)
 
 ## Course Description
 
@@ -20,10 +20,10 @@ An intensive course designed to prepare students for upper division courses in c
 * Lab times: Wed 9:30-12:20 in BL-101
 * Optional office hours ([via Zoom](https://chaffey-edu.zoom.us/j/98445584149)): Tuesdays at 11:00-12:00
 * Course website: [https://senanu.github.io/b40/](https://senanu.github.io/b40/) which is linked through Canvas.
-* [turnitin.com](https://www.turnitin.com): Class ID: 33027400; Enrollment key: "Biology"
+* [turnitin.com](https://www.turnitin.com): Class ID: 35466501; Enrollment key: "Biology"
 * E-mail: [senanu.springpearson@chaffey.edu](mailto:senanu.springpearson@chaffey.edu)
 * Phone: 909-652-7876 (please use email instead)
-* Final exam: **Monday 5/16/2022 8:45am**
+* Final exam: **Monday 12/12/2022 8:45am**
 
 
 
@@ -39,9 +39,9 @@ At the completion of the course, students will:
 * Demonstrate skills in writing using the style of biological sciences and format of scientific literature.
 
 ## Required Text:  
-<img align="right" width="25%" src="{{site.url}}/b40/assets/img/campbell_11th.jpeg" alt="Textbook 11th ed">
-Urry et al., 2017. Campbell Biology, 11th ed. Pearson.
-This is a big, heavy, expensive book, but it will be invaluable to you as a budding biologist. This is also the book that you will continue to use through the introductory biology classes at Chaffey and so is worth investing in. Previous editions are only slightly different, so you are welcome to use those for this class. For 2022, the Chaffey bookstore has grants that should apply to this textbook.
+<img align="right" width="25%" src="{{site.url}}/b40/assets/img/freeman_7th.png" alt="Textbook 7th ed">
+Freeman et al., 2020. Biological Science, 7th ed. Pearson.
+This is a big, heavy, expensive book, but it will be invaluable to you as a budding biologist. This is also the book that you will continue to use through the introductory biology classes at Chaffey and so is worth investing in. Previous editions are only slightly different, so you are welcome to use those for this class. For 2022, the Chaffey bookstore may have grants that should apply to this textbook. You may use previous editions of the textbook, though the most recent, the better.
 
 New textbooks may be bought with a code to Pearson's online learning content. You are welcome to use those, but none of it will be required for this class.
 
@@ -97,8 +97,8 @@ If you disagree with the grade on any assignment or exam, you must inform me of 
 3 Exams | 300 points
 1 final exam | 200 points
 2 full lab reports | 150 points  
-1 Lab presentation  |  40 points
-Reading guides  |  ~ 60 points (approx)
+1 Lab presentation  |  30 points
+Reading guides  |  ~ 70 points (approx)
 Miscellaneous assignments and quizzes  |  ~ 150 points (approx)
 **Total**   |  **Approximately 900 points**
 
@@ -139,10 +139,10 @@ Study in groups: Group study is much more fun and effective than studying on you
 * **Keep up**: Don’t get behind — it’ll be really difficult to catch up on old material while you’re trying to stay up-to-date on the newer material. Let me say it again: Don’t get behind, don’t get behind, don’t get behind!
 
 ## More Important Dates
-* **1/24** Last day to add the class
-* **1/30** Last day to drop without a ‘W’
-* **4/5** Last day to drop the course with a ‘W’
-* **5/16** Final exam.
+* **8/26** Last day to add the class
+* **9/5** Last day to drop without a ‘W’
+* **10/28** Last day to drop the course with a ‘W’
+* **12/12 8:45-11:15** Final exam.
 
 ## Useful Chaffey College Resources
 
