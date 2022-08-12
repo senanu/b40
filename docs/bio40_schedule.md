@@ -6,7 +6,7 @@ has_children: false
 start: 2022-01-10
 ---
 
-# Class schedule for Bio 40 (Spring 2022)
+# Class schedule for Bio 40 (Fall 2022)
 
 <style>
 @media print{
