@@ -1,17 +1,12 @@
 ---
 layout: default
-title: Ch 05.3 Reading Guide -- Biological Molecules
+title: Ch 04 Reading Guide -- Nucleic acids
 parent: Chapter content
 nav_exclude: true
 ---
 
-# Chapter 5 -- Biological molecules
+# Chapter 4 -- Nucleic acids
 
-## Nucleic acids (5.5 & 16.1)
-
-Note that you'll need to read 16.1 for this.
-
-    
 > OBJECTIVE: Describe how information is transmitted from the nucleus to the cytoplasm, where it is used to make proteins.
 
 1. The nucleic acid that resides in the nucleus is...{{site.space0}}
@@ -30,3 +25,10 @@ Note that you'll need to read 16.1 for this.
 8. Which bases pair with which?{{site.space2}}
 9. How can you explain Chargaff's rules with what we now know about DNA structure (you'll need to read Chapter 16.1)?{{site.space4}}
 10. How does the size of purines and pyrimidines indicate about the width of the DNA double helix?{{site.space4}}
+
+# Do the following in or after class...
+
+1. Using the skills in "Tips on drawing Nucleic acids" (Making models 4.2), write a DNA sequence 5'-GGAGAACTTCCCC-3'. Notice that the first part of this sequence contains G and A, which are purines, whereas the second part of the sequence contains pyrimidines. Why does the width of the molecule NOT change from the first part to the second? Use a diagram to help you explain.{{site.space5}}
+1. The genome of a particular organism contains 35% guanine. What proportion of the genome is adenine?{{site.space3}}
+1. Based on its structure, why do you think RNA is so much more reactive than DNA? {{site.space3}}
+1. Scientists sometimes find "ancient DNA" from organisms that died a long time ago (sometimes many thousands of years; think about Jurassic Park!). Why would they be unlikely to find ancient RNA?
