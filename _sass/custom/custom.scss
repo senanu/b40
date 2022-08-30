@@ -85,8 +85,8 @@ li:not(:last-child) {
     margin-bottom: 5px;
 }
 ul,ol {
-margin:0;
-padding:0 0 0 2em;
+  margin:0;
+  padding:0 0 0 2em;
 }
 
 textarea, input{
@@ -95,6 +95,7 @@ textarea, input{
 }
 
 table {
+  width: 100%;
   page-break-inside: avoid;
   border-spacing: 0px;
   border-collapse: collapse;
@@ -105,7 +106,7 @@ thead{
   font-weight: bolder;
 }
 th{
-  padding: 5px;
+  padding: 2px;
   border: 2px solid black;
 }
 td {
@@ -154,11 +155,11 @@ thead{
   font-weight: bolder;
 }
 th{
-  padding: 5px;
+  padding: 2px;
   border: 2px solid black;
 }
 td {
-    padding: 5px;
+    padding: 2px;
     border: 2px solid black;
 }
 

@@ -53,16 +53,15 @@ Write a research hypothesis regarding the question about the protein content of 
 
 Table 1: Volumes of test tube components
 
-| TUBE  | 1XPBS*      | Standards 2-8 (see Table 2)| Skim Milk (diluted) | Whole Milk (diluted) | Bradford<br>Dye |
-|-------|-------------|----------------------------|---------------------|----------------------|-----------------|
-| 1     | 1000 &mu;l* | 0                          | 0                   | 0                    | 1ml             |
-| 2-8   |  980 &mu;l* | 20 &mu;l                   | 0                   | 0                    | 1ml             |
-| 9     | 2000 &mu;l* | 0                          | 0                   | 0                    | 0ml             |
-| S1-S5 |  980 &mu;l* | 0                          | 20 &mu;l            | 0                    | 1ml             |
-| W1-W5 |  980 &mu;l* | 0                          | 0                   | 20 &mu;l             | 1ml             |
+| TUBE  | 1XPBS*      | Standards 2-8<br>(see Table 2)| Milk (diluted) | Bradford<br>Dye |
+|-------|-------------|----------------------------|----------------|-----------------|
+| 1     | 1000 &mu;l* | 0                          | 0              | 1ml             |
+| 2-8   |  980 &mu;l* | 20 &mu;l                   | 0              | 1ml             |
+| 9     | 2000 &mu;l* | 0                          | 0              | 0ml            |
+| S1-S5 |  980 &mu;l* | 0                          | 20 &mu;l skim  | 1ml             |
+| W1-W5 |  980 &mu;l* | 0                          | 20 &mu;l whole | 1ml             |
 
 * Note that some of the cuvettes that we use in the lab will need a larger total volume. If you are using this kind, increase the volume of PBS by 1000&mu;l.
-
 
 Table 2: Absorbance of protein samples at 595nm.
 
@@ -88,6 +87,18 @@ Table 2: Absorbance of protein samples at 595nm.
 
 Table 3: Absorbance of milk samples at 595nm.
 
+<style>
+.milk-samples th:first-of-type {
+    width: 20%;
+}
+.milk-samples th:nth-of-type(2) {
+    width: 50%;
+}
+.milk-samples th:nth-of-type(3) {
+    width: 30%;
+}
+</style>
+
 | Label | Content                         | Absorbance at 595nm |
 |-------|---------------------------------|---------------------|
 | S1    | Unknown (Sample S – Skim milk)  |                     |
@@ -100,6 +111,7 @@ Table 3: Absorbance of milk samples at 595nm.
 | W3    | Unknown (Sample W – Whole milk) |                     |
 | W4    | Unknown (Sample W – Whole milk) |                     |
 | W5    | Unknown (Sample W – Whole milk) |                     |
+{: .milk-samples}
 
 
 ## Preliminary Data Analysis
