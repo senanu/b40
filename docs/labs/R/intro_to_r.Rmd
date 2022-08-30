@@ -143,11 +143,11 @@ Similarly, letters of different case are very different in R. For example, if yo
 
 # Getting your data into R
 
-R doesn't have a spreadsheet program built in, so we will use Google Sheets. Before doing this, however, we need to 'export' our data as a CSV (Comma-separated values) file. __You will need to do this with each Google dataset that you use__. Start by logging in to your Google account and creating a file with a few values in 2 columns (this example is from my Google Drive):
+R doesn't have a spreadsheet program built in, so we will use Google Sheets. Before doing this, however, we need to 'publish' our data as a CSV (Comma-separated values) file. __You will need to do this with each Google dataset that you use__. Start by logging in to your Google account and creating a file with a few values in 2 columns (this example is from my Google Drive):
 
 ![Google sheets file with 3 columns of data](https://senanu.github.io/b40/assets/labs/02_google_data.png){height=4in}
 
-Give your document a title, and make sure you know where it is in your Google Drive. Next, select the 'File' menu and 'Publish to the web'. Then choose to **publish it as a CSV file**.
+Give your document a title, and make sure you know where it is in your Google Drive. Next, select the 'File' menu, then 'Share' and 'Publish to the web'. Then choose to **publish it as a CSV file**.
 
 ![Publishing to the Web](https://senanu.github.io/b40/assets/labs/02_publish_to_web.png){height=4in}
 
@@ -164,7 +164,7 @@ dat <- read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vR1WD5pL0ueIrDi
 dat
 ```
 
-Try doing this yourself with some of your own made-up data. This is a very useful command and you'll need to use it for every R exercise we do in lab. Finally, you can see whether there seems to be a relationship between the length and width of the leaves in my dataset by drawing a simple graph that includes the data, axis labels, and a main title. We can also do a linear regression of the data and plot that line on the graph (you'll learn more about these later; for now, simply run the code):
+Try doing this yourself with some of your own made-up data. This is a very useful command and you'll need to use it for every R exercise we do in lab. Finally, you can see whether there seems to be a relationship between the length and width of the leaves in my dataset by drawing a simple graph that includes the data, axis labels, and a main title. We can also do a linear regression of the data and plot that line on the graph (you'll learn more about these later; for now, simply run the code, don't change it):
 
 ```{r length_width, include=TRUE}
 plot(dat$length,
