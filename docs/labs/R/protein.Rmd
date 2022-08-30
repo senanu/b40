@@ -1,19 +1,12 @@
----
-title: "Using R to graph and calculate protein concentration"
-output:
-  html_document: default
-
----
-
 Before starting, go to the tools menu, choose 'Global options', then in the 'R markdown' menu, UNCHECK the box labeled "Show output inline for all R Markdown documents". This will tell RStudio to put the plot into the viewer sub-window.
 
 # Importing data
 
-Get your data for the standard curve into R using a Google Sheets spreadsheet or any other method that you prefer. You'll need to remember how to export your data from Google as a .csv file. You can use the `read.csv()` function to get it into R.
+Get your data for the standard curve into R using a Google Sheets spreadsheet or any other method that you prefer. You'll need to remember how to save your data from Google as a .csv file. You can use the `read.csv()` function to get it into R.
 
 ## Formatting your data in a spreadsheet
 
-Your data sheet should have 1 row of headers with any data below those headers. To make your life easy, format your headers in a way that R can read them easily -- do not use spaces or other weird characters (computer languages usually interpret spaces as a break between words). Dots (.) and underscores (_) are fine, but parentheses are not.
+Your data sheet should have 1 row of headers with any data below those headers. To make your life easy, format your headers in a way that R can read them easily -- **do not use spaces or other weird characters** (computer languages usually interpret spaces as a break between words). Dots (.) and underscores (_) are fine, but parentheses are not. Therefore, don't try to incorporate units into your headings. Headings such as "Wavelength (nm)" will give you problems!
 
 Make sure your data columns that should contain numeric values *only* contain numeric values throughout the entire column (except for the header row). In particular, don't include the units alongside the data. Any 'characters' will cause R to interpret the data as text, rather than numbers, and you can't add text together!
 
@@ -32,21 +25,21 @@ knitr::opts_knit$set(global.device = TRUE)
 
 Assuming you have your data in a variable called `dat` which has 2 series named “x.data.series” and “y.data.series” (choose something better for your own data!), you can plot a graph with the `plot()` command. You’ll need to modify it for your data, and to adjust the labels to something useful. **MAKE SURE TO MODIFY “x.data.series” ETC. TO REFLECT THE NAMES AT THE HEAD OF YOUR DATA TABLE!!!**
 
-This is a good chance to learn about providing *arguments* to an R function. Type `?plot` in the console to view the help file. Notice it says that the usage is `plot(x, y, ...)` and then it gives information about what the `x`, `y`, and other arguments are. There are 2 ways to supply arguments in R. In the best way, you tell R explicitly that `x=variable1` and `y=variable2` (see the code chunk below). If you want to use a shortcut, you can just say `plot(variable1, variable2)` and R will interpret this as the first argument is the first argument in the help file, and the second is the second argument in the help file. However, the first method is generally better as it is very explicit.
+This is a good chance to learn about providing *arguments* to an R function. Type `?plot` in the console (bottom left pane) to view the help file. Notice it says that the usage is `plot(x, y, ...)` and then it gives information about what the `x`, `y`, and other arguments are. There are 2 ways to supply arguments in R. In the best way, you tell R explicitly that `x=dat$variable1` and `y=dat$variable2` (see the code chunk below). If you want to use a shortcut, you can just say `plot(variable1, variable2)` and R will interpret this as the first argument is the first argument in the help file, and the second is the second argument in the help file. However, the first method is generally better as it is very explicit.
 
 1. In the console (at the bottom of the screen), type `?plot` to see the help file for the `plot()` function.
 1. Modify the `plot()` command below to accept your data series. Note that data series are referred to by the `$` operator.
 1. Further modify the command below to have good titles for the graph.
-1. You may need to change the limits of the x and y axes to accommodate your unknown samples. In the `xlim` and `ylim` arguments, change the second number (initially set to 1) to accommodate the highest values from the spectrophotometer (`ylim`) or from the graph you drew by hand (`xlim`).
+1. You may need to change the limits of the x and y axes to accommodate your unknown samples. In the `xlim` and `ylim` arguments, change the second number (initially set to 1) to accommodate the highest values from the spectrophotometer (`ylim`) or from the graph you drew by hand (for the x-axis; `xlim`).
 1. Click the small green arrow to make sure your code runs successfully.
-1. Change the `eval=FALSE` to `eval=TRUE` once your code runs.
+1. Change the `eval=FALSE` to `eval=TRUE` once your code runs. This is necessary to knit properly.
 
 ```{r plot, include=TRUE, eval=FALSE, echo=TRUE}
 # The following command is written on multiple lines.
 # R will interpret it as one command because the command
 # doesn't end until the parentheses are closed.
 # It is useful to break up functions with many arguments
-# like this so that tthey are easy to read.
+# like this so that they are easy to read.
 plot(x=dat$x.data.series,
      y=dat$y.data.series,
      main="Main title",
@@ -97,7 +90,7 @@ For your own data:
 
 1. Check to see that the following code runs.
 1. If the following runs, change the `eval=FALSE` to `eval=TRUE`.
-1. Use the output from this function to write down the equation of the regression line through *your* data. Type the equation as a comment in the following code chunk.
+1. Use the output from this function to write down the equation of the regression line through *your* data. Type the equation as a comment (following the pound symbol) in the following code chunk.
 
 ```{r summary-regression, echo=TRUE, eval=FALSE, include=TRUE}
 summary(lin.regression)
@@ -174,4 +167,4 @@ points(x=whole.conc, y=whole.abs, col='red', pch=16)
 # For your lab report
 
 1. Copy and paste the graph into your lab report which you will turn in. Go to the lower right pane and click `Export` and then `Copy to Clipboard`. Then paste it into your lab report. If you don't have a graph, you may need to follow the instructions at the very beginning of this document.
-1. Recompile this document by clicking `Knit` then `Knit to html`. Save a copy of the resulting HTML file on your computer.
+1. Recompile this document by clicking `Knit` then `Knit to html`. Save a copy of the resulting HTML file on your computer. You won't be turning this in, but it may be useful to refer to.
