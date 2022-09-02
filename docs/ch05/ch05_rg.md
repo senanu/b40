@@ -30,7 +30,7 @@ nav_exclude: true
 
 # Do the following in or after class...
 
-    > OBJECTIVE: Understand why carbohydrates are good molecules for energy storage.
+> OBJECTIVE: Understand why carbohydrates are good molecules for energy storage.
 
 1. Draw a large diagram of a molecule of &alpha;-glucose in cyclic form. Make sure to include all H and O atoms. For each bond, show the location of the shared electrons. Make sure that their position is commensurate with the relative electronegativity of the atoms. {{site.space5}}
 1. When we metabolize glucose, we produce CO<sub>2</sub>. Draw a diagram of this molecule, showing the relative positions of the shared electrons.{{site.space3}}

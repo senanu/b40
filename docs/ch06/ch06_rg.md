@@ -1,65 +1,91 @@
 ---
 layout: default
-title: Ch 06 Reading Guide -- Biological Molecules
+title: Ch 06 Reading Guide -- Lipids & Membranes
 parent: Chapter content
 nav_exclude: true
 ---
+# Chapter 6 -- Lipids & membranes
 
-# Chapter 6 -- Cells
+## Lipids
 
-> OBJECTIVE: Understand what the differences are between prokaryotic and eukaryotic cells.
+> OBJECTIVE: Describe the structure and function of different types of lipids (fats, phospholipids, & sterols).
 
-1. Where is DNA located in prokaryotes? in eukaryotes?{{site.space3}}
-2. Describe the difference in size between a typical prokaryote and eukaryote?{{site.space3}}
-3. What is the difference between cytosol and cytoplasm?{{site.space3}}
-6. Why is the surface area : volume ratio important for cells? What does a large surface-to-volume ratio allow a cell to do?{{site.space5}}
-3. Calculate the surface area and volume of both the budding and mature yeast cells on p99. {{site.space5}}
-4. Which has a larger surface-to-volume ratio: the budding or the mature cell?{{site.space0}}
-4. Complete the following table by filling in how each cellular component is used within cells. Put an 'X' in any box in which the structure does not exist.
+1. Fats, also called  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ , are formed when three \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ are each joined to a \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ via \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_reactions.
+2. How many water molecules are “lost” during the formation of a fat?{{site.space0}}
+3. Describe (or show with a diagram) the difference in structure between saturated and unsaturated fats.{{site.space6}}
+1. Explain why unsaturated fats are more likely to be liquid (oils) at room temperature, and saturated fats are likely to be solid.{{site.space3}}
+4. Draw a glycerol molecule. Attach 2 saturated and 1 unsaturated fatty acids to it using the appropriate linkage.{{site.space10}}
 
-| Structure or characteristic | Function in prokaryotes | Function in Eukaryotes            |
-|-----------------------------|-------------------------|-----------------------------------|
-| Plasma membrane             | {{site.spacet2}}        | {{site.spacet2}}                  |
-| Nucleoid                    | {{site.spacet2}}        | {{site.spacet2}}                  |
-| Nucleus                     | {{site.spacet2}}        | {{site.spacet2}}                  |
-| Ribosomes                   | {{site.spacet2}}        | {{site.spacet2}}                  |
-| Cell wall                   | {{site.spacet2}}        | Which eukaryotes have cell walls? |
-| Membrane-bound organelles   | {{site.spacet2}}        | {{site.spacet2}}                  |
-| Large size                  | {{site.spacet2}}        | {{site.spacet2}}                  |
-| Cytosol                     | {{site.spacet2}}        | {{site.spacet2}}                  |
-| Cytoplasm                   | {{site.spacet2}}        | {{site.spacet2}}                  |
+    > OBJECTIVE: Describe the structure and role of phospholipids in membranes.
 
-> OBJECTIVE: Understand the basic functioning of the various cellular components, with emphasis on the nucleus, endomembrane system, mitochondria, chloroplasts, and the cytoskeleton.
+1. Use a cartoon to show the difference between a triglyceride and the phospholipid you drew above.{{site.space6}}
+2. Draw a diagram of a phospholipid bilayer.{{site.space6}}
+3. Explain how the hydrophobic and hydrophilic structures in phospholipid molecules are important in the formation of phospholipid bilayer membranes.{{site.space3}}
+4. How do you think a water molecule would interact with the inside of a phospholipid bilayer?{{site.space3}}
+5. What is characteristic of all steroids?{{site.space3}}
+6. What differs between steroids?{{site.space3}}
 
-7. What is the primary function and contents of the nucleus?{{site.space3}}
-8. What is the primary function of the nucleolus? Where is it located?{{site.space3}}
-9. What do ribosomes do?{{site.space3}}
-10. On the top of the second column of page 104, Campbell states “… and because the ER membrane is continuous with the nuclear envelope, the space between the two membranes of the envelope is continuous with the lumenof the ER”. Look carefully at Fig 6.11 to describe what this means.{{site.space3}}
-11. The smooth ER is smooth because it lacks \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. It is primarily involved in the synthesis of \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. The rough ER appears rough due to the presence of \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, which are responsible for the production of \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
-12. What is the primary role of the golgi apparatus?{{site.space3}}
-13. Describe the cisternal maturation model of the golgi apparatus. What are the cis and trans faces?{{site.space3}}
-5. Review Figure 6.15 in your book, which shows the pathway of proteins manufactured on the ER through their journey through the ER, the Golgi apparatus, and finally being exported from the cell by a secretory vesicle. **Pulse-Chase experiments** (see figure) are one way we understand this journey. In a pulse-chase experiment, a cell is initially grown with non-radioactive amino acids. At the start of the experiment (the 'pulse'), a cell is placed in a solution with radioactive amino acids for a brief period, and then back into a normal solution of normal amino acids. During the 'chase' phase, the radioactivity is tracked through the cell as a way of seeing where the radioactive amino acids are incorporated into proteins and how those proteins travel through the cell.<img align="center" width="90%" src="{{site.url}}/b40/assets/ch06/pulse_chase.png" alt="Setup of pulse-chase experiment">
-6. Using the data from such an experiment as shown in the figure, how do you know that the proteins move from the rough ER to the Golgi apparatus, and finally to the secretory vesicles in that order?{{site.space3}}
-7. Estimate the amount of time the proteins spend in the Golgi apparatus. Consider when they first appear in significant quantities and when they appear in significant quantities in the step after the Golgi.{{site.space3}}
-1. Peroxisomes contain digestive enzymes. Think of 2 reasons why it may be useful to keep these bound within a membrane.
+## Membranes
 
-    > OBJECTIVE: Recognize organelles responsible for energy processing
+> OBJECTIVE: Describe the structure and function of membrane molecules, including phospholipids and proteins.
 
-1. List 2 types of eukaryotes that contain chloroplasts.{{site.space0}}
-2. What is the primary function of mitochondria?{{site.space3}}
-3. Describe the membrane structure of mitochondria. What advantages does the cell have of having so many cristae?{{site.space3}}
-4. What is the primary function of chloroplasts?{{site.space3}}
-5. Look at Fig 6.18. Given what you know about pigments in plants, would you guess that the capturing of light is done in the thylakoids or the stroma?{{site.space3}}
-6. In terms of surface area, how is the thylakoid membrane of the chloroplast similar to the inner membrane of mitochondria?{{site.space3}}
-7. Explain the endosymbiont theory of the origin of mitochondria and chloroplasts. Give 2 pieces of evidence that support this theory.{{site.space3}}
-8. What type of reactions are carried out in the peroxisomes? Why is it important that peroxisomes are separated from other cellular components by a membrane?{{site.space3}}
+1. What does the term amphipathic mean?
+2. Draw a cartoon of a phospholipid and label the two regions that make it amphipathic.
+3. Describe the fluid mosaic model of membranes.
+4. Assess how each of the following factors affects membrane fluidity
 
-    > OBJECTIVE: Understand how the cytoskeleton provides support and motility
+    | Feature                                      | Effects on fluidity | Reasons for the effect
+    |----------------------------------------------|---------------------|-----------------------
+    | Phospholipids have saturated tails           | {{site.spacet4}}                    |{{site.spacet4}}
+    | Phospholipids have unsaturated tails         | {{site.spacet4}}                    |{{site.spacet4}}
+    | Temperature                                  | {{site.spacet4}}                    |{{site.spacet4}}
+    | Cholesterol at moderate to high temperatures |  {{site.spacet4}}                   |{{site.spacet4}}
+    | Cholesterol at low temperatures              | {{site.spacet4}}                    |{{site.spacet4}}
 
-9. List the three cytoskeletal components.{{site.space3}}
-5. Microtubules are made up of two related proteins called \_\_\_\_\_\_\_\_ and \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-6. What is the difference between the (+) and (-) ends of microtubules?{{site.space3}}
-7. Eukaryotic flagella and cilia differ primarily in their \_\_\_\_\_\_\_\_\_\_\_\_. Describe how this difference produces different axes of movement.{{site.space3}}
-8. Microtubules and microfilaments both have motor proteins associated with them (Fig 6.21). Use Figures 6.24 and 6.26 to list the motor proteins associated with each.{{site.space3}}
-9. Look at Fig 6.28. How do you think those proteins get into the extracellular space? {{site.space3}}
-10. What are 3 types of cell junctions in animals? Which is most similar to plasmodesmata in plants?{{site.space3}}
+5. Look at Figure 7.6. What can you conclude about α-helices' affinity for water?{{site.space3}}
+6. What is the difference between peripheral and integral proteins?{{site.space3}}
+
+    > OBJECTIVE: Describe how substances move across lipid bilayers passively: Diffusion & Osmosis
+
+7. Give a definition of diffusion.{{site.space3}}
+8. In which direction (relative to concentration gradients) will solutes diffuse?{{site.space3}}
+9. What is the meant by the term 'passive transport'? What makes it 'passive'?{{site.space3}}
+10. What is osmosis? What is the relationship between osmosis and diffusion?{{site.space3}}
+11. Is it possible for large, or hydrophilic molecules to passs through the membrane? What classes of molecules allow this?{{site.space3}}
+12. Draw a picture of a liquid-filled bag made of semipermeable membrane in a beaker of water. The bag has a high concentration of salt within it. The water of the beaker is pure water.
+  * label which solution (inside the bag or the contents of the beaker) is hypertonic
+  * label which solution is hypotonic
+  * indicate on your picture which direction water will move through the membrane
+  * what will happen to the size of the bag after a period of time?{{site.space6}}
+
+
+    | Feature | Effects on permeability | Reasons for this effect |
+    |-|-|-|
+    | Size of solute | Small molecules pass through membrane <br>more easily than large molecules | Small molecules are able to fit through <br>the tight spaces between the phospholipids |
+    | Charge or polarity of solute  | {{site.spacet4}} | {{site.spacet4}} |
+    | Saturation of fatty acids in phospholipids | {{site.spacet4}} | {{site.spacet4}} |
+    | Length of fatty acid tails in phospholipids<br> | {{site.spacet4}} | {{site.spacet4}} |
+    | Presense of cholesterol<br><br> | {{site.spacet4}} | {{site.spacet4}} |
+    | Temperature<br><br> | {{site.spacet4}} | {{site.spacet4}} |
+
+13. (review) Draw the structure of an amino acid in its ionized form (as it exists in the cell).{{site.space5}}
+7. Do you think a lipid bilayer is permeable to amino acids? Why or Why not? {{site.space3}}
+
+    > OBJECTIVE: Describe how substances move across lipid bilayers via active transport
+
+13. What is meant by 'active' transport? How is it different from 'passive' transport?{{site.space3}}
+14. Why doesn’t it make sense for cells to actively transport (pump) uncharged non-polar molecules across their membrane?{{site.space3}}
+14. Look at figure 7.18. Sucrose is moving into the cell against its concentration gradient (ie. from low concentration to high concentration). What allows it to do this? (describe cotransport).{{site.space6}}
+15. What is meant by an 'electrochemical gradient'. How is this different from a 'concentration gradient'?{{site.space3}}
+15. What is the ultimate source of energy shown in figure 7.18?{{site.space3}}
+
+    > OBJECTIVE: Describe how cells move large quantities or large materials into their interior without requiring those substanes to pass through a membrane.
+
+16. In general, describe how cells transport materials into the cell without passing them through a membrane.{{site.space8}}
+
+# Do the following in or after class...
+
+1. Draw a cartoon of a single phospholipid molecule. Indicate which parts of the molecule have full or partial charges, and what those charges are (+ or -). Draw water molecules interacting with these charged regions, and show how water molecules *don't* interact with other regions.{{site.space6}}
+1. Why are diffusion and osmosis both considered to be 'passive'?{{site.space3}}
+1. Nerve cells (neurons) spend a lot of energy pumping Na<sup>+</sup> and K<sup>+</sup> ions. Under normal conditions, where is there a net positive and where is there a net negative charge (inside or outside the cell)? Describe what would happen to brain function if energy stores in those cells ran critically low?{{site.space5}}
+1. How is secondary active transport (cotransport) different from active transport?{{site.space3}}
