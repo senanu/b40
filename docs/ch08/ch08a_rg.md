@@ -5,7 +5,7 @@ parent: Chapter content
 nav_exclude: true
 ---
 
-# Chapter 8 -- Energy and Enzymes (8.1-8.3)
+# Chapter 8 -- Energy and Enzymes (8.1-8.2)
 
 > OBJECTIVE: Distinguish between different types of energy and describe how energy is transformed in chemical reactions.
 
