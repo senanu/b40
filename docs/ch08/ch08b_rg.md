@@ -34,13 +34,12 @@ nav_exclude: true
     > OBJECTIVE: Use diagrams to understand the difference between competitive and allosteric inhibition.
 
 1. Describe how competitive inhibition and allosteric inhibition work. Use a diagram to help.{{site.space8}}
+
+# Do the following in or after class...
+
 2. What happens to the rate of reaction if you increase the concentration of a **competitive inhibitor**? Why? {{site.space3}}
 3. What happens if you increase the substrate concentration in the presense of a **competitive inhibitor**?{{site.space3}}
 4. What happens to the rate of reaction if you increase the concentration of an **allosteric inhibitor**? Why? {{site.space3}}
-5. Look at Fig 8.21. What happens to the rate of isoleucine production if there is a lot of isoleucine present?{{site.space1}}
+5. Look at Fig 8.19. What happens to the rate of production of the 'product' if there is a lot of 'product' present?{{site.space1}}
 6. Do you think Enzyme 1 would be active or non-active if enzyme 3 did not function properly? Why?{{site.space3}}
-7. Why do you think feedback inhibition is a good mechanism for controlling the rate at which a biological product (such as isoleucine in Fig 8.21) is produced?{{site.space3}}
-
-
-
-
+7. Why do you think feedback inhibition is a good mechanism for controlling the rate at which a biological product (such as 'product' in Fig 8.19) is produced?{{site.space3}}
