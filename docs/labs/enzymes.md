@@ -46,7 +46,7 @@ In a previous lab, you investigated the reaction above in a qualitative way: i.e
 4. Take 1 ml **from the first tube**, and put it in your second tube. This tube will have an amylase concentration of 1/4 the stock (1/2 ml amylase, 1.5 ml stock; 2ml total volume).
 5. Take 1 ml from the second tube, and put it in your third tube. This tube will have an amylase concentration of 1/8 (1/4 ml amylase : 2ml total volume).
 6. Continue diluting in this way until you have completed tube 10. This method of dilution is called a *serial dilution*.
-7. Remove 1ml from tube 10 so that the total volume in 10 is equal to the others.
+7. Remove 1ml from tube 10 so that the total volume in 10 is equal to the others. You may discard this 1ml of solution with your pipette tip.
 8. Your dilutions will be:
 
     | Tube | Dilution    | Final color |
@@ -73,7 +73,7 @@ In a previous lab, you investigated the reaction above in a qualitative way: i.e
 14. While you are waiting, write down a prediction: Do you think that there will be more starch present after 15 minutes in tube 1 or tube 10? You will be adding iodine to the tubes. What color will they turn if they contain starch? What does a lack of starch tell you about the enzymes you introduced to the tube?{{site.space3}}
 
 
-15. Add 2 drops of iodine solution to each tube.
+15. When your 15 minutes has elapsed, add 2 drops of iodine solution to each tube.
 16. Record the color in the table above.
 17. We are interested in finding the most dilute tube that is colorless. What is the dilution for this tube? We will call this dilution the “colorless number”.{{site.space3}}
 18. Do you think the colorless number would be the same if we added more starch to the mixtures? In which direction would it change?{{site.space3}}
@@ -86,7 +86,7 @@ Write down the number and concentration here: concentration for full hydrolysis 
 
 1. Make a dilution of amylase in pH 7.0 buffer that you calculated in the last step above. You will need about 1 ml diluted amylase. If your dilution is 1:8, then you’ll need 1&mu;l amylase for every 7&mu;l buffer. Figure out how to scale this up to 1ml.
 2. **If** you are using saliva, test and record the pH of your saliva (straight saliva, not diluted in a buffer).
-3. Place a few drops of iodine solution in each ‘dimple’ of 2 dimple plates. You may want to label the dimples with tape for 30 second intervals (“30s”, “60s”, “90s” etc.). This can best be done by making a 'map' of the dimple plate on a paper or with chalk on your lab bench.
+3. Place a few drops of iodine solution in each ‘dimple’ of 2 dimple plates. You may want to label the dimples with tape for 30 second intervals (“30s”, “60s”, “90s”, "120s" etc.). This can best be done by making a 'map' of the dimple plate on a paper or with chalk on your lab bench.
 4. Place an empty 1.5 ml microcentrifuge tube in a floating holder in your water bath at 37&deg;C.
 5. Add 600 &mu;l buffer (pH 7) to the empty tube in the water bath.
 6. Add 200 &mu;l 1% starch solution. Calculate how many micrograms of starch this is:{{site.space3}}
@@ -102,9 +102,7 @@ Write down the number and concentration here: concentration for full hydrolysis 
     | 4   |                       |                                            |
     | 5   |                       |                                            |
     | 6   |                       |                                            |
-    | 6.5 |                       |                                            |
     | 7   |                       |                                            |
-    | 7.5 |                       |                                            |
     | 8   |                       |                                            |
     | 9   |                       |                                            |
 
@@ -167,7 +165,7 @@ We are now going to use the data we have to estimate a theoretical maximum react
 
 Where *v* is the reaction rate, *[S]* is the concentration of the substrate, *V<sub>max</sub>* is the maximum reaction rate, and *K<sub>m</sub>* is the substrate concentration at half of the maximum reaction speed. You don’t need to memorize these details (or the equation), except to be aware that scientists have used their understanding of how enzymes work in order to describe it mathematically. We will now estimate *V<sub>max</sub>*.
 
-A graph of this equation is shown below (Fig 2) with the parameters labeled. Remember from class that at low substrate concentrations (at the left of the graph) the reaction rate increases as the concentration of substrate increases because the enzyme molecules spend less and less time with their active sites unoccupied (they 'search' for substrate less as the substrate concentration increases). However at high concentrations, the enzyme is 'saturated' and is simply working to convert substrate into products as fast as it possibly can. The active site is essentially always full, so increasing the concentration does NOT increase the reaction rate.  is the maximum possible reaction velocity at very high substrate concentrations.
+A graph of this equation is shown below (Fig 2) with the parameters labeled. Remember from class that at low substrate concentrations (at the left of the graph) the reaction rate increases as the concentration of substrate increases because the enzyme molecules spend less and less time with their active sites unoccupied (they 'search' for substrate less as the substrate concentration increases). However at high concentrations, the enzyme is 'saturated' and is simply working to convert substrate into products as fast as it possibly can. The active site is essentially always full, so increasing the concentration does NOT increase the reaction rate - this is the maximum possible reaction velocity at very high substrate concentrations.
 
 <figure class="image">
   <img src="/b40/assets/labs/michaelismenten.png" width="80%">
@@ -193,9 +191,7 @@ Because this is a long, complicated, multi-part lab report, think carefully abou
 
 ### Literature cited
 
-You should find 2 primary literature papers that are somewhat appropriate for the topic of this lab. Please read [this guide](primary_literature.html) for help understanding what is and isn't primary literature, and how to cite it. For the literature review portion of this assignment, you should write 3-5 (or so) sentences for each of these two papers describing how the papers are relevant to the topic of this lab. For each, make sure you include an in-text citation and make sure that you include a "Literature cited" section that has complete, proper citation of the 2 papers.
-
-When you write the actual paper, you will incorporate these ideas and citations into your paper, but you needn't have separate sentences describing the papers.
+You should find 2 primary literature papers that are somewhat appropriate for the topic of this lab. Please read [this guide](primary_literature.html) for help understanding what is and isn't primary literature, and how to cite it. For each, make sure you include an in-text citation and make sure that you include a "Literature cited" section that has complete, proper citation of the 2 papers.
 
 Some ideas from this lab were developed by Marini (2005).
 
@@ -205,9 +201,9 @@ Marini, I. (2005), Discovering an accessible enzyme: Salivary &alpha;-amylase : 
 
 | Date    | What is Due?                                               |
 |---------|------------------------------------------------------------|
-| Mar 9   | Introduction **and** Literature review for peer review.    |
-| Mar 30  | Full rough draft for peer review                           |
-| Apr 6   | Final Draft                                                |
+| Oct 19  | Introduction due for peer review.                          |
+| Oct 26  | Full rough draft for peer review                           |
+| Nov 2   | Final Draft due                                            |
 
 <!-- # Lab write-up (Fall 2021 only)
 
