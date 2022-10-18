@@ -10,10 +10,10 @@ nav_exclude: true
 > OBJECTIVE: Describe how most cell divisions results in genetically identical daughter cells.
 > OBJECTIVE: Understand the relationship between chromosomes and sister chromatids, and how the number of these vary through the cell cycle.
 
-1. Draw a large reproduction of the cell cycle (Fig 12.6). In each of G1, S, and G2 phases, draw a chromosome as it would appear in a cell. Use Fig 12.5 to help. {{site.space15}}
+1. Draw a large reproduction of the cell cycle (Fig 12.3). In each of G1, S, and G2 phases, draw a chromosome as it would appear in a cell. Use Fig 12.4 to help. {{site.space15}}
 
-    Your textbook introduces homologous chromosomes in the next chapter (p 256). These are 2 chromosomes that are usually similar (though not identical), carry the same genes and in diploids (like humans), we have 1 homolog inherited from each parent. Sister chromatids are identical copies of one another.
-    
+    Your textbook introduces homologous chromosomes in the next chapter (p 279). These are 2 chromosomes that are usually similar (though not identical), carry the same genes and in diploids (like humans), we have 1 homolog inherited from each parent. Sister chromatids are identical copies of one another.
+
 1. The division of genetic material in the nucleus is a process called \_\_\_\_\_\_\_\_\_\_\_\_ that is immediately followed by \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, the division of the cytoplasm.
 2. What is the function of mitosis?{{site.space3}}
 3. What is a chromosome?{{site.space1}}
@@ -37,7 +37,7 @@ nav_exclude: true
     > OBJECTIVE: Understand that the cell cycle is controlled by molecular interactions and the consequences of failed checkpoints (aka cancer).
 
 1. Describe the role of checkpoints for controlling the cell cycle. What happens if checkpoints don't work?{{site.space3}}
-2. The following is a checklist of checkpoints showing the requirements before the cell cycle continues. These are not presented in Campbell in any coherent manner.
+2. The following is a checklist of checkpoints showing the requirements before the cell cycle continues.
     1. G1 checkpoint checks for:
          1. size
          1. availability of nutrients
@@ -53,4 +53,3 @@ nav_exclude: true
 2. Describe the role of growth factors (such as PGDF) in the development of cancer.{{site.space3}}
 3. Describe the role of the breakdown of density dependent inhibition and anchorage dependence in the development of cancer.{{site.space6}}
 4. what is the difference between benign and malignant tumors?{{site.space3}}
- 
