@@ -1,0 +1,85 @@
+---
+title: "Respiration Lab"
+author: "Senanu"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Import your data
+
+As you've learned to do before, link your data from Google sheets to R. Since you will be collecting data as a class, you will be provided with a sheet that the whole class will use. Save the data table in a variable called `dat`
+
+1. When you can import your data successfully, change `eval=FALSE` to `eval=TRUE`
+
+```{r import, include=TRUE, echo=FALSE, eval=FALSE}
+dat <- read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vReDqjA-bnk1zsu2BtgAb2cT-HpmDSL8O0AvtpplXr_kCgEqT7cmZnWLkTpJV0OIyewX-Ir6b7avYcN/pub?output=csv")
+```
+
+# Data manipulations
+
+There are 3 main ways in which the volume of your respirometers will change.
+1. Respiration will use up Oxygen and replace it with Carbon dioxide. However, the carbon dioxide will be removed by the KOH and so will not contribute to the volume.
+2. The temperature of the tube may change. We will try to control for this by having a control tube with no seeds and only inert beads. We can correct for this with the control.
+3. The volume may change if you move the tube around after you start the experiment. This is mostly because the stopper is flexible and if you flex it, the interior volume may change slightly. Unfortunately, this is a random error for which we can't correct.
+
+We are interested in measuring #1 above, but we can correct for #2 by subtracting the volume of the empty tube from the volume of each the other tubes.
+1. Subtract the volume of the empty tube from the volume of the
+'test' tube (either dry or wet seeds). I have done the first pair for you, but you'll need to do this for all the tubes. We will call the results of these calculations as 'net' change.
+2. When this code block runs, change `eval=FALSE` to `eval=TRUE`.
+
+```{r net, include=TRUE, echo=FALSE, eval=FALSE}
+C0.net <- dat$C0 - dat$C0.emp
+C0.dry.net <- dat$C0.dry - dat$C0.emp
+
+C20.net <- dat$C20 - dat$C20.emp
+C20.dry.net <- dat$C20.dry - dat$C20.emp
+
+C30.net <- dat$C30 - dat$C30.emp
+C30.dry.net <- dat$C30.dry - dat$C30.emp
+
+C45.net <- dat$C45 - dat$C45.emp
+C45.dry.net <- dat$C45.dry - dat$C45.emp
+```
+
+# Linear regression
+
+We aren't really interested in the minute-by-minute changes that happen in the respirometers, but rather the overall change. So, we'll do a regression analysis for each one of the 'test' chambers (technically, the 'net' volume changes).
+1. Use the `lm()` function ("linear model") to get a regression line for each set of tubes. Remember that the tilde (a~b) means "a is explained by b".
+2. Repeat this for the other tube sets.
+3. When this code block runs, change `eval=FALSE` to `eval=TRUE`.
+
+```{r regressions, include=TRUE, echo=FALSE, eval=FALSE}
+C0.reg <- lm(C0.net ~ dat$Time)
+C0.dry.reg <- lm(C0.dry.net ~ dat$Time)
+
+C20.reg <- lm(C20.net ~ dat$Time)
+C20.dry.reg <- lm(C20.dry.net ~ dat$Time)
+
+C30.reg <- lm(C30.net ~ dat$Time)
+C30.dry.reg <- lm(C30.dry.net ~ dat$Time)
+
+C45.reg <- lm(C45.net ~ dat$Time)
+C45.dry.reg <- lm(C45.dry.net ~ dat$Time)
+```
+
+```{r plot, include=TRUE, echo=FALSE, eval=TRUE}
+plot(dat$Time, C20.net, type='n', ylim=c(0, 1))
+abline(C0.reg, col='red', lw=3)
+abline(C20.reg, col='blue', lw=3)
+abline(C30.reg, col='green', lw=3)
+abline(C45.reg, col='black', lw=3)
+legend(x='topleft', legend=c('C0', 'C20', 'C30', 'C45'),
+       lwd=3, col=c('red', 'blue', 'green', 'black'))
+
+rate.wet <- c(C0.reg$coefficients[[2]],
+              C20.reg$coefficients[[2]],
+              C30.reg$coefficients[[2]],
+              C45.reg$coefficients[[2]])
+rate.temp <- c(0, 20, 30, 45)
+plot(rate.temp, rate.wet, type='b', xlab = "Temperature", ylab="Metabolic rate")
+
+```
