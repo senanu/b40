@@ -205,9 +205,9 @@ Marini, I. (2005), Discovering an accessible enzyme: Salivary &alpha;-amylase : 
 | Oct 26  | Full rough draft for peer review                           |
 | Nov 2   | Final Draft due                                            |
 
-<!-- # Lab write-up (Fall 2021 only)
+# Lab write-up (Fall 2022 only)
 
-Many groups did not collect enough data to successfully draw the required graphs. If this describes you, you may use the data below, as if it were your own. However, I would still like to see your own data.
+Some groups did not collect enough data to successfully draw the required graphs. If this describes you, you may use the data below, as if it were your own. However, I would still like to see your own data.
 
 
 Please write a sentence or two at the beginning of the **Results** section describing **your own data**, and include table(s) of your own data, as appropriate. Following that, please write in your **Results** section that the data you are using was provided to you in class. Hereafter, you should use this data as if you had collected it yourself.
@@ -215,8 +215,7 @@ Please write a sentence or two at the beginning of the **Results** section descr
 
 ## If you missed the first day of this lab
 
-* Please make sure you watch the video I posted on Canvas.
-* Use the following data for Part 1:
+* You may use the following data for Part 1:
 
 | Tube | Dilution    | Final color |
 |------|-------------|-------------|
@@ -264,4 +263,3 @@ At pH4, the reaction took too long to complete. You can calculate the velocity a
 | 3   | 1025 |
 | 5   | 1125 |
 | 9.7 | 1200 |
--->
