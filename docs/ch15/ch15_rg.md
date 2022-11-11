@@ -1,21 +1,21 @@
 ---
 layout: default
-title: Ch 16 Reading Guide -- DNA
+title: Ch 15 Reading Guide -- DNA
 parent: Chapter content
 nav_exclude: true
 ---
 
 
-# Chapter 16 -- DNA
+# Chapter 15 -- DNA
 
 > OBJECTIVE: Describe the historical pathway and series of experiments that led to the discovery that DNA is the genetic material
 
-1. Why did Griffith's mice die when injected with a mixture of dead pathogenic bacteria and live non-pathogenic bacteria?{{site.space5}}
+1. Why did Griffith's mice die when injected with a mixture of dead pathogenic bacteria and live non-pathogenic bacteria? (this experiment is explained in the online videos){{site.space5}}
 2. What was the basic conclusion from the Hershey-Chase experiment?{{site.space3}}
 3. Who, and in what year, figured out the secondary structure of DNA?{{site.space0}}
 
     > OBJECTIVE: Describe the structure of the DNA double helix and the structure of chromosomes.
-    
+
 4. What are Chargaff's base-pairing rules?{{site.space1}}
 4. Which bases are purines?{{site.space0}}
 5. Which bases are pyrimidines?{{site.space0}}
@@ -44,4 +44,3 @@ nav_exclude: true
 15. Why is ligase required at the end of excision repair?{{site.space3}}
 16. What problem does telomerase solve?{{site.space3}}
 17. When in an organism's life is telomerase active? When is it inactive?{{site.space3}}
-18. What is the difference between heterochromatin and euchromatin? Which is more accessible for molecules responsible for gene expression?{{site.space3}}
