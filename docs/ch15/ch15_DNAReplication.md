@@ -43,4 +43,7 @@ In your kit, please find the following items (put the rest back in the box)
 1. Push more DNA through the helicase to separate the two strands.
 1. Continue adding nucleotides to the *leading strand* by moving the polymerase towards the helicase.
 1. Re-attach your DNA polymerase on the *lagging strand* closer to the helicase. Then add nucleotides in the 3' direction away from the helicase.
+    1. Make sure that when you re-attach the polymerase, you make sure the template DNA fills up the polymerase.
 1. When your polymerase on the lagging strand reaches the previously completed DNA, remove it and re-attach it to the DNA closer to the helicase. These short fragments of double stranded DNA made on the *lagging strand* are called Okazaki fragments.
+1. Continue replicating the DNA until both strands have been completely replicated.
+    1. Notice that you will not be able to replicate all the way to the end on the lagging strand. 
