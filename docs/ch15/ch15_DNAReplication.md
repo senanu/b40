@@ -16,8 +16,16 @@ In your kit, please find the following items (put the rest back in the box)
 * Sequence I Replication & Transcription DNA strip
 * 4 bags of DNA nucleotides (yellow = Thymine, green = Guanine, red = Adenine, blue = Cysteine)
 
+<style>
+.box {
+  padding: 10px;
+  border: 2px solid black;
+  margin: 0;
+}
+</style>
+<div class="box" markdown="1">
 1. Begin by fully assembling the double-stranded DNA sequence as it is shown on the paper strip.
-    1. Notice the 3' and 5' directionality of the directionality
+    1. Notice the 3' and 5' directionality of the DNA
     1. Notice that one molecule (strand) is the reverse complement of the other. They are not identical.
     1. Which is the 3' end and which is the 5' end of each nucleotide?
 1. Place your assembled DNA on the right of the placemat. Slide it toward the left.
@@ -46,4 +54,5 @@ In your kit, please find the following items (put the rest back in the box)
     1. Make sure that when you re-attach the polymerase, you make sure the template DNA fills up the polymerase.
 1. When your polymerase on the lagging strand reaches the previously completed DNA, remove it and re-attach it to the DNA closer to the helicase. These short fragments of double stranded DNA made on the *lagging strand* are called Okazaki fragments.
 1. Continue replicating the DNA until both strands have been completely replicated.
-    1. Notice that you will not be able to replicate all the way to the end on the lagging strand. 
+    1. Notice that you will not be able to replicate all the way to the end on the lagging strand.
+</div>

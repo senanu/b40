@@ -25,7 +25,7 @@ In your kit, please find the following items (put the rest back in the box)
 </style>
 <div class="box" markdown="1">
 1. Begin by fully assembling the double-stranded DNA sequence as it is shown on the paper strip.
-    1. Notice the 3' and 5' directionality of the directionality
+    1. Notice the 3' and 5' directionality of the DNA
     1. Notice that one molecule (strand) is the reverse complement of the other. They are not identical.
     1. Which is the 3' end and which is the 5' end of each nucleotide?
 1. Place your assembled DNA on the right of the placemat. Slide it toward the left.
