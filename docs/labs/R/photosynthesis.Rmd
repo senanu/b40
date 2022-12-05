@@ -126,7 +126,8 @@ allowing the computer to randomly choose colors for us. If you need to add a col
 the format: "filtercolor" = "linecolor". Notice that we will be using a black line to represent
 the white (uncolored) filter (a white line would be difficult to see!).
 2. Adjust the X and Y axis labels, as well as the title for the graph.
-3. Change `eval=FALSE` to `eval=TRUE`.
+3. Make sure you have a line for each color that was ussed by the class.
+4. Change `eval=FALSE` to `eval=TRUE`.
 
 ```{r plot, eval=FALSE}
 line.colors <- c("white"="black",
@@ -175,6 +176,10 @@ Type brief answers to the following questions. You will turn in the knitted vers
     Replace this text with your answer. If you use 4 spaces before your answer, it will be nicely formatted.
 
 2. **Under which acetate sheet was photosynthesis slowest?**
+
+    Replace this text with your answer. If you use 4 spaces before your answer, it will be nicely formatted.
+
+3. **Which colors do the plants absorb and utilize most readily?**
 
     Replace this text with your answer. If you use 4 spaces before your answer, it will be nicely formatted.
 
