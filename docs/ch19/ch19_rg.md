@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Ch 18 Reading Guide -- Gene Regulation in Eukaryotes
+title: Ch 19 Reading Guide -- Gene Regulation in Eukaryotes
 parent: Chapter content
 nav_exclude: true
 ---
 
-# Chapter 18.2 -- Gene Regulation in Eukaryotes
+# Chapter 19 -- Gene Regulation in Eukaryotes
 
 > OBJECTIVE: Describe the role of chromatin in controlling gene expression
 > OBJECTIVE: Understand the effects of methylation, acetylation, and chromatin remodeling on transcription

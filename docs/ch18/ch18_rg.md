@@ -5,17 +5,16 @@ parent: Chapter content
 nav_exclude: true
 ---
 
-# Chapter 18.1 -- Gene Regulation in Prokaryotes
+# Chapter 18 -- Gene Regulation in Prokaryotes
 
 > OBJECTIVE: Describe how cells benefit from regulating gene expression
 
 1. Under what conditions might a bacterium benefit from using transcriptional control of gene expression rather than translational or post-translational control?{{site.space3}}
 2. Under what conditions might a bacterium benefit from using post-translational control of gene expression?{{site.space3}}
-3. Look at Fig 18.2. Which type of control do you think can be carried out faster, feedback inhibition of an enzyme, or regulation of the expression of a gene? Why?{{site.space3}}
 
     > OBJECTIVE: Understand the lac, trp, and ara operons and how they serve as a model for how we understand transcriptional regulation.
 
-    Please note: The Campbell textbook does not cover the Arabinose operon.
+    Please note: The Freeman textbook does not cover the Arabinose operon.
     In lab, we manipulate this operon, so please review the linked video to understand how it works.
 
 1. Under what conditions would the cell 'want' to turn ON the trp operon?{{site.space3}}
@@ -35,5 +34,5 @@ nav_exclude: true
 
 7. How would the cell change (in terms of its ability to metabolize lactose) if there was:
 
-    A. A frameshift mutation in LacI{{site.space3}}
+    A. A frameshift mutation in LacI. (remeber that we always expect frameshift mutations to result in non-functional proteins){{site.space3}}
     B. A frameshift mutation in LacZ{{site.space3}}
