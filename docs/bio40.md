@@ -7,7 +7,7 @@ has_children: false
 
 # Welcome to Bio 40 at Chaffey College
 
-# Introduction to Cell and Molecular Biology -- Fall 2022 (Biol-40-26706)
+# Introduction to Cell and Molecular Biology -- Spring 2023 (Biol-40-26949)
 
 ## Course Description
 
@@ -20,10 +20,10 @@ An intensive course designed to prepare students for upper division courses in c
 * Lab times: Wed 9:30-12:20 in BL-101
 * Optional office hours ([via Zoom](https://chaffey-edu.zoom.us/j/98445584149)): Tuesdays at 11:00-12:00
 * Course website: [https://senanu.github.io/b40/](https://senanu.github.io/b40/) which is linked through Canvas.
-* [turnitin.com](https://www.turnitin.com): Class ID: 35466501; Enrollment key: "Biology"
+* [turnitin.com](https://www.turnitin.com): Class ID: 37319855; Enrollment key: "Biology"
 * E-mail: [senanu.springpearson@chaffey.edu](mailto:senanu.springpearson@chaffey.edu)
 * Phone: 909-652-7876 (please use email instead)
-* Final exam: **Monday 12/12/2022 8:45am**
+* Final exam: **Monday 5/15/2022 8:45am**
 
 
 
@@ -41,7 +41,7 @@ At the completion of the course, students will:
 ## Required Text:  
 <img align="right" width="25%" src="{{site.url}}/b40/assets/img/freeman_7th.png" alt="Textbook 7th ed">
 Freeman et al., 2020. Biological Science, 7th ed. Pearson.
-This is a big, heavy, expensive book, but it will be invaluable to you as a budding biologist. This is also the book that you will continue to use through the introductory biology classes at Chaffey and so is worth investing in. Previous editions are only slightly different, so you are welcome to use those for this class. For 2022, the Chaffey bookstore may have grants that should apply to this textbook. You may use previous editions of the textbook, though the most recent, the better.
+This is a big, heavy, expensive book, but it will be invaluable to you as a budding biologist. This is also the book that you will continue to use through the introductory biology classes at Chaffey and so is worth investing in. Previous editions are only slightly different, so you are welcome to use those for this class. For 2023, the Chaffey bookstore may have grants that should apply to this textbook. You may use previous editions of the textbook, though the most recent, the better.
 
 New textbooks may be bought with a code to Pearson's online learning content. You are welcome to use those, but none of it will be required for this class.
 
@@ -55,9 +55,9 @@ With this approach, your understanding of the material should be at its peak at 
 
 ### More about reading guides
 
-Reading guides will be due **in class the class period after they are assigned and distributed**. If you are unable to attend class, you may print them from the [website]({{site.url}}/b40/) and turn them in on Canvas. If you turn it in online, you **must** turn them in as a **single PDF file**. You should anticipate, and plan for, having a reading guide due at the beginning of every class period. There will practically be no exceptions to this.
+Reading guides will be due **at 8:00am the class period after they are assigned and distributed**. If you are unable to attend class, you may print them from the [website]({{site.url}}/b40/) and turn them in on Canvas. When you turn it in online, you **must** turn them in as a **single PDF file**. You should anticipate, and plan for, having a reading guide due before every class period. There will practically be no exceptions to this. Canvas will not accept late reading guides.
 
-Reading guides in this course are designed to encourage (OK, 'force') you to read actively, so that you fully understand the material. The **best** way to do this will be to print out a copy and fill it in with a pen or pencil. The second best way to do this would be to type answers in the boxes, however, note that although you can print your work, you won't be able to save it. *This is intentional*. In the past, I have found that students simply copy and paste answers from textbooks or the web, rather than trying to do the assignments thoughtfully and completely. As a result, they give up on the active learning component. Therefore, I will not provide a save-able pdf or anything like that. If you want to spend the time to make one and fill it out, that is your choice (you won't lose points for doing so but you'd probably be better off spending that time learning and understanding the material).
+Reading guides in this course are designed to encourage (OK, 'force') you to read actively, so that you fully understand the material. The **best** way to do this will be to fill it in a hard copy with a pen or pencil. I will provide these copies the day they are assigned. The second best way to do this would be to type answers in the boxes. However, note that although you can print your work, you won't be able to save it. *This is intentional*. In the past, I have found that students simply copy and paste answers from textbooks or the web, rather than trying to do the assignments thoughtfully and completely. As a result, they give up on the active learning component. Therefore, I will not provide a save-able pdf or anything like that. If you want to spend the time to make one and fill it out, that is your choice (you won't lose points for doing so but you'd probably be better off spending that time learning and understanding the material).
 
 The reading guides are mostly for you to use in your learning process. I will ask you to turn them in for each chapter we cover and will give you credit for having done them. I *may* glance at a question or two to help me assess your learning and make sure that your answers are of a high standard. You will get full credit for a completed or almost-completed reading guide and your grade will be pro-rated below that depending on how much you get done. The reading guides **are important** and are an easy way for you to get points. Don't pass up that opportunity.
 
@@ -87,7 +87,7 @@ Although there are no make-up exams, I realize that life sometimes throws curve-
 I expect you to be in class each period. If you miss more than 5 periods, you will forfeit the benefit of replacing your lowest exam grade with your final exam grade. If you arrive late or leave class early, this will count as a ‘Late’. You may be late twice without penalty, after which coming late will count as an absence. Please plan accordingly with regard to the time it takes to get onto campus and find parking.
 
 ### Withdrawing from course
-It is the student’s responsibility to drop the course if you stop attending. Failure to do so may result in a grade of ‘F’. Incompletes are only given in special circumstances when students meet all requirements as defined by the college.
+It is the student’s responsibility to drop the course if you stop attending. Failure to do so may result in a grade of ‘F’. Incompletes are only given in special circumstances when students meet all requirements as defined by the college. If you are thinking about dropping the course, please speak to me so I can help you make an informed decision.
 
 ### Grade disputes
 If you disagree with the grade on any assignment or exam, you must inform me of your concerns within 1 week of me returning the exam to the class. No re-grading will be done after a week.
@@ -139,10 +139,10 @@ Study in groups: Group study is much more fun and effective than studying on you
 * **Keep up**: Don’t get behind — it’ll be really difficult to catch up on old material while you’re trying to stay up-to-date on the newer material. Let me say it again: Don’t get behind, don’t get behind, don’t get behind!
 
 ## More Important Dates
-* **8/26** Last day to add the class
-* **9/5** Last day to drop without a ‘W’
-* **10/28** Last day to drop the course with a ‘W’
-* **12/12 8:45-11:15** Final exam.
+* **1/23** Last day to add the class
+* **1/29** Last day to drop without a ‘W’
+* **4/4** Last day to drop the course with a ‘W’
+* **5/15 8:45-11:15** Final exam.
 
 ## Useful Chaffey College Resources
 
