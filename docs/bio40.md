@@ -18,7 +18,7 @@ An intensive course designed to prepare students for upper division courses in c
 * Instructor: Dr. Senanu Spring-Pearson
 * Class times: MW 8:00-9:15 in BL-101
 * Lab times: Wed 9:30-12:20 in BL-101
-* Optional office hours ([via Zoom](https://chaffey-edu.zoom.us/j/98445584149)): Tuesdays at 11:00-12:00
+* Optional office hours ([via Zoom](https://chaffey-edu.zoom.us/j/98445584149)): By Appointment
 * Course website: [https://senanu.github.io/b40/](https://senanu.github.io/b40/) which is linked through Canvas.
 * [turnitin.com](https://www.turnitin.com): Class ID: 37319855; Enrollment key: "Biology"
 * E-mail: [senanu.springpearson@chaffey.edu](mailto:senanu.springpearson@chaffey.edu)
