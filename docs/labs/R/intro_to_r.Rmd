@@ -6,6 +6,8 @@ Learn to use the statistical computing language `R` in RStudio.
 
 ## Reading this document
 
+Please read this document completely, and follow along in RStudio or Posit Cloud. There is a simple exercise that you must do and turn in located in the last section.
+
 As you have already learned in a previous exercise, this is an R Markdown document, which mixes text with code. To start out, you should 'knit' the document before making any changes. It will be easier to read, with nice formatting.
 
 You can read this document in the viewer window on the right. As you do so, you can also follow along with the 'coded' document so that you can do the steps on your own. This will give you familiarity with using R.
@@ -88,11 +90,12 @@ You can also see the dataset in the "Workspace and History" panel (top right pan
 You specify which column you want using the dollar sign (`$`). ![First rows of mtcars dataset](https://senanu.github.io/b40/assets/labs/02_cars.png) We can use this dollar sign notation to isolate one column of data. For example, to calculate the mean (average) fuel economy for these cars, you can do:
 
 ```{r mpg, echo=TRUE, eval=TRUE}
-mtcars$mpg # show only the 'mpg' column
-mean(mtcars$mpg) # get the mean mpg for this dataset
+mtcars$mpg # show only the 'mpg' (miles per gallon) column
+mean(mtcars$mpg) # get the mean (average) mpg for this dataset
+mileage <- mtcars$mpg # Save the mpg data into a separate vector called 'mileage'.
 ```
 
- This simply means that you are choosing the `mpg` column of the variable '`mtcars`', and want to find out the mean value of that column. How would you get the average horsepower ('hp') for this dataset?
+This simply means that you are choosing the `mpg` column of the variable '`mtcars`', and want to find out the mean value of that column. How would you get the average horsepower ('hp') for this dataset? Save it into a variable called 'average.horsepower'.
 
 ```{r hp, echo=TRUE, eval=TRUE,strip.white=FALSE}
 # What code would you use to get the mean horsepower?
@@ -213,7 +216,7 @@ Demonstrate that you can read a file into R. I recommend using Google Sheets, as
 # Put your code here
 ```
 
-The line of code in the next chunk will calculate summary statistics for your dataset. However, it can't do that until you have a dataset called "mydata", which you should have created above. In order to not have an error, I have put "eval=FALSE" in the top line of the code chunk. This prevents knitr from evaluating something that will cause an error.
+The line of code in the next chunk will calculate summary statistics for your dataset. However, it can't do that until you have a dataset called "mydata", which you should have created above. In order to not have an error, I have put "eval=FALSE" in the top line of the code chunk. This prevents knitr from evaluating something that will cause an error. However, by the time **you** get here, you should have this data, so you can ask knitr to evaluate it by changing "eval=FALSE" to "eval=TRUE". This is a common thing you'll have to do frequently in these lab assignments.
 
 1. Change the "eval=FALSE" to "eval=TRUE" to allow knitr to have access to this code. You will need to look at the Rmd version of this document -- it won't show up in the knitted version.
 
@@ -240,4 +243,4 @@ plot(x = mydata     ,     # dat$length
 1. Remember to clean your environment and clear the knitr cache. If you forgot how to do this, [look here](https://senanu.github.io/b40/docs/labs/R/intro_to_rstudio.html#what-to-turn-in). You don't need to do this every time you knit, just the last time as you prepare your html file to turn in.
 1. Knit the document to produce an html file.
 1. Save the html file.
-1. Turn in your html file on canvas. I will be looking to make sure that you completed the exercises section.
+1. Turn in your html file on canvas. I will be looking to make sure that you completed the exercises section. Specifically, you **should have a simple graph using your own data.**
