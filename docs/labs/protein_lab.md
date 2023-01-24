@@ -14,13 +14,13 @@ nav_order: 60
     * [Guide to using primary literature for lab reports](primary_literature.html)
     * [Writing Checklist](writing_checklist.html)
     * [Rubric for your peer review](peer_review_rubric.html)
-    * [Sample of scientific writing (about milk proteins)]({{site.url}}/b40/assets/labs/Ye_etal_Heating_Proteins.pdf)
+    * [Sample of scientific writing (about milk proteins; Ye et al. (2017))]({{site.url}}/b40/assets/labs/Ye_etal_Heating_Proteins.pdf)
 * Main data Analysis
     * [R Markdown file for Protein lab](R/protein.Rmd).
     * [HTML version of the data analysis file]({{site.url}}/b40/assets/labs/protein.html). Only use this as a reference.
 * Data analysis. You have already completed these, but they are included here for reference if you need help.
     * [Graph Paper](GraphPaper.pdf)
-    * [Introduction to RStudio and RStudio.cloud](R/intro_to_rstudio.html).
+    * [Introduction to RStudio and Posit Cloud](R/intro_to_rstudio.html).
     * [Introduction to R](R/intro_to_r.html).
     * [R FAQ](R/r_faq.html).
 
@@ -125,9 +125,9 @@ Table 3: Absorbance of milk samples at 595nm.
 We will use R to graph your results. You'll be given instructions on how to do this separately.
 
 ## Writing your lab report
-Your lab report must be a typed document that is in the form of a scientific paper. You must include at least 2 citations of scientific papers (in addition to the Ye et al. paper). **This will require some time** – you may need to look through several before you find a relevant one. You may find it useful to read the introduction of one paper, and look up a paper that is cited by that paper that seems relevant to your study.
+Your lab report must be a typed document that is in the form of a scientific paper. You must include at least 2 citations of scientific papers (in addition to the [Ye et al. paper]({{site.url}}/b40/assets/labs/Ye_etal_Heating_Proteins.pdf)) linked above). **This will require some time** – you may need to look through several before you find a relevant one. You may find it useful to read the introduction of one paper, and look up a paper that is cited by that paper that seems relevant to your study.
 
-Please follow the guidelines given in the “Writing lab reports for Bio40” handout.
+There are several links at the top of this document that look at. They will help you to write your paper in an appropriate style, and provide a checklist to make sure you have everything needed.
 
 ### Timeline
 
