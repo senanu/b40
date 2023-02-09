@@ -49,7 +49,7 @@ dat <- cbind(dat, percent.change)
 We can expect that the percent change will be approximately linear with the solution concentration. Therefore, we can do a linear regression. For this, we will use a special R formula using a tilde (~). The tilde means "is explained by" so `lm(y ~ x)` means that the variable `y` is explained by `x`. In this case, we can read the tilde as part of a formula meaning “percent change is explained by the concentration of the solution”. `lm` is the command ('verb') to conduct a 'linear model' regression.
 
 1. Once your code runs by pressing the green arrow on the top right, change the `eval=FALSE` to `eval=TRUE`.
-    
+
 ```{r regression,  eval=FALSE, include=TRUE, echo=TRUE}
 # If you used the suggested variable names, you shouldn't need to do anything here.
 lin.regression <- lm(dat$percent.change ~ dat$solution)
@@ -114,10 +114,6 @@ $$Y = `r round(coefficients(mysummary)[2], 5)` X + `r round(coefficients(mysumma
 
     Replace this text with your answer. For nice formatting, leave the 4 spaces at the beginning of this paragraph, and separate it from the other paragraphs by a blank line above and below.
 
-1. What is significant about this point?
+1. What is **Biologically** significant about this point? ie. what does this tell us about the tonicity of different components of this lab?
 
     Replace this text with your answer. For nice formatting, leave the 4 spaces at the beginning of this paragraph, and separate it from the other paragraphs by a blank line above and below.
-    
-1. What is your name?
-
-    Replace this text with your name. Again, leave 4 spaces at the beginning of the line.
