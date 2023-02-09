@@ -156,27 +156,33 @@ Give your document a title, and make sure you know where it is in your Google Dr
 
 ![URL is in blue ready to copy/paste](https://senanu.github.io/b40/assets/labs/02_publish_to_web_URL.png){height=4in} -->
 
-You should then copy the URL supplied, and paste it into your code. Probably the easiest function to use is '`read.csv()`'
+You should then copy the URL supplied, and paste it into your code. Probably the easiest function to use is '`read.csv()`' which will read that file and make it available for you to use in R. The code chunk below reads in the csv (using `read.csv()`) and then saves that table to an object called `dat`. As before, you can see what is in the table by simply putting the object name on its own line and running it.
+
+Notice in the `read.csv()` command below that the command has parentheses, and the information that goes within the parentheses is the URL given to you by Google. You need to put that entire URL into quotes ("").
 
 ```{r read_table, echo=TRUE, eval=TRUE}
 # The read.csv() function is an easy way to get data into R. Simply paste
 # the URL provided by Google into the command, and place it between quotes.
 # Note that files that are exported by Google have "...output=csv" at the
 # end of the URL. If yours doesn't look like that, it wasn't exported properly.
+
+# Don't change the following line -- you'll do the same thing for your own data
+# below
 dat <- read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vR1WD5pL0ueIrDigzuFBuMJhhs0_y5mLSNsfL1y9hxRJrA6qFJNcnQSEuREzvM3wLHaQjHSX8SY2c_D/pub?output=csv")
-dat
+dat # don't change this either.
 ```
 
-Try doing this yourself with some of your own made-up data. This is a very useful command and you'll need to use it for every R exercise we do in lab. Finally, you can see whether there seems to be a relationship between the length and width of the leaves in my dataset by drawing a simple graph that includes the data, axis labels, and a main title. We can also do a linear regression of the data and plot that line on the graph (you'll learn more about these later; for now, simply run the code, don't change it):
+Finally, you can see whether there seems to be a relationship between the length and width of the leaves in my dataset by drawing a simple graph that includes the data, axis labels, and a main title. We can also do a linear regression of the data and plot that line on the graph (you'll learn more about these later; for now, simply run the code, don't change it):
 
 ```{r length_width, include=TRUE}
+# Don't change anything in this code chunk -- just run it.
 plot(dat$length,
      dat$width,
      xlab="Leaf length (cm)",
      ylab="Leaf width (cm)",
      main="Leaf Dimensions")
-linear.regression <- lm(dat$width ~ dat$length)
-abline(linear.regression)
+linear.regression <- lm(dat$width ~ dat$length) # don't change this
+abline(linear.regression)                       # don't change this either
 ```
 
 # Debugging your code
@@ -213,7 +219,10 @@ Demonstrate that you can read a file into R. I recommend using Google Sheets, as
 1. Make R print out the data by simply typing "mydata" alone on a line.
 
 ```{r read_table2, echo=TRUE, eval=TRUE}
-# Put your code here
+# Put your code into this chunk to read a google sheets file using 'read.csv()' 
+# and save it into a variable called mydata.
+
+
 ```
 
 The line of code in the next chunk will calculate summary statistics for your dataset. However, it can't do that until you have a dataset called "mydata", which you should have created above. In order to not have an error, I have put "eval=FALSE" in the top line of the code chunk. This prevents knitr from evaluating something that will cause an error. However, by the time **you** get here, you should have this data, so you can ask knitr to evaluate it by changing "eval=FALSE" to "eval=TRUE". This is a common thing you'll have to do frequently in these lab assignments.
@@ -242,5 +251,6 @@ plot(x = mydata     ,     # dat$length
 1. Save your file. Please remember to do this periodically.
 1. Remember to clean your environment and clear the knitr cache. If you forgot how to do this, [look here](https://senanu.github.io/b40/docs/labs/R/intro_to_rstudio.html#what-to-turn-in). You don't need to do this every time you knit, just the last time as you prepare your html file to turn in.
 1. Knit the document to produce an html file.
+1. Check that the html file has **your** graph near the bottom.
 1. Save the html file.
 1. Turn in your html file on canvas. I will be looking to make sure that you completed the exercises section. Specifically, you **should have a simple graph using your own data.**
