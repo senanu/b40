@@ -41,8 +41,8 @@ nav_exclude: true
 
     > OBJECTIVE: Describe how independent assortment and crossing over generate diversity among gametes.
 
-1. According to Fig 13.8, how many types of gametes are possible for an organism with 2 chromosomes? (notice that only the final products of meiosis are shown, not intermediate steps. Also, this diagram simplifies things by showing only 2 of the 4 cells that result from meiosis. The 2 that are not shown are identical to the two shown.){{site.space0}}
-2. Which type of gamete in Fig 13.8 is most likely? {{site.space0}}
+1. According to Fig 13.8, how many types of gametes are possible for an organism with 2 chromosomes? (notice that only the final products of meiosis I are shown, not intermediate steps and not the final cells resulting from meiosis II. Also, this diagram simplifies things by showing only 2 of the 4 cells that result from meiosis. The 2 that are not shown are identical to the two shown.){{site.space0}}
+2. Which type of gamete in Fig 13.8 (if any) is most likely? {{site.space0}}
 3. If the paternal copy of the long chromosome is present in a gamete, what is the likelihood that the paternal copy of the short chromosome will also be present? How does this relate to the term “independent assortment”?{{site.space0}}
 4. At what stage of meiosis does crossing over occur?{{site.space0}}
 5. Fig 13.8 does not show crossing over, with the result that there are 8 gametes of 4 different types (again, half of them are omitted from the drawing). For this organism with 2 chromosomes, how many types of gamete would there be if the original cells shown in the figure divided by meiosis but included crossing over?{{site.space3}}

@@ -26,7 +26,7 @@ nav_exclude: true
     > OBJECTIVE: Understand what conditions can change the rate of a catalyzed reaction.
     > OBJECTIVE: Connect the many factors that affect enzyme function to protein shape and the types of bonds involved.
 
-1. Most chemical reactions happen faster at higher temperatures. What does Fig 8.17a show that contradicts this for enzymatically catalyzed reactions? Why does this happen to enzymatically catalyzed reactions but not with non-catalyzed reactions?{{site.space5}}
+1. Most chemical reactions happen faster at higher temperatures. What does Fig 8.12 show that contradicts this for enzymatically catalyzed reactions? Why does this happen to enzymatically catalyzed reactions but not with non-catalyzed reactions? To answer this, think of what an enzyme is and what happens at high temperatures.{{site.space5}}
 2. Why does changing the pH of a reaction affect its speed?{{site.space3}}
 3. Why does the rate of a catalyzed reaction increase as the substrate concentration increases?{{site.space3}}
 4. Look at the attached graph. Why does the rate of a catalyzed reaction plateau? (V is the reaction speed ("velocity"), S is the substrate concentration)<img align="center" width="50%" src="{{site.url}}/b40/assets/ch08/SubstConc.png" alt="Graph showing a plateau in reaction rate as enzyme gets saturated with substrate"> {{site.space3}}

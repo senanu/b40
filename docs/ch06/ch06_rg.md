@@ -42,7 +42,7 @@ nav_exclude: true
     | Cholesterol at moderate to high temperatures |  {{site.spacet4}}                   |{{site.spacet4}}
     | Cholesterol at low temperatures              | {{site.spacet4}}                    |{{site.spacet4}}
 
-5. Look at Figure 7.6. What can you conclude about α-helices' affinity for water?{{site.space3}}
+5. Look at Figure 6.17. What can you conclude about α-helices' affinity for water?{{site.space3}}
 6. What is the difference between peripheral and integral proteins?{{site.space3}}
 
     > OBJECTIVE: Describe how substances move across lipid bilayers passively: Diffusion & Osmosis
@@ -75,9 +75,8 @@ nav_exclude: true
 
 13. What is meant by 'active' transport? How is it different from 'passive' transport?{{site.space3}}
 14. Why doesn’t it make sense for cells to actively transport (pump) uncharged non-polar molecules across their membrane?{{site.space3}}
-14. Look at figure 7.18. Sucrose is moving into the cell against its concentration gradient (ie. from low concentration to high concentration). What allows it to do this? (describe cotransport).{{site.space6}}
+14. Look at figure 6.25. In this figure, sucrose is moving down its concentration gradient by diffusion, but it can also move UP its concentration gradient by via secondary active transport (cotransport). Explain how this works and how it is different from simple active transport. {{site.space6}}
 15. What is meant by an 'electrochemical gradient'. How is this different from a 'concentration gradient'?{{site.space3}}
-15. What is the ultimate source of energy shown in figure 7.18?{{site.space3}}
 
     > OBJECTIVE: Describe how cells move large quantities or large materials into their interior without requiring those substanes to pass through a membrane.
 
