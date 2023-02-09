@@ -60,14 +60,14 @@ table th:nth-of-type(4) {
 | Feb 01 | Carbohydrates | Chap 5 | Macromolecules lab<br>1st draft of protein lab (intro only) due. <br>Peer review of intro. Refer also to [Ye et al. (2016) paper]({{site.url}}/b40/assets/labs/Ye_etal_Heating_Proteins.pdf).  |
 | Feb 06 | **Exam 1** | **Exam on Chapters 1 – 5** |  |
 | Feb 08 | Lipids and membranes | Chap 6<br>Protein paper (Ye et al., 2016). Read the intro. | Diffusion and Osmosis lab<br>1st draft of protein lab due<br>Peer review of protein lab |
-| Feb 13 | No Class – Presidents’ day |  |  |
-| Feb 15 | Cells I | Chap 7 – 7.3<br>Bioskills 9: Microscopy | Microscopy lab<br>Final draft of protein lab due |
-| Feb 20 | Cells II | Chap 7.4 – 7.6 |  |
+| Feb 13 | Cells I | Chap 7 - 7.3 |  |
+| Feb 15 | Cells II | Chap 7.4 – 7.6<br>Bioskills 9: Microscopy | Microscopy lab<br>Final draft of protein lab due |
+| Feb 20 | No Class – Presidents’ day |  |  |
 | Feb 22 | Energy and Enzymes | Chap 8 – 8.2 | Enzymes lab (full lab report required) |
 | Feb 27 | Enzymes | Chap 8.3 – 8.5 |  |
 | Mar 01 | Cellular respiration I | Chap 9 – 9.4<br>Bioskills 12: Interpreting models | Enzymes lab (day 2) |
-| Mar 06 | Cellular respiration II | Chap 9.5 | Intro for enzymes lab due. Peer review of intro. |
-| Mar 08 | Fermentation | Chap 9.6 | Respiration lab |
+| Mar 06 | Cellular respiration II | Chap 9.5 |  |
+| Mar 08 | Fermentation | Chap 9.6 | Respiration lab<br>Intro for enzymes lab due.<br>Peer review of intro.|
 | Mar 13-15 | Spring Break |  |  |
 | Mar 20 | **EXAM 2** | **Exam on chapters 6-9** |  |
 | Mar 22 | Photosynthesis I | Chap 10 – 10.3 | Fermentation lab<br>1st draft of Enzymes lab due. Peer review. |
