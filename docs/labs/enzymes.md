@@ -181,9 +181,11 @@ You will turn in a formal lab report for this lab. As before, we will conduct a 
 
 Refer to the [previous class materials](writing_lab_reports.html) for how to write your lab report. The exact content of your introduction and discussion sections will be up to you, however here are some suggestions for things that would probably be good and appropriate to address in those sections.
 
-### Introduction
+### Introduction and discussion
 
 Provide a bit of background about the activity of enzymes. Convince your reader that he/she will learn something useful by reading your paper. Some ideas: What are enzymes made of? How do they work? What is an active site? What is denaturation? Why might there be a maximum rate at which enzymes can catalyze a reaction? What is inhibition and how does it work (though we don't really deal with inhibition in this lab)? Make sure you state research hypotheses for parts 2 and 3.
+
+What sources of (systematic) error were there? How did these affect your results? What do your results tell you about the activity of enzymes? Can this extend to proteins in general?
 
 ### Methods
 
@@ -201,10 +203,11 @@ Marini, I. (2005), Discovering an accessible enzyme: Salivary &alpha;-amylase : 
 
 | Date    | What is Due?                                               |
 |---------|------------------------------------------------------------|
-| Oct 19  | Introduction due for peer review.                          |
-| Oct 26  | Full rough draft for peer review                           |
-| Nov 2   | Final Draft due                                            |
+| Mar 8   | Introduction due for peer review.                          |
+| Mar 22  | Full rough draft for peer review                           |
+| April 3 | Final Draft due                                            |
 
+<!---
 # Lab write-up (Fall 2022 only)
 
 Some groups did not collect enough data to successfully draw the required graphs. If this describes you, you may use the data below, as if it were your own. However, I would still like to see your own data.
@@ -263,3 +266,4 @@ At pH4, the reaction took too long to complete. You can calculate the velocity a
 | 3   | 1025 |
 | 5   | 1125 |
 | 9.7 | 1200 |
+-->
