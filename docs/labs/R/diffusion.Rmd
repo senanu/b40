@@ -110,10 +110,10 @@ $$Y = `r round(coefficients(mysummary)[2], 5)` X + `r round(coefficients(mysumma
 
     Replace this text with your answer. For nice formatting, leave the 4 spaces at the beginning of this paragraph, and separate it from the other paragraphs by a blank line above and below.
 
-1. What value on the X-axis does the regression line cross the X-axis?
+1. What value on the X-axis does the regression line cross the X-axis? In other words, What is X when Y = 0?
 
     Replace this text with your answer. For nice formatting, leave the 4 spaces at the beginning of this paragraph, and separate it from the other paragraphs by a blank line above and below.
 
-1. What is **Biologically** significant about this point? ie. what does this tell us about the tonicity of different components of this lab?
+1. What is **Biologically** significant about this point? ie. what does this tell us about the tonicity of the potato cells?
 
     Replace this text with your answer. For nice formatting, leave the 4 spaces at the beginning of this paragraph, and separate it from the other paragraphs by a blank line above and below.
