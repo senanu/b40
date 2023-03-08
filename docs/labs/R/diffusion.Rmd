@@ -68,39 +68,13 @@ plot(x=     ,
 abline(lin.regression)
 ```
 
-We want to calculate the point on the x-axis where the linear regression crosses that axis (ie. where $y=0$). As you did with the protein lab, you can use the `summary()` command to view the details of the linear regression. This is a reminder of what we did in the protein lab:
+We want to calculate the point on the x-axis where the linear regression crosses that axis (ie. where $y=0$). You can see the basics of the regression just by typing `lin.regression` on a line of its own, or you can see a whole lot of details with `summary(lin.regression)`.
 
-```{r summary-regression-prof, echo=FALSE, eval=TRUE, include=TRUE}
-## Don't do anything with this code chunk.
-set.seed(1)
-professors_data <- data.frame(x=1:10, y=rnorm(10) + (1:10)/2)
-mysummary <- summary(lm(professors_data$y ~ professors_data$x))
-mysummary
-## Don't do anything with this code chunk
+```{r summary, eval=TRUE, include=TRUE, echo=TRUE}
+# Use this space to see the regression (m and b in Y=mX+b)
 ```
 
-This seems like a lot of output, but there are only a few things we need to worry about.
-
-* __*m*__ The slope. This is given in the middle table as the 'Estimate' of 'professors_data$x'. In this case, it is `r round(coefficients(mysummary)[2], 5)`.
-* __*b*__ The y-intercept. This is given in the middle table as the 'Estimate' of the (Intercept). In this case it is `r round(coefficients(mysummary)[1], 5)`
-* __*p-value*__ The p-value. This is clearly labeled at the bottom of the output. If the p-value is $< 0.05$ then we reject the null hypothesis that the slope is flat (i.e. that there is no relationship between the two variables).
-* __*R-squared*__ The R-squared value tells us how well the data fit to the line. Values close to 1 indicate that a line summarizes the data well. Values close to 0 indicate that the line is a poor fit for the data.
-
-You can now use the data from the regression to write down the equation for a regression line through your own data. In the example above, it would be
-$$Y = mX + b$$
-$$Y = `r round(coefficients(mysummary)[2], 5)` X + `r round(coefficients(mysummary)[1], 5)`$$
-
-1. Use the `summary()` command to see the regression analysis **for your own data**. In code about line 55, you saved the regression analysis as a variable named `lin.regression`. You can therefore call the `summary()` command with `lin.regression` between the parentheses.
-1. Extract the pieces of information you need for the formula of a line.
-1. Once your code runs by pressing the green arrow on the top right, change the `eval=FALSE` to `eval=TRUE`.
-
-```{r summary, eval=FALSE, include=TRUE, echo=TRUE}
-# Use the summary command here or in the console
-```
-
-1. Use the formula for a line to figure out where it crosses the X axis (ie. solve for $X$ when $Y = 0$).
-1. __What is significant about this point?__
-1. Be prepared to show your instructor a graph of your data, including the regression line to receive full credit for this lab.
+Answer the questions below. 
 
 # What to turn in
 
@@ -110,7 +84,7 @@ $$Y = `r round(coefficients(mysummary)[2], 5)` X + `r round(coefficients(mysumma
 
     Replace this text with your answer. For nice formatting, leave the 4 spaces at the beginning of this paragraph, and separate it from the other paragraphs by a blank line above and below.
 
-1. What value on the X-axis does the regression line cross the X-axis? In other words, What is X when Y = 0?
+1. What value on the X-axis does the regression line cross the X-axis? In other words, What is $X$ when $Y = 0$?
 
     Replace this text with your answer. For nice formatting, leave the 4 spaces at the beginning of this paragraph, and separate it from the other paragraphs by a blank line above and below.
 
