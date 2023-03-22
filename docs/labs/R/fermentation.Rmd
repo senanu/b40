@@ -1,0 +1,164 @@
+---
+---
+---
+title: "Fermentation Lab"
+author: "Put your name here"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache=FALSE)
+```
+
+Note that you will **not** be able to knit this document yourself until there is data entered into the spreadsheet.
+
+## Purpose, and getting credit
+
+This is designed to be a very easy assignment but it deals with some complex (statistical) issues. Since this isn't a statistics course, my goal here is just to expose you to the idea of hypothesis testing (see below) which we'll revisit later in the course.
+
+This exercise will also give you the chance to make some (hopefully) nicer graphs than we've previously done.
+
+You will **not** have to change any code to complete this.
+
+Finally, to get credit, you **must** read through this whole document and answer the few questions in the "Back to your data..." section at the bottom. Knit it to an html to turn it in.
+
+## Install a graphics library
+
+The code in this file uses a more advanced graphing function than is available in base R. You will download this library in order to use it, but fortunately R makes this very easy. You will need to run this only once for your computer and afterwards, you can ignore it or delete it.
+
+```{r install-ggplot2, include=FALSE, echo=TRUE, eval=FALSE}
+install.packages("ggplot2")
+```
+
+After installing the `ggplot2` package, you need to load it into the memory of your computer. You need to do this every time you start R (or RStudio). Once loaded, you don't need to reload it, though running the code to do so is very quick, so its better to just leave the following code in.
+
+```{r load-ggplot2, include=TRUE, echo=FALSE, eval=TRUE}
+library(ggplot2)
+```
+
+## Get data
+
+You will enter your data into a Google spreadsheet in a 'long' format. In 'long' format, each observation is on its own line, with one or more columns to distinguish between them. You can enter your data [here](https://docs.google.com/spreadsheets/d/177h0MpQbMzauvFr5LsnM34zpAl6v0ya9VENEk62N3r4/edit?usp=sharing). Each lab group should enter their data in a different portion of the spreadsheet, and we will use the whole class' data for our analysis.
+
+
+```{r get-data, eval=TRUE, echo=FALSE}
+## Use the top row here to use some made-up data.
+## Use the bottom row for your own read data.
+#dat <- read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6FA2mzfFo3c-_yiyKuoqNf2UxssLel2pBM3tFoEbJWpola3DWbsq3uzsk3hlX7zIioG23JAJ31Smp/pub?gid=1495812031&single=true&output=csv")
+dat <- read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6FA2mzfFo3c-_yiyKuoqNf2UxssLel2pBM3tFoEbJWpola3DWbsq3uzsk3hlX7zIioG23JAJ31Smp/pub?gid=32807751&single=true&output=csv")
+```
+
+## Plot all data
+
+We will start by simply plotting all the data, using a separate line for each carbohydrate. Notice that we don't use the simple `plot()` function like we've done before, but we instead use `ggplot()` which we got from the `ggplot2` package above.
+
+```{r draw-graph, eval=TRUE}
+ggplot2::ggplot(data = dat,
+                aes(x = time, y = co2vol, color = carb, group = carb)) +
+  geom_point() +
+  geom_smooth(method=lm, se=TRUE) +
+  xlab("Time (minutes)") +
+  ylab(expression(Volume~of~CO[2])) +
+  labs(color = "Carbohydrate")
+```
+
+`r if(nrow(dat) == 100)"**The graph above is a placeholder only and uses fake data. Your data will be much less regular**"`
+
+Notice that the regression lines all may have different slopes and intercepts. You might be tempted to conclude that they are therefore very different, but as scientists, we need to run a statistical test in order to make that conclusion.
+
+You may imagine that there is some underlying biological principle at work (there is!) but that we don't really know what effect it will have on the volume of carbon dioxide produced. By measuring the volume of CO~2~ we are attempting to discover the truth about that biological principle. However, because of random experimental errors and the fact that we are just taking a 'sample' of the 'truth', our data won't perfectly reflect this 'truth'. We want to know whether it is **likely** that there is a difference between the lines on the graph (we'll study probability and statistics in more depth later in the course).
+
+Many basic statistical methods use what is called a 'hypothesis test'. In a hypothesis test, we are interested in finding out whether it is likely that our data is **different** from what we might get from randomly sampling data in which there is no relationship between two variables.
+
+Imagine you did an experiment similar to this but instead of using live yeast, you used something relatively inert like salt. You'd expect that there would be no relationship between time and the volume of CO~2~ produced. In other words, you'd expect the line to be flat, even though the error and randomness of your measurements resulted in non-zero data. You might have data like shown below:
+
+```{r control, eval=TRUE}
+set.seed(9)
+salt <- data.frame(time = rep(seq(0, 90, by=10), times = 10),
+                   co2  = rnorm(100, mean=0, sd=1),
+                   carb = c(rep("carbA", times = 50), rep("carbB", times = 50)))
+ggplot2::ggplot(data = salt,
+                aes(x = time, y = co2)) +
+  geom_point() +
+  geom_smooth(method=lm, se=TRUE) +
+  xlab("Time (minutes)") +
+  ylab(expression(Volume~of~CO[2])) +
+  labs(color = "Carbohydrate")
+```
+
+## Is this line flat?
+
+The line above isn't quite level -- the slope doesn't seem to be quite 0. In statistics, we would state a "null hypothesis" (H~0~) that states that there is no relationship between time and the volume of CO~2~ produced. An alternate hypothesis (H~A~) would state that there is a relationship between the two:
+
+::: {#definition .definition style="color: black; background: silver;"}
+H~0~: There is **no** relationship between the two variables. The slope is **not** different from 0
+
+H~A~: There **is** a relationship between the two variables. The slope **is** different from 0.
+:::
+
+Usually, we hypothesize that there is a relationship between 2 variables, and so we want to disprove the null hypothesis H~0~.
+
+In the graph above, the line has a slight slope (ie. the slope isn't quite 0), but is that slight slope meaningful and indicative that there is some biological effect going on, or was it generated just by our random sampling of the data (plus some measurement errors). Distinguishing between the null hypothesis H~0~ and an alternative hypothesis (H~A~) is what statistical tests are designed to do.
+
+Fortunately, R was originally designed as a statistical language and so has many statistical test built-in. You have already learned to do a regression analysis, so let's do a regression of the volume of CO~2~ on Time using this fake salt data to see if the line is statistically flat or if there is something interesting causing it to be not flat.
+
+First, we do the regression:
+
+```{r lin-regression, echo=TRUE}
+salt.regression <- lm(co2 ~ time, data=salt)
+salt.regression
+```
+
+Remember that this uses the formula for a straight line $$Y = mX + b$$ where $Y$ is CO~2~ and $X$ is Time. $m$ is therefore the slope and $b$ is the intercept. So we could write this as
+$$ Y=`r round(salt.regression$coefficients[2],4)`X + `r round(salt.regression$coefficients[1],4)`$$
+
+Let's use the `summary()` function to get more information about this linear regression:
+
+```{r summary-reg, echo=TRUE}
+summary(salt.regression)
+```
+
+Find the 'Coefficients' table in the middle. In the first column, you can see the 'Estimate' of the Intercept and the slope (labeled 'time'). At the far right in this column, you can see a column labeled as `Pr(>|t|)`. This is the probability (p-value) that the estimate is the same as the null hypothesis. In this case, the probability that the slope is the same as H~0~ is 0.366. If the value were more extreme, the probability that it is the same as the null hypothesis decreases. When that probability hits 0.05 (there is only a 5% chance that our data match the null hypothesis), then we say that it is 'statistically different' from the null hypothesis, and we therefore reject H~0~ and accept the alternate hypothesis H~A~.
+
+## Back to your data...
+
+Let's first see whether there is a relationship between your time and the production of CO~2~ in your negative control. First, we will select only the 'water' data:
+
+```{r water, echo=TRUE}
+## We can select all rows matching 'water' with square brackets
+## dat[r,c] means to select row 'r' and column 'c'
+## You can remember the order by thinking RC as "Roman Catholic"
+## So in this case, we select all rows in which dat$carb is
+## equal to (note the double ==) 'water' and then we choose all
+##.columns (no filter after the comma)
+water <- dat[dat$carb == 'water',]
+water.reg <- lm(co2vol ~ time, data = water)
+summary(water.reg)
+```
+
+Is the p-value less than 0.05? If so, that tells us that there is a relationship between time and CO~2~. Given that this is your negative control, did you expect there to be a relationship? Why or why not?
+
+    Type your answer here. If you use 4 spaces at the beginning, it'll format nicely.
+
+OK, now lets look to see whether the slopes of the lines are different from each other. We need to use a more complex model here (don't worry about details). Let's specifically compare the slopes for glucose and sucrose:
+
+```{r gluc-sucr-reg, echo=FALSE}
+gluc.suc <- dat[dat$carb == 'glucose' | dat$carb == 'sucrose',] # "|" means "or"
+gluc.suc$carb <- as.factor(gluc.suc$carb)
+contrasts(gluc.suc$carb) <- c(-0.5, 0.5) # see why this is necessary:  https://towardsdatascience.com/how-to-correctly-interpret-your-continuous-and-categorical-variable-interactions-in-regressions-51e5eed5de1e
+gluc.suc.regression <- lm(co2vol ~ time * carb, data = gluc.suc)
+summary(gluc.suc.regression)
+```
+
+For this exercise, we can focus in on the time:carb1 row and look at the p-value. If that value is less than 0.05, then we can conclude that the slopes of the two lines are statistically different.
+
+What do your data show? Is the p-value in the last row of the Coefficients table less than 0.05 $(p<0.05)$?
+
+    Type your answer here. If you use 4 spaces at the beginning, it'll format nicely.
+
+Although we won't individually test each of the lines, they almost certainly have different slopes. What does this tell you about the different enzymes that yeast has to break down these different molecules?
+
+    Type your answer here. If you use 4 spaces at the beginning, it'll format nicely.
+
+Once you have answered the questions in this section, change the name at the top of this document to your own, knit it to html, and turn it in on Canvas.
