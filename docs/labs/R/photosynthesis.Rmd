@@ -166,6 +166,12 @@ dat.spec <-
 plot(  )
 ```
 
+# What to turn in...
+
+Knit this document. ** Make sure that the final version has 2 graphs**. If you don't have 2 graphs, it may be because you didn't change `eval=FALSE` to `eval=TRUE`, so check that those are all changed.
+
+Also, answer the questions below.
+
 ## Questions
 
 Type brief answers to the following questions. You will turn in the knitted version
@@ -179,7 +185,7 @@ Type brief answers to the following questions. You will turn in the knitted vers
 
     Replace this text with your answer. If you use 4 spaces before your answer, it will be nicely formatted.
 
-3. **Which colors do the plants absorb and utilize most readily?**
+3. **Does the relative rate of photosynthesis under each color match what you'd expect from what you konw about photosynthesis?**
 
     Replace this text with your answer. If you use 4 spaces before your answer, it will be nicely formatted.
 
