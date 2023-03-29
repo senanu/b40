@@ -132,7 +132,7 @@ the white (uncolored) filter (a white line would be difficult to see!).
 ```{r plot, eval=FALSE}
 line.colors <- c("white"="black",
                  "red"="red",
-                 "red2"="red",
+                 "purple"="purple",
                  "blue"="blue",
                  "orange"="orange",
                  "green"="green")
