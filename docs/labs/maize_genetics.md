@@ -22,9 +22,9 @@ Mendel proposed that alleles segregate equally into gametes. We will test to see
 
 Take a look at your corn cob. Make sure that you can identify the 4 types of kernel: Purple starchy, purple sugary, yellow starchy and yellow sugary.
 
-With your partner, do a very careful count of the number of kernels of each type on your corn ear. You should count 400 kernels, or all of the kernels on your ear, whichever is lower. Record your data in Table 1.
+With your partner, do a very careful count of the number of kernels of each type on your corn ear. Record your data in Table 1.
 Next we will consider each trait separately. For each ear, how many smooth vs wrinkled kernels are there? Do the same for the purple and yellow kernels, and put the numbers in the Observed tables in Table 2.
-We want to figure out if these ears of corn are different than what we would expect based on our knowledge of Mendelian genetics. In order to do this, we will use a X2 test (chi-square test). This requires that we compare our observed numbers with numbers that we would expect. If they are very similar, then there’s no reason to believe that anything other than Mendelian genetics is playing a role. However, if the numbers are very different from what we expect, then perhaps Mendelian genetics isn’t enough to account for those differences.
+We want to figure out if these ears of corn are different than what we would expect based on our knowledge of Mendelian genetics. In order to do this, we will use a &Chi;<sup>2</sup> test (chi-square test). This requires that we compare our observed numbers with numbers that we would expect. If they are very similar, then there’s no reason to believe that anything other than Mendelian genetics is playing a role. However, if the numbers are very different from what we expect, then perhaps Mendelian genetics isn’t enough to account for those differences.
 
 All of the corn we have in lab are the result of dihybrid crosses. To figure out the expected values, figure out what percent of each phenotype you would expect, then multiply by the total number of kernels that you counted on each ear. Put these values in the expected tables of Table 2. What is your null hypothesis regarding the percent of kernels you expect to be of each type?
 
@@ -37,10 +37,10 @@ Table 1: Counts of all traits
 
 | Ear # | Smooth, Purple | Smooth, Yellow | Wrinkled Purple | Wrinkled Yellow | Total |
 |-------|----------------|----------------|-----------------|-----------------|-------|
-| 1     | 886            | 289            | 305             | 104             |       |
-| 2     | 908            | 310            | 303             | 105             |       |
-| 3     | 840            | 271            | 265             | 84              |       |
-| 4     | 890            | 302            | 289             | 98              |       |
+| 1     |                |                |                 |                 |       |
+| 2     |                |                |                 |                 |       |
+| 3     |                |                |                 |                 |       |
+| 4     |                |                |                 |                 |       |
 
 Next, fill in the **Observed** tables below.
 
@@ -119,7 +119,7 @@ Considering that your corn ear is a result of a cross between dihybrids, what is
 
 What is your null hypothesis regarding whether there is independent assortment?{{site.space3}}
 What is your alternate hypothesis?{{site.space3}}
-Calculate the X2 value for each ear of corn you studied. Compare it to the critical values listed in Table 3. How many degrees of freedom are there in this case?{{site.space3}}
+Calculate the &Chi;<sup>2</sup> value for each ear of corn you studied. Compare it to the critical values listed in Table 3. How many degrees of freedom are there in this case?{{site.space3}}
 &chi;<sup>2</sup>:{{site.space3}}
 What do you conclude  regarding your null and alternate hypotheses?{{site.space3}}
 What can you say about the location of these two genes relative to one another.? Are they assorting independently?{{site.space3}}
