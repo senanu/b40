@@ -7,7 +7,7 @@ has_children: false
 
 # Welcome to Bio 40 at Chaffey College
 
-# Introduction to Cell and Molecular Biology -- Spring 2023 (Biol-40-26949)
+# Introduction to Cell and Molecular Biology -- Fall 2023
 
 ## Course Description
 
@@ -20,10 +20,10 @@ An intensive course designed to prepare students for upper division courses in c
 * Lab times: Wed 9:30-12:20 in BL-101
 * Optional office hours ([via Zoom](https://chaffey-edu.zoom.us/j/98445584149)): By Appointment
 * Course website: [https://senanu.github.io/b40/](https://senanu.github.io/b40/) which is linked through Canvas.
-* [turnitin.com](https://www.turnitin.com): Class ID: 37319855; Enrollment key: "Biology"
+* [turnitin.com](https://www.turnitin.com): Class ID: 39926897; Enrollment key: "Biology"
 * E-mail: [senanu.springpearson@chaffey.edu](mailto:senanu.springpearson@chaffey.edu)
 * Phone: 909-652-7876 (please use email instead)
-* Final exam: **Monday 5/15/2022 8:45am**
+* Final exam: **Monday 12/11/2023 8:45am-11:15am**
 
 
 
@@ -139,10 +139,10 @@ Study in groups: Group study is much more fun and effective than studying on you
 * **Keep up**: Don’t get behind — it’ll be really difficult to catch up on old material while you’re trying to stay up-to-date on the newer material. Let me say it again: Don’t get behind, don’t get behind, don’t get behind!
 
 ## More Important Dates
-* **1/23** Last day to add the class
-* **1/29** Last day to drop without a ‘W’
-* **4/4** Last day to drop the course with a ‘W’
-* **5/15 8:45-11:15** Final exam.
+* **8/25** Last day to add the class
+* **9/4** Last day to drop without a ‘W’
+* **10/27** Last day to drop the course with a ‘W’
+* **12/11 8:45-11:15** Final exam.
 
 ## Useful Chaffey College Resources
 

@@ -12,12 +12,12 @@
   rg11: false
   rg12: false
   rg13: false
-  rg14: true
+  rg14: false
   rg15: false
   rg16: false
   rg17: false
   rg18: false
   rg19: false
   rg20: false
-  diffusion: true
+  diffusion: false
 ---
