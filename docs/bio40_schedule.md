@@ -50,38 +50,30 @@ table th:nth-of-type(4) {
 
 | Date | Topic | Reading | Labs & Notes |
 |---|---|---|---|
-| Aug 14 | Intro/Welcome<br>What is life? | Syllabus, Chapter 1 – 1.5 |  |
-| Aug 16 | Intro to scientific inquiry | Chap 1.6<br>BioSkills 1 (P. 21 (7e); P. 19 (6e)): Measurements<br>Chap 9 of [Zen & the art...]({{site.url}}/b40/assets/ch01/ZenAndTheArt_embedded.pdf)<br>Watch [HHMI video on Pocket Mice](https://www.biointeractive.org/classroom-resources/making-fittest-natural-selection-and-adaptation) | Lots of reading for today. <br>Give yourself enough time for it.<br>Measurements lab. |
-| Aug 21 | Chemical Basis of life | Chap 2.1<br>BioSkills 14: Chemical structures |  |
-| Aug 23 | Water and life | Chap 2.2 – 2.5<br>Bioskills 16: Primary literature | R lab: Bring a computer <br>Primary Literature Lab |
-| Aug 28 | Proteins | Chap 3 |  |
-| Aug 30 | Nucleic acids | Chap 4<br>Bioskills 2: Graphs<br>Bioskills 8: Spectrophotometry | Protein lab (full lab report required) |
-| Sep 04 | No Class |  |  |
-| Sep 06 | Carbohydrates | Chap 5 | Macromolecules lab<br>1st draft of protein lab (intro only) due. <br>Peer review of intro. Refer also to [Ye et al. (2016) paper]({{site.url}}/b40/assets/labs/Ye_etal_Heating_Proteins.pdf).  |
-| Sep 11 | **Exam 1** | **Exam on Chapters 1 – 5** |  |
-| Sep 13 | Lipids and membranes | Chap 6<br>Protein paper (Ye et al., 2016). Read the intro. | Diffusion and Osmosis lab<br>1st draft of protein lab due<br>Peer review of protein lab |
-| Sep 18 | Cells I | Chap 7 – 7.3<br>Bioskills 9: Microscopy |  |
-| Sep 20 | Cells II | Chap 7.4 – 7.6 | Microscopy lab<br>Final draft of protein lab due |
-| Sep 25 | Energy and Enzymes | Chap 8 – 8.2 |  |
-| Sep 27 | Enzymes | Chap 8.3 – 8.5 | Enzymes lab (full lab report required) |
-| Oct 02 | Cellular respiration I | Chap 9 – 9.4<br>Bioskills 12: Interpreting models |  |
-| Oct 04 | Cellular respiration II | Chap 9.5 | Enzymes lab (day 2) |
-| Oct 09 | Fermentation | Chap 9.6 | Intro for enzymes lab due. Peer review of intro. |
-| Oct 11 | Photosynthesis I | Chap 10 – 10.3 | Respiration lab |
-| Oct 16 | **EXAM 2** | **Exam on chapters 6-9** |  |
-| Oct 18 | Photosynthesis II | Chap 10.4 – 10.5 | Fermentation lab<br>1st draft of Enzymes lab due. Peer review. |
-| Oct 23 | Cell cycle and Mitosis | Chap 12 |  |
-| Oct 25 | Meiosis | Chap 13<br>Bioskills 3: Error bars | Photosynthesis lab <br>Enzymes lab due. |
-| Oct 30 | Mendel and Intro to genetics | Chap 14 – 14.3 |  |
-| Nov 01 | Linkage and Mendel’s extensions | Chap 14.4 – 14.5 | Mitosis/Meiosis lab |
-| Nov 06 | Human genetics, pedigrees | Chap 14.6<br>Bioskills 4: Probabilities |  |
-| Nov 08 | Genetics problems | Bioskills 3: Statistical tests | Maize genetics lab |
-| Nov 13 | **EXAM 3** | **Exam on chapters 10-14** |  |
-| Nov 15 | DNA and DNA replication | Chap 15<br>Bioskills 6: Electrophoresis<br>Bioskills 7: Centrifugation | PTC lab (day 1); Oral report required |
+| Sep 06 | Intro/Welcome<br>What is life? | Syllabus, Chapter 1<br>Chap 9 of [Zen & the art...]({{site.url}}/b40/assets/ch01/ZenAndTheArt_embedded.pdf) | Measurements lab. |
+| Sep 11 | Chemical Basis of life<br>Water and life | Chap 2<br>BioSkills 14: Chemical structures<br>Watch [HHMI video on Pocket Mice](https://www.biointeractive.org/classroom-resources/making-fittest-natural-selection-and-adaptation) |  |
+| Sep 13 | Proteins | Chap 3<br>Bioskills 16: Primary literature | R lab: Bring a computer <br>Primary Literature Lab |
+| Sep 18 | Nucleic acids | Chap 4 |  |
+| Sep 20 | Carbohydrates | Chap 5<br>Bioskills 2: Graphs<br>Bioskills 8: Spectrophotometry | Protein lab (full lab report required) |
+| Sep 25 | Lipids and membranes | Chap 6<br>Protein paper (Ye et al., 2016). Read the intro. |  |
+| Sep 27 | **Exam 1** | **Exam on Chapters 1 – 5** | Macromolecules lab<br>1st draft of protein lab (intro only) due. <br>Peer review of intro. Refer also to [Ye et al. (2016) paper]({{site.url}}/b40/assets/labs/Ye_etal_Heating_Proteins.pdf).  |
+| Oct 02 | Cells | Chap 7<br>Bioskills 9: Microscopy |  |
+| Oct 04 | Energy and Enzymes | Chap 8 | Diffusion and Osmosis lab<br>1st draft of protein lab due<br>Peer review of protein lab |
+| Oct 09 | Cellular respiration I | Chap 9 – 9.4<br>Bioskills 12: Interpreting models |  |
+| Oct 11 | Resp. and Fermentation | Chap 9.5 – 9.6 | Microscopy lab<br>Respiration lab<br>Final draft of protein lab due |
+| Oct 16 | Photosynthesis I | Chap 10 – 10.3 |  |
+| Oct 18 | **EXAM 2** | **Exam on chapters 6-9** | Enzymes lab (full lab report required) |
+| Oct 23 | Photosynthesis II | Chap 10.4 – 10.5 |  |
+| Oct 25 | Cell cycle and Mitosis | Chap 12 | Enzymes lab (day 2) |
+| Oct 30 | Meiosis | Chap 13<br>Bioskills 3: Error bars |  |
+| Nov 01 | Mendel and Intro to genetics | Chap 14 – 14.3<br>Bioskills 3: Statistical tests | Mitosis/Meiosis lab<br>Maize Genetics lab<br>Intro for enzymes lab due. Peer review of intro. |
+| Nov 06 | Linkage and Mendel’s extensions<br>Pedigrees | Chap 14.4 – 14.6<br>Bioskills 4: Probabilities |  |
+| Nov 08 | Genetics problems | Bioskills 10: PCR part only | PTC lab (day 1); Oral report required<br>1st draft of Enzymes lab due. Peer review. |
+| Nov 13 | **EXAM 3** | **Exam on chapters 10 & 12-14** |  |
+| Nov 15 | DNA and DNA replication | Chap 15<br>Bioskills 6: Electrophoresis | PTC lab (day 2) |
 | Nov 20 | Transcription | Chap 16 – 16.2<br>Chap 17 – 17.2 |  |
-| Nov 22 | Translation | Chap 16.3 – 16.4<br>Chap 17.3 – 17.5 | PTC lab (day 2) |
-| Nov 27 | Biotechnology | Chap 20 – 20.4<br>Bioskills 10: PCR part only |  |
-| Nov 29 | Gene expression in prokaryotes | Chap 18 | pGLO day 1 |
+| Nov 22 | Translation | Chap 16.3 – 16.4<br>Chap 17.3 – 17.5 | pGLO day 1 |
+| Nov 27 | Biotechnology | Chap 20 – 20.4 |  |
+| Nov 29 | Gene expression in prokaryotes | Chap 18 | pGLO day 2 and PTC lab student presentations |
 | Dec 04 | Gene expression in eukaryotes | Chap 19 |  |
-| Dec 06 | Gene expression in eukaryotes | Chap 19 | pGLO day 2 and PTC lab student presentations |
-| Dec 11 | **FINAL EXAM**<br>**8:45-11:15** |  | **Comprehensive final exam** |
+| Dec 06 | **FINAL EXAM** |  | **Comprehensive final exam** |

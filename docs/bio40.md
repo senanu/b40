@@ -16,14 +16,14 @@ An intensive course designed to prepare students for upper division courses in c
 ## Nitty Gritty
 
 * Instructor: Dr. Senanu Spring-Pearson
-* Class times: MW 8:00-9:15 in BL-101
-* Lab times: Wed 9:30-12:20 in BL-101
+* Class times: MW 8:00-9:50 in BL-101
+* Lab times: Wed 10:00-1:50 in BL-101
 * Optional office hours ([via Zoom](https://chaffey-edu.zoom.us/j/98445584149)): By Appointment
 * Course website: [https://senanu.github.io/b40/](https://senanu.github.io/b40/) which is linked through Canvas.
 * [turnitin.com](https://www.turnitin.com): Class ID: 39926897; Enrollment key: "Biology"
 * E-mail: [senanu.springpearson@chaffey.edu](mailto:senanu.springpearson@chaffey.edu)
 * Phone: 909-652-7876 (please use email instead)
-* Final exam: **Monday 12/11/2023 8:45am-11:15am**
+* Final exam: **Wednesday 12/6/2023 8:00am**
 
 
 
@@ -82,7 +82,7 @@ Each exam will consist of a combination of true/false, multiple-choice, short an
 ### Make-up exams, attendance, and punctuality
 In general, there will be no make-up exams. In the case of serious illness, please contact me to see what arrangements can be made.  
 
-Although there are no make-up exams, I realize that life sometimes throws curve-balls and gets in the way of exams! So, all students who have been absent for **5 or fewer class periods** may substitute their final exam grade for their lowest exam grade if it improves their overall grade. If you miss an exam, you will receive a 0, but that will be the lowest score and can be replaced by your final score if your attendance has been satisfactory. Note that it is a very un-wise strategy to rely on this — the final is cumulative and will be challenging. However, it does mean that you don’t need to break into a serious panic if you do miss a single exam. There are no make-ups for the final exam — it must be taken at the scheduled time.
+Although there are no make-up exams, I realize that life sometimes throws curve-balls and gets in the way of exams! So, all students who have been absent for **4 or fewer class periods** may substitute their final exam grade for their lowest exam grade if it improves their overall grade. If you miss an exam, you will receive a 0, but that will be the lowest score and can be replaced by your final score if your attendance has been satisfactory. Note that it is a very un-wise strategy to rely on this — the final is cumulative and will be challenging. However, it does mean that you don’t need to break into a serious panic if you do miss a single exam. There are no make-ups for the final exam — it must be taken at the scheduled time.
 
 I expect you to be in class each period. If you miss more than 5 periods, you will forfeit the benefit of replacing your lowest exam grade with your final exam grade. If you arrive late or leave class early, this will count as a ‘Late’. You may be late twice without penalty, after which coming late will count as an absence. Please plan accordingly with regard to the time it takes to get onto campus and find parking.
 
@@ -139,10 +139,10 @@ Study in groups: Group study is much more fun and effective than studying on you
 * **Keep up**: Don’t get behind — it’ll be really difficult to catch up on old material while you’re trying to stay up-to-date on the newer material. Let me say it again: Don’t get behind, don’t get behind, don’t get behind!
 
 ## More Important Dates
-* **8/25** Last day to add the class
-* **9/4** Last day to drop without a ‘W’
-* **10/27** Last day to drop the course with a ‘W’
-* **12/11 8:45-11:15** Final exam.
+* **9/11** Last day to add the class
+* **9/20** Last day to drop without a ‘W’
+* **10/31** Last day to drop the course with a ‘W’
+* **12/6 8:00am** Final exam.
 
 ## Useful Chaffey College Resources
 
