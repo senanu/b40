@@ -43,7 +43,7 @@ Write a research hypothesis regarding the question about the protein content of 
 ## Methods
 
 ### Creating a 'Standard Curve'
-1. Set out 9 Cuvettes on a labeled sheet of paper (don’t mix them up!) and add PBS according to the volume specified in Table 1.
+1. Set out 9 Cuvettes on a labeled sheet of paper (don’t mix them up!) and add **PBS** according to the volume specified in Table 1.
 2. Add 20&mu;l Protein standard to cuvettes 2-8 according to the specifications in Table 2. There are a number of different protein concentrations, so **MAKE SURE YOU ADD THE CORRECT PROTEIN TO THE CORRECT TUBE!** Note that tube 1 doesn't get any protein.
 3. Add Bradford Reagent Dye to the tubes according to Table 1. Note that tube 9 does not get any dye.
 4. Incubate at room temperature for at least 5 minutes, but not more than 60 minutes.
@@ -51,7 +51,13 @@ Write a research hypothesis regarding the question about the protein content of 
 6. Using PBS only in a cuvette (your 9th tube from step 2), place it in the spectrophotometer, and press the ‘Cal’ button to calibrate the machine. Make sure you place it in the spectrophotometer facing the correct direction. Ask if you are unsure.
 7. Once calibrated for the PBS, pass each sample through the spectrophotometer and record the absorbance in Table 2. Don't press the 'Cal' button again.
 
-Table 1: Volumes of test tube components
+<style>
+caption {
+    text-align:left;
+}
+</style>
+<table>
+<caption><b>Table 1:</b> Volumes of test tube components</caption></table>
 
 | TUBE  | 1XPBS*      | Standards 2-8<br>(see Table 2)| Milk (diluted) | Bradford<br>Dye |
 |-------|-------------|----------------------------|----------------|-----------------|
@@ -63,7 +69,8 @@ Table 1: Volumes of test tube components
 
 * Note that some of the cuvettes that we use in the lab will need a larger total volume. If you are using this kind, increase the volume of PBS by 1000&mu;l.
 
-Table 2: Absorbance of protein samples at 595nm.
+<table>
+<caption><b>Table 2:</b> Absorbance of protein samples at 595nm. Note that if you use this table as input to R, you should change the headings to eliminate spaces and 'weird' characters like parentheses and slashes. This will make it easier for R to read the table and cause less confusion for you.</caption></table>
 
 | Label | Protein sample (mg/ml)          | Absorbance at 595nm |
 |-------|---------------------------------|---------------------|
@@ -84,8 +91,8 @@ Table 2: Absorbance of protein samples at 595nm.
 9. Rinse the cuvettes you used previously. Label paper they are standing on S1 – S5 and W1 – W5. *If you are running short on time*, you may simply do one of each (S1 and W1).
 10. Follow steps above except use the diluted milk (with unknown protein content; Table 1, S1-S5, W1-W5) instead of the known protein samples. Add the reagents in the order of PBS, diluted milk, then dye. If you switched off your spectrophotometer, you'll need to re-calibrate it.
 
-
-Table 3: Absorbance of milk samples at 595nm.
+<table>
+<caption align="left"><b>Table 3:</b> Absorbance of milk samples at 595nm. Note that you should NOT use this table as input to R. At minimum, you should change the headings by eliminating spaces to make them easier for R to read.</caption></table>
 
 <style>
 .milk-samples th:first-of-type {
@@ -125,23 +132,26 @@ Table 3: Absorbance of milk samples at 595nm.
 We will use R to graph your results. You'll be given instructions on how to do this separately.
 
 ## Writing your lab report
-Your lab report must be a typed document that is in the form of a scientific paper. You must include at least 2 citations of scientific papers (in addition to the [Ye et al. paper]({{site.url}}/b40/assets/labs/Ye_etal_Heating_Proteins.pdf)) linked above). **This will require some time** – you may need to look through several before you find a relevant one. You may find it useful to read the introduction of one paper, and look up a paper that is cited by that paper that seems relevant to your study.
+Your lab report must be a typed document that is in the form of a scientific paper. You must include at least 2 citations of scientific papers (in addition to the [Ye et al. paper]({{site.url}}/b40/assets/labs/Ye_etal_Heating_Proteins.pdf)) linked above, if you choose to cite it). **This will require some time** – you may need to look through several before you find a relevant one. You may find it useful to read the introduction of one paper, and look up a paper that is cited by that paper that seems relevant to your study.
 
 There are several links at the top of this document that look at. They will help you to write your paper in an appropriate style, and provide a checklist to make sure you have everything needed.
 
 ### Timeline
 
-| What is due?                | When is it due?   |
-|-----------------------------|-------------------|
-| Draft of introduction       | Feb 1 (8:00am)   |
-| Peer review of intro        | Feb 1 in class   |
-| 1st draft of entire paper.  | Feb 8 (8:00am)  |
-| Peer review of entire paper | Feb 8 in class  |
-| Final Paper                 | Feb 15 (8:00am)  |
+<table>
+<caption align="left"><b>Table 4:</b> Due dates</caption></table>
+
+| What is due?                                  | When is it due?   |
+|-----------------------------------------------|-------------------|
+| Draft of introduction                         | Oct 4 (8:00am)    |
+| Peer review of intro (bring hard copy)        | Oct 4 in class    |
+| 1st draft of entire paper.                    | Oct 11 (8:00am)   |
+| Peer review of entire paper (bring hard copy) | Oct 11 in class   |
+| Final Paper (turnitin.com)                    | Oct 16 (8:00am)   |
 
 You will lose 10% of your grade every day that it is late. Please note that although I won't grade your drafts, they need to be complete and the best possible work you can produce. If they aren't complete, I may deduct some points from your final grade, and most importantly, you won't gain the benefits of having a peer review to help you improve your paper. If your paper is far from being complete, you may not be allowed to do a peer review, which will also cost you points and make it so that you don't see another model paper. This issue will be handled solely at my discretion!
 
 ### Peer Review
-Each student will be required to peer review one other student’s work. You will be assigned a grade based on how much you can improve your partner’s paper. You will be given a rubric for how to do this, but remember your goal is to improve your partner's paper as much as possible.
+Each student will be required to peer review one other student’s work. You will be assigned a grade based on how much you can improve your partner’s paper. You will be given a rubric for how to do this, but remember your goal is to improve your partner's paper as much as possible. On days when a part of the lab report is due, you should bring a **hard, printed copy** to class.
 
 Note that although this gives you a chance to see other students' work, the normal rules for academic honesty apply: you must turn in your own work!

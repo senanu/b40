@@ -6,6 +6,12 @@ is_parent: false
 nav_order: 10
 ---
 
+<style>
+caption {
+    text-align:left;
+}
+</style>
+
 # Writing lab reports in Bio 40
 
 The primary way that scientists communicate their research is through written papers, published in peer-reviewed journals. Although we won’t be publishing our research in Bio 40, you should be learning to write in the appropriate style so that this form of communication becomes more natural to you. This brief guide should help you to understand the style and what is expected of you. I have also included a [checklist](writing_checklist.html) as a quick, additional guide. I also encourage you to use the [peer review rubric for Introductions](peer_review_intro_rubric.html) and the [peer review rubric for papers](peer_review_rubric.html) to help guide your writing.
@@ -32,10 +38,10 @@ Please use a 12-point font that is easy to read.
 
 Use wide margins of at least an inch. This gives space for comments.
 
-Use correct symbols. There will be many times when the symbol that you want to use is not on the keyboard. Use the word processor to insert the correct symbol. For example, you will be measuring things in microliters, for which the abbreviation is “&mu;l”. Use the Greek letter “mu” rather than a “u” that you find on the keyboard. The same applies to the degrees symbol (&degrees;).
+Use correct symbols. There will be many times when the symbol that you want to use is not on the keyboard. Use the word processor to insert the correct symbol. For example, you will be measuring things in microliters, for which the abbreviation is “&mu;l”. Use the Greek letter “mu” rather than a “u” that you find on the keyboard. The same applies to the degrees symbol (&deg;).
 
 ## Figures and Tables
-Every figure and table in your paper should be labeled with a descriptive caption. They should be labeled sequentially from the first to the last and each one of them should be referred to in your text (eg. “See Figure 1”). Figures and tables are different and each should have their own numbering. For tables, place the caption **above** the table and for figures, place the caption **below**. Do not wrap text around the figure or table – allow it to take up the full width of the paper.
+Every figure and table in your paper should be labeled with a descriptive caption. They should be labeled sequentially from the first to the last and each one of them should be referred to in your text (eg. “See Figure 1”). Figures and tables are different and each should have their own numbering. For tables, place the caption **above** the table and for figures, place the caption **below**. Do not wrap text around the figure or table – allow it to take up the full width of the paper as needed.
 
 # Title
 Give your paper a good title. It should be long enough to be descriptive and often include a hint about what your results are. For example, “Replacing an old battery with a new battery restores functionality in flashlights” would be a good title that includes the findings of your study. It should not include a phrase like “The effects of X on Y”.
@@ -49,7 +55,7 @@ Imagine that your paper is an hourglass (Figure 1). It is broad at the top and b
 
 <figure>
 <img src="{{site.url}}/b40/assets/labs/hourglass.jpeg" alt="Picture of hourglass">
-<figcaption>Figure 1. An hourglass with a proper caption underneath (since it is a figure.)</figcaption>
+<figcaption><b>Figure 1</b>. An hourglass with a proper caption underneath (since it is a figure.)</figcaption>
 </figure>
 
 In your introduction, you will need to convince your readers that they should invest the time and energy into reading your paper. People’s time is very valuable so if you can’t demonstrate that your study is worth reading, they won’t read it.
@@ -67,7 +73,7 @@ Include WHY you did things. This helps the reader follow what you are describing
 Describe any trends in your results with prose and refer to tables and figures. **This section should begin with prose** and refer to tables and figures for details and visual representation of those data. Describe any data manipulations that you did, and describe any calculations. For example: “None of the flashlights worked when used with batteries manufactured prior to 2010, however most flashlights did work with newer batteries so long as the batteries could hold a charge of at least … (Table X)”.
 
 <table>
-  <caption>Table 1. Absorbance of protein by Coomassie Brilliant Blue. Note that this caption is numbered and is above the table.</caption>
+  <caption><b>Table 1</b>. Absorbance of protein by Coomassie Brilliant Blue. Note that this caption is numbered and is above the table. Also notice that each column has a header, and units are indicated. This table should be formatted so it is easy for a human to read, and might be different from your data file that you use as input into R, which is easily read by computer and not necessarily by humans.</caption>
 </table>
 
 | Protein content (&mu;g/ml) | Absorbance (%) |

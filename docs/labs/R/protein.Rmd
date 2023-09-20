@@ -14,12 +14,14 @@ Note that you ONLY need the data for the standard curve. Don't include any of th
 
 1. Save your data in a Google spreadsheet.
 1. Have R read in the data and save it in a variable called `dat`.
-1. Check that your data was read in correctly using the structure (`str()`) function. Note what R calls your variables -- you'll need this information for plotting the curve below.
+1. Check that your data was read in correctly using the structure (`str(dat)`) function. Check that the variables that should be numeric are labeled either as 'int' (integers) or 'num' (numeric). Note what R calls your variables -- you'll need this information for plotting the curve below.
+1. Change the `eval=FALSE` to `eval=TRUE` once your code runs. This is necessary to knit properly.
 
-```{r data-import, include=TRUE, echo=TRUE}
+```{r data-import, include=TRUE, echo=TRUE, eval=FALSE}
 knitr::opts_knit$set(global.device = TRUE)
 # Do the steps above on the lines below this one.
-
+dat <-
+str(dat)
 ```
 
 # Plot a standard curve
@@ -36,11 +38,6 @@ This is a good chance to learn about providing *arguments* to an R function. Typ
 1. Change the `eval=FALSE` to `eval=TRUE` once your code runs. This is necessary to knit properly.
 
 ```{r plot, include=TRUE, eval=FALSE, echo=TRUE}
-# The following command is written on multiple lines.
-# R will interpret it as one command because the command
-# doesn't end until the parentheses are closed.
-# It is useful to break up functions with many arguments
-# like this so that they are easy to read.
 plot(x=dat$x.data.series,
      y=dat$y.data.series,
      main="Main title",
@@ -50,6 +47,13 @@ plot(x=dat$x.data.series,
      xlim=c(0,2))
 recordedPlot <- recordPlot() # Don't touch this line
 ```
+
+* Troubleshooting hints
+    1. In the following, `dat` refers to the data table that you saved in the code chunk above, and `x.data.series` and `y.data.series` refer to the column names. Change them as appropriate for your data.
+    1. The above command is written on multiple lines. R will interpret it as one command because the command doesn't end until the parentheses are closed. It is useful to break up functions with many arguments like this so that they are easy to read.
+    1. Make sure there is a comma between each argument. In the code above, this means that there should be a comma at the end of each line, since each argument takes up a line.
+    1. The values for main, xlab, and ylab should be in quotes, since you are just asking R to print some text on the graph.
+
 
 # Calculate a linear regression
 
@@ -81,12 +85,12 @@ profs.regression
 
 You can see the two coefficients:
 
-* __*m*__ The slope. This is given as the second of the coefficients. In this case, it is `r round(coefficients(profs.regression)[2], 4)`.
-* __*b*__ The y-intercept. This is conveniently labeled as the (Intercept). In this case it is `r round(coefficients(profs.regression)[1], 4)`
+* __*m*__ The slope. This is given as the second of the coefficients. In this case, it is 0.5547.
+* __*b*__ The y-intercept. This is conveniently labeled as the (Intercept). In this case it is -0.1688
 
 You can now use the data from the regression to write down the equation for a regression line through your own data. In the example above, it would be
 $$Y = mX + b$$
-$$Y = `r round(coefficients(profs.regression)[2], 4)` X + `r round(coefficients(profs.regression)[1], 4)`$$
+$$Y = 0.5547 X - 0.1688 $$
 
 For your own data:
 
@@ -144,7 +148,7 @@ Write these values down. **You should include these in your lab writeup**
 
 # Plot the line
 
-1. Check to see that the following code runs.
+1. Check to see that the following code runs. You shouldn't need to change it at all.
 1. If it runs, change the `eval=FALSE` to `eval=TRUE`
 
 ```{r plot-line, echo=TRUE, eval=FALSE, include=TRUE}
@@ -157,7 +161,7 @@ recordedPlot <- recordPlot() # leave this line alone
 
 Here, we will add points (of different colors) to the plot. Make sure you know which one is which color so you can describe it in the caption for this figure in your lab report.
 
-1. Check to see that the following code runs.
+1. Check to see that the following code runs. You shouldn't need to change anything.
 1. Read the code to figure out which color is used for which type of milk.
 1. If it runs, change the `eval=FALSE` to `eval=TRUE`
 
@@ -170,5 +174,5 @@ points(x=whole.conc, y=whole.abs, col='red', pch=16)
 # For your lab report
 
 1. Copy and paste the graph into your lab report which you will turn in. Go to the lower right pane and click `Export` and then `Copy to Clipboard`. Then paste it into your lab report. If you don't have a graph, you may need to follow the instructions at the very beginning of this document.
-1. In your lab report, make sure you include the average protein concentration that you calculated for the whole and skim milk. 
+1. In your lab report, make sure you include the average protein concentration that you calculated for the whole and skim milk.
 1. Recompile this document by clicking `Knit` then `Knit to html`. Save a copy of the resulting HTML file on your computer. You won't be turning this in, but it may be useful to refer to.
