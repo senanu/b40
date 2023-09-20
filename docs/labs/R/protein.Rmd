@@ -1,3 +1,10 @@
+---
+---
+---
+title: "Qualitative analysis of Protein"
+output: html_document
+---
+
 Before starting, go to the tools menu, choose 'Global options', then in the 'R markdown' menu, UNCHECK the box labeled "Show output inline for all R Markdown documents". This will tell RStudio to put the plot into the viewer sub-window.
 
 # Importing data

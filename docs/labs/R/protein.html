@@ -11,7 +11,7 @@
 
 
 
-<title>protein.knit</title>
+<title>Qualitative analysis of Protein</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -348,6 +348,7 @@ display: none;
 
 
 
+<h1 class="title toc-ignore">Qualitative analysis of Protein</h1>
 
 </div>
 
@@ -385,11 +386,17 @@ include any of the milk data in your Google spreadsheet.</p>
 <li>Have R read in the data and save it in a variable called
 <code>dat</code>.</li>
 <li>Check that your data was read in correctly using the structure
-(<code>str()</code>) function. Note what R calls your variables – you’ll
-need this information for plotting the curve below.</li>
+(<code>str(dat)</code>) function. Check that the variables that should
+be numeric are labeled either as ‘int’ (integers) or ‘num’ (numeric).
+Note what R calls your variables – you’ll need this information for
+plotting the curve below.</li>
+<li>Change the <code>eval=FALSE</code> to <code>eval=TRUE</code> once
+your code runs. This is necessary to knit properly.</li>
 </ol>
 <pre class="r"><code>knitr::opts_knit$set(global.device = TRUE)
-# Do the steps above on the lines below this one.</code></pre>
+# Do the steps above on the lines below this one.
+dat &lt;-
+str(dat)</code></pre>
 </div>
 </div>
 <div id="plot-a-standard-curve" class="section level1">
@@ -433,12 +440,7 @@ successfully.</li>
 <li>Change the <code>eval=FALSE</code> to <code>eval=TRUE</code> once
 your code runs. This is necessary to knit properly.</li>
 </ol>
-<pre class="r"><code># The following command is written on multiple lines.
-# R will interpret it as one command because the command
-# doesn&#39;t end until the parentheses are closed.
-# It is useful to break up functions with many arguments
-# like this so that they are easy to read.
-plot(x=dat$x.data.series,
+<pre class="r"><code>plot(x=dat$x.data.series,
      y=dat$y.data.series,
      main=&quot;Main title&quot;,
      xlab=&quot;X axis label&quot;,
@@ -446,6 +448,24 @@ plot(x=dat$x.data.series,
      ylim=c(0,1),
      xlim=c(0,2))
 recordedPlot &lt;- recordPlot() # Don&#39;t touch this line</code></pre>
+<ul>
+<li>Troubleshooting hints
+<ol style="list-style-type: decimal">
+<li>In the following, <code>dat</code> refers to the data table that you
+saved in the code chunk above, and <code>x.data.series</code> and
+<code>y.data.series</code> refer to the column names. Change them as
+appropriate for your data.</li>
+<li>The above command is written on multiple lines. R will interpret it
+as one command because the command doesn’t end until the parentheses are
+closed. It is useful to break up functions with many arguments like this
+so that they are easy to read.</li>
+<li>Make sure there is a comma between each argument. In the code above,
+this means that there should be a comma at the end of each line, since
+each argument takes up a line.</li>
+<li>The values for main, xlab, and ylab should be in quotes, since you
+are just asking R to print some text on the graph.</li>
+</ol></li>
+</ul>
 </div>
 <div id="calculate-a-linear-regression" class="section level1">
 <h1>Calculate a linear regression</h1>
@@ -489,7 +509,7 @@ labeled as the (Intercept). In this case it is -0.1688</li>
 <p>You can now use the data from the regression to write down the
 equation for a regression line through your own data. In the example
 above, it would be <span class="math display">\[Y = mX + b\]</span>
-<span class="math display">\[Y = 0.5547 X + -0.1688\]</span></p>
+<span class="math display">\[Y = 0.5547 X - 0.1688 \]</span></p>
 <p>For your own data:</p>
 <ol style="list-style-type: decimal">
 <li>Check to see that the following code runs.</li>
@@ -560,7 +580,8 @@ writeup</strong></p>
 <div id="plot-the-line" class="section level1">
 <h1>Plot the line</h1>
 <ol style="list-style-type: decimal">
-<li>Check to see that the following code runs.</li>
+<li>Check to see that the following code runs. You shouldn’t need to
+change it at all.</li>
 <li>If it runs, change the <code>eval=FALSE</code> to
 <code>eval=TRUE</code></li>
 </ol>
@@ -574,7 +595,8 @@ recordedPlot &lt;- recordPlot() # leave this line alone</code></pre>
 you know which one is which color so you can describe it in the caption
 for this figure in your lab report.</p>
 <ol style="list-style-type: decimal">
-<li>Check to see that the following code runs.</li>
+<li>Check to see that the following code runs. You shouldn’t need to
+change anything.</li>
 <li>Read the code to figure out which color is used for which type of
 milk.</li>
 <li>If it runs, change the <code>eval=FALSE</code> to
