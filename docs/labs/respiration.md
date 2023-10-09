@@ -24,19 +24,19 @@ In this lab, you will investigate the rate of respiration in germinating pea see
     1. Place a small amount of non-absorbant cotton above the absorbant cotton. This will prevent the seeds from touching the KOH, which is toxic to them.
     1. Place germinating seeds above the non-absorbant cotton. Talk to your instructor about how much to add.
     1. Attach the plastic tube with the seeds.
+    1. The germinating seeds are not photosynthesizing. They are respiring and therefore using carbohydrates and oxygen and producing CO<sub>2</sub>. Without the KOH, the total volume of gases would remain the same, but with the KOH, any CO<sub>2</sub> produced will be absorbed. Therefore, the total volume will decrease as O<sub>2</sub> is used in respiration, but it is not replaced by CO<sub>2</sub> (because of the KOH).
 1. Firmly attach the stopper to the plastic tube. It will be difficult to get it in, but twist and push hard. Be careful not to break the glass tubing on the other side of the stopper.
 1. Use a rubber band to attach a heavy screw weight to the outside of the germination chamber. This will help it to sink into the water. Place it in the water bath.
 1. Fill the water bath so that the germination chamber is fully submerged. Set the temperature.
 1. Wait for a full 5 minutes **after the bath has reached temperature** so that the temperature can equilibrate to the temperature of the water bath.
 1. Remove the plastic clip above the manometer loop.
 1. Make sure that the manometer fluid is approximately at the bottom of the loop.
-1. Pull out the plunger of a syringe to the 5ml mark. Then attach it to the side branch of the manometer.
+1. Pull out the plunger of a syringe to the 1ml mark. Then attach it to the side branch of the manometer.
 1. **Start a timer as soon as the syringe is attached. At this point, the system is closed.**
 1. Record the level of the colored manometer fluid by making a mark on the paper.
-1. Use the syringe to inject 1ml air into the tubing. Do **NOT** disconnect the syringe.
-1. Mark the location of the manometer fluid again. The difference between the two marks is 1ml of volume.
-1. As carefully as you can, divide the distance between the two marks into 10. Each unit is therefore 0.1ml.
-1. Time how long it takes for the seeds to use 0.1ml of oxygen.
+1. Use the syringe to inject 0.1ml air into the tubing. Do **NOT** disconnect the syringe.
+1. Mark the location of the manometer fluid again. The difference between the two marks is 0.1ml of volume.
+1. Time how long it takes to use up 0.1ml oxygen.
 1. As time permits, time how long it takes to use up a second 0.1ml oxygen.
 
 <style>
