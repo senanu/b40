@@ -11,7 +11,7 @@
 
 
 
-<title>Qualitative analysis of Protein</title>
+<title>protein.knit</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -348,11 +348,11 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Qualitative analysis of Protein</h1>
 
 </div>
 
 
+<p>title: “Qualitative analysis of Protein” output: html_document —</p>
 <p>Before starting, go to the tools menu, choose ‘Global options’, then
 in the ‘R markdown’ menu, UNCHECK the box labeled “Show output inline
 for all R Markdown documents”. This will tell RStudio to put the plot
@@ -474,8 +474,8 @@ are just asking R to print some text on the graph.</li>
 basically reads “is explained by”. Therefore, the following command
 means “conduct a linear regression in which ‘y.data.series’ <strong>is
 explained by</strong> ‘x.data.series’, and save the result in a variable
-called “lin.regression”. <strong>Be careful to note which way around
-this formula is: <code>y ~ x</code>, not <code>x ~ y</code></strong></p>
+called”lin.regression”. <strong>Be careful to note which way around this
+formula is: <code>y ~ x</code>, not <code>x ~ y</code></strong></p>
 <ol style="list-style-type: decimal">
 <li>Modify the linear regression function to use <em>your</em> data.
 Make sure you are clear about which are the dependent and independent
@@ -491,7 +491,8 @@ variables.</li>
 ‘b’ is the intercept (this is how I learned the equation – you might
 have used different letters – it’s a regional thing!). You can get those
 values by simply typing <code>lin.regression</code> on a line of its own
-in the ‘Console’ below. For example:</p>
+in the ‘Console’ (bottom left corner of the RStudio window) For
+example:</p>
 <pre><code>## 
 ## Call:
 ## lm(formula = professors_data$y ~ professors_data$x)
@@ -531,7 +532,9 @@ chunk.</li>
 <p>Use the formula for a straight line that you wrote above to calculate
 the protein concentration of your milk samples. In this case, the Y will
 be the absorbance and the X will be the (unknown) protein concentration.
-You will therefore need to solve for X.</p>
+You will therefore need to solve for X. Do this for each of the
+measurements you took – you probably have 5 for the skim milk and 5 for
+the whole milk.</p>
 <p>When you have done that, enter the data below by hand. Each of the 4
 variables below should look something like the following in which each
 value should be separated by a comma:</p>
@@ -562,10 +565,10 @@ from your instructor.</p>
 protein concentrations in both the skim and whole milk. Remember that
 you can use an entire variable as the argument to the
 <code>mean()</code> function.</li>
-<li>As with the plot you made by hand, <strong><strong>you will need to
-multiply the final result by 50 because of the initial dilution that you
-made</strong></strong>. The function to multiply is the asterisk (*) as
-in “5 * 3”.</li>
+<li>As with the plot you made by hand, <strong>you will need to multiply
+the final result by 50 because of the initial dilution that you
+made</strong>. The function to multiply is the asterisk (*) as in “5 *
+3”.</li>
 <li>If the code runs without errors, change the <code>eval=FALSE</code>
 to <code>eval=TRUE</code>.</li>
 </ol>
@@ -605,6 +608,47 @@ milk.</li>
 <pre class="r"><code>replayPlot(recordedPlot) # leave this line alone
 points(x=skim.conc, y=skim.abs, col=&#39;blue&#39;, pch=16)
 points(x=whole.conc, y=whole.abs, col=&#39;red&#39;, pch=16)</code></pre>
+<div id="troubleshooting" class="section level3">
+<h3>Troubleshooting</h3>
+<ul>
+<li><p>When you look at your graph, you should have blue and red dots,
+and they should be <u>on the regression line</u>. There are a few
+reasons why you may see fewer than 10 dots (5 red and 5 blue):</p>
+<ul>
+<li><p>You didn’t make 10 measurements, perhaps because you ran out of
+time. You can’t do anything to rectify this at this point.</p></li>
+<li><p>Some of your dots are overlapping. All dots are on the graph, but
+there are some you cannot see because they are underneath
+others.</p></li>
+<li><p>Some of the dots don’t fit within the boundaries of the graph.
+Check your data in the “Calculate Protein Concentration” section above
+to see if this applies to your graph. If this is the case, go back to
+the beginning of this <code>Rmd</code> file to the section (Plot a
+standard curve) where you initially plotted the graph. Change limits on
+the x-axis by changing the <code>xlim = c(0,2)</code> so that the
+<code>2</code> is large enough to accommodate your largest x-value.
+Similarly, change <code>ylim = c(0,1)</code> so that the <code>1</code>
+is large enough for your largest y-value. After you make these changes,
+run <u>all</u> the subsequent code so that your changes take effect on
+what you did later. Check again that all 10 dots are accounted
+for.</p></li>
+</ul></li>
+<li><p>If your colored dots are not on the regression line, it is likely
+due to 1 of 2 reasons:</p>
+<ul>
+<li><p>You miscalculated some of the values of X from your Y values.
+This will usually result in one or a few dots being off the
+line.</p></li>
+<li><p>If your dots appear in a straight line, but not the regression
+line, the cause is likely to be that you mixed up the X and Y in the
+regression equation. You should have <code>lin.regression = Y ~ X</code>
+using your variables for X and Y. It should <u>not</u> be
+<code>lin.regression = X ~ Y</code>. The order of X and Y matter here!
+If you made this mistake, make sure you run all subsequent code again
+after fixing it.</p></li>
+</ul></li>
+</ul>
+</div>
 </div>
 <div id="for-your-lab-report" class="section level1">
 <h1>For your lab report</h1>
@@ -615,7 +659,9 @@ in. Go to the lower right pane and click <code>Export</code> and then
 you don’t have a graph, you may need to follow the instructions at the
 very beginning of this document.</li>
 <li>In your lab report, make sure you include the average protein
-concentration that you calculated for the whole and skim milk.</li>
+concentration that you calculated for the whole and skim milk. This
+should be the value after multiplying by 50 to account for the
+dilution.</li>
 <li>Recompile this document by clicking <code>Knit</code> then
 <code>Knit to html</code>. Save a copy of the resulting HTML file on
 your computer. You won’t be turning this in, but it may be useful to
