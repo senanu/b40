@@ -203,9 +203,9 @@ Marini, I. (2005), Discovering an accessible enzyme: Salivary &alpha;-amylase : 
 
 | Date    | What is Due?                                               |
 |---------|------------------------------------------------------------|
-| Mar 8   | Introduction due for peer review.                          |
-| Mar 22  | Full rough draft for peer review                           |
-| April 3 | Final Draft due                                            |
+| Nov 1   | Introduction due for peer review.                          |
+| Nov 8   | Full rough draft for peer review                           |
+| Nov 15  | Final Draft due                                            |
 
 <!---
 # Lab write-up (Fall 2022 only)
