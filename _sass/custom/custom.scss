@@ -15,8 +15,8 @@
     margin-bottom: 2cm;
   }
   .print:last-child {
-     page-break-after: auto;
-}
+    page-break-after: auto;
+  }
   .side-bar { display: none; }
   .breadcrumb-nav { display: none;}
   .main-content { max-width: auto; margin: 1em;}
@@ -25,7 +25,7 @@
   a:not([href^=http]):after{
     display: none;
   }
-  p a {
+  p, a {
     word-wrap: break-word;
   }
   p, li{
@@ -60,65 +60,65 @@
     margin-right: -2em;
   }
   //@page :first {.page-header: none;}
-h1, h2, h3, h4, h5, h6, p, ul, li {
-  font-family: "Times New Roman", Times, serif;
-}
-h1, h2, h3, h4, h5, h6, blockquote{
-  page-break-after: avoid;
-  font-weight: bold;
-}
-p {
-  line-height: normal;
-  color: black;
-}
-// Lists
-ol, ul, ol li::before, ol li::after{
-  line-height: normal;
-  color: black;
-}
+  h1, h2, h3, h4, h5, h6, p, ul, li {
+    font-family: "Times New Roman", Times, serif;
+  }
+  h1, h2, h3, h4, h5, h6, blockquote{
+    page-break-after: avoid;
+    font-weight: bold;
+  }
+  p {
+    line-height: normal;
+    color: black;
+  }
+  // Lists
+  ol, ul, ol li::before, ol li::after{
+    line-height: normal;
+    color: black;
+  }
 
-ol li::before{
-  color: black;
-}
+  ol li::before{
+    color: black;
+  }
 
-li:not(:last-child) {
+  li:not(:last-child) {
     margin-bottom: 5px;
-}
-ul,ol {
-  margin:0;
-  padding:0 0 0 2em;
-}
+  }
+  ul,ol {
+    margin:0;
+    padding:0 0 0 2em;
+  }
 
-textarea, input{
-  font-family: "Arial", sans-serif;
-  font-size: 10pt;
-}
+  textarea, input{
+    font-family: "Arial", sans-serif;
+    font-size: 10pt;
+  }
 
-table {
-  width: 100%;
-  page-break-inside: avoid;
-  border-spacing: 0px;
-  border-collapse: collapse;
-  border: 3px solid black;
-}
-thead{
-  border: 3px solid black;
-  font-weight: bolder;
-}
-th{
-  padding: 2px;
-  border: 2px solid black;
-}
-td {
+  table {
+    width: 100%;
+    page-break-inside: avoid;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border: 3px solid black;
+  }
+  thead{
+    border: 3px solid black;
+    font-weight: bolder;
+  }
+  th{
+    padding: 2px;
+    border: 2px solid black;
+  }
+  td {
     font-size: 10pt;
     padding: 2px;
     border: 2px solid black;
-}
-pre {
-  font-size: 16pt;
-  font-family: "Courier Bold", Courier, monospace;
-  font-weight: bold;
-}
+  }
+  pre {
+    font-size: 16pt;
+    font-family: "Courier Bold", Courier, monospace;
+    font-weight: bold;
+  }
 }
 // Not printed pages
 
@@ -139,11 +139,11 @@ blockquote {
 }
 
 .borderblue {
- border-style: solid;
- padding: 1em;
- margin-bottom: 1em;
- border-color: #287EC7;
- background-color: #d4e7f7;
+  border-style: solid;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-color: #287EC7;
+  background-color: #d4e7f7;
 }
 table{
   border-spacing: 0px;
@@ -159,8 +159,8 @@ th{
   border: 2px solid black;
 }
 td {
-    padding: 2px;
-    border: 2px solid black;
+  padding: 2px;
+  border: 2px solid black;
 }
 
 .ans {
