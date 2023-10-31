@@ -35,58 +35,41 @@ All of the corn we have in lab are the result of dihybrid crosses. To figure out
 
 Table 1: Counts of all traits
 
-| Ear # | Smooth, Purple | Smooth, Yellow | Wrinkled Purple | Wrinkled Yellow | Total |
-|-------|----------------|----------------|-----------------|-----------------|-------|
-| 1     |                |                |                 |                 |       |
-| 2     |                |                |                 |                 |       |
-| 3     |                |                |                 |                 |       |
-| 4     |                |                |                 |                 |       |
+| Smooth, Purple | Smooth, Yellow | Wrinkled Purple | Wrinkled Yellow | Total |
+|----------------|----------------|-----------------|-----------------|-------|
+|                |                |                 |                 |       |
 
-Next, fill in the **Observed** tables below.
+
+Next, tally up the total for each of the **single** traits. For example, tally the **smooth** trait by adding the **smooth, purple** to the **smooth, yellow**. fill in the **Observed** tables below.
+
+Then, use the percentages you predicted above to calculate how many kernels are **expected** to be of each type. To do so, simply multiply the proportion by the total number of kernels counted.
 
 Table 2: Observed and expected values for single traits
 
-Observed:
+**Smooth / wrinkled**
 
-| Ear # | Smooth | Wrinkled |
-|-------|--------|----------|
-| 1     |        |          |
-| 2     |        |          |
-| 3     |        |          |
-| 4     |        |          |
+|          | Smooth | Wrinkled | Total |
+|----------|--------|----------|-------|
+| Observed |        |          |       |
+| Expected |        |          |       |
 
-Expected:
 
-| Ear # | Smooth | Wrinkled |
-|-------|--------|----------|
-| 1     |        |          |
-| 2     |        |          |
-| 3     |        |          |
-| 4     |        |          |
+**Yellow / Purple**
 
-Observed:
+|          | Yellow | Purple   | Total |
+|----------|--------|----------|-------|
+| Observed |        |          |       |
+| Expected |        |          |       |
 
-| Ear # | Purple | Yellow   |
-|-------|--------|----------|
-| 1     |        |          |
-| 2     |        |          |
-| 3     |        |          |
-| 4     |        |          |
 
-Expected:
-
-| Ear # | Purple | Yellow   |
-|-------|--------|----------|
-| 1     |        |          |
-| 2     |        |          |
-| 3     |        |          |
-| 4     |        |          |
 
 Now we have to do the &Chi;<sup>2</sup> test itself. The formula for this test is
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\chi^2&space;=&space;\sum\frac{(O-E)^2}{E}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\chi^2&space;=&space;\sum\frac{(O-E)^2}{E}" title="\chi^2 = \sum\frac{(O-E)^2}{E}" /></a>
 
-Which looks more complicated than it is. The *O* and the *E* stand for observed and expected, respectively. Then take the sum over all of the different phenotypes. For example if we were to test to see whether a coin is fair, we could flip it 100 times. We’d expect 50 of those to be heads and 50 tails. There is no reason to believe the coin isn’t fair. If the flips we did are very different from 50% heads, then we might conclude that the coin isn’t fair. The coin being fair is our null hypothesis, and the coin not being fair is our alternate hypothesis.
+Which looks more complicated than it is. The *O* and the *E* stand for observed and expected, respectively, so apply this formula for *each* of the groups (phenotypes) in your table above. Then take the sum over all of the different phenotypes.
+
+For example if we were to test to see whether a coin is fair, we could flip it 100 times. We’d expect 50 of those to be heads and 50 tails. There is no reason to believe the coin isn’t fair. If the flips we did are very different from 50% heads, then we might conclude that the coin isn’t fair. The coin being fair is our null hypothesis, and the coin not being fair is our alternate hypothesis.
 
 Table 3: Example flips of 100 coins
 
@@ -97,7 +80,7 @@ Table 3: Example flips of 100 coins
 | (O-E)<sup>2</sup>/E | 64/50   | 64/50   |
 
 In this case, our &chi;<sup>2</sup> value would be 128/50 = 2.56. Notice that the value would increase if the difference between our observed and expected values increases. Is this value big enough to conclude that the coin isn’t fair? Our final step is to look this value up in Table 4.
-To use the table, you need to know how many degrees of freedom you have. This will be the number of categories minus 1. Then we want to see what &chi;<sup>2</sup> value we’d have to have in order to reject the null hypothesis at a given p-value. In biology, we often say that something is significantly different from random chance when the probability of observing the numbers is less than 0.05. Check to see if your &chi;<sup>2</sup> value is greater than the value given in the table for the degrees of freedom. If it is, we can reject the null hypothesis. If it is smaller, we accept the null hypothesis. In the coin example above, the value of 2.56 is less than 3.841, so we accept the null hypothesis that the coin is fair. You could say that the chance of observing as extreme values as 42 Heads and 58 tails is >0.10 (and therefore also  >0.05) if the coin is fair. You can see that if there were 40 heads and 60 tails, the &chi;<sup>2</sup> value would be 4 and we would reject the null hypothesis and conclude that there is a good chance that the coin is biased (There is less than 0.05 chance of seeing such extreme results if the coin is fair. With such a low probability, we'd conclude that it is very likely the coin is biased).
+To use the table, you need to know how many degrees of freedom you have. This will be the number of categories minus 1. Then we want to see what &chi;<sup>2</sup> value we’d have to have in order to reject the null hypothesis at a given p-value. In biology, we often say that something is significantly different from random chance when the probability of observing the numbers is less than 0.05. Check to see if your &chi;<sup>2</sup> value is greater than the value given in the table for the degrees of freedom. If it is, we can reject the null hypothesis. If it is smaller, we accept the null hypothesis. In the coin example above, the value of 2.56 is less than 3.841, so we accept the null hypothesis that the coin is fair. You could say that the chance of observing as extreme values as 42 Heads and 58 tails is >0.05 if the coin is fair. You can see that if there were 40 heads and 60 tails, the &chi;<sup>2</sup> value would be 4 and we would reject the null hypothesis and conclude that there is a good chance that the coin is biased (There is less than 0.05 chance of seeing such extreme results if the coin is fair. With such a low probability, we'd conclude that it is very likely the coin is biased).
 
 For your corn, what is your null hypothesis (regarding segregation)?{{site.space3}}
 What is your alternate hypothesis? {{site.space3}}
