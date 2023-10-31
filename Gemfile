@@ -13,7 +13,7 @@ source "https://rubygems.org"
 #gem "jekyll-theme-cayman"
 gem "jekyll-remote-theme"
 #gem "jekyll-theme-hyde"
-gem "just-the-docs"
+gem "just-the-docs", "0.3.3"
 gem 'rake'
 gem 'html-proofer'
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
