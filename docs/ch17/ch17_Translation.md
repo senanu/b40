@@ -13,7 +13,7 @@ For this activity, we will be using the "3-D Molecular Designs Flow of Genetic I
 In your kit, please find the following items (put the rest back in the box)
 * Translation of RNA into Proteins placemat
 * Sequence I Translation mRNA strip
-* 4 bags of RNA nucleotides (these havea square shape; white = Uracil, green = Guanine, red = Adenine, blue = Cysteine)
+* 4 bags of RNA nucleotides (these have a square shape; white = Uracil, green = Guanine, red = Adenine, blue = Cytosine)
 
 <style>
 .box {

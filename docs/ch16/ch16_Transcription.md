@@ -13,7 +13,7 @@ For this activity, we will be using the "3-D Molecular Designs Flow of Genetic I
 In your kit, please find the following items (put the rest back in the box)
 * Transcription of DNA into RNA placemat
 * Sequence I Replication & Transcription DNA strip
-* 4 bags of DNA nucleotides (yellow = Thymine, green = Guanine, red = Adenine, blue = Cysteine)
+* 4 bags of DNA nucleotides (yellow = Thymine, green = Guanine, red = Adenine, blue = Cytosine)
 * 4 bags of RNA nucleotides (these have a square shape; the colors are the same as for DNA except Uracil is white).
 
 <style>

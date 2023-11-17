@@ -14,7 +14,7 @@ In your kit, please find the following items (put the rest back in the box)
 * DNA replication placemat
 * 2 foam DNA polymerase 'molecules'
 * Sequence I Replication & Transcription DNA strip
-* 4 bags of DNA nucleotides (yellow = Thymine, green = Guanine, red = Adenine, blue = Cysteine)
+* 4 bags of DNA nucleotides (yellow = Thymine, green = Guanine, red = Adenine, blue = Cytosine)
 
 <style>
 .box {
