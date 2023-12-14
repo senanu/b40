@@ -7,7 +7,7 @@ has_children: false
 
 # Welcome to Bio 40 at Chaffey College
 
-# Introduction to Cell and Molecular Biology -- Fall 2023
+# Introduction to Cell and Molecular Biology -- Spring 2024 (BIOL-40-31966)
 
 ## Course Description
 
@@ -16,14 +16,14 @@ An intensive course designed to prepare students for upper division courses in c
 ## Nitty Gritty
 
 * Instructor: Dr. Senanu Spring-Pearson
-* Class times: MW 8:00-9:50 in BL-101
-* Lab times: Wed 10:00-1:50 in BL-101
-* Optional office hours ([via Zoom](https://chaffey-edu.zoom.us/j/98445584149)): By Appointment
+* Class times: MW 8:00-9:20 in BL-101
+* Lab times: Wed 9:30-12:20 in BL-101
+* Optional office hours ([via Zoom](https://chaffey-edu.zoom.us/j/98445584149)): By Appointment. I'm also usually available to stay after class on Monday.
 * Course website: [https://senanu.github.io/b40/](https://senanu.github.io/b40/) which is linked through Canvas.
-* [turnitin.com](https://www.turnitin.com): Class ID: 39926897; Enrollment key: "Biology"
+* [turnitin.com](https://www.turnitin.com): Class ID: 41788959; Enrollment key: "Biology"
 * E-mail: [senanu.springpearson@chaffey.edu](mailto:senanu.springpearson@chaffey.edu)
 * Phone: 909-652-7876 (please use email instead)
-* Final exam: **Wednesday 12/6/2023 8:00am**
+* Final exam: **Monday 5/13/2024 8:45 - 11:15am**
 
 
 
@@ -41,9 +41,13 @@ At the completion of the course, students will:
 ## Required Text:  
 <img align="right" width="25%" src="{{site.url}}/b40/assets/img/freeman_7th.png" alt="Textbook 7th ed">
 Freeman et al., 2020. Biological Science, 7th ed. Pearson.
-This is a big, heavy, expensive book, but it will be invaluable to you as a budding biologist. This is also the book that you will continue to use through the introductory biology classes at Chaffey and so is worth investing in. Previous editions are only slightly different, so you are welcome to use those for this class. For 2023, the Chaffey bookstore may have grants that should apply to this textbook. You may use previous editions of the textbook, though the most recent, the better.
+This is a big, heavy, expensive book, but it will be invaluable to you as a budding biologist. This is also the book that you will continue to use through the introductory biology classes at Chaffey and so is worth investing in. Previous editions are only slightly different, so you are welcome to use those for this class. For 2024, the Chaffey bookstore may still have grants that should apply to this textbook. You may use previous editions of the textbook, though the most recent, the better.
 
 New textbooks may be bought with a code to Pearson's online learning content. You are welcome to use those, but none of it will be required for this class.
+
+## Classroom Cell phone policy
+
+I have found that students are often distracted by the presence and use of cell phones in class. I therefore ask that you silence your phones and place them in your bag. If we need calculators or timers in lab, I'll provide those for you or allow limited use of phones. Otherwise, please keep them completely out of sight.
 
 ## Course Design for this "flipped classroom"
 
@@ -82,7 +86,7 @@ Each exam will consist of a combination of true/false, multiple-choice, short an
 ### Make-up exams, attendance, and punctuality
 In general, there will be no make-up exams. In the case of serious illness, please contact me to see what arrangements can be made.  
 
-Although there are no make-up exams, I realize that life sometimes throws curve-balls and gets in the way of exams! So, all students who have been absent for **4 or fewer class periods** may substitute their final exam grade for their lowest exam grade if it improves their overall grade. If you miss an exam, you will receive a 0, but that will be the lowest score and can be replaced by your final score if your attendance has been satisfactory. Note that it is a very un-wise strategy to rely on this — the final is cumulative and will be challenging. However, it does mean that you don’t need to break into a serious panic if you do miss a single exam. There are no make-ups for the final exam — it must be taken at the scheduled time.
+Although there are no make-up exams, I realize that life sometimes throws curve-balls and gets in the way of exams! So, all students who have been absent for **5 or fewer class periods** may substitute their final exam grade for their lowest exam grade if it improves their overall grade. If you miss an exam, you will receive a 0, but that will be the lowest score and can be replaced by your final score if your attendance has been satisfactory. Note that it is a very un-wise strategy to rely on this — the final is cumulative and will be challenging. However, it does mean that you don’t need to break into a serious panic if you do miss a single exam. There are no make-ups for the final exam — it must be taken at the scheduled time.
 
 I expect you to be in class each period. If you miss more than 5 periods, you will forfeit the benefit of replacing your lowest exam grade with your final exam grade. If you arrive late or leave class early, this will count as a ‘Late’. You may be late twice without penalty, after which coming late will count as an absence. Please plan accordingly with regard to the time it takes to get onto campus and find parking.
 
@@ -139,10 +143,10 @@ Study in groups: Group study is much more fun and effective than studying on you
 * **Keep up**: Don’t get behind — it’ll be really difficult to catch up on old material while you’re trying to stay up-to-date on the newer material. Let me say it again: Don’t get behind, don’t get behind, don’t get behind!
 
 ## More Important Dates
-* **9/11** Last day to add the class
-* **9/20** Last day to drop without a ‘W’
-* **10/31** Last day to drop the course with a ‘W’
-* **12/6 8:00am** Final exam.
+* **1/22** Last day to add the class
+* **1/28** Last day to drop without a ‘W’
+* **4/2** Last day to drop the course with a ‘W’
+* **5/13 8:45 - 11:15am** Final exam.
 
 ## Useful Chaffey College Resources
 
