@@ -49,7 +49,11 @@ The simplest R files are called "R script" files that list, in order, the comman
 ## Getting Started -- loading an R Markdown file
 1. Download [this file](intro_to_rstudio.Rmd) and save it on your computer. I recommend you stay organized by starting a new folder (directory) for Rmd files for this class.
 2. Use the following steps for every lab in which we use R.
-3. If you are using Posit Cloud
+3. If you are using a stand-alone version of RStudio
+   1. Go to the file menu, and select "Open File..."
+   2. Find the file where you saved it. It will open in the top-left quadrant.
+   3. Go to the "Session" menu and select "Set Working Directory" and then "To source file location" (Figure 6 above and 7 below.)
+4. If you are using Posit Cloud
    1. Go to "Your Workspace" (see red boxes in Figure 2).
        {% include figure.html url="/b40/assets/labs/01_LoadingFilesRstudio.png" width="80%" caption="Figure 2. Loading files in Posit Cloud" %}
    2. Click on "New Project". R will start.
@@ -60,22 +64,20 @@ The simplest R files are called "R script" files that list, in order, the comman
    5. You will *probably* be given a warning that a package called 'knitr' is required but not installed. Click install. It will install on the web server, not on your computer.
    6. Go to the "Session" menu and select "Set Working Directory" and then "To source file location".
          {% include figure.html url="/b40/assets/labs/01_SetWorkingDirectory.png" width="80%" caption="Figure 6. Setting the working directory" %}
-4. If you are using a stand-alone version of RStudio
-   1. Go to the file menu, and select "Open File..."
-   2. Find the file where you saved it. It will open in the top-left quadrant.
-   3. Go to the "Session" menu and select "Set Working Directory" and then "To source file location" (Figure 6 above and 7 below.)
+
 
 You will need to do the above steps for every project we do. You should now have the R Markdown file loaded into either RStudio or Posit Cloud. It should look like the attached picture.
 
 ## Installing packages
 R allows users to extend the language by writing 'packages' which contain commands for (often) specialized tasks. We will take advantage of a few of those. For now, the main one we need is called 'knitr'. If you are using Posit Cloud, you probably don't need to do this, but if you are using RStudio itself, you probably will.
 
-1. If you don't see a yellow strip and you need to install packages, then in the lower-right quadrant, choose the "Packages" tab, then click "Install".
-     {% include figure.html url="/b40/assets/labs/01_InstallKnitr2.png" width="80%" caption="Figure 7. Installing packages (knitr in this case)" %}
-2. In the pop-up dialog box, type "knitr", then click "Install"
-3. You will see messages scroll up in the lower-left quadrant. Near the end, it should say "* Done (knitr)".
-4. Depending on the file, you may see a yellow strip across the top indicating that you need to install a package. Simply click "install"
-     {% include figure.html url="/b40/assets/labs/01_Install_bar.png" width="80%" caption="Figure 8. Yellow strip indicating you need to install packages" %}
+1. Depending on the file, you may see a yellow strip across the top indicating that you need to install a package. Simply click "install"
+     {% include figure.html url="/b40/assets/labs/01_Install_bar.png" width="80%" caption="Figure 7. Yellow strip indicating you need to install packages" %}
+2. If you need to install a package but don't see a yellow strip, then in the lower-right quadrant, choose the "Packages" tab, then click "Install".
+     {% include figure.html url="/b40/assets/labs/01_InstallKnitr2.png" width="80%" caption="Figure 8. Installing packages (knitr in this case)" %}
+3. In the pop-up dialog box, type "knitr", then click "Install"
+4. You will see messages scroll up in the lower-left quadrant. Near the end, it should say "* Done (knitr)".
+
 
 Once a package is installed, you shouldn't have to install it again (unless you do lots of upgrading at a later date)
 
@@ -92,6 +94,7 @@ The gray regions are called 'code chunks'. These are the actual bits of code tha
 Please become familiar with each of these 3 methods by using them on the gray parts of the file you have loaded.
 
 ## Knitting the documents
+
 When you have finished a project, you would like to present a document that incorporates your code, output from your code (such as tables and figures) and text to explain what the analysis means. You need to "knit" the different parts of the file together.
 1. Click the little arrow next to the word 'knit'.
      {% include figure.html url="/b40/assets/labs/01_KnitToHTML.png" width="80%" caption="Figure 11. Knitting to produce an HTML document. Before you do this to turn in an HTML document, you must also select 'Clear Knitr Cache' from this same menu" %}
@@ -100,16 +103,23 @@ When you have finished a project, you would like to present a document that inco
 3. You will see an HTML file pop up. It has the text, code, and output (in this case, a graph), all 'knitted' together.
 4. in addition to the file that pops up, you will also see an .html file appear in the "Files" tab at the bottom-right.
      {% include figure.html url="/b40/assets/labs/01_HTMLAppears.png" width="80%" caption="Figure 13. Knitted documents appear in lower right quadrant under 'Files' tab" %}
+     
+When you first download a .Rmd file for this course, it should work before you make any changes to it. Please confirm this by knitting the document **before** you start to work on it and make changes. This will greatly help with debugging in case something goes wrong!
+
+## Summary
+You now know much of what you need in order to retrieve and knit R markdown files for Biol 40. In the next exercise, you will learn about getting data into R and more about the R language itself in order to manipulate your data. The whole process that you will go through can be summarized as below. You will learn about the remaining steps in the next exercise.
+   {% include figure.html url="/b40/assets/labs/01_R_flowchart.png" width="80%" caption="Figure 14. Flowchart of major steps for completing assignments with R" %}
 
 # If (when) you run into trouble
-During the course of this semester, you **will** run into trouble and get stuck at some point. **I can help!!!** When this happens email me your .Rmd file either as an attachment or cut and paste it into your email.
+During the course of this semester, you **will** run into trouble and get stuck at some point. **I can help!!!** When this happens email me your **entire** .Rmd file either as an attachment or cut and paste it into your email.
 
 # What to turn in
 For this exercise, you only need to make a single change to the Rmd document. Usually, you will make changes in order to use your own data and analysis.
-1. Change the author name on the third line of the file to your own name.
+1. If you haven't done so already, download [this R Markdown document](intro_to_rstudio.Rmd) and save it into a directory on your computer. I recommend that you set up a directory exclusively for Rmd documents for this class.
+1. Open the file and change the author name on the third line of the file to your own name.
 1. Save your file (you should do this periodically -- it doesn't save automatically like Google docs)
 1. Clear the knitr cache. To do so, click the triangle next to 'Knit' and select 'Clear Knitr Cache...'.
-     {% include figure.html url="/b40/assets/labs/01_ClearCache.png" width="100%" caption="Figure 14. Clear the knitr cache and the environment as preparation before you do a final knit to generate the HTML file to turn in." %}
+     {% include figure.html url="/b40/assets/labs/01_ClearCache.png" width="100%" caption="Figure 15. Clear the knitr cache and the environment as preparation before you do a final knit to generate the HTML file to turn in." %}
 2. Clear your environment. Click the broom in the top-right quadrant. After, it should say "Your environment is empty".
 3. Knit the document that you loaded ("intro_to_rstudio.Rmd"). This will create a .html file in the directory you are working, and it may also open a browser window.
 4. Save the resulting .html file to turn in. You can save it directly from your browser "file" menu if you have it open.

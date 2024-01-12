@@ -1,4 +1,12 @@
-# Introduction to R
+---
+---
+---
+title: "Introduction to R"
+author: "Senanu Spring-Pearson"
+output: html_document
+parent: R
+grand_parent: Labs
+---
 
 ## Objectives
 
@@ -14,7 +22,7 @@ You can read this document in the viewer window on the right. As you do so, you 
 
 ## Getting started and running commands
 
-Below, you will see a gray code 'chunk' that begins and ends with 3 backticks. All of the code you want to execute will need to go in that gray area. To execute it, you can click the little right-facing green arrow at the top right of the gray box. Go ahead and experiment and make changes directly into the Rmd document. **Do not copy commands into a separate script file.**
+Below, you will see a gray code 'chunk' that begins and ends with 3 backticks (under the tilde on your keyboard). All of the code you want to execute will need to go in those gray areas. To execute it, you can click the little right-facing green arrow at the top right of the gray box. Go ahead and experiment and make changes directly into the Rmd document. **Do not copy commands into a separate script file.**
 
 The following code chunk is ready to run. Press the green arrow now and check the R console (usually in the bottom left portion of your screen) to make sure it ran without errors.
 
@@ -61,7 +69,13 @@ my_variable <- c(a, b, 1, 2, 3)
 my_variable
 ```
 
-Now that we have a variable with more than one value, we can do some more interesting things with it. For example, we can take the average using the `mean()` function and find the minimum and maximum values. There's even a function to get several useful statistics called `summary()`. Try the following commands. (Remember, you can run them either by clicking the green arrow, or by 'cntrl-enter' on each line)
+Now that we have a variable with more than one value, we can do some more interesting things with it. For example, we can do mathematical operations on all the numbers at once just by referring to the vector:
+
+```{r math-on-object, echo=TRUE, eval=TRUE}
+(my_variable * 1000 + 50) / 10
+```
+
+We can also apply other functions (verbs) to the entire vector of numbers. For example, we can take the average using the `mean()` function and find the minimum and maximum values. There's even a function to get several useful statistics called `summary()`. Try the following commands. (Remember, you can run them either by clicking the green arrow, or by 'cntrl-enter' on each line)
 
 ```{r summary_stats, echo=TRUE, eval=TRUE}
 mean(my_variable)
@@ -102,20 +116,39 @@ This simply means that you are choosing the `mpg` column of the variable '`mtcar
 
 ```
 
+
 ## Getting help
 
-R contains a help file for every function. In order to see it, type a question mark in front of the function name. For example, you can run:
+R contains a help file for every function. In order to see it, type a question mark in front of the function name. For example, the '`rnorm()`' function allows you to generate a group of normally-distributed random numbers: 
 
 ```{r help, echo=TRUE, eval=FALSE}
-?mean # get help on the mean() function
+?rnorm # get help on the rnorm() function
 ```
 
-The help files will tell you what the function does, and what arguments you can give to the function. Try getting help on the '`median()`' function.
+The help files will tell you what the function does, and what arguments you can give to the function. For the '`rnorm()`' function, it shows that you can specify (as an 'argument') what you want the mean and standard deviation of those random numbers to be. At the bottom of most help files, there are examples which help you to figure out how you can use the function.
+
+Try getting help on the '`median()`' function.
 
 ```{r mean_help, echo=TRUE, eval=FALSE}
 # How do you get help using the median() function?
 
 ```
+
+## Arguments
+
+As mentioned above, most functions (verbs) take one or more arguments. These arguments tell R exactly what you want the verb to do, and on which data you want the verb to act. The function `mean()` that you used above takes an argument that we put in parentheses after the function, and it tells `R` to take the 'mean' of whatever data you give to the function. Some functions have long lists of arguments, and you should separate them with commas. Look again at the help for `rnorm()` using `?rnorm()`. In that, you will see
+
+`rnorm(n, mean = 0, sd = 1)`
+
+This indicates that this function takes 3 arguments. You can simply use 3 unlabeled values, such as
+
+`rnorm(100, 5, 1)` 
+
+which would generate 100 random values with a mean of 5 and standard deviation of 1. The order of these arguments is important, since they are unnamed -- they need to appear in the same order as specified in the help file. A better way to do it is to name the arguments, such as:
+
+`rnorm(n = 100, mean = 5, sd = 1)`. 
+
+In this case, since each argument is named, we can put it in any order we want. It's also good to write them out like this so that we avoid confusion. We can also leave out some arguments, and use the defaults that are specified in the help file. In this case we could just use `rnorm(100)` and accept the defaults of `mean = 0, sd = 1`.
 
 ## Comments
 
@@ -129,7 +162,7 @@ In order to add comments, you can use the 'pound' symbol (`#`; yeah, I guess you
 # it, but its useful for humans! In particular, the code
 # that follows generates 100 random numbers with a mean of 10 and
 # standard deviation of 2 and assigns them to a variable
-random_nums <- rnorm(100, mean=10, sd=2) # Random number generation
+random_nums <- rnorm(n = 100, mean = 10, sd = 2) # Random number generation
 # Draw a plot of those random numbers. Note that each time you
 # run this code chunk, the numbers will be different and so
 # the plot will also be different.
@@ -168,7 +201,7 @@ Notice in the `read.csv()` command below that the command has parentheses, and t
 
 # Don't change the following line -- you'll do the same thing for your own data
 # below
-dat <- read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vR1WD5pL0ueIrDigzuFBuMJhhs0_y5mLSNsfL1y9hxRJrA6qFJNcnQSEuREzvM3wLHaQjHSX8SY2c_D/pub?output=csv")
+dat <- read.csv(file = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR1WD5pL0ueIrDigzuFBuMJhhs0_y5mLSNsfL1y9hxRJrA6qFJNcnQSEuREzvM3wLHaQjHSX8SY2c_D/pub?output=csv")
 dat # don't change this either.
 ```
 
@@ -176,11 +209,11 @@ Finally, you can see whether there seems to be a relationship between the length
 
 ```{r length_width, include=TRUE}
 # Don't change anything in this code chunk -- just run it.
-plot(dat$length,
-     dat$width,
-     xlab="Leaf length (cm)",
-     ylab="Leaf width (cm)",
-     main="Leaf Dimensions")
+plot(x = dat$length,
+     y = dat$width,
+     xlab = "Leaf length (cm)",
+     ylab = "Leaf width (cm)",
+     main = "Leaf Dimensions")
 linear.regression <- lm(dat$width ~ dat$length) # don't change this
 abline(linear.regression)                       # don't change this either
 ```
@@ -203,12 +236,26 @@ How should you solve this problem? Go back to the beginning and re-run the first
 
 Also, please remember what I mentioned above about spelling and upper/lowercase letters being different. Computer languages are picky and you have to be precise.
 
+# Whitespace
+
+Within a code chunk, each command should start on a new line. However, a single command can take up more than one line, and spacing out your commands over several lines is a good way to make it easy to read (and debug). A command only ends when open parentheses are closed. For example, in the following plot command, I've put each argument on it's own line to make the lines short and easy to read. The opening parentheses after `plot` stay open until the last line, at which point the command is finished. I encourage you to use this type of spacing in your own code, and RStudio will make it easy for you.
+
+```{r whitespace, eval = FALSE, include = TRUE}
+plot(x = dat$length,            # Note that this command is still 'open'
+     y = dat$width,             # ...and still not finished ...
+     xlab = "Leaf length (cm)", # ...
+     ylab = "Leaf width (cm)",  # ... 
+     main = "Leaf Dimensions")  # ... until it finally finishes here!
+# notice that the arguments are separated by commas and are labeled.
+```
+
 # Exercises
 
 Before you continue, knit this document to make sure everything above this point works.
 
 Demonstrate that you can read a file into R. I recommend using Google Sheets, as above, but you may also use another program such as Excel and save it as a .csv file. There are other ways, but for now, lets just keep it simple!
 
+1. Replace my name on line 5 with your name.
 1. Make a data file (I recommend Google Sheets).  
     * Make sure you have at least 2 columns and 10 rows of numeric data. Make up values.
     * Name your columns **without using spaces** or other 'funny' characters. Capitals, underscores (_), and dots (.) can be used to make the column headers easier to read. But **don't use spaces!!!**
