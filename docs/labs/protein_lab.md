@@ -143,11 +143,11 @@ There are several links at the top of this document that look at. They will help
 
 | What is due?                                  | When is it due?   |
 |-----------------------------------------------|-------------------|
-| Draft of introduction                         | Oct 4 (8:00am)    |
-| Peer review of intro (bring hard copy)        | Oct 4 in class    |
-| 1st draft of entire paper.                    | Oct 11 (8:00am)   |
-| Peer review of entire paper (bring hard copy) | Oct 11 in class   |
-| Final Paper (turnitin.com)                    | Oct 16 (8:00am)   |
+| Draft of introduction                         | Jan 31 (8:00am)    |
+| Peer review of intro (bring hard copy)        | Jan 31 in class    |
+| 1st draft of entire paper.                    | Feb 7 (8:00am)   |
+| Peer review of entire paper (bring hard copy) | Feb 7 in class   |
+| Final Paper (turnitin.com)                    | Feb 14 (8:00am)   |
 
 You will lose 10% of your grade every day that it is late. Please note that although I won't grade your drafts, they need to be complete and the best possible work you can produce. If they aren't complete, I may deduct some points from your final grade, and most importantly, you won't gain the benefits of having a peer review to help you improve your paper. If your paper is far from being complete, you may not be allowed to do a peer review, which will also cost you points and make it so that you don't see another model paper. This issue will be handled solely at my discretion!
 
