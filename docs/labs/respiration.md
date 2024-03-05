@@ -17,7 +17,7 @@ In this lab, you will investigate the rate of respiration in germinating pea see
 1. Hook the glass rod over the edge of the water bath, with the stopper inside the bath and the syringe on the outside. Do not connect the syringe or the plastic tube yet.
 
     <img align="center" width="50%" src="{{site.url}}/b40/assets/labs/respiration.png" alt="Manometer setup">
-1. Put a clip over the flexible tubing directly above the manometer loop. Clamp it shut.
+1. Put a clip over the flexible tubing directly above the manometer loop. Clamp it shut. This will allow any expansion of the air in the respiration chamber to go into the atmosphere.
 1. Use clear tape to tape the tubing to the graph (or white) paper. It should form a loop as shown above.
 1. Assemble the germination chamber as follows:
     1. Using a pair of gloves, soak a small amount of absorbant cotton in KOH and place it at the bottom of the plastic tube. The KOH will absorb CO<sub>2</sub>.
@@ -103,6 +103,8 @@ table th:nth-of-type(6) {
 1. Look at the amounts of gases in the equation you wrote. Gases take up the same amount of space regardless of their molecular formula. Why might this be a problem for measuring the amount of gases consumed? {{site.space4}}
 1. The KOH in the cotton ball absorbs CO<sub>2</sub>. How does this allow you to measure the volume of oxygen consumed?{{site.space4}}
 1. Write a research hypothesis relating the temperature and speed of respiration. Then, sketch out a graph showing your prediction.{{site.space8}}
+1. CO<sub>2</sub> is produced at several points in cellular respiration. Sketch out at what stages it is produced?{{site.space8}}
+1. Describe the role of Oxygen in cellular respiration{{site.space8}}
 
 ## Data analysis
 1. For each temperature, **if** you have several rates that are similar, calculate the average rate for that temperature. If the rate seems to have stabilized, calculate an average for only the two rates that are similar.{{site.space4}}
@@ -116,4 +118,6 @@ table th:nth-of-type(6) {
 
     {{site.space6}}
 1. What does a $$Q_{10} = 2$$ mean? How much faster are the cellular processes at $$10^{\circ}C$$ higher?{{site.space4}}
-1. Some organisms are more sensitive than others to changes in temperature. Do you think that an organism that is less sensitive (changes in temperature affect them less) will have a higher or lower $$Q_{10}$$? Why? {{site.space4}}
+1. Some organisms are more sensitive than others to changes in temperature. Do you think that an organism that is less sensitive (changes in temperature affect them less) will have a higher or lower $$Q_{10}$$? Why? {{site.space4}}.
+1. Ectotherms are organisms that allow their body temperature to match that of their environment (like a caterpillar or lizard). What do you think happens to their rate of respiration on a cold morning? What could you hypothesize about why lizards bask in the sun on a cool morning?{{site.space6}}
+1. Endotherms (like Humans) maintain a constant body temperature. What do you think happens to <em>their</em> respiration rate when they are in a cold environment? (by the way, the $$Q_{10}$$ measure above does not apply to endotherms, only ectotherms){{site.space4}}
