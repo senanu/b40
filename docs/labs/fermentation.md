@@ -5,7 +5,6 @@ parent: Labs
 is_parent: false
 nav_order: 80
 ---
-<script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 # Fermentation lab
 
