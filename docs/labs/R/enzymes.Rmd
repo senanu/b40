@@ -29,7 +29,7 @@ In part 2 of this project, you assayed how long it takes for amylase to hydrolys
 1. Import the data into a data frame called `pH.dat`.
 1. Plot a graph showing how the pH affects the reaction velocity. Think about which are your independent (x) and dependent (y) variables. When you use the `plot()` command, you can either say `plot(dat$x, dat$y)` where `x` and `y` are your variables, or you can say `plot(x=dat$x, y=dat$y)` to explicitly say which variable should go on which axis. In the first form, the computer knows which is which because it expects the first to be the x variable and the second to be the y variable, so you have to make sure you keep it straight. It is usually better to use the second form because it is very explicit and you are less likely to mess up!
 1. Add axis labels (`xlab="myXLabel", ylab=myYLabel"`) and a title (`main="myTitle"`). These are all arguments to the `plot()` command.
-1. Connect the points using `type='b'`. Again, this is an argument to the `plot()` command and tells R to use **b**oth lines and points. You could use `type='l'` for **l**ines and `type='p'` for **p**oints.
+1. Connect the points using `type='b'`. Again, this is an argument to the `plot()` command and tells R to use **b**oth lines and points. You could use `type='l'` (the letter 'ell') for **l**ines and `type='p'` for **p**oints.
 1. Change `eval=FALSE` to `eval=TRUE`
 
 ```{r ph-data-import, eval=FALSE, include=TRUE, echo=TRUE}
@@ -102,6 +102,5 @@ abline(h=bestFitVals[[1]], col='red')
 ##      but run it ot get the fitted values.)
 bestFitVals
 ```
- 
+
  (some of this R code has been modified from http://rforbiochemists.blogspot.com/2015/05/plotting-and-fitting-enzymology-data.html)
- 

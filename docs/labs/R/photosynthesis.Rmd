@@ -100,12 +100,13 @@ might take a minute or two). You may need to answer "yes" or "OK" when your comp
 asks you if it is OK to install this.
 
 ```{r installggplot, eval=FALSE}
+# Keep the line above as 'eval=FALSE'. This keeps the knitter from accessing it, which we want in this case.
 # If you are using RStudio.cloud, you probably don't need to do this
 install.packages("ggplot2")
 ```
 
 After installing a library, you need to load it so it is available to use. You will
-also need to do the following:
+also need to do the following. Once you have installed the `ggplot2` package (in the step above), change `eval=FALSE` to `eval=TRUE`.
 
 ```{r loadggplot, eval=FALSE}
 library(ggplot2)
