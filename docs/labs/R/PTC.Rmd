@@ -104,7 +104,8 @@ knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/ORFs-TAS.p
 Now that we have found the longest open reading frame for this gene, we can look at some of the variants that are known to exist in the human population.
 
 1. At the top right of the viewer pane, find a gear button labeled "Tracks" and click on it. Then select "Configure Tracks"
-1. In the dialog box that pops up, select "Variation" on the left and then select "Common Variations(MAF >= 0.01)" on the main box then click "Configure". See Fig \@ref(fig:tracks-dialog).
+1. In the dialog box that pops up, select "Variation" on the left and then select "GMAF >= 0.01" on the main box then click "Configure". See Fig \@ref(fig:tracks-dialog).
+1. Click the magnifying grlass on the top left of the map, and enter "rs1726866" into the dialog box. Click 'OK'.
 
 ```{r tracks-dialog, include=TRUE, echo=FALSE, out.width='100%', fig.align='center', fig.cap="Dialog for selecting variants"}
 knitr::include_graphics("https://senanu.github.io/b40/assets/labs/PTC/tracks-dialog.png")
