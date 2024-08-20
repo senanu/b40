@@ -20,7 +20,7 @@ An intensive course designed to prepare students for upper division courses in c
 * Lab times: Wed 9:00-11:50 in BL-101
 * Optional office hours ([via Zoom](https://chaffey-edu.zoom.us/j/98445584149)): By Appointment. I'm also usually available to stay after class on Monday.
 * Course website: [https://senanu.github.io/b40/](https://senanu.github.io/b40/) which is linked through Canvas.
-* [turnitin.com](https://www.turnitin.com): Class ID: TBD; Enrollment key: "Biology"
+* [turnitin.com](https://www.turnitin.com): Class ID: 44811287; Enrollment key: "Biology"
 * E-mail: [senanu.springpearson@chaffey.edu](mailto:senanu.springpearson@chaffey.edu)
 * Phone: 909-652-7876 (please use email instead)
 * Final exam: **Wednesday 12/11/2024 11:30am-2:00pm**
@@ -59,7 +59,7 @@ With this approach, your understanding of the material should be at its peak at 
 
 ### More about reading guides
 
-Reading guides will be due **at the beginning of the class period after they are assigned and distributed**. If you are unable to attend class, you may print them from the [website]({{site.url}}/b40/) and turn them in on Canvas. When you turn it in online, you **must** turn them in as a **single PDF file**. You should anticipate, and plan for, having a reading guide due before every class period. There will practically be no exceptions to this. Canvas will not accept late reading guides.
+Reading guides will be due **at 8:00am the day of the class period after they are assigned and distributed**. This 8:00am time is firm and intentional even though class doesn't start until later in the day. If you are unable to attend class, you may print them from the [website]({{site.url}}/b40/) and turn them in on Canvas. When you turn it in online, you **must** turn them in as a **single PDF file**. You should anticipate, and plan for, having a reading guide due before every class period. There will practically be no exceptions to this. Canvas will not accept late reading guides.
 
 Reading guides in this course are designed to encourage (OK, 'force') you to read actively, so that you fully understand the material. The **best** way to do this will be to fill it in a hard copy with a pen or pencil. I will provide these copies the day they are assigned. The second best way to do this would be to type answers in the boxes. However, note that although you can print your work, you won't be able to save it. *This is intentional*. In the past, I have found that students simply copy and paste answers from textbooks or the web, rather than trying to do the assignments thoughtfully and completely. As a result, they give up on the active learning component. Therefore, I will not provide a save-able pdf or anything like that. If you want to spend the time to make one and fill it out, that is your choice (you won't lose points for doing so but you'd probably be better off spending that time learning and understanding the material).
 

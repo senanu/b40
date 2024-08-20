@@ -15,6 +15,7 @@ gem "jekyll-remote-theme"
 #gem "jekyll-theme-hyde"
 gem "just-the-docs", "0.3.3"
 gem 'rake'
+gem 'csv'
 gem 'html-proofer'
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

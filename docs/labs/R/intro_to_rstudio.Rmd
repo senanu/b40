@@ -1,4 +1,4 @@
-# Introduction to rstudio
+# The (very) basics of RStudio
 
 Senanu Spring-Pearson
 

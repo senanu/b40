@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Intro to RStudio
+title: RStudio
 parent: R
 grand_parent: Labs
 is_parent: false
@@ -11,7 +11,7 @@ nav_order: 1
 # Downloading and Installing R and RStudio
 
 ## Resources for this project
-1. [R Markdown document](intro_to_rstudio.Rmd) for this exercise. You'll learn to use it below.
+1. [R Markdown document](intro_to_rstudio.Rmd) called "The (very) basics of RStudio" for this exercise. You'll learn to use it below.
 
 ## What is R?
 
@@ -27,8 +27,8 @@ There are 2 convenient ways to use R. I recommend the first option for this clas
 1. Use this option if you use a Mac or a PC for which you can install software. Do *both* of the following steps:
    - Download and [install R](https://cloud.r-project.org/).
    - Download and [install RStudio Desktop](https://rstudio.com/products/rstudio/download/). RStudio provides a nice user interface to R. R itself is much more difficult to use without such an interface, and RStudio is very good! Installation should be easy if you use Windows, MacOS, or (standard) Linux. If you use a Chromebook, you won't be able to install it and will have to use one of the online options.
-2. Use this option if you use a Chromebook or if you cannot install software to your computer.
-   - Use [Posit Cloud](https://posit.cloud/). This provides full functionality in a convenient web app. To use this option, you'll need to sign up for a free account. Although this option won't require you to install anything, you'll find that getting your files into and out of Posit Cloud more difficult than if you used the stand-alone apps in option 1. The user interface for Posit Cloud and RStudio are identical.
+2. Use this option if you use a Chromebook, iPad or if you cannot install software to your computer.
+   - Use [Posit Cloud](https://posit.cloud/). This provides full functionality in a convenient web app. To use this option, you'll need to sign up for a free account. Although this option won't require you to install anything, you'll find that getting your files into and out of Posit Cloud more difficult than if you used the stand-alone apps in option 1. The user interface for Posit Cloud and RStudio are identical. You should be able to use Posit Cloud with an iPad, however getting files in and out is much more difficult, and you really should have a keyboard! Please use any computer other than an iPad.
 
 ## Getting Started
 Please follow along by **actually doing** the steps listed below. You can't learn a new skill without practicing. Trust me, this will save you lots of frustration later on.
@@ -82,7 +82,7 @@ R allows users to extend the language by writing 'packages' which contain comman
 Once a package is installed, you shouldn't have to install it again (unless you do lots of upgrading at a later date)
 
 ## Using R Markdown files
-Now we will look at how to use the R Markdown files. As mentioned above, these files combine code with comments. The comments help us communicate in natural language what we are trying to do with code, in order for another person to be able to understand the code quickly. It is useful to do this for your own code, because if you look at it a few weeks later, you may struggle to figure out what you did originally.
+Now we will look at how to use the R Markdown files. As mentioned above, these files combine code with comments. The comments help us communicate in natural language what we are trying to do with code, in order for another person to be able to understand the code quickly. It is useful to include comments for your own code, because if you look at it a few weeks later, you may struggle to figure out what and why you did what you did.
 
 The gray regions are called 'code chunks'. These are the actual bits of code that R runs. The white areas are for comments and explanations. There are three main ways in which you can run the code.
 1. To run all of the code in the entire file, choose "Run" -- "Run All" as shown below.

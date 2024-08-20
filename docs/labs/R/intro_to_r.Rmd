@@ -18,11 +18,16 @@ Please read this document completely, and follow along in RStudio or Posit Cloud
 
 As you have already learned in a previous exercise, this is an R Markdown document, which mixes text with code. To start out, you should 'knit' the document before making any changes. It will be easier to read, with nice formatting.
 
-You can read this document in the viewer window on the right. As you do so, you can also follow along with the 'coded' document so that you can do the steps on your own. This will give you familiarity with using R.
+You can read this document in 3 different ways, depending on how you like it.
+1. View it as plain text. You will see all the formatting codes (which might be distracting and 'ugly' and numbering may seem wrong) but this is the rawest form, and how the document is actually written. Above and to the right of the code editor pane (top left pane), click the "source" button.
+1. View it in the visual editor to make the formatting nice and avoid seeing all the formatting code. **This is how I recommend you read the document**. Click the "visual" button to the top left of the top left (code editor) pane.
+1. Knit the document and read the HTML. This is the final form of the document but some things that you'll need get hidden in this form, so I don't recommend it. You can view it either in a separate window or in the "Plots and files" pane (lower right).
+
+Try viewing the document in each of these forms to see what you like.
 
 ## Getting started and running commands
 
-Below, you will see a gray code 'chunk' that begins and ends with 3 backticks (under the tilde on your keyboard). All of the code you want to execute will need to go in those gray areas. To execute it, you can click the little right-facing green arrow at the top right of the gray box. Go ahead and experiment and make changes directly into the Rmd document. **Do not copy commands into a separate script file.**
+Below, you will see a gray code 'chunk' that begins and ends with 3 backticks (under the tilde on your keyboard; however when you view the document in the Visual mode, as I suggest, you won't see those backticks). All of the code you want to execute will need to go in those gray areas. To execute it, you can click the little right-facing green arrow at the top right of the gray box. Go ahead and experiment and make changes directly into the Rmd document. **Do not copy commands into a separate script file.**
 
 The following code chunk is ready to run. Press the green arrow now and check the R console (usually in the bottom left portion of your screen) to make sure it ran without errors.
 
@@ -47,7 +52,7 @@ Try to think of `R` like a language. In any language, there are __nouns__ and __
 
 ## Variables with a single value
 
-In order to make R more than a glorified calculator, we will save values into named __variables__. To do so, we will use the __assignment operator (<-)__. This operator (verb) assigns the value on the right into the variable on the left. So, when you ran the command
+In order to make R more than a glorified calculator, we will save values into named __variables__. To do so, we will use the __assignment operator (<-)__. This operator (a verb) assigns the value on the right into the variable on the left. So, when you ran the command
 
 ```{r assigment, echo = TRUE, eval=TRUE}
 a <- 2
@@ -62,7 +67,7 @@ b
 
 ## Variables with multiple values (vectors)
 
-Variables can also contain a group of values called a __vector__. To make a vector, we use the 'combine' `c()` operator. Most operators (verbs) are followed by parentheses, and are called 'functions'. Inside the parentheses, we put variables or other information (collectively called __arguments__) that the function needs in order to do its job properly. The `c()` operator combines all of its arguments. You can see the contents of a variable by typing it alone on a line (and running it).
+Variables can also contain a group of values called a __vector__. To make a vector, we use the 'combine' `c()` operator. Most operators (verbs) are followed by parentheses, and are called 'functions'. Inside the parentheses, we put variables or other information (collectively called __arguments__) that the function needs in order to do its job properly. The `c()` function **c**ombines all of its arguments. You can see the contents of a variable by typing it alone on a line (and running it).
 
 ```{r functions, echo=TRUE, eval=TRUE}
 my_variable <- c(a, b, 1, 2, 3)
@@ -86,7 +91,7 @@ summary(my_variable)
 
 ## Data tables
 
-In addition to holding a vector of values, a variable can hold a whole table of values. For this, we'll use a small built-in dataset called 'mtcars'. Run the following line of code to get access to this dataset. Then you can look at the table by typing the name of the dataset (only the first few rows are shown here).
+In addition to holding a vector of values, a variable can hold a whole table of values. For this, we'll use a small built-in dataset about cars called 'mtcars'. Run the following line of code to get access to this dataset. Then you can look at the table by typing the name of the dataset (only the first few rows are shown here).
 
 ```{r mtcars, echo=TRUE, eval=FALSE}
 data(mtcars)
@@ -119,7 +124,7 @@ This simply means that you are choosing the `mpg` column of the variable '`mtcar
 
 ## Getting help
 
-R contains a help file for every function. In order to see it, type a question mark in front of the function name. For example, the '`rnorm()`' function allows you to generate a group of normally-distributed random numbers: 
+R contains a help file for every function. In order to see it, type a question mark in front of the function name. For example, the '`rnorm()`' function allows you to generate a group of normally-distributed random numbers:
 
 ```{r help, echo=TRUE, eval=FALSE}
 ?rnorm # get help on the rnorm() function
@@ -130,7 +135,7 @@ The help files will tell you what the function does, and what arguments you can 
 Try getting help on the '`median()`' function.
 
 ```{r mean_help, echo=TRUE, eval=FALSE}
-# How do you get help using the median() function?
+# How do you get help on how to use the median() function?
 
 ```
 
@@ -142,11 +147,11 @@ As mentioned above, most functions (verbs) take one or more arguments. These arg
 
 This indicates that this function takes 3 arguments. You can simply use 3 unlabeled values, such as
 
-`rnorm(100, 5, 1)` 
+`rnorm(100, 5, 1)`
 
 which would generate 100 random values with a mean of 5 and standard deviation of 1. The order of these arguments is important, since they are unnamed -- they need to appear in the same order as specified in the help file. A better way to do it is to name the arguments, such as:
 
-`rnorm(n = 100, mean = 5, sd = 1)`. 
+`rnorm(n = 100, mean = 5, sd = 1)`.
 
 In this case, since each argument is named, we can put it in any order we want. It's also good to write them out like this so that we avoid confusion. We can also leave out some arguments, and use the defaults that are specified in the help file. In this case we could just use `rnorm(100)` and accept the defaults of `mean = 0, sd = 1`.
 
@@ -244,7 +249,7 @@ Within a code chunk, each command should start on a new line. However, a single 
 plot(x = dat$length,            # Note that this command is still 'open'
      y = dat$width,             # ...and still not finished ...
      xlab = "Leaf length (cm)", # ...
-     ylab = "Leaf width (cm)",  # ... 
+     ylab = "Leaf width (cm)",  # ...
      main = "Leaf Dimensions")  # ... until it finally finishes here!
 # notice that the arguments are separated by commas and are labeled.
 ```
@@ -266,7 +271,7 @@ Demonstrate that you can read a file into R. I recommend using Google Sheets, as
 1. Make R print out the data by simply typing "mydata" alone on a line.
 
 ```{r read_table2, echo=TRUE, eval=TRUE}
-# Put your code into this chunk to read a google sheets file using 'read.csv()' 
+# Put your code into this chunk to read a google sheets file using 'read.csv()'
 # and save it into a variable called mydata.
 
 
