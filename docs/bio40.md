@@ -7,7 +7,7 @@ has_children: false
 
 # Welcome to Bio 40 at Chaffey College
 
-# Introduction to Cell and Molecular Biology -- Fall 2024 (BIOL-40-36827)
+# Introduction to Cell and Molecular Biology -- Spring 2025 (BIOL-40-39909)
 
 ## Course Description
 
@@ -16,14 +16,13 @@ An intensive course designed to prepare students for upper division courses in c
 ## Nitty Gritty
 
 * Instructor: Dr. Senanu Spring-Pearson
-* Class times: MW 12:30-1:45 in BL-101
-* Lab times: Wed 9:00-11:50 in BL-101
+* Class times: MW 8:00-9:15 in BL-101
+* Lab times: Wed 9:30-12:20 in BL-101
 * Optional office hours ([via Zoom](https://chaffey-edu.zoom.us/j/98445584149)): By Appointment. I'm also usually available to stay after class on Monday.
 * Course website: [https://senanu.github.io/b40/](https://senanu.github.io/b40/) which is linked through Canvas.
-* [turnitin.com](https://www.turnitin.com): Class ID: 44811287; Enrollment key: "Biology"
 * E-mail: [senanu.springpearson@chaffey.edu](mailto:senanu.springpearson@chaffey.edu)
 * Phone: 909-652-7876 (please use email instead)
-* Final exam: **Wednesday 12/11/2024 11:30am-2:00pm**
+* Final exam: **Monday 5/19/2025 8:45am-11:15pm**
 
 
 
@@ -59,7 +58,7 @@ With this approach, your understanding of the material should be at its peak at 
 
 ### More about reading guides
 
-Reading guides will be due **at 8:00am the day of the class period after they are assigned and distributed**. This 8:00am time is firm and intentional even though class doesn't start until later in the day. If you are unable to attend class, you may print them from the [website]({{site.url}}/b40/) and turn them in on Canvas. When you turn it in online, you **must** turn them in as a **single PDF file**. You should anticipate, and plan for, having a reading guide due before every class period. There will practically be no exceptions to this. Canvas will not accept late reading guides.
+Reading guides will be due **at 8:00am the day of the class period after they are assigned and distributed**. This 8:00am time is firm and intentional. If you are unable to attend class, you may print them from the [website]({{site.url}}/b40/) and turn them in on Canvas. When you turn it in online, you **must** turn them in as a **single PDF file**. You should anticipate, and plan for, having a reading guide due before every class period. There will practically be no exceptions to this. Canvas will not accept late reading guides.
 
 Reading guides in this course are designed to encourage (OK, 'force') you to read actively, so that you fully understand the material. The **best** way to do this will be to fill it in a hard copy with a pen or pencil. I will provide these copies the day they are assigned. The second best way to do this would be to type answers in the boxes. However, note that although you can print your work, you won't be able to save it. *This is intentional*. In the past, I have found that students simply copy and paste answers from textbooks or the web, rather than trying to do the assignments thoughtfully and completely. As a result, they give up on the active learning component. Therefore, I will not provide a save-able pdf or anything like that. If you want to spend the time to make one and fill it out, that is your choice (you won't lose points for doing so but you'd probably be better off spending that time learning and understanding the material).
 
@@ -71,7 +70,6 @@ I will post all materials to this course website and link to it from Canvas. Gen
 Although you may want to fill in the reading guides online, I encourage you to write on hard-copies. In my experience, students who try to do the reading guides on their computers tend to copy-paste material and that defeats the purpose of learning actively. Additionally, many questions will require you to draw diagrams, and copying/pasting pictures is not appropriate.
 
 ### Other course sites
-We will turn in lab reports on [turnitin.com](https://www.turnitin.com). Please create an account for yourself and register with this class. The information you need is in the [Nitty Gritty](#nitty-gritty) section above.
 
 We will be using the statistical programming language R for data analysis. In life sciences, it has become a very standard tool for analyzing data, so my goal is that you will learn at least enough so that by the end of the course you are no longer scared of computer programming. R can be used a number of ways, including online. You will be given instructions for how to sign up or download it later.
 
@@ -124,7 +122,7 @@ The students that regularly receive the highest grades are those that engage and
 ## Assignments
 You will be turning in many small assignments as well as your reading guides. Late assignments won't be accepted.
 
-Full lab reports will be turned in using [turnitin.com](http://www.turnitin.com). I will give you rubrics for lab reports. You will also be responsible for editing and proofreading your classmates’ lab reports. You will be given credit for submitting drafts completed and on time and for the extent to which your editing has the potential to help your classmate.
+Full lab reports will be turned in using Canvas. I will give you rubrics for lab reports. You will also be responsible for editing and proofreading your classmates’ lab reports. You will be given credit for submitting drafts completed and on time and for the extent to which your editing has the potential to help your classmate.
 
 Late papers will be deducted 20% of the possible points per calendar day, including later in the day on the due date.
 
@@ -143,10 +141,10 @@ Study in groups: Group study is much more fun and effective than studying on you
 * **Keep up**: Don’t get behind — it’ll be really difficult to catch up on old material while you’re trying to stay up-to-date on the newer material. Let me say it again: Don’t get behind, don’t get behind, don’t get behind!
 
 ## More Important Dates
-* **8/23** Last day to add the class
-* **9/2** Last day to drop without a ‘W’
-* **10/25** Last day to drop the course with a ‘W’
-* **12/11 11:30am--2:00pm** Final exam.
+* **1/27** Last day to add the class
+* **2/2** Last day to drop without a ‘W’
+* **4/8** Last day to drop the course with a ‘W’
+* **5/19 8:45-11:15am** Final exam.
 
 ## Useful Chaffey College Resources
 
