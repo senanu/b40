@@ -57,6 +57,10 @@ that means you've never (successfully) assigned data to a variable. Check your s
 
 See the previous question. Also, check that your data fields ONLY use 'normal' characters, and **no spaces**. Computers interpret spaces as dividers between words (like in natural language), so just don't use spaces in any variables or at the top of your spreadsheet. You can use underscores (\_) and CamelCase (some upper and some lower case letters) to help make your variables easy to read. R also accepts dots in variable names (though many other languages do not).
 
+## R ***still*** says an object isn't found! (aka "Why do I need to change 'eval=FALSE' to TRUE?)
+
+When you are given R markdown (Rmd) files for this class, I like for them to be knittable, and so all the code needs to work. However, I cannot know ahead of time what you will have named your variables so I instruct the knitter to skip over some sections, and not evaluate them ("eval=FALSE"). When you are ready, and have code that works, you need to instruct the knitter to use that code ("eval=TRUE"). If you leave a code chunk with "eval=FALSE" and the knitter skips it, it may not have learned about a particular variable, and may therefore give you an error below that point saying the variable doesn't exist. You will need to be conscientious about changing this in every code chunk.
+
 ## Make sure your data is as you expect
 
 After you read in data from a Google sheet, as I encourage you to do in this class, check that it is as you expect. You may set up a spreadsheet that looks like this:
