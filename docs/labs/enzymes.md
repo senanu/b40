@@ -99,12 +99,15 @@ Write down the number and concentration here: concentration for full hydrolysis 
 
     | pH  | Colorless point (min) | velocity (&mu;g starch hydrolyzed per minute) |
     |-----|-----------------------|--------------------------------------------|
-    | 4   |                       |                                            |
-    | 5   |                       |                                            |
-    | 6   |                       |                                            |
-    | 7   |                       |                                            |
-    | 8   |                       |                                            |
-    | 9   |                       |                                            |
+    |     |                       |                                            |
+    |     |                       |                                            |
+    |     |                       |                                            |
+    |     |                       |                                            |
+    |     |                       |                                            |
+    |     |                       |                                            |
+    |     |                       |                                            |
+    |     |                       |                                            |
+
 
 13. Use the Rmd file “enzymes.Rmd” to analyze your data.
 
@@ -113,7 +116,7 @@ Write down the number and concentration here: concentration for full hydrolysis 
 This part of the lab will be done on the second day.
 
 1. Make another 500&mu;l of your amylase dilution.
-2. Label 9 microcentrifuge tubes according to the table below.
+2. Label 7 microcentrifuge tubes according to the table below.
 3. Add the specified amount of buffer (pH 7.0). Notice that the total volume in each tube will be 1ml.
 4. Add the specified amount of starch.
 5. Prepare to assay the colorless point for tube #1 as you did previously. Finally add the amylase, **mix**, and start timing. Repeat for the other tubes. ***Again, make sure you mix as you add the amylase***
