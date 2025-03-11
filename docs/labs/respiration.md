@@ -36,7 +36,7 @@ In this lab, you will investigate the rate of respiration in germinating pea see
 1. Use the syringe to inject 0.1ml air into the tubing. Do **NOT** disconnect the syringe.
 1. Mark the location of the manometer fluid again. The difference between the two marks is 0.1ml of volume.
 1. Time how long it takes to use up 0.1ml oxygen.
-1. As time permits, time how long it takes to use up a second 0.1ml oxygen.
+1. As time permits, time how long it takes to use up a second and possibly third 0.1ml oxygen.
 
 <style>
 @media print{
