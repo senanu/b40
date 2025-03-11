@@ -19,9 +19,9 @@ In this lab, you will investigate the rate of respiration in germinating pea see
 1. Put a clip over the flexible tubing directly above the manometer loop. Clamp it shut. This will allow any expansion of the air in the respiration chamber to go into the atmosphere.
 1. Use clear tape to tape the tubing to the graph (or white) paper. It should form a loop as shown above.
 1. Assemble the germination chamber as follows:
-    1. Using a pair of gloves, soak a small amount of absorbant cotton in KOH and place it at the bottom of the plastic tube. The KOH will absorb CO<sub>2</sub>.
-    1. Place a small amount of non-absorbant cotton above the absorbant cotton. This will prevent the seeds from touching the KOH, which is toxic to them.
-    1. Place germinating seeds above the non-absorbant cotton. Talk to your instructor about how much to add.
+    1. Place a small amount of absorbent cotton a the bottom of your tube. Then use a dropper to add about 10 drops of KOH to the cotton. The KOH will absorb CO<sub>2</sub>.
+    1. Place a small amount of non-absorbent cotton above the absorbent cotton. This will prevent the seeds from touching the KOH, which is toxic to them.
+    1. Place germinating seeds above the non-absorbent cotton. Talk to your instructor about how much to add.
     1. Attach the plastic tube with the seeds.
     1. The germinating seeds are not photosynthesizing. They are respiring and therefore using carbohydrates and oxygen and producing CO<sub>2</sub>. Without the KOH, the total volume of gases would remain the same, but with the KOH, any CO<sub>2</sub> produced will be absorbed. Therefore, the total volume will decrease as O<sub>2</sub> is used in respiration, but it is not replaced by CO<sub>2</sub> (because of the KOH).
 1. Firmly attach the stopper to the plastic tube. It will be difficult to get it in, but twist and push hard. Be careful not to break the glass tubing on the other side of the stopper.
@@ -85,17 +85,23 @@ table th:nth-of-type(6) {
 }
 </style>
 
-| Temp ($$^{\circ}C$$) | Start time | End time | Elapsed time | Volume (ml) | Rate (ml/hr) |
-|:--------------------:|------------|----------|--------------|-------------|--------------|
-|  35                  |            |          |              |             |              |
-|  35                  |            |          |              |             |              |
-|  35                  |            |          |              |             |              |
-|  25                  |            |          |              |             |              |
-|  25                  |            |          |              |             |              |
-|  25                  |            |          |              |             |              |
-|  15                  |            |          |              |             |              |
-|  15                  |            |          |              |             |              |
-|  15                  |            |          |              |             |              |
+| Group | Temp ($$^{\circ}C$$) | Start time | End time | Elapsed time | Volume (ml) | Rate (ml/hr) |
+|-------|:--------------------:|------------|----------|--------------|-------------|--------------|
+| A     |  35                  |            |          |              |             |              |
+| A     |  35                  |            |          |              |             |              |
+| A     |  35                  |            |          |              |             |              |
+| B     |  35                  |            |          |              |             |              |
+| B     |  35                  |            |          |              |             |              |
+| B     |  35                  |            |          |              |             |              |
+| C     |  25                  |            |          |              |             |              |
+| C     |  25                  |            |          |              |             |              |
+| C     |  25                  |            |          |              |             |              |
+| D     |  25                  |            |          |              |             |              |
+| D     |  25                  |            |          |              |             |              |
+| D     |  25                  |            |          |              |             |              |
+| E     |  15                  |            |          |              |             |              |
+| E     |  15                  |            |          |              |             |              |
+| E     |  15                  |            |          |              |             |              |
 
 ## Questions to work on while your experiment is running
 1. Write down the general equation for respiration.{{site.space4}}
