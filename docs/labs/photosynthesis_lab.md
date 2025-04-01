@@ -10,371 +10,73 @@ nav_order: 85
 
 The data analysis file is here: [photosynthesis.Rmd](R/photosynthesis.Rmd)
 
-## Part 1: Determining the activity spectrum of an aquatic plant
+## Part 1: Effects of climate change on photosynthesis
 
-### Methods
+### Introduction:
 
-1. Cut and weigh about 15cm of chara. Place it in a respiration/photosynthesis chamber.
-2. Fill the chamber with conditioned water to approximately 1cm from the top.
-3. Put a small amount (a drop or so) of water into the stoppered-end of the pipette. You will monitor the progress of this drop as it moves along the pipette. Think about whether there will be a net production or use of gas in photosynthesis. This is not a straight-forward question as some of the gases may be dissolved in water.
-4. Insert the stopper into the chamber. Inserting it should push some water into the pipette where it can be seen. Make sure this drop is present, visible, and on the scale. Adjust the stopper if needed.
-5. Repeat steps 1-4 for a second tube.
-6. Repeat steps 2-4 for a third tube. You will not have chara in this tube. Measuring gases is very temperature sensitive, so we will use this third tube as a control.
-7. Set up all 3 tubes 30 cm from a light source (or in the sun) under colored plastic. The distance is important as you will be comparing different colored lights, and don’t want to introduce distance (light intensity) as a confounding variable.
-8. Read the volume in the pipette every 10 minutes. Do not touch the tubes, as touching them may change the volume by changing the temperature or by changing the position of the rubber stopper.
+We will use a whole punch to punch out small leaf disks. Normally leaf disks float. When the air spaces inside the leaf disk are filled/infiltrated with solution, the overall density of the leaf disk increases and the disk sinks. The infiltration solution includes a small amount of sodium bicarbonate. Bicarbonate ion serves as the carbon source for photosynthesis. As photosynthesis proceeds oxygen is released into the interior of the leaf which changes the buoyancy–causing the disks to rise. Since cellular respiration is taking place at the same time, consuming oxygen, the rate that the disks rise is an indirect measurement of the net rate of photosynthesis.
 
-## Results
+### Objective:
 
-Record your results in the table below. Record the volume as measured by the pipette, then calculate the change in volume since the beginning of the experiment. **Make sure that you are reading the pipette properly, as some of them are read backwards and some forwards.**
+We will measure the rate of photosynthesis occurring in spinach leaf disks. Next, YOU will change the environment around the leaf disks and measure the effects on photosynthesis.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;width:100px;table-layout:fixed;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:12px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:12px;
-  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;width:10%;}
-.tg .tg-0lax{text-align:center;vertical-align:top;width:10%;}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax">Time</th>
-    <th class="tg-0lax" colspan="2">Control</th>
-    <th class="tg-0lax" colspan="2">Tube1</th>
-    <th class="tg-0lax" colspan="2">Tube2</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax"> 				<br>&nbsp;&nbsp;				 			</td>
-    <td class="tg-0lax"> 				Volume reading (ml) 			</td>
-    <td class="tg-0lax"> 				Cumulative change in vol (ml) 			</td>
-    <td class="tg-0lax"> 				Volume reading (ml) 			</td>
-    <td class="tg-0lax"> 				Change in volume (ml) 			</td>
-    <td class="tg-0lax"> 				Volume reading (ml) 			</td>
-    <td class="tg-0lax"> 				Change in volume (ml) 			</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">0</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">10</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">20</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">30</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">40</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">50</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">60</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">70</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">80</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">90</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-</tbody>
-</table>
+Design an experiment to test 1 variable that affects the environment for the plant cells using the control described below. You can see the available materials listed below. You will have 4 beakers - 1 control and 3 to test your variable. Please run you ideas by your instructor before starting.
 
-## Data analysis
+### Materials:
 
-1. Make sure you have all the necessary data for the next two tables before you leave class today.
-2. Record your data (change in volume) into a table like the following (if the class agrees, you can make your lives easier by filling in your data [here](https://docs.google.com/spreadsheets/d/1QxJBBo0fDiYYTQaGXS1sqBz80HF8exG7t8U_wnJGAk0/edit?usp=sharing)). Fill in the colors according to the colors of light available in class. Also, note that this will be a long table, with the time repeated several (4-5) times. Mass1 and mass2 refer to the mass of the Chara in the 2 containers, and this figure will be repeated for all times. Vol0 refers to the volume of gas with no Chara, vol1 is for the volume of gas in the first vial, and vol2 is the volume of gas in the second vial. **Although this seems a bit cumbersome, if you do it this way, the data analysis will be much easier!**
-3. Use the RStudio.cloud project called “Photosynthesis” to analyze your data for this section
+- Plastic syringe (10 cc or larger)
+- Spinach leaves
+- Hole punch
+- 4 - 250ml beakers
+- Light source
+- Hot plates
+- Sodium bicarbonate (Baking soda) as carbon source
+- Acetic acid pH3
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg"><caption>Volume of gas produced (ml)</caption>
-<thead>
-  <tr>
-    <th class="tg-0lax">time</th>
-    <th class="tg-0lax">color</th>
-    <th class="tg-0lax">mass1</th>
-    <th class="tg-0lax">mass2</th>
-    <th class="tg-0lax">vol0</th>
-    <th class="tg-0lax">vol1</th>
-    <th class="tg-0lax">vol2</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax">0</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">10</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">20</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">30</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">40</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">50</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">60</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">70</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">80</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">90</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">0</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">10</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">20</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">30</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">40</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">50</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">60</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">70</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">80</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">90</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">etc.</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">etc.</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-</tbody>
-</table>
+### Methods:
 
+1.  Prepare the 4 beakers:
+- ***Control***: In the first 250ml beaker, add 150ml of 0.2% bicarbonate solution to the beaker and add 1 drop of dilute liquid soap to this solution to prevent leaf disks from sticking to glass.
+- ***Experimental***: In the 3 experimental 250ml beakers, set up your climate change experimental design so that you end up with 150ml of bicarbonate solution and add 1 drop of dilute liquid soap to each.
+2. Prepare spinach last! Have everything ready to go, then everyone works on spinach.
+3. Cut 10 uniform leaf disks using a whole punch for each trial, cut 40 total. The leaf surface should be smooth and not too thick, avoiding major veins.
+4. Infiltrate the leaf disks with the Sodium bicarbonate solution:
+- Remove the piston or plunger and place the leaf disks into the barrel of a syringe. Replace the plunger being careful not to crush the leaf disks. Push on the plunger until only a small volume of air and leaf disk remain in the barrel (< 10%).
+- Pull a small volume of Sodium bicarbonate solution into the syringe.  Tap the syringe to suspend the leaf disks in the solution.
+- Hold the syringe vertically and slowly push in the plunger until just a bit of the infiltration solution is forced out–which reduces the amount of air space above the floating disks. This is an important step.
+- Holding a finger over the syringe-opening, drawback on the plunger to create a vacuum.  Hold this vacuum for about 10 seconds.  while holding the vacuum, swirl the leaf disks to suspend them in the solution.
+- Let off the vacuum. The bicarbonate solution will infiltrate the air spaces in the leaf causing the disks to sink.
+- You may have to repeat this procedure 2-3 times in order to get the disks to sink. Don’t overdo the vacuum procedure. Too much vacuum can damage the cells and cell spaces in the interior of the leaf and the procedure will likely not work. If you see the infiltration solution turning green you likely overdid the vacuum procedure.
+- **Keep the sunk disc in the dark until ready to start the experiment.**
+5. Pour 10 disks into each of the 4 - 250ml beakers. You should have 10 disks in each beaker.  
+6. Start a stopwatch for each beaker when you expose the beaker to light. Record how long it takes for the first, second, etc. leaf to float to the surface.
+
+Table 1: Time taken for disks to float
+
+| Num disks floating | Control beaker | Beaker 2 | Beaker 3 | Beaker 4 |
+| 1 |||||
+| 2 |||||
+| 3 |||||
+| 4 |||||
+| 5 |||||
+| 6 |||||
+| 7 |||||
+| 8 |||||
+| 9 |||||
+| 10 |||||
+| median |||||
+| rate |||||
+
+### Analysis:
+
+1. Why do the disks initially sink but eventually float? {{site.space3}}
+1. Why might the median time to float be better than using an average time? {{site.space3}}
+1. Determine the median time taken to float for your data. Since you have 10 disks, the median time is the time taken for 5 to float. Write the data in the table above.
+1. The faster photosynthesis was happening, the lower the median time for the disks to float. Calculate the rate of photosynthesis by taking the reciprocal of the time (make sure you convert minutes & seconds into decimals). Write the data in the table above.
+1. Which beaker of spinach disks had the fastest rate of photosynthesis?
+1. Which beaker of spinach disks had the slowest rate of photosynthesis?
+1. Based on the results of your experiment, how does understanding the rate of photosynthesis help us appreciate the role of plants in reducing CO₂ levels in the atmosphere?
+1. What are some environmental factors that can affect the rate of photosynthesis?
 
 ## Part 2: Identifying the activity of the Calvin Cycle
 
