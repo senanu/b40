@@ -11,7 +11,7 @@ has_children: false
 
 ## Course Description
 
-An intensive course designed to prepare students for upper division courses in cell and molecular biology. Topics include biochemical, structural, metabolic, and genetic aspects of cells. Laboratory will include experimental design, a variety of techniques (e.g. microscopy, spectrophotometry,  electrophoresis), and data analysis.
+An intensive course designed to prepare students for upper division courses in cell and molecular biology. This course covers the principles and applications of prokaryotic and eukaryotic cell structure and function, biological molecules, homeostasis, cell reproduction and its controls, molecular genetics, classical/Mendelian genetics, cell metabolism including photosynthesis and respiration, and cellular communication. The philosophy of science, methods of scientific inquiry and experimental design are foundational to the course. Laboratory includes experimental design, a variety of techniques (e.g. microscopy, spectrophotometry, electrophoresis), and data analysis.
 
 ## Nitty Gritty
 
@@ -24,23 +24,26 @@ An intensive course designed to prepare students for upper division courses in c
 * Phone: 909-652-7876 (please use email instead)
 * Final exam: **Monday 12/8/2025 8:45am-11:15am**
 
-
-
 ## Student Learning Outcomes
 
-At the completion of the course, students will:
-
-* Develop an understanding of structural and functional relationships at the level of cells and molecules.
-* Develop a logic-based approach to understanding metabolic processes involved in how cells exchange matter and energy with their environment.
-* Demonstrate a familiarity with the molecular and cellular basis of biological diversity and inheritance as the basis for evolutionary change.
-* Demonstrate skills in scientific thinking, communication, problem solving, and experimental methodology, using examples from cellular and molecular biology.
-* Distinguish between different types of scientific literature and develop reading strategies to analyze/evaluate/interpret the different categories and components of scientific literature.
-* Demonstrate skills in writing using the style of biological sciences and format of scientific literature.
+* Inheritance Principles: Demonstrates an understanding of the principles governing
+genetic inheritance, molecular genetics, and how these factors contribute to biological
+diversity and organismal traits.
+* Cellular and Molecular Biology: Demonstrates an understanding of fundamental life
+processes at the cellular and molecular level.
+* Laboratory Safety Protocols: Demonstrates the ability to follow safety guidelines and
+procedures to prevent accidents and ensure a safe working environment.
+* Laboratory Equipment: Demonstrates the ability to operate various laboratory
+instruments such as microscopes, spectrophotometers, centrifuges, PCR machines.
+* Scientific Analysis: Uses analytical tools and methods to process and analyze experiment
+data to determine whether the results support or refute the hypothesis.
+* Implements Solutions: Applies appropriate strategies to implement reasoned and/or
+feasible solutions.
 
 ## Required Text:  
 <img align="right" width="25%" src="{{site.url}}/b40/assets/img/freeman_7th.png" alt="Textbook 7th ed">
-Freeman et al., 2020. Biological Science, 7th ed. Pearson.
-This is a big, heavy, expensive book, but it will be invaluable to you as a budding biologist. This is also the book that you will continue to use through the introductory biology classes at Chaffey and so is worth investing in. Previous editions are only slightly different, so you are welcome to use those for this class. For 2024, the Chaffey bookstore may still have grants that should apply to this textbook. You may use previous editions of the textbook, though the most recent, the better.
+Freeman et al., 2020. Biological Science, 6th, 7th, 8th ed. Pearson.
+This is a big, heavy, expensive book, but it will be invaluable to you as a budding biologist. This is also the book that you will continue to use through the introductory biology classes at Chaffey and so is worth investing in. Previous editions are only slightly different, so you are welcome to use those for this class.
 
 New textbooks may be bought with a code to Pearson's online learning content. You are welcome to use those, but none of it will be required for this class.
 
