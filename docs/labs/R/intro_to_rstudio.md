@@ -48,6 +48,8 @@ The simplest R files are called "R script" files that list, in order, the comman
 
 ## Getting Started -- loading an R Markdown file
 1. Download [this file](intro_to_rstudio.Rmd) and save it on your computer. I recommend you stay organized by starting a new folder (directory) for Rmd files for this class.
+    1. I *highly recommend* that you make a new directory (folder) on your computer to store Rmd files for this class. Believe me, this will make your life easier, so don't skip doing this.
+    2. Whenever you download an analysis file, save it into this newly-created directory and open it from there.
 2. Use the following steps for every lab in which we use R.
 3. If you are using a stand-alone version of RStudio
    1. Go to the file menu, and select "Open File..."
@@ -93,6 +95,13 @@ The gray regions are called 'code chunks'. These are the actual bits of code tha
 
 Please become familiar with each of these 3 methods by using them on the gray parts of the file you have loaded.
 
+You can view the Rmarkdown document in either "Source" or "Visual" mode, controlled by a button near the top left.
+  {% include figure.html url="/b40/assets/labs/01_sourceVisualMode.png" width="80%" caption="Figure 11. Buttons to toggle between Source and Visual modes" %}
+1. In "Visual" mode, the document will look more like it's final form. Headers will look like headers, bold will look bold, etc. I recommend that you use this mode most of the time.
+2. In "Source" mode, you will see all of the formatting codes and the document won't be formatted. However, **If you ever send me code, you must change it to "Source" mode before copying your code, because the formatting marks are important to include.**
+
+Before you move on, try toggling between the two modes to see how different the same document looks in each mode.
+
 ## Knitting the documents
 When you have finished a project, you would like to present a document that incorporates your code, output from your code (such as tables and figures) and text to explain what the analysis means. You need to "knit" the different parts of the file together.
 1. Click the little arrow next to the word 'knit'.
@@ -104,7 +113,7 @@ When you have finished a project, you would like to present a document that inco
      {% include figure.html url="/b40/assets/labs/01_HTMLAppears.png" width="80%" caption="Figure 13. Knitted documents appear in lower right quadrant under 'Files' tab" %}
 
 # If (when) you run into trouble
-During the course of this semester, you **will** run into trouble and get stuck at some point. **I can help!!!** When this happens email me your **entire** .Rmd file either as an attachment or cut and paste it into your email.
+During the course of this semester, you **will** run into trouble and get stuck at some point. **I can help!!!** When this happens email me your **entire** .Rmd file either as an attachment or cut and paste it into your email. If you cut and paste, **you must use "source" mode** so that you also cut and paste all the formatting marks. If you don't, you will simply be sending me a file that I cannot run, and I won't be able to help you.
 
 # What to turn in
 For this exercise, you only need to make a single change to the Rmd document. Usually, you will make changes in order to use your own data and analysis.

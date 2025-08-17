@@ -1,11 +1,11 @@
 ---
 ---
----
 title: "Introduction to R"
 author: "Senanu Spring-Pearson"
 output: html_document
 parent: R
 grand_parent: Labs
+---
 ---
 
 ## Objectives
@@ -19,7 +19,7 @@ Please read this document completely, and follow along in RStudio or Posit Cloud
 As you have already learned in a previous exercise, this is an R Markdown document, which mixes text with code. To start out, you should 'knit' the document before making any changes. It will be easier to read, with nice formatting.
 
 You can read this document in 3 different ways, depending on how you like it.
-1. View it as plain text. You will see all the formatting codes (which might be distracting and 'ugly' and numbering may seem wrong) but this is the rawest form, and how the document is actually written. Above and to the right of the code editor pane (top left pane), click the "source" button.
+1. View it as plain "Source" text. You will see all the formatting codes (which might be distracting and 'ugly' and numbering may seem wrong) but this is the rawest form, and how the document is actually written. Above and to the right of the code editor pane (top left pane), click the "source" button.
 1. View it in the visual editor to make the formatting nice and avoid seeing all the formatting code. **This is how I recommend you read the document**. Click the "visual" button to the top left of the top left (code editor) pane.
 1. Knit the document and read the HTML. This is the final form of the document but some things that you'll need get hidden in this form, so I don't recommend it. You can view it either in a separate window or in the "Plots and files" pane (lower right).
 
@@ -251,7 +251,7 @@ plot(x = dat$length,            # Note that this command is still 'open'
      xlab = "Leaf length (cm)", # ...
      ylab = "Leaf width (cm)",  # ...
      main = "Leaf Dimensions")  # ... until it finally finishes here!
-# notice that the arguments are separated by commas and are labeled.
+# notice that the arguments are separated by commas and are labeled (eg. x, y, xlab, ylab, main).
 ```
 
 # Exercises
@@ -261,7 +261,7 @@ Before you continue, knit this document to make sure everything above this point
 Demonstrate that you can read a file into R. I recommend using Google Sheets, as above, but you may also use another program such as Excel and save it as a .csv file. There are other ways, but for now, lets just keep it simple!
 
 1. Replace my name on line 5 with your name.
-1. Make a data file (I recommend Google Sheets).  
+1. Make a data file (I recommend Google Sheets).
     * Make sure you have at least 2 columns and 10 rows of numeric data. Make up values.
     * Name your columns **without using spaces** or other 'funny' characters. Capitals, underscores (_), and dots (.) can be used to make the column headers easier to read. But **don't use spaces!!!**
     * Make sure there aren't letters in the columns (other than the first row). If there are, R will assume that the data are textual, rather than numeric, and it can't do mathematical operations on text.
@@ -286,6 +286,7 @@ summary(mydata)
 ```
 
 1. Use the `plot()` command to generate a simple graph of your data. I have put in the most important parts of the command, but you will need to fill it in depending on the names in your dataset. You can see in the comments what I used when I was using the leaf data from my own dataset. You should use the same method, but your names will be different.
+1. Note that you should have previously (in a step above) saved your data into a variable called "mydata".
 1. Put some text between the quotes to label the x-axis and the y-axis
 1. Put some text between the quotes to label the entire graph (main)
 1. Change the 'eval=FALSE' to 'eval=TRUE' so that this graph will be included in the knitted output.

@@ -17,6 +17,13 @@ nav_order: 4
 
 No! Please start by [learning about using RStudio and RStudio.cloud](intro_to_rstudio.html). Then you can go on to the [Introduction to R](intro_to_r.html). Come back here if/when you have questions.
 
+## How do I get help with R/RStudio in this class?
+
+I recognize that most students in my class have never done any computer programming before. I can help! You'll need to send me your .Rmd file via email. When you do so, you can either send the file as an attachment OR you can copy-and-paste it into an email message. If you copy and paste, you must ***use the "Source" mode so that you include all the formatting marks***
+{% include figure.html url="/b40/assets/labs/01_sourceVisualMode.png" width="80%" caption="Buttons to toggle between Source and Visual modes" %}
+
+I try to be very responsive and timely in giving help via email, but it will be in your interest to get started early with R projects so that there's time for a bit of back-and-forth between us before an assignment is due, so please plan accordingly.
+
 # RStudio
 
 ## Where is my output going?
@@ -38,8 +45,10 @@ Give Google a few minutes to update things. After you modify your data, it can t
 You may well have not published it properly to the web. Remember, you also need to save it as a .csv file. Please review the instructions in the "Getting your data into R" section of [the introduction to R](intro_to_r.html). The 3 main steps are:
 
 1. Go to the file menu in Google Sheets and select "File", then "Publish to Web".
-1. Export your data as a .csv file. {% include figure.html url="/b40/assets/labs/02_publish_to_web.png" width="50%" caption="Saving your data as a .csv file" %}
-2. Copy the URL provided and paste it into your Rmd file.{% include figure.html url="/b40/assets/labs/02_publish_to_web_URL.png" width="80%" caption="Select to save as .csv file" %}
+1. Export your data as a .csv file.
+{% include figure.html url="/b40/assets/labs/02_publish_to_web.png" width="50%" caption="Saving your data as a .csv file" %}
+2. Copy the URL provided and paste it into your Rmd file.
+{% include figure.html url="/b40/assets/labs/02_publish_to_web_URL.png" width="80%" caption="Select to save as .csv file" %}
 3. Make sure the URL ends with "...output=csv"
 4. Read the file with 'read.csv("https://your/url/goes/here")'. Notice that the URL is **entirely enclosed in quotation marks**.
 

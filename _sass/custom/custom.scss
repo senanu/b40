@@ -122,7 +122,14 @@
 }
 // Not printed pages
 
-
+figcaption{
+    background-color: lightgray;
+}
+figure{
+    display: block;
+    border: thin silver solid;
+    border-radius: 5px;
+}
 ol li::before{
   color: blue;
 }

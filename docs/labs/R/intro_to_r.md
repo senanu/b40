@@ -11,7 +11,7 @@ nav_order: 2
 
 The only file you need for this exercise can be [downloaded here](intro_to_r.Rmd).
 
-Save that file on your computer, then load it into RStudio, as you were taught ([here](intro_to_rstudio.html#getting-started--loading-an-r-markdown-file)).
+Save that file on your computer, then load it into RStudio, as you were taught ([here](intro_to_rstudio.html#getting-started--loading-an-r-markdown-file)). Ideally, you should be saving all Rmd files into a separate directory (folder) on your computer. It's much better to do this than to open the file directly in RStudio as it is downloaded.
 
 For this exercise, and all others from here on, you will work entirely within the R Markdown document. When you are finished, you will knit an html file and turn that in for credit.
 
