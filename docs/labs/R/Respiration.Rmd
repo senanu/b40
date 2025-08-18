@@ -1,6 +1,4 @@
 ---
----
----
 title: "Respiration Lab"
 author: "Senanu"
 date: "`r Sys.Date()`"

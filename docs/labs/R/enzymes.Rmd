@@ -5,6 +5,8 @@ title: "Enzyme kinetics"
 author: "Senanu Spring-Pearson"
 date: "`r Sys.Date()`"
 output: html_document
+parent: R
+grand_parent: Labs
 ---
 
 ```{r setup, include=TRUE, echo=FALSE}
@@ -68,7 +70,7 @@ text(x=Km, y=0.5, pos=4, expression(K[m]), col='blue', cex=0.85)# If you change 
 rm(vmax, S, Km, v) # remove variables so they don't interfere below; Don't touch this either
 ```
 
-We now want to fit this type of Michaelis-Menten graph to your own data.
+We now want to fit this type of Michaelis-Menten graph to your own data.  
 
 1. Run the code below. You __shouldn't__ need to change anything. However, this depends on you having the data table in **exactly** the form given in the lab manual.
 1. Change the `eval=FALSE` to `eval=TRUE`.

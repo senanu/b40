@@ -1,10 +1,9 @@
 ---
----
----
 title: "Introduction to R"
 author: "Senanu Spring-Pearson"
 output: html_document
-date: "`r Sys.Date()`"
+parent: R
+grand_parent: Labs
 ---
 
 ## Objectives
