@@ -1,8 +1,6 @@
 ---
 ---
 ---
-title: "Diffusion Lab"
-author: "Senanu Spring-Pearson"
 ---
 
 ## As you begin
