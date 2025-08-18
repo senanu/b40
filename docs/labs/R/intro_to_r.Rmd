@@ -258,7 +258,7 @@ Before you continue, knit this document to make sure everything above this point
 
 Demonstrate that you can read a file into R. I recommend using Google Sheets, as above, but you may also use another program such as Excel and save it as a .csv file. There are other ways, but for now, lets just keep it simple!
 
-1. Replace my name on line 5 with your name.
+1. Replace my name on line 3 with your name.
 1. Make a data file (I recommend Google Sheets).
     * Make sure you have at least 2 columns and 10 rows of numeric data. Make up values.
     * Name your columns **without using spaces** or other 'funny' characters. Capitals, underscores (_), and dots (.) can be used to make the column headers easier to read. But **don't use spaces!!!**
