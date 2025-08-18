@@ -100,3 +100,5 @@ Answer the questions below.
 4.  What is **Biologically** significant about this point? ie. what does this tell us about the tonicity of the potato cells?
 
     Replace this text with your answer. For nice formatting, leave the 4 spaces at the beginning of this paragraph, and separate it from the other paragraphs by a blank line above and below.
+
+Once you have answered the questions in this section, change the name at the top of this document to your own, knit it to html, and turn it in on Canvas.
