@@ -1,9 +1,11 @@
-# The (very) basics of RStudio
-
-Senanu Spring-Pearson
-
-`r Sys.Date()`
-
+---
+---
+---
+title: "The (very) basics of RStudio"
+author: "Senanu Spring-Pearson"
+date: "`r Sys.Date()`"
+output: "html_document"
+---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
