@@ -13,7 +13,7 @@ source "https://rubygems.org"
 #gem "jekyll-theme-cayman"
 gem "jekyll-remote-theme"
 #gem "jekyll-theme-hyde"
-gem "just-the-docs", "0.3.3"
+gem "just-the-docs", "0.10.1"
 gem 'rake'
 gem 'csv'
 gem 'html-proofer'
