@@ -43,13 +43,15 @@ Use correct symbols. There will be many times when the symbol that you want to u
 ## Figures and Tables
 Every figure and table in your paper should be labeled with a descriptive caption. They should be labeled sequentially from the first to the last and each one of them should be referred to in your text (eg. “See Figure 1”). Figures and tables are different and each should have their own numbering. For tables, place the caption **above** the table and for figures, place the caption **below**. Do not wrap text around the figure or table – allow it to take up the full width of the paper as needed.
 
-# Title
+# Sections of your lab reports
+
+## Title
 Give your paper a good title. It should be long enough to be descriptive and often include a hint about what your results are. For example, “Replacing an old battery with a new battery restores functionality in flashlights” would be a good title that includes the findings of your study. It should not include a phrase like “The effects of X on Y”.
 
-# Authors
+## Authors
 Your name should be the first author. Your partners’ names should immediately follow your own.
 
-# Introduction
+## Introduction
 
 Imagine that your paper is an hourglass (Figure 1). It is broad at the top and bottom and narrow in the middle. Similarly, the introduction of your paper will be broad at the beginning, and get narrower toward the end of the introduction. For example, at the beginning, you might want to explain what a flashlight is, what it is used for, and why it is useful. As you work your way through the introduction, start to narrow the focus (How do you use a flashlight, how does it work). By the end of the introduction, you should introduce some specific concepts that you will address in the experiment (What are different ways in which flashlights malfunction?). Your research hypotheses should be right near the end of the introduction. Research hypotheses will be very specific and narrow in focus. You will learn how to write a proper research hypothesis in the course before your first lab report is due.
 
@@ -60,7 +62,7 @@ Imagine that your paper is an hourglass (Figure 1). It is broad at the top and b
 
 In your introduction, you will need to convince your readers that they should invest the time and energy into reading your paper. People’s time is very valuable so if you can’t demonstrate that your study is worth reading, they won’t read it.
 
-# Methods
+## Methods
 In this section, you should describe what you did. Use the past tense. For many of the labs, you will be given step-by-step instructions. However, you must not copy those. Instead, write what you did and why you did it in paragraph form.
 
 You should remember that your audience is other scientists. Therefore don’t include very mundane details such as “10 flashlights were labeled with the group name and the age of the battery”. However, don’t miss out important details such as “The voltages of 10 batteries of varying age were tested in a voltmeter.”
@@ -69,7 +71,7 @@ Write your methods in prose, don’t use bullet points or numbers.
 
 Include WHY you did things. This helps the reader follow what you are describing. (“In order to determine whether the replacement battery was fresh, the voltage of each was measured with a voltmeter”).
 
-# Results
+## Results
 Describe any trends in your results with prose and refer to tables and figures. **This section should begin with prose** and refer to tables and figures for details and visual representation of those data. Describe any data manipulations that you did, and describe any calculations. For example: “None of the flashlights worked when used with batteries manufactured prior to 2010, however most flashlights did work with newer batteries so long as the batteries could hold a charge of at least … (Table X)”.
 
 <table>
@@ -88,7 +90,7 @@ Every table or figure should have a label and caption such as “Figure 1: The r
 
 You should refer to every table and figure in your text (eg. “Flashlights were more successfully repaired with new batteries than with old batteries (Figure 1 and Table 1).”)
 
-# Discussion
+## Discussion
 
 In this section, you should reverse the hourglass (Figure 1). Start with specific findings of your experiments and then broaden the discussion to bigger topics.
 
@@ -98,15 +100,15 @@ Discuss whether there are other ways to interpret your data and any sources of e
 
 Discuss how your experiment relates to other aspects of biology. You should have done this in your introduction, but re-visiting it in the discussion is entirely appropriate. It is fine to be somewhat speculative here, but make sure your readers know that you are speculating!
 
-# Literature cited
+## Literature cited
 As you write, you will need to provide evidence of what you say. This comes in the form of scientific (primary literature) papers. Primary literature is the type of article that actually describes a study. Its purpose is not to summarize lots of previous work. You will know if an article is primary if it actually describes an experiment in detail and contains the results from that particular experiment.
 
 You should back up statements with in-text citations, wherever possible. There are 2 similar ways to do this. If you haven't yet, please look at this [paper by Ye et al. (2017)]({{site.url}}/b40/assets/labs/Ye_etal_Heating_Proteins.pdf) to get a feel for what your writing should be like.
 
-## Method 1
+### Method 1
 In the first method, the name of the authors are included in the text (eg. “Jones et al. (1999) showed that ….”). In this method, the year of the article is within parentheses.
 
-## Method 2
+### Method 2
 In the second method, both the authors and the year are within parentheses, separated by a comma. (eg. “96% of flashlights require 2 or more batteries (Jones and Wilson, 1999)). If there are more than 2 authors, use the use the first author's name and then the abbreviation “et al.” such as “(Jones et al., 1999)”. Note the period following ‘al.’, since the 'al' in ‘et al.’ is an abbreviation. The phrase 'et al.' means “and others”.  In some journals, in-text citations are numbered and indicated with a superscript. Please don’t use this format – it is more difficult to read and maintain the numbers within your document.
 
 The literature cited section must be formatted properly as you will have learned by the time you write any lab reports for the class. You should have at least one in-text citation for each item in your literature cited section.

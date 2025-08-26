@@ -1,55 +1,239 @@
 // Print-only styles.
 
 @media print {
-  @page {
-    margin-left: 1cm;
-    margin-right: 1cm;
-    margin-top: 2cm;
-    margin-bottom: 2cm;
-    size: letter portrait;
-  }
-  body {
-    margin-left: 0cm;
-    margin-right: 0cm;
-    margin-top: 2cm;
-    margin-bottom: 2cm;
-  }
-  .print:last-child {
-    page-break-after: auto;
-  }
-  .side-bar { display: none; }
-  .breadcrumb-nav { display: none;}
-  .main-content { max-width: auto; margin: 1em;}
-  a:link { font-weight: bold; text-decoration: underline; color: #06c; }
-  a { page-break-inside:avoid }
-  a:not([href^=http]):after{
-    display: none;
-  }
-  p, a {
-    word-wrap: break-word;
-  }
-  p, li{
-    font-size: 12pt;
-  }
-  h1 {
-    background-color: rgb(220, 220, 220);
-    font-size: 18pt !important;
+    @page {
+        margin-left: 1cm;
+        margin-right: 1cm;
+        margin-top: 2cm;
+        margin-bottom: 2cm;
+        size: letter portrait;
+    }
+    body {
+        margin-left: 0cm;
+        margin-right: 0cm;
+        margin-top: 2cm;
+        margin-bottom: 2cm;
+    }
+    .print:last-child {
+        page-break-after: auto;
+    }
+    .side-bar {
+        display: none;
+    }
+    .breadcrumb-nav {
+        display: none;
+    }
+    .main-content {
+        max-width: auto;
+        margin: 1em;
+    }
+    a:link {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #06c;
+    }
+    a {
+        page-break-inside: avoid;
+    }
+    a:not([href^="http"]):after {
+        display: none;
+    }
+    p,
+    a {
+        word-wrap: break-word;
+    }
+    p,
+    li {
+        font-size: 12pt;
+    }
+    h1 {
+        background-color: rgb(220, 220, 220);
+        font-size: 18pt !important;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 14pt !important;
+    }
+    h3 {
+        font-size: 12pt !important;
+        font-weight: bold;
+    }
+    .dna {
+        page-break-inside: avoid;
+        font-weight: bold;
+        border-style: solid;
+        font-family: monospace;
+        font: Courier;
+        border-color: #287ec7;
+        background-color: #d4e7f7;
+        border-left-width: 3px;
+        border-right-width: 0px;
+        border-top-width: 3px;
+        border-bottom-width: 0px;
+        padding-left: 1em;
+        margin-left: -2em;
+        margin-right: -2em;
+    }
+    //@page :first {.page-header: none;}
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ul,
+    li {
+        font-family: "Times New Roman", Times, serif;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    blockquote {
+        page-break-after: avoid;
+        font-weight: bold;
+    }
+    p {
+        line-height: normal;
+        color: black;
+    }
+    // Lists
+    ol,
+    ul,
+    ol li::before,
+    ol li::after {
+        line-height: normal;
+        color: black;
+    }
+
+    ol li::before {
+        color: black;
+    }
+
+    li:not(:last-child) {
+        margin-bottom: 5px;
+    }
+    ul,
+    ol {
+        margin: 0;
+        padding: 0 0 0 2em;
+    }
+
+    textarea,
+    input {
+        font-family: "Arial", sans-serif;
+        font-size: 10pt;
+    }
+
+    table {
+        width: 100%;
+        page-break-inside: avoid;
+        border-spacing: 0px;
+        border-collapse: collapse;
+        border: 3px solid black;
+    }
+    thead {
+        border: 3px solid black;
+        font-weight: bolder;
+    }
+    th {
+        padding: 2px;
+        border: 2px solid black;
+    }
+    td {
+        font-size: 10pt;
+        padding: 2px;
+        border: 2px solid black;
+    }
+    pre {
+        font-size: 16pt;
+        font-family: "Courier Bold", Courier, monospace;
+        font-weight: bold;
+    }
+}
+// Not printed pages
+
+figcaption {
+    background-color: lightgray;
+}
+figure {
+    display: block;
+    border: thin silver solid;
+    border-radius: 5px;
+}
+caption {
+    caption-side: top;
+    background-color: lightgray;
+}
+ol li::before {
+    color: blue;
+}
+blockquote {
     font-weight: bold;
-  }
-  h2 {
-    font-size: 14pt !important;
-  }
-  h3 {
-    font-size: 12pt !important;
-    font-weight: bold;
-  }
-  .dna {
-    page-break-inside: avoid;
+    border-style: solid;
+    border-left-width: 3px;
+    border-right-width: 0px;
+    border-top-width: 3px;
+    border-bottom-width: 0px;
+    padding-left: 1em;
+    margin-left: -2em;
+    margin-right: -2em;
+}
+
+.borderblue {
+    border-style: solid;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-color: #287ec7;
+    background-color: #d4e7f7;
+}
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+thead {
+    border: 3px solid black;
+    font-weight: bolder;
+}
+th {
+    padding: 2px;
+    border: 2px solid black;
+}
+td {
+    padding: 2px;
+    border: 2px solid black;
+}
+
+.ans {
+    font-weight: bold !important;
+    color: red !important;
+}
+.ansdiv {
+    td {
+        border: solid red !important;
+    }
+    th {
+        border: solid red !important;
+    }
+    table {
+        border: 4px solid red !important;
+    }
+    thead {
+        border: 4px solid red !important;
+    }
+    li {
+        color: red !important;
+    }
+}
+.dna {
     font-weight: bold;
     border-style: solid;
     font-family: monospace;
-    font: Courier;
-    border-color: #287EC7;
+    border-color: #287ec7;
     background-color: #d4e7f7;
     border-left-width: 3px;
     border-right-width: 0px;
@@ -58,150 +242,4 @@
     padding-left: 1em;
     margin-left: -2em;
     margin-right: -2em;
-  }
-  //@page :first {.page-header: none;}
-  h1, h2, h3, h4, h5, h6, p, ul, li {
-    font-family: "Times New Roman", Times, serif;
-  }
-  h1, h2, h3, h4, h5, h6, blockquote{
-    page-break-after: avoid;
-    font-weight: bold;
-  }
-  p {
-    line-height: normal;
-    color: black;
-  }
-  // Lists
-  ol, ul, ol li::before, ol li::after{
-    line-height: normal;
-    color: black;
-  }
-
-  ol li::before{
-    color: black;
-  }
-
-  li:not(:last-child) {
-    margin-bottom: 5px;
-  }
-  ul,ol {
-    margin:0;
-    padding:0 0 0 2em;
-  }
-
-  textarea, input{
-    font-family: "Arial", sans-serif;
-    font-size: 10pt;
-  }
-
-  table {
-    width: 100%;
-    page-break-inside: avoid;
-    border-spacing: 0px;
-    border-collapse: collapse;
-    border: 3px solid black;
-  }
-  thead{
-    border: 3px solid black;
-    font-weight: bolder;
-  }
-  th{
-    padding: 2px;
-    border: 2px solid black;
-  }
-  td {
-    font-size: 10pt;
-    padding: 2px;
-    border: 2px solid black;
-  }
-  pre {
-    font-size: 16pt;
-    font-family: "Courier Bold", Courier, monospace;
-    font-weight: bold;
-  }
-}
-// Not printed pages
-
-figcaption{
-    background-color: lightgray;
-}
-figure{
-    display: block;
-    border: thin silver solid;
-    border-radius: 5px;
-}
-ol li::before{
-  color: blue;
-}
-blockquote {
-  font-weight: bold;
-  border-style: solid;
-  border-left-width: 3px;
-  border-right-width: 0px;
-  border-top-width: 3px;
-  border-bottom-width: 0px;
-  padding-left: 1em;
-  margin-left: -2em;
-  margin-right: -2em;
-}
-
-.borderblue {
-  border-style: solid;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-color: #287EC7;
-  background-color: #d4e7f7;
-}
-table{
-  border-spacing: 0px;
-  border-collapse: collapse;
-  border: 3px solid black;
-}
-thead{
-  border: 3px solid black;
-  font-weight: bolder;
-}
-th{
-  padding: 2px;
-  border: 2px solid black;
-}
-td {
-  padding: 2px;
-  border: 2px solid black;
-}
-
-.ans {
-  font-weight: bold !important;
-  color: red !important;
-}
-.ansdiv {
-  td {
-    border: solid red !important;
-  }
-  th {
-    border: solid red !important;
-  }
-  table {
-    border: 4px solid red !important;
-  }
-  thead{
-    border: 4px solid red !important;
-  }
-  li{
-    color: red !important;
-  }
-}
-.dna {
-  font-weight: bold;
-  border-style: solid;
-  font-family: monospace;
-  border-color: #287EC7;
-  background-color: #d4e7f7;
-  border-left-width: 3px;
-  border-right-width: 0px;
-  border-top-width: 3px;
-  border-bottom-width: 0px;
-  padding-left: 1em;
-  margin-left: -2em;
-  margin-right: -2em;
 }
