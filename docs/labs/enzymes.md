@@ -39,7 +39,7 @@ In today’s lab, we will investigate the activity of the enzyme &alpha;-amylase
 
 ## Part 1: How much amylase is required to digest a fixed amount of starch?
 
-In a previous lab, you investigated the reaction above in a qualitative way: i.e. “Does amylase catalyze the reaction or not?”. Now we are going to take a more quantitative approach so that we can find out how much amylase is required to hydrolyze a certain amount of starch.  
+In a previous lab, you investigated the reaction above in a qualitative way: i.e. “Does amylase catalyze the reaction or not?”. Now we are going to take a more quantitative approach so that we can find out how much amylase is required to hydrolyze a certain amount of starch.
 1. Label 11 test tubes 1-11. Use SHORT test tubes that a micropipettor (p1000) will fit in.
 2. Put 1 ml pH 7.0 buffer in each tube.
 3. Put 1ml amylase in the first tube and stir to mix. This first tube will have an amylase concentration of 1/2 relative to the full-strength stock amylase (1ml amylase : 1ml buffer (total volume = 2ml)).
@@ -206,9 +206,9 @@ Marini, I. (2005), Discovering an accessible enzyme: Salivary &alpha;-amylase : 
 
 | Date    | What is Due?                                               |
 |---------|------------------------------------------------------------|
-| Mar 12   | Introduction due for peer review.                          |
-| Mar 26   | Full rough draft for peer review                           |
-| Apr 2  | Final Draft due                                            |
+| Oct 6   | Introduction due for peer review.                          |
+| Oct 15  | Full rough draft for peer review                           |
+| Oct 22  | Final Draft due                                            |
 
 <!---
 # Lab write-up (Fall 2022 only)
