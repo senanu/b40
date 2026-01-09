@@ -7,7 +7,7 @@ has_children: false
 
 # Welcome to Bio 40 at Chaffey College
 
-# Introduction to Cell and Molecular Biology -- Fall 2025 (BIOL-40-41988)
+# Introduction to Cell and Molecular Biology -- Spring 2026 (BIOL-40-42408)
 
 ## Course Description
 
@@ -22,7 +22,7 @@ An intensive course designed to prepare students for upper division courses in c
 * Course website: [https://senanu.github.io/b40/](https://senanu.github.io/b40/) which is linked through Canvas.
 * E-mail: [senanu.springpearson@chaffey.edu](mailto:senanu.springpearson@chaffey.edu)
 * Phone: 909-652-7876 (please use email instead)
-* Final exam: **Monday 12/8/2025 8:45am-11:15am**
+* Final exam: **Monday 5/18/2026 8:45am-11:15am**
 
 ## Student Learning Outcomes
 
@@ -146,10 +146,10 @@ Study in groups: Group study is much more fun and effective than studying on you
 * **Keep up**: Don’t get behind — it’ll be really difficult to catch up on old material while you’re trying to stay up-to-date on the newer material. Let me say it again: Don’t get behind, don’t get behind, don’t get behind!
 
 ## More Important Dates
-* **8/22** Last day to add the class
-* **9/1** Last day to drop without a ‘W’
-* **10/24** Last day to drop the course with a ‘W’
-* **12/8 8:45-11:15am** Final exam.
+* **1/28** Last day to add the class
+* **2/1** Last day to drop without a ‘W’
+* **4/7** Last day to drop the course with a ‘W’
+* **5/18 8:45-11:15am** Final exam.
 
 ## Useful Chaffey College Resources
 
