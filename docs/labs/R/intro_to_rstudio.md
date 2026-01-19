@@ -10,9 +10,6 @@ nav_order: 1
 
 # Downloading and Installing R and RStudio
 
-## Resources for this project
-1. [R Markdown document](intro_to_rstudio.Rmd) called "The (very) basics of RStudio" for this exercise. You'll learn to use it below.
-
 ## What is R?
 
 R started as a free, open-source version of the statistical programming language S and S+. However, because it is open-source, many biologists have learned to use it and contributed to it and it is now the industry-standard statistical software. You can use it to do statistical analysis (not surprisingly), draw complex graphs, control other software, analyze DNA sequences and much more.
@@ -23,12 +20,24 @@ Because this is a biology class, we will only learn some very basic things about
 
 ## Choosing between RStudio and Posit Cloud
 
-There are 2 convenient ways to use R. I recommend the first option for this class:
-1. Use this option if you use a Mac or a PC for which you can install software. Do *both* of the following steps:
-   - Download and [install R](https://cloud.r-project.org/).
-   - Download and [install RStudio Desktop](https://rstudio.com/products/rstudio/download/). RStudio provides a nice user interface to R. R itself is much more difficult to use without such an interface, and RStudio is very good! Installation should be easy if you use Windows, MacOS, or (standard) Linux. If you use a Chromebook, you won't be able to install it and will have to use one of the online options.
-2. Use this option if you use a Chromebook, iPad or if you cannot install software to your computer.
-   - Use [Posit Cloud](https://posit.cloud/). This provides full functionality in a convenient web app. To use this option, you'll need to sign up for a free account. Although this option won't require you to install anything, you'll find that getting your files into and out of Posit Cloud more difficult than if you used the stand-alone apps in option 1. The user interface for Posit Cloud and RStudio are identical. You should be able to use Posit Cloud with an iPad, however getting files in and out is much more difficult, and you really should have a keyboard! Please use any computer other than an iPad.
+There are 2 convenient ways to use R. The first option is easiest and just requires you to sign up for a free online Posit Cloud account. Use the first option if you really aren't interested in installing software on your computer. Also, use the first option if you have a chromebook or iPad if if, for some reason, you are unable to install all the steps for the second option. The second option is a more 'standard' way to use R, will require a bit more setup, but will be easier and faster in the long run. 
+1. Online option. Use this option if you use a Chromebook, iPad or if you cannot install software to your computer.
+   - Use [Posit Cloud](https://posit.cloud/). This provides full functionality in a convenient web app. To use this option, you'll need to sign up for a free account. Although this option won't require you to install anything, you'll find that getting your files into and out of Posit Cloud more difficult than if you used the stand-alone apps in option 1. The user interface for Posit Cloud and RStudio are identical. You should be able to use Posit Cloud with an iPad, however getting files in and out is much more difficult, and you really should have a keyboard!
+2. Use this option if you use a Mac or a PC for which you can install software. Do *all 3* of the following steps:
+    1. Download and install a program called "git".
+        1. If you have a Mac:
+            1. Go to the app launcher and search for and start "Terminal.app". It is likely in your "Applications" folder in a subfolder called "Utilities".
+            2. Once Terminal is open, simply type "git --version". 
+                1. If the computer responds with something like "git version 2.50.1 (Apple Git-155)", then you have git and are ready to install R.
+                2. If the computer responds with something like "command not found: git", then your computer should prompt you with a dialog box to install it. You should just be able to follow directions. 
+        2. If you have a Windows PC:
+            1. Go to this website to [install Git](https://git-scm.com/install/)
+            2. Choose the "Windows" tab.
+            3. Choose either of "Git for Windows/x64 Setup" or "Git for Windows/ARM64 Setup." depending on your computer. You probably have an "x64" processor, so try that one. If it doesn't work, [check out this video](https://youtu.be/Z_lcEqomG0k) to determine which type you have.
+            4. Install git using the installer you just downloaded. 
+    2. Download and [install R](https://cloud.r-project.org/).
+    3. Download and [install RStudio Desktop](https://rstudio.com/products/rstudio/download/). RStudio provides a nice user interface to R. R itself is much more difficult to use without such an interface, and RStudio is very good! Installation should be easy if you use Windows, MacOS, or (standard) Linux. If you use a Chromebook, you won't be able to install it and will have to use the online option.
+
 
 ## Getting Started
 Please follow along by **actually doing** the steps listed below. You can't learn a new skill without practicing. Trust me, this will save you lots of frustration later on.
@@ -47,41 +56,29 @@ The simplest R files are called "R script" files that list, in order, the comman
 **Important note** It is possible to run R one command at a time, but it is **much** better to save your commands in a file. This will allow you to re-run the code easily if you decide to change anything, or if your underlying data changes.
 
 ## Getting Started -- loading an R Markdown file
-1. Download [this file](intro_to_rstudio.Rmd) and save it on your computer. I recommend you stay organized by starting a new folder (directory) for Rmd files for this class.
-    1. I *highly recommend* that you make a new directory (folder) on your computer to store Rmd files for this class. Believe me, this will make your life easier, so don't skip doing this.
-    2. Whenever you download an analysis file, save it into this newly-created directory and open it from there.
-2. Use the following steps for every lab in which we use R.
-3. If you are using a stand-alone version of RStudio
-   1. Go to the file menu, and select "Open File..."
-   2. Find the file where you saved it. It will open in the top-left quadrant.
-   3. Go to the "Session" menu and select "Set Working Directory" and then "To source file location" (Figure 6 above and 7 below.)
-4. If you are using Posit Cloud
-   1. Go to "Your Workspace" (see red boxes in Figure 2).
-       {% include figure.html url="/b40/assets/labs/01_LoadingFilesRstudio.png" width="80%" caption="Figure 2. Loading files in Posit Cloud" %}
-   2. Click on "New Project". R will start.
-   3. In the bottom-right quadrant, choose "Upload" and direct Posit Cloud to the file you downloaded and saved on your computer.
-         {% include figure.html url="/b40/assets/labs/01_UploadButton.png" width="80%" caption="Figure 3. Location of Upload button" %}
-   4. You will see that file appear in the list of files. Click on it and it will open in the top-left quadrant.
-         {% include figure.html url="/b40/assets/labs/01_InstallKnitr.png" width="80%" caption="Figure 5. Location of uploaded file and Message to install Knitr" %}
-   5. You will *probably* be given a warning that a package called 'knitr' is required but not installed. Click install. It will install on the web server, not on your computer.
-   6. Go to the "Session" menu and select "Set Working Directory" and then "To source file location".
+1. Download the b40r project into Rby doing the following:
+    1. If you are using Posit Cloud, make sure you are in a workspace, and then on the right, choose "New Project" and then "New Project from Git Repository", then type or copy "https://github.com/senanu/b40r.git"
+    1. If you are using RStudio on your own computer, go to File>New Project>Version Control>Git and type or copy "https://github.com/senanu/b40r.git" into the dialog. In the "create project as subdirectory of" box, choose a place (folder/directory) on your computer where you'd like to save everything.
+1. In the bottom-right pane, select the "Files" tab. You should see a list of files and directories (folders), starting with a directory called ".github". All of the R Markdown files you need for this class will be located in the "R" directory. 
+    1. Click that "R" directory, and then **click the link to "intro_to_rstudio.Rmd"**. 
+    1. The file should open in the top-left pane.
+1. You will *probably* be given a yellow warning that a package called 'rmarkdown' and 'knitr' are required but not installed. Click "install" on the yellow banner. It will install on the web server, not on your computer.
+    {% include figure.html url="/b40/assets/labs/01_InstallKnitr.png" width="80%" caption="Figure 5. Location of uploaded file and Message to install Knitr" %}
+    
+### For each lab:
+1. Use the following steps for every lab in which we use R. This will help ensure that you have the newest files and that the data and objects you are working with are not accidentally saved from a previous lab.
+    1. Use Git to "Pull" the latest version of the code onto your computer. Click the blue down arrow in the "Git" tab of the top right pane.
+         {% include figure.html url="/b40/assets/labs/01_git_pull.png" width="80%" caption="Git pull to make sure you have the most up-tp-date code" %}
+    1. Go to the "Session" menu and select "Set Working Directory" and then "To source file location".
          {% include figure.html url="/b40/assets/labs/01_SetWorkingDirectory.png" width="80%" caption="Figure 6. Setting the working directory" %}
+    1. If there is a yellow banner asking you to install a new package, click "install"
+    1. Clear the cache. Click on the knitting needles and yarn ('knit') and then select "Clear Knitr Cache..." (see screenshot below)
+    1. Clear the environment. Click the 'broom' icon in the top-right panel within the "Environment" tab (see screenshot below)
+         {% include figure.html url="/b40/assets/labs/01_ClearCache.png" width="80%" caption="Figure 6. Setting the working directory" %}
+    1. Go to the Session menu, and click "Restart R"
 
+*You should now have the R Markdown file loaded into either RStudio or Posit Cloud.*
 
-You will need to do the above steps for every project we do. You should now have the R Markdown file loaded into either RStudio or Posit Cloud. It should look like the attached picture.
-
-## Installing packages
-R allows users to extend the language by writing 'packages' which contain commands for (often) specialized tasks. We will take advantage of a few of those. For now, the main one we need is called 'knitr'. If you are using Posit Cloud, you probably don't need to do this, but if you are using RStudio itself, you probably will.
-
-1. Depending on the file, you may see a yellow strip across the top indicating that you need to install a package. Simply click "install"
-     {% include figure.html url="/b40/assets/labs/01_Install_bar.png" width="80%" caption="Figure 8. Yellow strip indicating you need to install packages" %}
-2. If you don't see a yellow strip and you need to install packages, then in the lower-right quadrant, choose the "Packages" tab, then click "Install".
-     {% include figure.html url="/b40/assets/labs/01_InstallKnitr2.png" width="80%" caption="Figure 7. Installing packages (knitr in this case)" %}
-3. In the pop-up dialog box, type "knitr", then click "Install"
-4. You will see messages scroll up in the lower-left quadrant. Near the end, it should say "* Done (knitr)".
-
-
-Once a package is installed, you shouldn't have to install it again (unless you do lots of upgrading at a later date)
 
 ## Using R Markdown files
 Now we will look at how to use the R Markdown files. As mentioned above, these files combine code with comments. The comments help us communicate in natural language what we are trying to do with code, in order for another person to be able to understand the code quickly. It is useful to include comments for your own code, because if you look at it a few weeks later, you may struggle to figure out what and why you did what you did.
