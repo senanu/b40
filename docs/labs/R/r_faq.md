@@ -232,3 +232,12 @@ plot(x = dat$concentration,
 ```
 
 Note here that the object you created (dat) doesn't need quotes, but when you want to enter text so that `R` can simply put the text onto the graph, it'll need quotes because you need to tell `R` that it is, indeed, just a sequence of letters, and not really a name of anything.
+
+# Using Git
+
+In our class, we'll use the program "git" to help you make sure that you always have the most up-to-date code. At the beginning of the course, you should set up your project by choosing File>New Project>Version Control>Repository URL and type or copy [https://github.com/senanu/b40r](https://github.com/senanu/b40r) into the dialog box. 
+
+## Before each lab
+
+Before you start working on the R code for a lab, you should do a "git pull" to get the latest code, in case I have changed it since the beginning of the course. **It is much easier to do this before you start than after**. In the 'git' tab of the upper right pane, click the blue down-facing arrow. If that doesn't work, click the black arrow next to it and choose "pull with rebase". See picture below:
+{% include figure.html url="/b40/assets/labs/01_git_pull.png" width="80%" caption="Git Pull. You may also use the adjacent black arrow and 'Pull with Rebase'" %}
