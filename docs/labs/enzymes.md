@@ -14,13 +14,9 @@ nav_order: 90
     * [Guide to using primary literature for lab reports](primary_literature.html)
     * [Writing Checklist](writing_checklist.html)
     * [Rubric for your peer review](peer_review_rubric.html)
-* Main data Analysis
-    * [R Markdown file for Enzyme lab](R/enzymes.Rmd).
-    * [HTML website version of enzyme lab analysis](R/enzymes.html)
-<!--    * [HTML version of the data analysis file]({{site.url}}/b40/assets/labs/enzymes.html). Only use this as a reference if you are stuck. You should be using the Rmd document above.-->
-* Data analysis. You have already completed these, but they are included here for reference if you need help.
-    * [Introduction to RStudio and RStudio.cloud](R/intro_to_rstudio.html).
-    * [Introduction to R](R/intro_to_r.html).
+* Data Analysis Files
+    * R Markdown file "enzymes.Rmd".
+    * HTML website version of [Enzymes lab](https://htmlpreview.github.io/?https://github.com/senanu/b40r/blob/master/sample_html/enzymes.html)
     * [R FAQ](R/r_faq.html).
 
 ## Introduction

@@ -8,7 +8,7 @@ nav_order: 85
 
 # Photosynthesis lab
 
-The data analysis file is here: [photosynthesis.Rmd](R/photosynthesis.Rmd)
+The data analysis file you need is called "photosynthesis.Rmd".
 
 ## Part 1: Effects of climate change on photosynthesis
 
@@ -147,8 +147,8 @@ Each plant pigment absorbs a range of frequencies of light, with a particular fr
 
 ### Data analysis
 
-Use the [photosynthesis.Rmd](R/photosynthesis.Rmd) file. You will produce a plot in R of absorbance against wavelength. You may refer to figure 10.7 in your textbook except that you will only produce one absorption spectrum (for all combined pigments).
+Use the "photosynthesis.Rmd" file. You will produce a plot in R of absorbance against wavelength. You may refer to figure 10.7 in your textbook except that you will only produce one absorption spectrum (for all combined pigments).
 
 # What you should turn in
 
-Run the data analysis file [photosynthesis.Rmd](R/photosynthesis.Rmd) which will help you draw 2 graphs. You will also need to answer a few simple questions in the Rmd document and turn in the knitted (html) file.
+Run the data analysis file "photosynthesis.Rmd" which will help you draw 2 graphs. You will also need to answer a few simple questions in the Rmd document and turn in the knitted (html) file.

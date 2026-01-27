@@ -115,14 +115,16 @@ During the course of this semester, you **will** run into trouble and get stuck 
 # What to turn in
 For this exercise, you only need to make a single change to the Rmd document. Usually, you will make changes in order to use your own data and analysis.
 
-1. If you haven't done so already, download [this R Markdown document](intro_to_rstudio.Rmd) and save it into a directory on your computer. I recommend that you set up a directory exclusively for Rmd documents for this class.
-1. Open the file and change the author name on the third line of the file to your own name.
+1. By now, you should have accessed the git repository and have all of the Rmd files visible in the "Files" tab of the bottom-right pane in RStudio.
+1. Open the file "intro_to_rstudio.Rmd" and change the author name on the third line of the file to your own name.
 1. Save your file (you should do this periodically -- it doesn't save automatically like Google docs)
 1. Clear the knitr cache. To do so, click the triangle next to 'Knit' and select 'Clear Knitr Cache...'.
      {% include figure.html url="/b40/assets/labs/01_ClearCache.png" width="100%" caption="Figure 14. Clear the knitr cache and the environment as preparation before you do a final knit to generate the HTML file to turn in." %}
 2. Clear your environment. Click the broom in the top-right quadrant. After, it should say "Your environment is empty".
 3. Knit the document that you loaded ("intro_to_rstudio.Rmd"). This will create a .html file in the directory you are working, and it may also open a browser window.
-4. Save the resulting .html file to turn in. You can save it directly from your browser "file" menu if you have it open.
-5. Open the file in a browser (if it's not already) to make sure it shows the results of your 'data analysis'.
+4. Do one of the following:
+    1. If you are using RStudio on your own computer, save the resulting .html file to turn in. You can save it directly from your browser "file" menu if you have it open.
+    2. If you are using Posit Cloud, in the "Files" tab of the bottom-right pane, you should see "intro_to_rstudio.html" file. Check the box to the left of that file, then select the gear above, and choose "Export". Save the file on your computer somewhere (it'll probably go to the Downloads folder by default).
+5. Open the file in a browser (if it's not already) to make sure it shows the results of your 'data analysis'. If so, turn it in through Canvas.
 
 **It is important that you clear your knitr cache and your environment before you prepare your document to turn in.** If you don't, you may get some experimental code or data that you played with but didn't work.

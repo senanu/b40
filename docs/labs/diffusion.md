@@ -10,14 +10,12 @@ nav_order: 70
 
 ## Resource list for this lab
 * [Video introduction to this lab](https://youtu.be/vEbQJkKjXAM)
-* [R Markdown file for Diffusion/Osmosis lab](R/diffusion.Rmd).
-* [Introduction to RStudio and RStudio.cloud](R/intro_to_rstudio.html)
-* [Introduction to R](R/intro_to_r.html)
+* R Markdown file for Diffusion/Osmosis lab: "diffusion.Rmd". You should already have this in your R directory (folder)
 * [R FAQ](R/r_faq.html)
 
 
 ## Note
-To get full credit for this lab, submit an HTML file that is output from the [.Rmd data analysis file](R/diffusion.Rmd). At the bottom of that file, you will need to answer 3 questions that are also given [in the data analysis section](#data-analysis) at the bottom of the first part of this lab.
+To get full credit for this lab, submit an HTML file that is output from the .Rmd data analysis file "diffusion.Rmd". At the bottom of that file, you will need to answer 3 questions that are also given [in the data analysis section](#data-analysis) at the bottom of the first part of this lab.
 
 ## Objectives
 To study the diffusion of different materials in various media and to relate the diffusion of these materials to living systems.
@@ -57,7 +55,7 @@ Osmosis is the diffusion of water through a selectively permeable membrane.  Doe
 | B     | 3.0      |                 |              |
 
 ## Data Analysis
-Complete the [Rmd project](R/diffusion.Rmd) called “Diffusion and Osmosis” and turn in the knitted HTML file. In that project, you will create a graph of your data including a regression line, and must answer questions 2 and 3 below. Include your answers in the HTML file that you submit. You will see space for them.
+Complete the Rmd file "diffusion.Rmd" and turn in the knitted HTML file. In that project, you will create a graph of your data including a regression line, and must answer questions 2 and 3 below. Include your answers in the HTML file that you submit. You will see space for them.
 1. Submit your HTML file that includes a graph
 2. What value on the X-axis does the regression line cross the X-axis? {% if site.data.answers.diffusion %}<span class="ans"> This will depend on your data. You need to solve for X when Y = 0 </span>{% else %} {% endif %}
 3. What is the biological significance of the point at which the regression line crosses the X-axis? {% if site.data.answers.diffusion %}<span class="ans"> This is the point at which water neither enters nor exits the potato cells via osmosis. Inside and outside the potato cells are **isotonic**. Therefore, the inside of the potato cells has the same salt concentration as this point on the X-axis. </span>{% else %} {% endif %}

@@ -16,12 +16,12 @@ nav_order: 60
     * [Rubric for your peer review](peer_review_rubric.html)
     * [Sample of scientific writing (about milk proteins; Ye et al. (2017))]({{site.url}}/b40/assets/labs/Ye_etal_Heating_Proteins.pdf)
 * Main data Analysis
-    * [R Markdown file for Protein lab](R/protein.Rmd).
-    * [HTML version of the data analysis file]({{site.url}}/b40/assets/labs/protein.html). Only use this as a reference.
+    * R Markdown file for Protein lab: "protein.Rmd". You should already have this file from the git repository.
+    * [HTML version of the data analysis file](https://htmlpreview.github.io/?https://github.com/senanu/b40r/blob/master/sample_html/protein.html). Only use this as a reference.
 * Data analysis. You have already completed these, but they are included here for reference if you need help.
     * [Graph Paper](GraphPaper.pdf)
-    * [Introduction to RStudio and Posit Cloud](R/intro_to_rstudio.html).
-    * [Introduction to R](R/intro_to_r.html).
+    * [intro to RStudio](https://htmlpreview.github.io/?https://github.com/senanu/b40r/blob/master/sample_html/intro_to_rstudio.html)
+    * [intro to R](https://htmlpreview.github.io/?https://github.com/senanu/b40r/blob/master/sample_html/intro_to_r.html)
     * [R FAQ](R/r_faq.html).
 
 
@@ -143,11 +143,11 @@ There are several links at the top of this document that look at. They will help
 
 | What is due?                                  | When is it due?    |
 |-----------------------------------------------|--------------------|
-| Draft of introduction                         | Sept 3 (8:00am)    |
-| Peer review of intro (bring hard copy)        | Sept 3 in class    |
-| 1st draft of entire paper.                    | Sept 10 (8:00am)   |
-| Peer review of entire paper (bring hard copy) | Sept 10 in class   |
-| Final Paper                                   | Sept 17 (8:00am)   |
+| Draft of introduction                         | Feb 4  (8:00am)    |
+| Peer review of intro (bring hard copy)        | Feb 4 in class     |
+| 1st draft of entire paper.                    | Feb 11 (8:00am)     |
+| Peer review of entire paper (bring hard copy) | Feb 11 in class     |
+| Final Paper                                   | Feb 18 (8:00am)    |
 
 You will lose 10% of your grade every day that it is late. Please note that although I won't grade your drafts, they need to be complete and the best possible work you can produce. If they aren't complete, I may deduct some points from your final grade, and most importantly, you won't gain the benefits of having a peer review to help you improve your paper. If your paper is far from being complete, you may not be allowed to do a peer review, which will also cost you points and make it so that you don't see another model paper. This issue will be handled solely at my discretion!
 
