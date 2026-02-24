@@ -23,7 +23,7 @@ nav_order: 90
 
 This lab is modified from Marini (2005).
 
-Note that due to concerns related to the coronavirus pandemic, we will not be using our own saliva. The amylase from this lab is derived from animal pancreas or genetically modified bacteria.
+The amylase from this lab is derived from animal pancreas or genetically modified bacteria. Your saliva contains amylase, which helps break down starches into smaller saccharides.
 
 Enzymes are biological catalysts. Although some biological reactions happen spontaneously, the reactions are so slow that organisms require enzymes to speed them up. Like other proteins, the tertiary and quaternary shape plays an important role in enzymatic activity. This is because enzymes bind substrates in particular regions called the ‘active site’ of an enzyme. As the enzyme binds the substrates, it changes shape, bringing the substrates together. Additionally, enzymes stabilize the transition state, the unstable time period when bonds within the reactants are breaking but before the bonds in the products have formed. Stabilizing this transition state lowers the activation energy of the reaction, allowing it to proceed quickly. This model of how enzymes work is known as the ‘induced fit’ model (Figure 1).
 <figure class="image">
@@ -81,7 +81,6 @@ Write down the number and concentration here: concentration for full hydrolysis 
 ## Part 2: Effect of pH on amylase activity.
 
 1. Make a dilution of amylase in pH 7.0 buffer that you calculated in the last step above. You will need about 1 ml diluted amylase. If your dilution is 1:8, then you’ll need 1&mu;l amylase for every 7&mu;l buffer. Figure out how to scale this up to 1ml.
-2. **If** you are using saliva, test and record the pH of your saliva (straight saliva, not diluted in a buffer).
 3. Place a few drops of iodine solution in each ‘dimple’ of 2 dimple plates. You may want to label the dimples with tape for 30 second intervals (“30s”, “60s”, “90s”, "120s" etc.). This can best be done by making a 'map' of the dimple plate on a paper or with chalk on your lab bench.
 4. Place an empty 1.5 ml microcentrifuge tube in a floating holder in your water bath at 37&deg;C.
 5. Add 600 &mu;l buffer (pH 7) to the empty tube in the water bath.
@@ -156,7 +155,7 @@ This part of the lab will be done on the second day.
     | 9.70 |   |
 
 
-The ‘S’ represents the substrate concentration in mg/ml and the ‘v’ represents the speed of the reaction, in &mu;g/min
+The ‘S’ represents the substrate concentration in mg/ml and the ‘v’ represents the speed ("velocity") of the reaction, in &mu;g/min
 
 We are now going to use the data we have to estimate a theoretical maximum reaction rate. This is done by what is known as a Michaelis-Menten curve that was specifically designed to describe enzyme kinetics. It is given by the equation
 
@@ -171,7 +170,7 @@ A graph of this equation is shown below (Fig 2) with the parameters labeled. Rem
   <figcaption>Figure 2: Reaction velocity according to Michaelis-Menten dynamics</figcaption>
   </figure>
 
-Use the Rmd file 'Enzymes' to analyze your data. You will fit the Michaelis-Menten graph to your data to estimate *V<sub>max</sub> .
+Use the Rmd file 'Enzymes' to analyze your data. You will fit the Michaelis-Menten graph to your data to estimate ***V<sub>max</sub>***.
 
 
 # Lab Reports
@@ -202,9 +201,9 @@ Marini, I. (2005), Discovering an accessible enzyme: Salivary &alpha;-amylase : 
 
 | Date    | What is Due?                                               |
 |---------|------------------------------------------------------------|
-| Oct 6   | Introduction due for peer review.                          |
-| Oct 15  | Full rough draft for peer review                           |
-| Oct 22  | Final Draft due                                            |
+| Mar 11  | Introduction due for peer review.                          |
+| Mar 25  | Full rough draft for peer review                           |
+| Apr 1   | Final Draft due                                            |
 
 <!---
 # Lab write-up (Fall 2022 only)
