@@ -18,7 +18,7 @@ We will use a whole punch to punch out small leaf disks. Normally leaf disks flo
 
 ### Objective:
 
-We will measure the rate of photosynthesis occurring in spinach leaf disks. Next, YOU will change the environment around the leaf disks and measure the effects on photosynthesis.
+We will measure the rate of photosynthesis occurring in spinach leaf disks. Next, you will change the environment around the leaf disks and measure the effects on photosynthesis.
 
 Design an experiment to test 1 variable that affects the environment for the plant cells using the control described below. You can see the available materials listed below. You will have 4 beakers - 1 control and 3 to test your variable. Please run you ideas by your instructor before starting.
 
@@ -151,4 +151,4 @@ Use the "photosynthesis.Rmd" file. You will produce a plot in R of absorbance ag
 
 # What you should turn in
 
-Run the data analysis file "photosynthesis.Rmd" which will help you draw 2 graphs. You will also need to answer a few simple questions in the Rmd document and turn in the knitted (html) file.
+Run the data analysis file "photosynthesis.Rmd". Within that file, you'll draw a graph of the absorption spectrum. You will also need to answer a few simple questions in the Rmd document and turn in the knitted (html) file.
