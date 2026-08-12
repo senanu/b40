@@ -7,7 +7,7 @@ has_children: false
 
 # Welcome to Bio 40 at Chaffey College
 
-# Introduction to Cell and Molecular Biology -- Spring 2026 (BIOL-40-42408)
+# Introduction to Cell and Molecular Biology -- Fall 2026 (BIOL-40-47576)
 
 ## Course Description
 
@@ -22,7 +22,7 @@ An intensive course designed to prepare students for upper division courses in c
 * Course website: [https://senanu.github.io/b40/](https://senanu.github.io/b40/) which is linked through Canvas.
 * E-mail: [senanu.springpearson@chaffey.edu](mailto:senanu.springpearson@chaffey.edu)
 * Phone: 909-652-7876 (please use email instead)
-* Final exam: **Monday 5/18/2026 8:45am-11:15am**
+* Final exam: **Monday 12/14/2026 8:45am-11:15am**
 
 ## Student Learning Outcomes
 
@@ -39,6 +39,8 @@ instruments such as microscopes, spectrophotometers, centrifuges, PCR machines.
 data to determine whether the results support or refute the hypothesis.
 * Implements Solutions: Applies appropriate strategies to implement reasoned and/or
 feasible solutions.
+* Data Interpretation: Accurately interprets information presented in quantitative or 
+mathematical forms (e.g. equations, graphs, diagrams, tables, maps)
 
 ## Required Text:  
 <img align="right" width="25%" src="{{site.url}}/b40/assets/img/freeman_7th.png" alt="Textbook 7th ed">
@@ -51,9 +53,7 @@ New textbooks may be bought with a code to Pearson's online learning content. Yo
 
 I have found that students are often distracted by the presence and use of cell phones in class. I therefore ask that you silence your phones and place them in your bag. If we need calculators or timers in lab, I'll provide those for you or allow limited use of phones. Otherwise, please keep them completely out of sight.
 
-## Course Design for this "flipped classroom"
-
-For the "lecture" portion of this course, we will be using a model known as a 'flipped classroom'. Rather than you coming to class, hearing me lecture, then going away and reading the book and studying, we will reverse the order!
+## Course Design 
 
 For each chapter, I have recorded short mini-lectures that you should watch, then read the chapter, complete the reading guide, and finally attend class. Doing this should enable you to have a reasonably good understanding of the material **before** class -- then you can ask questions to clear up topics that you struggled with.
 
@@ -68,7 +68,7 @@ Reading guides in this course are designed to encourage (OK, 'force') you to rea
 The reading guides are mostly for you to use in your learning process. I will ask you to turn them in for each chapter we cover and will give you credit for having done them. I *may* glance at a question or two to help me assess your learning and make sure that your answers are of a high standard. You will get full credit for a completed or almost-completed reading guide and your grade will be pro-rated below that depending on how much you get done. The reading guides **are important** and are an easy way for you to get points. Don't pass up that opportunity.
 
 ## Course Websites:
-I will post all materials to this course website and link to it from Canvas. Generally, I will provide hard copies of reading guides and lab material. If you miss class, please print the material from this website.
+I will post all materials to this [course website]({{site.url}}/b40/) and link to it from Canvas. Generally, I will provide hard copies of reading guides and lab material. If you miss class, please print the material from this website.
 
 Although you may want to fill in the reading guides online, I encourage you to write on hard-copies. In my experience, students who try to do the reading guides on their computers tend to copy-paste material and that defeats the purpose of learning actively. Additionally, many questions will require you to draw diagrams, and copying/pasting pictures is not appropriate.
 
@@ -115,11 +115,12 @@ Miscellaneous assignments and quizzes  |  ~ 150 points (approx)
 * <60% = F
 
 ## Academic integrity and generative AI
+
 Unethical behavior including copying other students work will not be tolerated. Students will receive zero points for the assignment and perhaps the course and will be referred to the Dean of Student Services, according to college policy. Because I dislike arguing with students about whether to be lenient or not regarding academic integrity, my policy is simply to refer such students to the Dean with all documentation. If you want to avoid this fate (you should!), simply make sure all the work you turn in is your own.
 
 Many of the assignments we do in class will be collaborative and I encourage you to work together with your teammates. When you work together, you will undoubtedly have very similar answers. However, the work that you turn in should be your own work and be presented in your own words, even if you have collaborated on it. You need to be particularly careful about this for work you do on a computer, as it is easily copied. Each student should take care to not copy others’ work as well as to safeguard their own work from being copied. Both students may be penalized for copied work. **Cheating and plagiarism is a big, huge deal in college. Scientists who copy have lost their jobs and reputations. Students who copy have been suspended or expelled from colleges.**
 
-In keeping with the policy that all work you turn in must be your own, use of generative AI for assignments is not allowed. One of the goals of this class is for you to learn how to write scientific reports, and use of AI defeats this purpose. Additionally, I don't like spending my time grading papers that students didn't take the time to write. I will require that you sign a form stating that your work is, in fact, your own.
+In keeping with the policy that all work you turn in must be your own, use of generative AI for assignments is not allowed. One of the goals of this class is for you to learn how to write scientific reports, and use of AI defeats this purpose. Recent research has shown that subjects who use generative AI to complete tasks learn less about the material and forget it faster than subjects who complete the task themselves. Additionally, I don't like spending my time grading papers that students didn't take the time to write. I will require that you sign a form stating that your work is, in fact, your own. I will also use a number of tools to ensure compliance.
 
 ## Communication
 The students that regularly receive the highest grades are those that engage and communicate with their instructors. I encourage you to ask questions in and out of class and talk to me about your work, the material, or anything else pertinent.
@@ -146,10 +147,10 @@ Study in groups: Group study is much more fun and effective than studying on you
 * **Keep up**: Don’t get behind — it’ll be really difficult to catch up on old material while you’re trying to stay up-to-date on the newer material. Let me say it again: Don’t get behind, don’t get behind, don’t get behind!
 
 ## More Important Dates
-* **1/28** Last day to add the class
-* **2/1** Last day to drop without a ‘W’
-* **4/7** Last day to drop the course with a ‘W’
-* **5/18 8:45-11:15am** Final exam.
+* **9/4** Last day to add the class
+* **9/9** Last day to drop without a ‘W’
+* **11/2** Last day to drop the course with a ‘W’
+* **12/14 8:45-11:15am** Final exam.
 
 ## Useful Chaffey College Resources
 

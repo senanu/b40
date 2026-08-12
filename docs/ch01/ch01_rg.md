@@ -62,7 +62,7 @@ Because this reading guide will be given to you on the first day of class, pleas
 5. What do you think of the idea that "Evolutionary theory can't be trusted because it's _just_ a theory"? {{site.space3}}
 
 
-# To be completed in or after class...
+# To be completed in or after class... (you don't need to turn this in)
 
 1. Give 2 examples (not from your book) where new properties emerge at a higher level of organization.
 
