@@ -1,6 +1,6 @@
 ---
 layout: default
-title: RStudio
+title: Introduction to RStudio software
 parent: R
 grand_parent: Labs
 is_parent: false
@@ -20,16 +20,16 @@ Because this is a biology class, we will only learn some very basic things about
 
 ## Choosing between RStudio and Posit Cloud
 
-There are 2 convenient ways to use R. The first option is easiest and just requires you to sign up for a free online Posit Cloud account. Use the first option if you really aren't interested in installing software on your computer. Also, use the first option if you have a chromebook or iPad if if, for some reason, you are unable to install all the steps for the second option. The second option is a more 'standard' way to use R, will require a bit more setup, but will be easier and faster in the long run. 
+There are 2 convenient ways to use R. The first option is easiest and just requires you to sign up for a free online Posit Cloud account. Use the first option if you really aren't interested in installing software on your computer. Also, use the first option if you have a chromebook or iPad or if, for some reason, you are unable to install all the steps for the second option. The second option is a more 'standard' way to use R, will require a bit more setup, but will be easier and faster in the long run. 
 1. Online option. Use this option if you use a Chromebook, iPad or if you cannot install software to your computer.
-   - Use [Posit Cloud](https://posit.cloud/). This provides full functionality in a convenient web app. To use this option, you'll need to sign up for a free account. Although this option won't require you to install anything, you'll find that getting your files into and out of Posit Cloud more difficult than if you used the stand-alone apps in option 1. The user interface for Posit Cloud and RStudio are identical. You should be able to use Posit Cloud with an iPad, however getting files in and out is much more difficult, and you really should have a keyboard!
+   - Use [Posit Cloud](https://posit.cloud/). This provides full functionality in a convenient web app. To use this option, you'll need to sign up for a free account. Although this option won't require you to install anything, you'll find that getting your files into and out of Posit Cloud more difficult than if you used the stand-alone apps in option 2. The user interface for Posit Cloud and RStudio are identical. You should be able to use Posit Cloud with an iPad, however getting files in and out is much more difficult, and you really should have a keyboard!
 2. Use this option if you use a Mac or a PC for which you can install software. Do *all 3* of the following steps:
     1. Download and install a program called "git".
         1. If you have a Mac:
             1. Go to the app launcher and search for and start "Terminal.app". It is likely in your "Applications" folder in a subfolder called "Utilities".
             2. Once Terminal is open, simply type "git --version". 
                 1. If the computer responds with something like "git version 2.50.1 (Apple Git-155)", then you have git and are ready to install R.
-                2. If the computer responds with something like "command not found: git", then your computer should prompt you with a dialog box to install it. You should just be able to follow directions. 
+                2. If the computer responds with something like "command not found: git", then your computer should prompt you with a dialog box to install it. Follow directions to install it.
         2. If you have a Windows PC:
             1. Go to this website to [install Git](https://git-scm.com/install/)
             2. Choose the "Windows" tab.
@@ -56,7 +56,7 @@ The simplest R files are called "R script" files that list, in order, the comman
 **Important note** It is possible to run R one command at a time, but it is **much** better to save your commands in a file. This will allow you to re-run the code easily if you decide to change anything, or if your underlying data changes.
 
 ## Getting Started -- loading an R Markdown file
-1. Download the b40r project into Rby doing the following:
+1. Download the b40r project into RStudio by doing the following:
     1. If you are using Posit Cloud, make sure you are in a workspace, and then on the right, choose "New Project" and then "New Project from Git Repository", then type or copy "https://github.com/senanu/b40r.git"
     1. If you are using RStudio on your own computer, go to File>New Project>Version Control>Git and type or copy "https://github.com/senanu/b40r.git" into the dialog. In the "create project as subdirectory of" box, choose a place (folder/directory) on your computer where you'd like to save everything.
 1. In the bottom-right pane, select the "Files" tab. You should see a list of files and directories (folders), starting with a directory called ".github". All of the R Markdown files you need for this class will be located in the "R" directory. 
