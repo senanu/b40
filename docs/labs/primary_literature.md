@@ -8,8 +8,15 @@ nav_order: 20
 
 # Primary Literature
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+
 1. TOC
 {:toc}
+</details>
 
 ## The anatomy of citations
 When you write a statement that isn't general knowledge, you should give credit to the person/people who originally thought of that idea. In some fields, the actual language used is important such as statements by world leaders, or a passage from "Othello". In science, however, it is the ideas, rather than the specific words that are important, and we therefore only **rarely quote something directly**. Instead, we **paraphrase** the ideas, and give credit to previous authors through a citation. **In Bio40, you should never use a direct quotation.**
@@ -61,9 +68,9 @@ Web sites, even those maintained by a credible organization such as the CDC or A
 For our lab reports, you are required to find at least 2 primary sources and cite them appropriately (see below). The school library has subscriptions to paid indexing services to help you find such articles.
 
 1. Go the the [library website](https://libguides.chaffey.edu/library)
-1. Enter some search words in the OneSearch box.
-1. Alternatively, click "Articles & Database List" in the OneSearch box, then enter detailed search criteria.
-1. After you open an article, you can copy the citation in an appropriate format, such as APA. To do so, click the little yellow box (it looks like a postage stamp) to the right of the article. Please **do NOT use EasyBib** for your citations. They do not do it properly. In fact, until recently, they even had citations incorrect in their examples on their website.
+1. Enter some search words in the OneSearch box and click "search"
+1. On the left hand side of the subsequent page, you can filter the results. I suggest that you filter to include only **journal articles** that are **available online**. 
+1. After you open an article, you can copy the citation in an appropriate format, such as APA. To do so, click the three little dots at the top right of the search result and then click "Citation" on the card that opens. Please **do NOT use EasyBib** for your citations. They do not do it properly. In fact, until recently, they even had citations incorrect in their examples on their website.
 
 ## Using internet search
 In addition to using the library, you may also find articles using general internet searches or through [Google Scholar](https://scholar.google.com). However, if you use this route, you will find many, many articles that you can't access because they are behind paywalls. The Library website should only show you search results to which you have access using your school ID.
@@ -128,18 +135,14 @@ There are a number of programs that are available to do this work for you. Each 
 4. **BibTeX**. BibTeX is free and open source but designed to work with the TeX typesetting system. Both are common in other fields (Physics and Mathematics) but uncommon in Biology. Although very powerful, I can't recommend it for this course due to its complexity.
 5. **EasyBib**. EasyBib is an online service that you should **NOT use**. It doesn't do it right and leads to garbled bibliographies.
 
-# Optional Exercises
-The following exercise is designed to give you practice making citations as you would in a scientific paper such as your lab report.
-1. Download the bibliographic citation manager software of your choice and install it on your computer.
-2. Download and install any plug-ins needed for whatever word processor you use. If you use Google Docs, you won't need any plug-in, however the software will not be able to integrate well and it will be difficult and error-prone to use Google Docs. I recommend LibreOffice (free) or Microsoft Word.
-3. Using a search engine on the library's website, find a primary literature article that you'd like to cite. For this exercise, the content of the article doesn't matter and you don't need to download the article itself. Save the citation into your citation manager.
-4. Make a new document in a word processor. Write a few sentences that show that you can cite the article in the two following ways. Use the citation manager to insert the part of the citation within parentheses. If you are using Zotero with LibreOffice, click the button within the word processor to “Add/Edit citation” and then choose the article from your personal library.
-    * The citation is the subject or the sentence. Use the authors name(s) as part of the sentence and put the date in parentheses.
-        * “Smith et al. (2013) showed that proteins are composed of amino acids connected with peptide bonds.” {{site.space3}}
-    * The citation is parenthetical at the end of the clause or sentence. Separate the name(s) from the year with a comma. If there are more than 3 authors, use “et al.” (note the period) which means “and others”.
-        * “Proteins are composed of amino acids (Smith et al., 2013) connected with peptide bonds.”{{site.space3}}
-5. Add a bibliography or Literature Cited section. With Zotero, click the “Add/Edit Bibliography” button. Your Literature Cited section should be alphabetically ordered by the last name of the first author. Your citation manager should take care of this and all the nit-picky format for you.
-6. Try deleting the reference from your document. If there are no other references to the same paper, it will be deleted from the reference list.
-7. Note that text from the cited article is NOT quoted directly – it is paraphrased. In the sciences, we very rarely quote directly. Usually, it is the ideas, not the words, that matter, and so it is appropriate to give the original authors credit for the ideas, expressed in your own words.
-8. Use the following as a reference to make sure your papers are cited properly. In particular, look at the examples in the box. It is UNLIKELY that you will need anything else for this class. If you do, there is a good chance that the article you are citing isn't primary literature.
+# Exercises
+Make up a sentence about something scientific (it doesn't need to be true -- the point here is that you are learning to do the citation). Cite a paper in both of the two following ways:
+  * The citation is the subject or the sentence. Use the authors name(s) as part of the sentence and put the date in parentheses.
+      * “Smith et al. (2013) showed that proteins are composed of amino acids connected with peptide bonds.” {{site.space3}}
+  * The citation is parenthetical at the end of the clause or sentence. Separate the name(s) from the year with a comma. If there are more than 3 authors, use “et al.” (note the period) which means “and others”.
+       * “Proteins are composed of amino acids (Smith et al., 2013) connected with peptide bonds.”{{site.space3}}
 
+Compare the figures in the primary literature articles that your group members found and answer the following questions.  If one particular article is lacking one of the components, using the remaining articles to answer the question.
+1. What do the pictures in all of the articles have in common? If none of the articles have pictures, what would you expect all pictures in primary literature to have?{{site.space3}}
+2. What do the tables in all of the articles have in common? If none of the articles have tables, then what would you expect all tables in primary literature to have?{{site.space3}}
+3. What do the graphs in all of the articles have in common?  If none of the articles have graphs, then what would you expect all graphs in primary literature to have?

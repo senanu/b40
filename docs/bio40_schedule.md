@@ -56,7 +56,7 @@ table th:nth-of-type(4) {
 |---|---|---|---|
 | Aug 17 | Intro/Welcome What is life? | [Syllabus]({{site.url}}/b40/docs/bio40.html) |  |
 | Aug 19 | Intro to scientific inquiry | [Chap 1]({{site.url}}/b40/docs/ch01/ch01.html)<br> BioSkills 1 (P. 21 (7e); P. 19 (6e)): Measurements<br> Chap 9 of [Zen & the art...]({{site.url}}/b40/assets/ch01/ZenAndTheArt_embedded.pdf)<br> Watch [HHMI video on Pocket Mice](https://www.biointeractive.org/classroom-resources/making-fittest-natural-selection-and-adaptation) | Lots of reading for today.  Give yourself time for it. Measurements lab. |
-| Aug 24 | Chemical Basis of life | [Chap 2.1]({{markdown site.url}}/b40/docs/ch02/ch02.html)<br> BioSkills 14: Chemical structures |  |
+| Aug 24 | Chemical Basis of life | [Chap 2.1]({{site.url}}/b40/docs/ch02/ch02.html)<br> BioSkills 14: Chemical structures |  |
 | Aug 26 | Water and life | [Chap 2.2 – 2.5]({{site.url}}/b40/docs/ch02/ch02.html)<br> Bioskills 16: Primary literature | R lab: Bring a computer  Primary Literature Lab |
 | Aug 31 | Proteins | [Chap 3]({{site.url}}/b40/docs/ch03/ch03.html) |  |
 | Sep 02 | Nucleic acids | [Chap 4]({{site.url}}/b40/docs/ch04/ch04.html)<br> Bioskills 2: Graphs<br> Bioskills 8: Spectrophotometry<br> | Protein lab (full lab report required) |
