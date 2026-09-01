@@ -136,6 +136,29 @@ Your lab report must be a typed document that is in the form of a scientific pap
 
 There are several links at the top of this document that look at. They will help you to write your paper in an appropriate style, and provide a checklist to make sure you have everything needed.
 
+In addition to those general writing guidelines, your paper should include the following:
+  -  In the introduction, give background information that an informed scientist would need to know before reading the details of your lab. These might include:
+      -  What is a protein?
+      -  What is milk? What sort of organisms produce and what organisms consume milk?
+      -  What important molecules does milk contain? How does milk affect our nutrition?
+      -  In general terms, how does the Bradford protein assay work?
+      -  What is your hypothesis. You don't need to write it in the form of a research hypothesis, but it should be located right near the end of the introduction.
+   - In the methods section, give enough details for another trained scientist to repeat the experiment, but don't give so many details that the reader is bored or loses track of what is important. For example, don't tell the reader (me!) about how you labeled tubes (I'll assume you did it appropriately) and don't tell me how you made the dilution, just that you made a 1:50 dilution is enough detail. 
+   - In the results, begin the section with prose and use tables and figures in a supporting role only. Describe what the tables and figures show by referring to them in your prose. Make sure each table and figure has a label and number and brief description (eg **Table 1: Final concentration of protein; Figure 3: Increase in absorbance at higher protein concentrations**).
+   - In the discussion section 
+      -  How are your estimates of the protein content different from that supplied by the dairy? You will have to do unit conversions for this.
+      -  Are there systematic errors that you can identify? How would they have affected your results?
+      -  What does this tell you about the fat removal process?
+      - What does this tell you about the nutritional value of whole vs skim milk?
+
+### Important additional requirements for written papers
+
+You **MUST** compose and write your papers in the Google Doc template supplied. You may **not** write in any other tool or software and cut-and-paste into that Google Doc. If you do so, I will not read your paper and you will receive a 0 for all of the assignments relating to this lab. There will be no exceptions for this.
+
+**Use of AI to generate text for your lab report is strictly prohibited**. You must include the text of the template Google Doc relating to AI use in your final submissions. That text affirms that you understand that use of AI is considered to be plagiarism and is not allowed. You should understand that I will use any tools available to detect AI use and plagiarism. Your best bet is simply to not use it!
+
+In addition to normal citations, you **must include the text of the relevant pages of your references at the end of your paper**. You can do this by pasting in pdf pages or even a screenshot of the relevant parts of the paper itself. Additionally, you must highlight (or circle in some way) the relevant part of the text so that I can refer to it quickly and easily.
+
 ### Timeline
 
 <table>
@@ -143,11 +166,11 @@ There are several links at the top of this document that look at. They will help
 
 | What is due?                                  | When is it due?    |
 |-----------------------------------------------|--------------------|
-| Draft of introduction                         | Feb 4  (8:00am)    |
-| Peer review of intro (bring hard copy)        | Feb 4 in class     |
-| 1st draft of entire paper.                    | Feb 11 (8:00am)     |
-| Peer review of entire paper (bring hard copy) | Feb 11 in class     |
-| Final Paper                                   | Feb 18 (8:00am)    |
+| Draft of introduction                         | Sept 9  (8:30am)    |
+| Peer review of intro (bring hard copy)        | Sept 9  in class     |
+| 1st draft of entire paper.                    | Sept 16 (8:30am)     |
+| Peer review of entire paper (bring hard copy) | Sept 16 in class     |
+| Final Paper                                   | Sept 23 (8:30am)    |
 
 You will lose 10% of your grade every day that it is late. Please note that although I won't grade your drafts, they need to be complete and the best possible work you can produce. If they aren't complete, I may deduct some points from your final grade, and most importantly, you won't gain the benefits of having a peer review to help you improve your paper. If your paper is far from being complete, you may not be allowed to do a peer review, which will also cost you points and make it so that you don't see another model paper. This issue will be handled solely at my discretion!
 
