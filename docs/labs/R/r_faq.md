@@ -26,6 +26,13 @@ I try to be very responsive and timely in giving help via email, but it will be 
 
 # RStudio
 
+## Exporting HTML file from Posit Cloud
+
+If you use Posit Cloud, your HTML file will be saved on Posit's server. To access this file properly, you will need to export it and save it to your own computer before uploading it to Canvas. To do so, click the checkbox next to the HTML file, then choose the gear icon and "Export". The file will save in your "Downloads" folder. See picture below:
+
+ {% include figure.html url="/b40/assets/labs/export_posit_cloud.gif" width="100%" caption="Exporting HTML file from Posit Cloud." %}
+
+
 ## Where is my output going?
 
 RStudio has a lot of flexibility with this and it can be confusing. There is a tiny black arrow to the right of the "knit" arrow. From that menu, you can select "Preview in Window" or "Preview in Viewer Pane". When you knit, the output will be sent to a new window or to the lower-right quadrant of the RStudio window.
