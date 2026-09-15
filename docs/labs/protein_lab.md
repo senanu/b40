@@ -129,7 +129,7 @@ caption {
   * Compare this with the protein content of any whole and skim milk. You can find this online or on a milk carton. You will need to carefully convert units.
 
 ## Using R to graph and calculate protein concentration
-We will use R to graph your results. You'll be given instructions on how to do this separately.
+We will use R to graph your results. You should have a file in RStudio (or Posit Cloud) called "protein.Rmd". Work through this file carefully to complete your data analysis.
 
 ## Writing your lab report
 Your lab report must be a typed document that is in the form of a scientific paper. You must include at least 2 citations of scientific papers (in addition to the [Ye et al. paper]({{site.url}}/b40/assets/labs/Ye_etal_Heating_Proteins.pdf)) linked above, if you choose to cite it). **This will require some time** – you may need to look through several before you find a relevant one. You may find it useful to read the introduction of one paper, and look up a paper that is cited by that paper that seems relevant to your study.
