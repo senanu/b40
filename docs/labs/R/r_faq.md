@@ -24,6 +24,10 @@ I recognize that most students in my class have never done any computer programm
 
 I try to be very responsive and timely in giving help via email, but it will be in your interest to get started early with R projects so that there's time for a bit of back-and-forth between us before an assignment is due, so please plan accordingly.
 
+Please remember, you need to copy and paste all your code into an email message. Here is a gif on copying the code. Then paste it into an email. If you send me a link from your Posit Cloud account, I will ***NOT*** be able to access it since I won't have your password. 
+{% include figure.html url="/b40/assets/labs/copyCode.gif" width="80%" caption="Copying code to paste into an email" %}
+
+
 # RStudio
 
 ## Exporting HTML file from Posit Cloud
