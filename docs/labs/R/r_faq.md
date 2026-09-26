@@ -248,6 +248,15 @@ Note here that the object you created (dat) doesn't need quotes, but when you wa
 
 In our class, we'll use the program "git" to help you make sure that you always have the most up-to-date code. At the beginning of the course, you should set up your project by choosing File>New Project>Version Control>Repository URL and type or copy [https://github.com/senanu/b40r](https://github.com/senanu/b40r) into the dialog box. 
 
+## If you really mess up your file
+
+If you really mess up your file, such as deleting a lot of your file, you can use 'git' to restore it to it's original condition. If you do this, you'll have to start over, as you'll also lose any work that you did on it. 
+
+Go to the "Git" tab in the top right, then right-click on your file, then choose revert:
+
+{% include figure.html url="/b40/assets/labs/how_to_git_revert.gif" width="100%" caption="Git Revert. Use this method to restore your file to it's original condition." %}
+
+
 ## Before each lab
 
 Before you start working on the R code for a lab, you should do a "git pull" to get the latest code, in case I have changed it since the beginning of the course. **It is much easier to do this before you start than after**. In the 'git' tab of the upper right pane, click the blue down-facing arrow. If that doesn't work, click the black arrow next to it and choose "pull with rebase". See picture below:
