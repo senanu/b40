@@ -17,7 +17,7 @@ nav_order: 90
 * Data Analysis Files
     * R Markdown file "enzymes.Rmd".
     * HTML website version of [Enzymes lab](https://htmlpreview.github.io/?https://github.com/senanu/b40r/blob/master/sample_html/enzymes.html)
-    * [R FAQ](R/r_faq.html).
+    * [R FAQ](R/r_faq.html). Find some help on R, RStudio, and Posit Cloud for questions that frequently trips up students.
 
 ## Introduction
 
@@ -41,7 +41,7 @@ In a previous lab, you investigated the reaction above in a qualitative way: i.e
 3. Put 1ml amylase in the first tube and stir to mix. This first tube will have an amylase concentration of 1/2 relative to the full-strength stock amylase (1ml amylase : 1ml buffer (total volume = 2ml)).
 4. Take 1 ml **from the first tube**, and put it in your second tube. This tube will have an amylase concentration of 1/4 the stock (1/2 ml amylase, 1.5 ml stock; 2ml total volume).
 5. Take 1 ml from the second tube, and put it in your third tube. This tube will have an amylase concentration of 1/8 (1/4 ml amylase : 2ml total volume).
-6. Continue diluting in this way until you have completed tube 10. This method of dilution is called a *serial dilution*.
+6. Continue diluting in this way until you have completed tube 10. This method of dilution is called a *serial dilution* and is a common technique for generating a wide range of concentrations.
 7. Remove 1ml from tube 10 so that the total volume in 10 is equal to the others. You may discard this 1ml of solution with your pipette tip.
 8. Your dilutions will be:
 
@@ -74,21 +74,21 @@ In a previous lab, you investigated the reaction above in a qualitative way: i.e
 17. We are interested in finding the most dilute tube that is colorless. What is the dilution for this tube? We will call this dilution the “colorless number”.{{site.space3}}
 18. Do you think the colorless number would be the same if we added more starch to the mixtures? In which direction would it change?{{site.space3}}
 19. Do you think the colorless number would be the same if we stopped the experiment after 5 minutes instead of 15? In which direction would it change?{{site.space3}}
-20. We want to find a concentration of amylase that could completely hydrolyze the starch in a few minutes. Write down the concentration of amylase that is 4 times as concentrated as your colorless number. For example, if your colorless number was in tube 7, tube 6 would be twice as concentrated and tube 5 would be 4x as concentrated. You would use this dilution for the subsequent tests.
+20. We want to find a concentration of amylase that could completely hydrolyze the starch in a few minutes. Write down the concentration of amylase that is 4 times as concentrated as your colorless number. For example, if your colorless number was in tube 7, tube 6 would be twice as concentrated and tube 5 would be 4x as concentrated. You should use this dilution for the subsequent tests.
 
-Write down the number and concentration here: concentration for full hydrolysis in a few minutes:{{site.space6}}
+Write down the tube number and concentration here: concentration for full hydrolysis in a few minutes:{{site.space6}}
 
 ## Part 2: Effect of pH on amylase activity.
 
-1. Make a dilution of amylase in pH 7.0 buffer that you calculated in the last step above. You will need about 1 ml diluted amylase. If your dilution is 1:8, then you’ll need 1&mu;l amylase for every 7&mu;l buffer. Figure out how to scale this up to 1ml.
+1. Make a dilution of amylase in pH 7.0 buffer that you calculated in the last step above. You will need only about 1 ml diluted amylase. If your dilution is 1:8, then you’ll need 1&mu;l amylase for every 7&mu;l buffer. Figure out how to scale this up to 1ml.
 3. Place a few drops of iodine solution in each ‘dimple’ of 2 dimple plates. You may want to label the dimples with tape for 30 second intervals (“30s”, “60s”, “90s”, "120s" etc.). This can best be done by making a 'map' of the dimple plate on a paper or with chalk on your lab bench.
 4. Place an empty 1.5 ml microcentrifuge tube in a floating holder in your water bath at 37&deg;C.
-5. Add 600 &mu;l buffer (pH 7) to the empty tube in the water bath.
-6. Add 200 &mu;l 1% starch solution. Calculate how many micrograms of starch this is:{{site.space3}}
+5. Add 600 &mu;l **buffer** (pH 7) to the empty tube in the water bath.
+6. Add 200 &mu;l 1% **starch solution**. Calculate how many micrograms of starch this is:{{site.space3}}
 7. Wait for about 2 minutes for the buffer/starch solution to reach the temperature of the water bath. You don't need to measure the temperature, just make sure that you give it about 2 minutes.
-8. Add 60&mu;l diluted amylase to the tube in the water bath and immediately start timing. With your pipette, gently mix the solution. **You should leave this tube in the water bath for the duration of the experiment.**
+8. Add 60&mu;l **diluted amylase** to the tube in the water bath and immediately start timing. With your pipette, gently mix the solution. **You should leave this tube in the water bath for the duration of the experiment.**
 9. After 30 seconds, take 25&mu;l (from the tube in the water bath) and add it to the iodine in the first dimple.
-10. Repeat each 30 seconds until no color change is observed in the dimple plate. Record this time (“colorless point”). You may need to quickly rinse your dimple plate between 30s intervals. What does the time point at which there is no color change signify? Run this experiment for a maximum of 10 minutes.
+10. Repeat each 30 seconds until no color change is observed in the dimple plate. Record this time (“colorless point”). You may need to quickly rinse your dimple plate between 30s intervals. What does the time point at which there is no color change signify? Run this experiment for a maximum of 12 minutes.
 11. Calculate the reaction velocity as the number of micrograms of starch hydrolyzed per minute. Use the information you calculated in step 6 above. You will need to do this calculation for each pH tested.
 12. Repeat this procedure for pH values of 4, 5, 6, 6.5, 7, 7.5, 8, 9 as available. These are the pH values for the buffer that you add in step 5 above. You should use the same pH7 amylase/buffer mixture from step 1 for all of these.
 
@@ -110,11 +110,11 @@ Write down the number and concentration here: concentration for full hydrolysis 
 
 This part of the lab will be done on the second day.
 
-1. Make another 500&mu;l of your amylase dilution.
-2. Label 7 microcentrifuge tubes according to the table below.
-3. Add the specified amount of buffer (pH 7.0). Notice that the total volume in each tube will be 1ml.
-4. Add the specified amount of starch.
-5. Prepare to assay the colorless point for tube #1 as you did previously. Finally add the amylase, **mix**, and start timing. Repeat for the other tubes. ***Again, make sure you mix as you add the amylase***
+1. Make another 1&mu;l of your amylase dilution or simply continue from above.
+2. Add buffer (pH 7.0; 870&mu;l) as specified for Tube 1 in the table below. Notice that the total volume in each tube will be 1ml.
+3. Add 100&mu;l of starch.
+4. Prepare to assay the colorless point for tube #1 as you did previously. Finally add the amylase, **mix**, and start timing. Repeat for the other tubes. ***Again, make sure you mix as you add the amylase***
+5. Repeat for the remaining tubes in the following table. Note that the amount of starch will be different for each tube, and the buffer volume will be adjusted accordingly. The amylase volume is always the same.
 
     | Tube   | Final Starch<br>Conc (mg/ml)   | Buffer<br>pH 7.0 (&mu;l)   | 1% Starch<br>(&mu;l)   | Diluted<br>amylase (&mu;l)   |
     |--------|--------------------------------|----------------------------|------------------------|------------------------------|--
@@ -159,9 +159,9 @@ The ‘S’ represents the substrate concentration in mg/ml and the ‘v’ repr
 
 We are now going to use the data we have to estimate a theoretical maximum reaction rate. This is done by what is known as a Michaelis-Menten curve that was specifically designed to describe enzyme kinetics. It is given by the equation
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=v&space;=&space;\frac{V{max}[S]}{K{m}&plus;[S]}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?v&space;=&space;\frac{V{max}[S]}{K{m}&plus;[S]}" title="v = \frac{V{max}[S]}{K{m}+[S]}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=v&space;=&space;\frac{V{max}[S]}{K{m}&plus;[S]}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?%5Ctiny%20%5C;v&space;=&space;\frac{V{max}[S]}{K{m}&plus;[S]}" title="v = \frac{V{max}[S]}{K{m}+[S]}" /></a>
 
-Where *v* is the reaction rate, *[S]* is the concentration of the substrate, *V<sub>max</sub>* is the maximum reaction rate, and *K<sub>m</sub>* is the substrate concentration at half of the maximum reaction speed. You don’t need to memorize these details (or the equation), except to be aware that scientists have used their understanding of how enzymes work in order to describe it mathematically. We will now estimate *V<sub>max</sub>*.
+Where *v* is the reaction rate, *[S]* is the concentration of the substrate, *V<sub>max</sub>* is the maximum reaction rate, and *K<sub>m</sub>* is the substrate concentration at half of the maximum reaction speed. You don’t need to memorize these details (or the equation), except to be aware that scientists have used their understanding of how enzymes work in order to describe it mathematically. We will now estimate *V<sub>max</sub>*. (Technical note: scientists and statisticians prefer to fit straight lines and don't like fitting curves and so will often manipulate the axes and/or the equation to get it into linear form. We'll fit the curve, which is much easier to understand.)
 
 A graph of this equation is shown below (Fig 2) with the parameters labeled. Remember from class that at low substrate concentrations (at the left of the graph) the reaction rate increases as the concentration of substrate increases because the enzyme molecules spend less and less time with their active sites unoccupied (they 'search' for substrate less as the substrate concentration increases). However at high concentrations, the enzyme is 'saturated' and is simply working to convert substrate into products as fast as it possibly can. The active site is essentially always full, so increasing the concentration does NOT increase the reaction rate - this is the maximum possible reaction velocity at very high substrate concentrations.
 
@@ -170,7 +170,7 @@ A graph of this equation is shown below (Fig 2) with the parameters labeled. Rem
   <figcaption>Figure 2: Reaction velocity according to Michaelis-Menten dynamics</figcaption>
   </figure>
 
-Use the Rmd file 'Enzymes' to analyze your data. You will fit the Michaelis-Menten graph to your data to estimate ***V<sub>max</sub>***.
+Use the Rmd file 'enzymes.Rmd' to analyze your data. You will fit the Michaelis-Menten graph to your data to estimate ***V<sub>max</sub>***.
 
 
 # Lab Reports
@@ -183,7 +183,9 @@ Refer to the [previous class materials](writing_lab_reports.html) for how to wri
 
 Provide a bit of background about the activity of enzymes. Convince your reader that he/she will learn something useful by reading your paper. Some ideas: What are enzymes made of? How do they work? What is an active site? What is denaturation? Why might there be a maximum rate at which enzymes can catalyze a reaction? What is inhibition and how does it work (though we don't really deal with inhibition in this lab)? Make sure you state research hypotheses for parts 2 and 3.
 
-What sources of (systematic) error were there? How did these affect your results? What do your results tell you about the activity of enzymes? Can this extend to proteins in general?
+**During class, we will have a detailed discussion of the difference between random and systematic errors. Please take notes during this class discussion. What sources of (systematic) error were there in this experiment? How did these affect your results? What are some other limitations of this experiment (there are many! -- some of them serious).**
+
+What do your results tell you about the activity of enzymes? Can this extend to proteins in general?
 
 ### Methods
 
@@ -191,7 +193,7 @@ Because this is a long, complicated, multi-part lab report, think carefully abou
 
 ### Literature cited
 
-You should find 2 primary literature papers that are somewhat appropriate for the topic of this lab. Please read [this guide](primary_literature.html) for help understanding what is and isn't primary literature, and how to cite it. For each, make sure you include an in-text citation and make sure that you include a "Literature cited" section that has complete, proper citation of the 2 papers.
+You should find 2 primary literature papers that are somewhat appropriate for the topic of this lab. Please read [this guide](primary_literature.html) for help understanding what is and isn't primary literature, and how to cite it. For each, make sure you include an in-text citation and make sure that you include a "Literature cited" section that has complete, proper citation of the 2 papers. Although you may cite the Marini (2005) paper I cite below, it cannot count as one of your 2 primary sources.
 
 Some ideas from this lab were developed by Marini (2005).
 
@@ -201,9 +203,9 @@ Marini, I. (2005), Discovering an accessible enzyme: Salivary &alpha;-amylase : 
 
 | Date    | What is Due?                                               |
 |---------|------------------------------------------------------------|
-| Mar 11  | Introduction due for peer review.                          |
-| Mar 25  | Full rough draft for peer review                           |
-| Apr 1   | Final Draft due                                            |
+| Oct 21  | Introduction due for peer review.                          |
+| Oct 28  | Full rough draft for peer review                           |
+| Nov 4   | Final Draft due                                            |
 
 <!---
 # Lab write-up (Fall 2022 only)
